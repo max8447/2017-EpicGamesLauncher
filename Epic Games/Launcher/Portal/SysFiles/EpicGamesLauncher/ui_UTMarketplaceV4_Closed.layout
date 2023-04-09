@@ -1,0 +1,311 @@
+﻿{
+	"Type": "Overlay",
+	"AutoSize": "false",
+	"Children": [
+		{
+			"Type": "Panel",
+			"Padding": {
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"BackgroundImage": "0.56681, 0.56681, 0.56681"
+		},
+		{
+			"Type": "ScrollBox",
+			"AutoSize": "false",
+			"Padding": {
+				"Left": 250,
+				"Top": 5,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"Children": [
+				{
+					"Type": "Box",
+					"Orientation": "Vertical",
+					"HAlign": "Center",
+					"MaxWidth": 1400,
+					"MinWidth": 1400,
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"MaxHeight": 600,
+							"MinHeight": 600,
+							"HasShadow": "false",
+							"LoadSilently": "true",
+							"AutoSize": "true",
+							"Images": [
+								{
+									"Image": "mp_closed.png",
+									"Stretch": "ScaleToFit"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "Panel",
+			"Padding": {
+				"Left": 0,
+				"Top": 5,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"Width": 250,
+			"HAlign": "Left",
+			"BackgroundImage": "0.78175, 0.78175, 0.78175"
+		},
+		{
+			"Type": "Box",
+			"Orientation": "Vertical",
+			"Width": 250,
+			"HAlign": "Left",
+			"Padding": {
+				"Left": 0,
+				"Top": 65,
+				"Right": 0,
+				"Bottom": 10
+			},
+			"Children": [
+				{
+					"Type": "Overlay",
+					"Children": [
+						{
+							"Type": "Button",
+							"ButtonStyle": "SidebarNavigation.Button",
+							"Padding": {
+								"Left": 0,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 15
+							},
+							"ContentPadding": {
+								"Left": 10,
+								"Top": 10,
+								"Right": 0,
+								"Bottom": 10
+							},
+							"OnNavigateUrl": "/ut/play",
+							"ForegroundColor": "0, 0, 0",
+							"InvertedForegroundColor": "0, 0, 0",
+							"Child": {
+								"Type": "Link",
+								"Row": 0,
+								"ColumnSpans": [
+									{
+										"LayoutSize": 0,
+										"Span": 4
+									}
+								],
+								"HAlign": "Left",
+								"Text": {
+									"Text_translate": "true",
+									"Text": "Play",
+									"TextStyle": "extralarge-h4",
+									"UseForegroundColor": "true",
+									"Margin": {
+										"Left": 10,
+										"Top": 0,
+										"Right": 10,
+										"Bottom": 0
+									},
+									"Text_ko": "플레이",
+									"Text_ja": "プレイ",
+									"Text_zh-CN": "运行",
+									"Text_fr": "Jouer",
+									"Text_es": "Jugar",
+									"Text_de": "Spielen",
+									"Text_it": "Gioca",
+									"Text_ru": "Играть",
+									"Text_pl": "Graj",
+									"Text_pt-BR": "Jogar",
+									"Text_es-MX": "Jugar",
+									"Text_ar": "تشغيل"
+								},
+								"OnNavigateUrl": "/ut/play"
+							}
+						},
+						{
+							"Type": "NotificationBadge",
+							"Style": "Aggregate",
+							"AppDiscoveryMapKeys": [
+								"Play"
+							],
+							"Padding": {
+								"Left": 160,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 16
+							}
+						}
+					]
+				},
+				{
+					"Type": "Overlay",
+					"Children": [
+						{
+							"Type": "Button",
+							"ButtonStyle": "SidebarNavigation.Button",
+							"Padding": {
+								"Left": 0,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 15
+							},
+							"ContentPadding": {
+								"Left": 10,
+								"Top": 10,
+								"Right": 0,
+								"Bottom": 10
+							},
+							"OnNavigateUrl": "/ut/create",
+							"ForegroundColor": "0, 0, 0",
+							"InvertedForegroundColor": "0, 0, 0",
+							"Child": {
+								"Type": "Link",
+								"Row": 0,
+								"ColumnSpans": [
+									{
+										"LayoutSize": 0,
+										"Span": 4
+									}
+								],
+								"HAlign": "Left",
+								"Text": {
+									"Text_translate": "true",
+									"Text": "Create",
+									"TextStyle": "extralarge-h4",
+									"UseForegroundColor": "true",
+									"Margin": {
+										"Left": 10,
+										"Top": 0,
+										"Right": 10,
+										"Bottom": 0
+									},
+									"Text_ko": "제작",
+									"Text_ja": "クリエイト",
+									"Text_zh-CN": "创建",
+									"Text_fr": "Créer",
+									"Text_es": "Crear",
+									"Text_de": "Erstellen",
+									"Text_it": "Crea",
+									"Text_ru": "Создать",
+									"Text_pl": "Twórz",
+									"Text_pt-BR": "Criar",
+									"Text_es-MX": "Crear",
+									"Text_ar": "إنشاء"
+								},
+								"Padding": {
+									"Left": 0,
+									"Top": 0,
+									"Right": 0,
+									"Bottom": 40
+								},
+								"OnNavigateUrl": "/ut/create"
+							}
+						},
+						{
+							"Type": "NotificationBadge",
+							"Style": "Aggregate",
+							"AppDiscoveryMapKeys": [
+								"Create"
+							],
+							"Padding": {
+								"Left": 160,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 16
+							}
+						}
+					]
+				},
+				{
+					"Type": "Button",
+					"ButtonStyle": "SidebarNavigation.ActiveButton",
+					"Padding": {
+						"Left": 0,
+						"Top": 0,
+						"Right": 0,
+						"Bottom": 15
+					},
+					"ContentPadding": {
+						"Left": 10,
+						"Top": 10,
+						"Right": 0,
+						"Bottom": 10
+					},
+					"OnNavigateUrl": "/ut/marketplace",
+					"ForegroundColor": "1, 1, 1",
+					"Child": {
+						"Type": "Link",
+						"Row": 0,
+						"ColumnSpans": [
+							{
+								"LayoutSize": 0,
+								"Span": 4
+							}
+						],
+						"HAlign": "Left",
+						"Text": {
+							"Text_translate": "true",
+							"Text": "Marketplace",
+							"TextStyle": "extralarge-h4",
+							"UseForegroundColor": "true",
+							"Margin": {
+								"Left": 10,
+								"Top": 0,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text_ko": "마켓플레이스",
+							"Text_ja": "マーケットプレイス",
+							"Text_zh-CN": "虚幻商城",
+							"Text_fr": "Marché",
+							"Text_es": "Bazar",
+							"Text_de": "Marktplatz",
+							"Text_it": "Marketplace",
+							"Text_ru": "Магазин",
+							"Text_pl": "Rynek",
+							"Text_pt-BR": "Loja",
+							"Text_es-MX": "Marketplace",
+							"Text_ar": "السوق"
+						},
+						"Padding": {
+							"Left": 0,
+							"Top": 0,
+							"Right": 0,
+							"Bottom": 40
+						},
+						"OnNavigateUrl": "/ut/marketplace"
+					}
+				}
+			]
+		},
+		{
+			"Type": "Layout",
+			"Layout": "ui_UTSidebarLinksV3",
+			"VAlign": "Bottom",
+			"Padding": {
+				"Left": 5,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 10
+			}
+		},
+		{
+			"Type": "Layout",
+			"Layout": "ui_UTShareLinksV3",
+			"VAlign": "Bottom",
+			"Padding": {
+				"Left": 5,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 10
+			}
+		}
+	]
+}

@@ -1,0 +1,336 @@
+﻿{
+	"Links": [
+		{
+			"Name": "RQ-0001",
+			"URL": "http://help.epicgames.com/customer/portal/articles/2339296-what-does-it-mean-to-have-directx-11-support-"
+		},
+		{
+			"Name": "RQ-0002",
+			"URL": "http://help.epicgames.com/customer/portal/articles/2345737-how-do-i-install-service-pack-1-for-windows-7-"
+		},
+		{
+			"Name": "RQ-0003",
+			"URL": "http://help.epicgames.com/customer/portal/articles/2354182-updating-mac-os-x-yosemite-to-version-10-10-5"
+		},
+		{
+			"Name": "PurchaseFlow",
+			"URL": "https://launcher-website-prod07.ol.epicgames.com/purchase"
+		},
+		{
+			"Name": "UnrealEngineWebMarketplace",
+			"URL": "https://launcher-website-prod07.ol.epicgames.com/marketplace"
+		},
+		{
+			"Name": "UnrealEngineCommunity",
+			"URL": "https://launcher-website-prod07.ol.epicgames.com/ue/community"
+		},
+		{
+			"Name": "UnrealEngineAnnouncementsAndReleases",
+			"Text": "虚幻引擎公告与发布",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "https://forums.unrealengine.com/forumdisplay.php?8-Announcements-and-Releases"
+		},
+		{
+			"Name": "payment_methods",
+			"Text": "支付方式",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/dashboard/payment-methods?lang=zh-CN"
+		},
+		{
+			"Name": "add_payment_method",
+			"Text": "添加支付方式",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/payment/addPaymentMethod?lang=zh-CN"
+		},
+		{
+			"Name": "marketplace_submission",
+			"Text": "提交内容",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "https://publish.unrealengine.com/"
+		},
+		{
+			"Name": "marketplace_help",
+			"Text": "需要帮助？",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "https://answers.unrealengine.com/?lang=zh-CN"
+		},
+		{
+			"Name": "account_settings",
+			"Text": "账户",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/dashboard/settings?lang=zh-CN"
+		},
+		{
+			"Name": "support",
+			"Text": "账户支持>>",
+			"Text_translate": "true",
+			"Description": "跳转到账户支持页面",
+			"Description_translate": "true",
+			"URL": "https://answers.unrealengine.com?lang=zh-CN"
+		},
+		{
+			"Name": "landing_support",
+			"URL": "http://help.epicgames.com?lang=zh-CN"
+		},
+		{
+			"Name": "fn_support",
+			"URL": "mailto:help@fortnite.com"
+		},
+		{
+			"Name": "fortnite_support",
+			"URL": "mailto:help@fortnite.com"
+		},
+		{
+			"Name": "ut_support",
+			"URL": "http://help.unrealtournament.com/"
+		},
+		{
+			"Name": "ark_support",
+			"URL": "https://forums.unrealengine.com/forumdisplay.php?70-ARK-Survival-Evolved"
+		},
+		{
+			"Name": "orion_support",
+			"URL": "http://paragonhelp.epicgames.com?lang=zh-CN"
+		},
+		{
+			"Name": "viper_support",
+			"URL": "https://help.epicgames.com"
+		},
+		{
+			"Name": "forgot_password",
+			"Text": "忘记密码",
+			"Text_translate": "true",
+			"Description": "忘记您的密码？",
+			"Description_translate": "true",
+			"URL": "https://accounts.unrealengine.com/requestPasswordReset?lang=zh-CN"
+		},
+		{
+			"Name": "create_account",
+			"Text": "新建账号",
+			"Text_translate": "true",
+			"Description": "注册为虚幻开发者",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/register?lang=zh-CN"
+		},
+		{
+			"Name": "manage_account",
+			"Text": "管理账户>>",
+			"Text_translate": "true",
+			"Description": "管理您的账户",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/dashboard?lang=zh-CN"
+		},
+		{
+			"Name": "landing_manage_account",
+			"URL": "https://www.unrealengine.com/dashboard?lang=zh-CN"
+		},
+		{
+			"Name": "fn_manage_account",
+			"URL": "https://www.unrealengine.com/dashboard?lang=zh-CN"
+		},
+		{
+			"Name": "fortnite_manage_account",
+			"URL": "https://www.unrealengine.com/dashboard?lang=zh-CN"
+		},
+		{
+			"Name": "ut_manage_account",
+			"URL": "https://www.unrealengine.com/dashboard?lang=zh-CN"
+		},
+		{
+			"Name": "ark_manage_account",
+			"URL": "https://www.unrealengine.com/dashboard?lang=zh-CN"
+		},
+		{
+			"Name": "subscribe_to_ue",
+			"Text": "订购>>",
+			"Text_translate": "true",
+			"Description": "订购以访问虚幻引擎",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/register?lang=zh-CN"
+		},
+		{
+			"Name": "AnswerHub",
+			"Text": "问答中心",
+			"Text_translate": "true",
+			"Description": "获取答案",
+			"Description_translate": "true",
+			"URL": "https://answers.unrealengine.com/"
+		},
+		{
+			"Name": "LauncherTroubleshooting",
+			"Text": "详细了解请搜索我们的知识库",
+			"Text_translate": "true",
+			"Description": "知识库链接",
+			"Description_translate": "true",
+			"URL": "http://help.epicgames.com"
+		},
+		{
+			"Name": "LauncherSupportSearch",
+			"Text": "详细了解请搜索我们的知识库",
+			"Text_translate": "true",
+			"Description": "知识库链接",
+			"Description_translate": "true",
+			"URL": "http://help.epicgames.com/customer/portal/articles/search?q={ErrorCode}"
+		},
+		{
+			"Name": "UE4InstallTroubleshooting",
+			"URL": "https://wiki.unrealengine.com/UE4_Installation_Troubleshooting"
+		},
+		{
+			"Name": "UnrealForums",
+			"Text": "论坛",
+			"Text_translate": "true",
+			"Description": "加入论坛",
+			"Description_translate": "true",
+			"URL": "https://forums.www.unrealengine.com/"
+		},
+		{
+			"Name": "Tutorials",
+			"Text": "教程",
+			"Text_translate": "true",
+			"Description": "获得教程",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/blog?category=Tutorials"
+		},
+		{
+			"Name": "UnrealWiki",
+			"Text": "Wiki",
+			"Text_translate": "true",
+			"Description": "访问Wiki页面",
+			"Description_translate": "true",
+			"URL": "https://wiki.www.unrealengine.com/Main_Page"
+		},
+		{
+			"Name": "Documentation",
+			"Text": "文档",
+			"Text_translate": "true",
+			"Description": "获得文档",
+			"Description_translate": "true",
+			"URL": "https://docs.unrealengine.com/latest/CHN/index.html"
+		},
+		{
+			"Name": "Roadmap",
+			"Text": "发展路线图",
+			"Text_translate": "true",
+			"Description": "展望未来！",
+			"Description_translate": "true",
+			"URL": "https://trello.com/b/gHooNW9I/ue4-roadmap"
+		},
+		{
+			"Name": "Weibo",
+			"Text": "微博",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "http://weibo.com/unrealengine"
+		},
+		{
+			"Name": "YouKu",
+			"Text": "优酷",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "http://i.youku.com/unrealengine"
+		},
+		{
+			"Name": "TwitchStream",
+			"Text": "Twitch实况转播",
+			"Text_translate": "true",
+			"Description": "实况转播及存档",
+			"Description_translate": "true",
+			"URL": "http://www.twitch.tv/unrealengine"
+		},
+		{
+			"Name": "Badge",
+			"Text": "授权",
+			"Text_translate": "true",
+			"Description": "授权与基于虚幻引擎的产品结合使用",
+			"Description_translate": "true",
+			"URL": "http://www.unrealengine.com"
+		},
+		{
+			"Name": "Facebook",
+			"Text": "Facebook",
+			"Text_translate": "true",
+			"Description": "在facebook上找到我们",
+			"Description_translate": "true",
+			"URL": "https://www.facebook.com/UnrealEngine"
+		},
+		{
+			"Name": "Instagram",
+			"Text": "Instagram",
+			"Text_translate": "true",
+			"Description": "我们的instagram",
+			"Description_translate": "true",
+			"URL": "http://Instagram.com/UnrealEngine"
+		},
+		{
+			"Name": "Twitch",
+			"Text": "Twitch提要",
+			"Text_translate": "true",
+			"Description": "在线观看",
+			"Description_translate": "true",
+			"URL": "http://www.twitch.tv/unrealengine"
+		},
+		{
+			"Name": "Twitter",
+			"Text": "Twitter提要",
+			"Text_translate": "true",
+			"Description": "在Twitter上关注我们",
+			"Description_translate": "true",
+			"URL": "https://twitter.com/unrealengine"
+		},
+		{
+			"Name": "Trello",
+			"Text": "Trello板",
+			"Text_translate": "true",
+			"Description": "展望未来",
+			"Description_translate": "true",
+			"URL": "https://trello.com/b/gHooNW9I/ue4-roadmap"
+		},
+		{
+			"Name": "Youtube",
+			"Text": "Youtube频道",
+			"Text_translate": "true",
+			"Description": "观看视频存档",
+			"Description_translate": "true",
+			"URL": "https://www.youtube.com/unrealengine"
+		},
+		{
+			"Name": "Github",
+			"Text": "从 GitHub 获取引擎源代码",
+			"Text_translate": "true",
+			"Description": "从 GitHub 获取引擎源代码",
+			"Description_translate": "true",
+			"URL": "https://www.github.com"
+		},
+		{
+			"Name": "Release_Notes",
+			"Text": "最新发行版本说明",
+			"Text_translate": "true",
+			"Description": "最新发行版本说明",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/415-release-notes-overview?lang=zh-CN"
+		},
+		{
+			"Name": "TermsOfService",
+			"Text": "服务条款",
+			"Text_translate": "true",
+			"Description": "服务条款",
+			"Description_translate": "true",
+			"URL": "http://epicgames.com/tos"
+		}
+	]
+}

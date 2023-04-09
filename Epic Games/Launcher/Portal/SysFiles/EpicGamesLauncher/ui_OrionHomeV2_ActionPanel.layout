@@ -1,0 +1,170 @@
+{
+    "Type": "Box",
+	"Orientation": "Vertical",
+    "Children": 
+    [
+		{
+			"Type": "ResponsiveGrid",
+			"Padding": {
+				"Left": 15,
+				"Top": 10,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"Children": [
+			    {
+					"Type": "BasicTile",
+					"Padding": { "Left": 25, "Top": 0, "Right": 0, "Bottom": 0 },
+					"HAlign": "Left",
+					"VAlign": "Center",
+					"HasShadow": "false",
+					"HasTextBackground" : "false",
+					"LoadSilently": "true",
+					"Text": [
+						{
+							"Text": "Welcome to Paragon",
+							"TextStyle": "inverted-large-h4",
+							"Justification": "Center",
+							"LineHeightScalar": 1.2,
+							"Margin": {
+								"Left": 0,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 0
+							}
+						}
+					]
+				},
+				{
+					"Type": "BasicTile",
+					"Padding": { "Left": 20, "Top": 0, "Right": 0, "Bottom": 0 },
+					"HasShadow": "false",
+					"MaxHeight": 1,
+					"HAlign": "Fill",
+					"Images": [
+						{
+							"Image": "1.0,1.0,1.0"
+						}
+					]
+				},
+				{
+					"Type": "DetailsTile",
+					"Padding": { "Left": 20, "Top": 5, "Right": 0, "Bottom": 0 },
+					"HasShadow": "false",
+					"AutoHeightText": "true",
+					"Binding": "22605fe02e2a4f86997762b83a36d757",
+					"HoveredBackgroundImage": {
+						"Image": "0.02188, 0.02188, 0.02188"
+					},
+					"BackgroundImage": {
+						"Image": "0.0, 0.0, 0.0, 0.0"
+					},
+					"MaxHeight": 300,
+					"Images": [
+						{
+							"Image": "Paragon_Mountain2.png",
+							"Stretch": "ScaletoFill"
+						}
+					],
+					"Text": [
+						{
+							"Text": "Description",
+							"HAlign": "Left",
+							"VAlign": "Center",
+							"TextStyle": "inverted-large-h5",
+							"Justification": "Left",
+							"LineHeightScalar": 1.2,
+							"Margin": {
+								"Left": 0,
+								"Top": 5,
+								"Right": 0,
+								"Bottom": 5
+							}
+						}
+					]
+				},
+				{
+					"Type": "BasicTile",
+					"Padding": { "Left": 25, "Top": 10, "Right": 0, "Bottom": 5 },
+					"HasShadow": "false",					
+					"HAlign": "Left",
+					"VAlign": "Center",
+					"HasShadow": "false",
+					"HasTextBackground" : "false",
+					"LoadSilently": "true",
+					"Text": [
+						{
+							"Text": "Paragon Alpha Forums",
+							"TextStyle": "inverted-large-h4",
+							"Justification": "Center",
+							"LineHeightScalar": 1.2,
+							"Margin": {
+								"Left": 0,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 0
+							}
+						}
+					]
+				},
+				{
+					"Type": "BasicTile",
+					"Padding": { "Left": 20, "Top": 0, "Right": 0, "Bottom": 5 },
+					"HasShadow": "false",					
+					"MaxHeight": 1,
+					"HAlign": "Fill",
+					"Images": [
+					{
+						"Image": "1.0,1.0,1.0"
+					}
+					]
+				},
+				{
+					"Type": "DetailsTile",
+					"Padding": { "Left": 20, "Top": 5, "Right": 0, "Bottom": 5 },
+					"HasShadow": "false",
+					"AutoHeightText": "true",
+					"Binding": "22605fe02e2a4f86997762b83a36d757",
+					"HoveredBackgroundImage": {
+						"Image": "0.02188, 0.02188, 0.02188"
+					},
+					"BackgroundImage": {
+						"Image": "0.0, 0.0, 0.0, 0.0"
+					},
+					"MaxHeight": 300,
+					"Images": [
+						{
+							"Image": "Paragon_Meteor2.png"
+						}
+					],
+					"Text": [
+						{
+							"Text": "LongDescription",
+							"HAlign": "Left",
+							"VAlign": "Center",
+							"TextStyle": "inverted-large-h5",
+							"Justification": "Left",
+							"LineHeightScalar": 1.2,
+							"Margin": {
+								"Left": 0,
+								"Top": 5,
+								"Right": 0,
+								"Bottom": 5
+							}
+						}
+					],
+					"OnNavigateUrl": "TechnicalDetails",
+					"HoverIcon": {
+						"Image": "ExternalLink.png",
+						"Margin": {
+							"Left": 15,
+							"Top": 10,
+							"Right": 15,
+							"Bottom": 10
+						}
+					}
+				}
+			]
+		}
+    ]
+}

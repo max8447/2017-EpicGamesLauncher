@@ -1,0 +1,17 @@
+﻿{
+	"Id": "landing",
+	"Priority": 0,
+	"AnalyticsId": "lp",
+	"DisplayName": "Epic Games Launcher",
+	"PrimaryColor": "0.7519f, 0.33446f, 0.03026f",
+	"PressedPrimaryColor": "1.0f, 0.47618f, 0.23883f",
+	"HoveredPrimaryColor": "1.0f, 0.44232f, 0.03995f",
+	"Homepage": {
+		"Id": "landing",
+		"PartialUrl": "/landing",
+		"SourceUrl": "ui_LandingPageV3.layout"
+	},
+	"Pages": [
+
+	]
+}

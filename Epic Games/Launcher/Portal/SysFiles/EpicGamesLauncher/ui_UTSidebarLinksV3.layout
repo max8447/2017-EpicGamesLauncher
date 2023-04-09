@@ -1,0 +1,183 @@
+﻿{
+	"Type": "Box",
+	"Orientation": "Vertical",
+	"Width": 250,
+	"HAlign": "Left",
+	"VAlign": "Bottom",
+	"Padding": {
+		"Left": 10,
+		"Top": 60,
+		"Right": 0,
+		"Bottom": 40
+	},
+	"Children": [
+		{
+			"Type": "Link",
+			"HAlign": "Left",
+			"VAlign": "Bottom",
+			"Image": {
+				"Image": "ChatBubble.png",
+				"ColorAndOpacity": "0, 0, 0"
+			},
+			"HoverIcon": {
+				"Image": "ExternalLink_Dark.png"
+			},
+			"Text": {
+				"Text_translate": "true",
+				"Text": "UT Live Chat",
+				"TextStyle": "Body",
+				"Margin": {
+					"Left": 10,
+					"Top": 0,
+					"Right": 10,
+					"Bottom": 0
+				},
+				"Text_ko": "UT 라이브 채팅",
+				"Text_ja": "UTライブチャット",
+				"Text_zh-CN": "虚幻竞技场在线聊天",
+				"Text_fr": "Chat UT en direct",
+				"Text_es-MX": "Chat en vivo de UT",
+				"Text_de": "UT-Livechat",
+				"Text_it": "Chat Live UT",
+				"Text_ru": "Живой чат UT",
+				"Text_es": "Chat en vivo de UT",
+				"Text_pl": "Czat na żywo UT",
+				"Text_pt-BR": "Bate-papo ao vivo do UT",
+				"Text_ar": "محادثات UT المباشرة"
+			},
+			"Padding": {
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 10
+			},
+			"OnNavigateUrl": "https://discord.gg/0c3YbLKOx0YXgDmK"
+		},
+		{
+			"Type": "Link",
+			"HAlign": "Left",
+			"VAlign": "Bottom",
+			"Image": {
+				"Image": "Read_small.png",
+				"ColorAndOpacity": "0, 0, 0"
+			},
+			"HoverIcon": {
+				"Image": "ExternalLink_Dark.png"
+			},
+			"Text": {
+				"Text_translate": "true",
+				"Text": "Latest News",
+				"TextStyle": "Body",
+				"Margin": {
+					"Left": 10,
+					"Top": 0,
+					"Right": 10,
+					"Bottom": 0
+				},
+				"Text_ko": "최신 뉴스",
+				"Text_ja": "最新ニュース",
+				"Text_zh-CN": "最新新闻",
+				"Text_fr": "Dernières infos",
+				"Text_es-MX": "Últimas noticias",
+				"Text_de": "Aktuelle News",
+				"Text_it": "Ultime novità",
+				"Text_ru": "Последние новости",
+				"Text_es": "Últimas noticias",
+				"Text_pl": "Aktualności",
+				"Text_pt-BR": "Últimas notícias",
+				"Text_ar": "أحدث الأنباء"
+			},
+			"Padding": {
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 10
+			},
+			"OnNavigateUrl": "http://epic.gm/launcherblog"
+		},
+		{
+			"Type": "Link",
+			"HAlign": "Left",
+			"VAlign": "Bottom",
+			"Image": {
+				"Image": "Twitch_small.png",
+				"ColorAndOpacity": "0, 0, 0"
+			},
+			"HoverIcon": {
+				"Image": "ExternalLink_Dark.png"
+			},
+			"Text": {
+				"Text_translate": "true",
+				"Text": "Developer Update Videos",
+				"TextStyle": "Body",
+				"Margin": {
+					"Left": 12,
+					"Top": 0,
+					"Right": 10,
+					"Bottom": 0
+				},
+				"Text_ko": "개발자 업데이트 비디오",
+				"Text_ja": "デベロッパー投稿ビデオ",
+				"Text_zh-CN": "开发者更新视频",
+				"Text_fr": "Vidéos des développeurs",
+				"Text_es-MX": "Videos de actualización del desarrollador",
+				"Text_de": "Entwickler-Update Videos",
+				"Text_it": "Video sviluppatore",
+				"Text_ru": "Дневники разработчиков",
+				"Text_es": "Vídeos de actualización del desarrollador",
+				"Text_pl": "Dzienniki wideo deweloperów",
+				"Text_pt-BR": "Vídeos de atualização do desenvolvedor",
+				"Text_ar": "مقاطع فيديو تحديث المطور"
+			},
+			"Padding": {
+				"Left": 3,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 10
+			},
+			"OnNavigateUrl": "https://www.youtube.com/playlist?list=PLC7LX1Iyxa-l7TNj5FHCSINfDCHMLGsrz"
+		},
+		{
+			"Type": "Link",
+			"HAlign": "Left",
+			"VAlign": "Bottom",
+			"Image": {
+				"Image": "Forums_small.png",
+				"ColorAndOpacity": "0, 0, 0"
+			},
+			"HoverIcon": {
+				"Image": "ExternalLink_Dark.png"
+			},
+			"Text": {
+				"Text_translate": "true",
+				"Text": "Join the Forums",
+				"TextStyle": "Body",
+				"Margin": {
+					"Left": 10,
+					"Top": 0,
+					"Right": 10,
+					"Bottom": 0
+				},
+				"Text_ko": "포럼 참여",
+				"Text_ja": "フォーラムに参加",
+				"Text_zh-CN": "加入论坛",
+				"Text_fr": "Forums",
+				"Text_es-MX": "Únete a los foros",
+				"Text_de": "Dem Forum beitreten",
+				"Text_it": "Entra nei forum",
+				"Text_ru": "Форумы",
+				"Text_es": "Únete a los foros",
+				"Text_pl": "Dołącz do forum",
+				"Text_pt-BR": "Visite os fóruns",
+				"Text_ar": "انضم إلى المنتديات"
+			},
+			"Padding": {
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 10
+			},
+			"OnNavigateUrl": "http://epic.gm/launcherforum"
+		}
+	]
+}

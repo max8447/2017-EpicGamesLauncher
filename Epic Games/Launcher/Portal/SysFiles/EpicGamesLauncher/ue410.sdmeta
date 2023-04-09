@@ -1,0 +1,105 @@
+﻿{
+	"DataType": "SelDlMeta",
+	"Builds": [
+		{
+			"Asset": "UE_4.10",
+			"Version": "*"
+		},
+		{
+			"Asset": "UE_4.11",
+			"Version": "*"
+		}
+	],
+	"Data": [
+		{
+			"Title_Translate": "true",
+			"Title": "Starter Content",
+			"Description_Translate": "true",
+			"Description": "Includes high quality assets that can be added to new projects.",
+			"Tags": [
+				"starter_content"
+			],
+			"IsDefaultSelected": "true",
+			"Title_zh-CN": "初学者内容",
+			"Description_zh-CN": "包含可添加到新项目中的高质量资源。",
+			"Title_ja": "スターター コンテンツ",
+			"Description_ja": "新規プロジェクトに追加できる高品質のアセットが含まれています。",
+			"Title_fr": "Contenus de démarrage",
+			"Description_fr": "Comprend des contenus de haute qualité pouvant être ajoutés à de nouveaux projets.",
+			"Title_de": "Starter-Inhalte",
+			"Description_de": "Beinhaltet hochqualitative Assets, die neuen Projekten hinzugefügt werden können.",
+			"Title_ko": "시작용 콘텐츠",
+			"Description_ko": "새 프로젝트에 추가시킬 수 있는 하이 퀄리티 애셋을 추가시킵니다.",
+			"Title_it": "Contenuto iniziale",
+			"Description_it": "Include risorse di alta qualità da aggiungere ai nuovi progetti.",
+			"Title_ru": "Набор для начинающих",
+			"Description_ru": "Включает высококачественные модели, которые можно использовать в новых проектах.",
+			"Title_pl": "Zawartość zestawu startowego",
+			"Description_pl": "Zawiera wysokiej jakości elementy, które można dodawać do nowych projektów.",
+			"Title_pt-BR": "Conteúdo inicial",
+			"Description_pt-BR": "Inclui ativos de alta qualidade que podem ser adicionados a novos projetos.",
+			"Title_es-MX": "Contenido de inicio",
+			"Description_es-MX": "Incluye activos de alta calidad que se pueden agregar a proyectos nuevos.",
+			"Title_es": "Contenido de inicio",
+			"Description_es": "Incluye materiales de alta calidad que se pueden añadir a nuevos proyectos.",
+			"Title_ar": "محتوى البادئ",
+			"Description_ar": "يتضمن عناصر عالية الجودة يمكن إضافتها إلى المشروعات الجديدة."
+		},
+		{
+			"Title_Translate": "true",
+			"Title": "Templates and Feature Packs",
+			"Description_Translate": "true",
+			"Description": "Install templates and feature packs that can be used as a starting point for new projects.",
+			"Tags": [
+				"templates"
+			],
+			"IsDefaultSelected": "true",
+			"Title_zh-CN": "模板和功能包",
+			"Description_zh-CN": "安装可用作新工程基础的模板和功能包。",
+			"Title_ja": "テンプレートとおすすめパック",
+			"Description_ja": "新規プロジェクトで使用できるテンプレートとおすすめパックをインストールします。",
+			"Title_fr": "Packs de modèles et de fonctionnalités",
+			"Description_fr": "Les packs de modèles et de fonctionnalités du programme d'installation peuvent être utilisés comme point de départ pour de nouveaux projets.",
+			"Title_de": "Vorlagen und Feature-Packungen",
+			"Description_de": "Installiere Vorlagen und Feature-Packungen, die als Grundlage für neue Projekte genutzt werden können.",
+			"Title_ko": "템플릿 & 피처 팩",
+			"Description_ko": "새 프로젝트의 시작점으로 사용할 수 있는 템플릿 & 피처 팩을 설치합니다.",
+			"Title_it": "Template e pacchetti di funzioni",
+			"Description_it": "Installa template e pacchetti di funzioni che puoi usare come punto di partenza per nuovi progetti.",
+			"Title_ru": "Шаблоны и функциональные наборы",
+			"Description_ru": "Включает шаблоны и функциональные наборы, которые можно использовать в новых проектах.",
+			"Title_pl": "Szablony i pakiety funkcji",
+			"Description_pl": "Instaluj szablony i pakiety funkcji, które można wykorzystać jako podstawę do nowych projektów.",
+			"Title_pt-BR": "Modelos e Pacotes de Funcionalidades",
+			"Description_pt-BR": "Instala modelos e pacotes de funcionalidades que podem ser utilizados como ponto de partida para novos projetos.",
+			"Title_es-MX": "Paquetes de plantillas y características",
+			"Description_es-MX": "Instala los paquetes de plantillas y características que pueden usarse como punto de partida para nuevos proyectos.",
+			"Title_es": "Paquetes de plantillas y características",
+			"Description_es": "Instala paquetes de plantillas y características que se pueden usar como punto de inicio para nuevos proyectos.",
+			"Title_ar": "حزم القوالب والمزايا",
+			"Description_ar": "قم بتثبيت حزم القوالب والمزايا التي يمكن استخدامها كنقطة انطلاق للمشروعات الجديدة."
+		},
+		{
+			"Title_Translate": "true",
+			"Title": "Editor symbols for debugging",
+			"Description_Translate": "true",
+			"Description": "Includes symbols to allow debugging C++ projects in the editor.",
+			"Tags": [
+				"editor_symbols"
+			],
+			"IsDefaultSelected": "false",
+			"Description_zh-CN": "包括用于在编辑器中调试 C++ 工程的符号。",
+			"Description_ja": "エディタで C++ プロジェクトのデバッグを行うためのシンボルが含まれています。",
+			"Description_fr": "Comprend les symboles permettant le débogage de projets en C++ dans l'éditeur.",
+			"Description_de": "Beinhaltet Symbole, die das Debuggen von C++-Projekten im Editor ermöglichen.",
+			"Description_ko": "에디터에서의 C++ 프로젝트 디버깅용 심볼을 포함시킵니다.",
+			"Description_it": "Include simboli per consentire il debug di progetti in C++ nell'editor.",
+			"Description_ru": "Включает символы для отладки проектов на C++ в редакторе.",
+			"Description_pl": "Zawiera symbole służące do debugowania projektów C++ w edytorze.",
+			"Description_pt-BR": "Inclui símbolos para a depuração de projetos C++ no editor.",
+			"Description_es-MX": "Incluye símbolos para permitir la depuración de proyectos C++ en el editor.",
+			"Description_es": "Incluye símbolos para permitir la depuración de proyectos C++ en el editor.",
+			"Description_ar": "تتضمن الرموز للسماح بإصلاح مشروعات ++C في أداة التعديل."
+		}
+	]
+}

@@ -1,0 +1,336 @@
+﻿{
+	"Links": [
+		{
+			"Name": "RQ-0001",
+			"URL": "http://help.epicgames.com/customer/portal/articles/2339296-what-does-it-mean-to-have-directx-11-support-"
+		},
+		{
+			"Name": "RQ-0002",
+			"URL": "http://help.epicgames.com/customer/portal/articles/2345737-how-do-i-install-service-pack-1-for-windows-7-"
+		},
+		{
+			"Name": "RQ-0003",
+			"URL": "http://help.epicgames.com/customer/portal/articles/2354182-updating-mac-os-x-yosemite-to-version-10-10-5"
+		},
+		{
+			"Name": "PurchaseFlow",
+			"URL": "https://launcher-website-prod07.ol.epicgames.com/purchase"
+		},
+		{
+			"Name": "UnrealEngineWebMarketplace",
+			"URL": "https://launcher-website-prod07.ol.epicgames.com/marketplace"
+		},
+		{
+			"Name": "UnrealEngineCommunity",
+			"URL": "https://launcher-website-prod07.ol.epicgames.com/ue/community"
+		},
+		{
+			"Name": "UnrealEngineAnnouncementsAndReleases",
+			"Text": "Anuncios y publicaciones de Unreal Engine",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "https://forums.unrealengine.com/forumdisplay.php?8-Announcements-and-Releases"
+		},
+		{
+			"Name": "payment_methods",
+			"Text": "Formas de pago",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/dashboard/payment-methods?lang=es"
+		},
+		{
+			"Name": "add_payment_method",
+			"Text": "Agregar método de pago",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/payment/addPaymentMethod?lang=es"
+		},
+		{
+			"Name": "marketplace_submission",
+			"Text": "enviar contenido",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "https://publish.unrealengine.com/?lang=es"
+		},
+		{
+			"Name": "marketplace_help",
+			"Text": "¿necesitas ayuda?",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "https://answers.unrealengine.com/?lang=es"
+		},
+		{
+			"Name": "account_settings",
+			"Text": "Cuenta",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/dashboard/settings?lang=es"
+		},
+		{
+			"Name": "support",
+			"Text": "atención de cuenta>>",
+			"Text_translate": "true",
+			"Description": "Ir a la página de atención de cuenta",
+			"Description_translate": "true",
+			"URL": "https://answers.unrealengine.com?lang=es"
+		},
+		{
+			"Name": "landing_support",
+			"URL": "http://help.epicgames.com?lang=es"
+		},
+		{
+			"Name": "fn_support",
+			"URL": "mailto:help@fortnite.com"
+		},
+		{
+			"Name": "fortnite_support",
+			"URL": "mailto:help@fortnite.com"
+		},
+		{
+			"Name": "ut_support",
+			"URL": "http://help.unrealtournament.com"
+		},
+		{
+			"Name": "ark_support",
+			"URL": "https://forums.unrealengine.com/forumdisplay.php?70-ARK-Survival-Evolved"
+		},
+		{
+			"Name": "orion_support",
+			"URL": "http://paragonhelp.epicgames.com?lang=es"
+		},
+		{
+			"Name": "viper_support",
+			"URL": "https://help.epicgames.com"
+		},
+		{
+			"Name": "forgot_password",
+			"Text": "¿olvidaste la contraseña?",
+			"Text_translate": "true",
+			"Description": "¿Olvidaste tu contraseña?",
+			"Description_translate": "true",
+			"URL": "https://accounts.unrealengine.com/requestPasswordReset"
+		},
+		{
+			"Name": "create_account",
+			"Text": "crear cuenta",
+			"Text_translate": "true",
+			"Description": "Registrarte como desarrollador de Unreal",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/register"
+		},
+		{
+			"Name": "manage_account",
+			"Text": "Administrar cuenta >>",
+			"Text_translate": "true",
+			"Description": "Administrar tu cuenta",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/dashboard?lang=es"
+		},
+		{
+			"Name": "landing_manage_account",
+			"URL": "https://www.unrealengine.com/dashboard?lang=es"
+		},
+		{
+			"Name": "fn_manage_account",
+			"URL": "https://www.unrealengine.com/dashboard?lang=es"
+		},
+		{
+			"Name": "fortnite_manage_account",
+			"URL": "https://www.unrealengine.com/dashboard?lang=es"
+		},
+		{
+			"Name": "ut_manage_account",
+			"URL": "https://www.unrealengine.com/dashboard?lang=es"
+		},
+		{
+			"Name": "ark_manage_account",
+			"URL": "https://www.unrealengine.com/dashboard?lang=es"
+		},
+		{
+			"Name": "subscribe_to_ue",
+			"Text": "Subscribirte >>",
+			"Text_translate": "true",
+			"Description": "Suscribirte para acceder a Unreal Engine",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/register?lang=es"
+		},
+		{
+			"Name": "AnswerHub",
+			"Text": "Central de respuestas",
+			"Text_translate": "true",
+			"Description": "Obtener respuestas",
+			"Description_translate": "true",
+			"URL": "https://answers.unrealengine.com/"
+		},
+		{
+			"Name": "LauncherTroubleshooting",
+			"Text": "Busca en nuestra base de conocimiento para obtener más información",
+			"Text_translate": "true",
+			"Description": "Enlace a la base de conocimiento",
+			"Description_translate": "true",
+			"URL": "http://help.epicgames.com"
+		},
+		{
+			"Name": "LauncherSupportSearch",
+			"Text": "Busca en nuestra base de conocimiento para obtener más información",
+			"Text_translate": "true",
+			"Description": "Enlace a la base de conocimiento",
+			"Description_translate": "true",
+			"URL": "http://help.epicgames.com/customer/portal/articles/search?q={ErrorCode}"
+		},
+		{
+			"Name": "UE4InstallTroubleshooting",
+			"URL": "https://wiki.unrealengine.com/UE4_Installation_Troubleshooting"
+		},
+		{
+			"Name": "UnrealForums",
+			"Text": "Foros",
+			"Text_translate": "true",
+			"Description": "Únete a los foros",
+			"Description_translate": "true",
+			"URL": "https://forums.www.unrealengine.com/"
+		},
+		{
+			"Name": "Tutorials",
+			"Text": "Tutoriales",
+			"Text_translate": "true",
+			"Description": "Obtener tutoriales",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/blog?category=Tutorials"
+		},
+		{
+			"Name": "UnrealWiki",
+			"Text": "Wiki",
+			"Text_translate": "true",
+			"Description": "Visita la página Wiki",
+			"Description_translate": "true",
+			"URL": "https://wiki.www.unrealengine.com/Main_Page"
+		},
+		{
+			"Name": "Documentation",
+			"Text": "Documentación",
+			"Text_translate": "true",
+			"Description": "Obtener documentación",
+			"Description_translate": "true",
+			"URL": "https://docs.www.unrealengine.com/latest/INT/"
+		},
+		{
+			"Name": "Roadmap",
+			"Text": "Hoja de ruta",
+			"Text_translate": "true",
+			"Description": "¡Dale un vistazo al futuro!",
+			"Description_translate": "true",
+			"URL": "https://trello.com/b/gHooNW9I/ue4-roadmap"
+		},
+		{
+			"Name": "Weibo",
+			"Text": "Weibo",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "http://weibo.com/unrealengine"
+		},
+		{
+			"Name": "YouKu",
+			"Text": "YouKu",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "http://i.youku.com/unrealengine"
+		},
+		{
+			"Name": "TwitchStream",
+			"Text": "Transmisión en Twitch",
+			"Text_translate": "true",
+			"Description": "Transmisión en vivo y archivos",
+			"Description_translate": "true",
+			"URL": "http://www.twitch.tv/unrealengine"
+		},
+		{
+			"Name": "Badge",
+			"Text": "Licencias",
+			"Text_translate": "true",
+			"Description": "Licencia para usar solo con productos basados en el motor de Unreal",
+			"Description_translate": "true",
+			"URL": "http://www.unrealengine.com"
+		},
+		{
+			"Name": "Facebook",
+			"Text": "Facebook",
+			"Text_translate": "true",
+			"Description": "Encuéntranos en facebook",
+			"Description_translate": "true",
+			"URL": "https://www.facebook.com/UnrealEngine"
+		},
+		{
+			"Name": "Instagram",
+			"Text": "Instagram",
+			"Text_translate": "true",
+			"Description": "Nuestro Instagram",
+			"Description_translate": "true",
+			"URL": "http://Instagram.com/UnrealEngine"
+		},
+		{
+			"Name": "Twitch",
+			"Text": "Fuente Twitch",
+			"Text_translate": "true",
+			"Description": "Míranos en vivo",
+			"Description_translate": "true",
+			"URL": "http://www.twitch.tv/unrealengine"
+		},
+		{
+			"Name": "Twitter",
+			"Text": "Fuente Twitter",
+			"Text_translate": "true",
+			"Description": "Síguenos en Twitter",
+			"Description_translate": "true",
+			"URL": "https://twitter.com/unrealengine"
+		},
+		{
+			"Name": "Trello",
+			"Text": "Tablero de Trello",
+			"Text_translate": "true",
+			"Description": "Descubre qué es lo que sigue",
+			"Description_translate": "true",
+			"URL": "https://trello.com/b/gHooNW9I/ue4-roadmap"
+		},
+		{
+			"Name": "Youtube",
+			"Text": "Canal de Youtube",
+			"Text_translate": "true",
+			"Description": "Mira nuestro archivo de videos",
+			"Description_translate": "true",
+			"URL": "https://www.youtube.com/unrealengine"
+		},
+		{
+			"Name": "Github",
+			"Text": "Toma la fuente en GitHub",
+			"Text_translate": "true",
+			"Description": "Toma la fuente en GitHub",
+			"Description_translate": "true",
+			"URL": "https://www.github.com"
+		},
+		{
+			"Name": "Release_Notes",
+			"Text": "Notas sobre el último lanzamiento",
+			"Text_translate": "true",
+			"Description": "Notas sobre el último lanzamiento",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/415-release-notes-overview?lang=es"
+		},
+		{
+			"Name": "TermsOfService",
+			"Text": "Condiciones de servicio",
+			"Text_translate": "true",
+			"Description": "Condiciones de servicio",
+			"Description_translate": "true",
+			"URL": "http://epicgames.com/tos"
+		}
+	]
+}

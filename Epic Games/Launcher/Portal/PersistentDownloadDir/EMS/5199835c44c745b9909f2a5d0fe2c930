@@ -1,0 +1,55 @@
+﻿{
+	"Id": "vrfunhouse",
+	"Priority": 80,
+	"AnalyticsId": "vrfunhouse",
+	"DisplayName": "VR Funhouse",
+	"SupportedPlatforms": "Windows",
+	"CatalogNamespace": "vrfunhouse",
+	"Categories": "Create",
+	"EulaExpression": "(vrfunhouse && ue)",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "0.08241, 0.08241, 0.08241",
+	"PrimaryColor": "0.54799, 0.00006, 0.00001",
+	"PressedPrimaryColor": "0.44787, 0.00006, 0.00001",
+	"HoveredPrimaryColor": "0.7372, 0.00011, 0.00002",
+	"Homepage": "/create/vrfunhouse",
+	"Pages": [
+		{
+			"Id": "create.vrfunhouse",
+			"PartialUrl": "/vrfunhouse",
+			"SourceUrls" : [
+				{
+					"SourceUrl": "ui_VRFunhouseV1_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE], [PORTAL_VERSION]<2.12.24, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_VRFunhouseV2_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ] 
+				},
+				{
+					"SourceUrl": "ui_VRFunhouseCreateV1.layout",
+					"Conditions": [ "[PORTAL_VERSION]<2.12.24, ![PORTAL_VERSION]0.0.0" ] 
+				},
+				{
+					"SourceUrl": "ui_VRFunhouseCreateV2.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [
+	
+	],
+	"Apps": [
+		{
+			"Name": "VRFunhouse",
+			"GroupId": "Editor",
+			"OfferId": "f00a248b062a4adca9360c2c7d679237",
+			"ItemId": "3be791725c2f4716bcaecb0197549993",
+			"LaunchPermissions": "NoInternet,WithoutLauncher,MultiLaunch"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": [
+
+	]
+}

@@ -1,0 +1,1180 @@
+{
+	"Type": "Box",	
+	"Orientation": "Vertical",	
+	"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },	
+	"Children":
+	[		
+		{
+			"Type": "Panel",
+			"HAlign": "Left",
+			"VAlign": "Top",
+			"BackgroundImage": "ut_ui_UT_Back.PNG",
+			"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom":0 },
+			"Height": 724,
+			"Width": 750,
+			"Children":
+			[
+				{
+					"Type": "Box",	
+					"Orientation": "Vertical",	
+					"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },	
+					"Children":
+					[		
+						{
+							"Type": "Panel",
+							"HAlign": "Left",
+							"VAlign": "Bottom",
+							"BackgroundImage": "ut_ui_background.png",
+							"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom":0 },
+							"Height": 200,
+							"Width": 750,
+							"Children":
+							[					
+								{
+									"Type": "Panel",
+									"Height": 200,
+									"Width": 570,
+									"Padding": { "Left": 12, "Top": 5, "Right": -2, "Bottom":5 },
+									"BackgroundImage": ""
+								},
+							]
+						},
+						{
+							"Type": "Panel",
+							"Height": 25,
+							"Width": 750,
+							"Visibility": "visible",
+							"Text": 
+							[
+								{
+									"HAlign": "Left",
+									"VAlign": "Bottom",
+									"Padding": { "Left": 5, "Top": 0, "Right": 0, "Bottom": 5 },
+									"TextStyle": "Emphasis",					
+									"Visibility": "visible",
+									"Text": "An open development collaboration between Epic Games and Unreal Tournament fans."
+								}
+							]
+						},			
+						{
+							"Type": "Panel",
+							"Height": 1,
+							"Width": 800,
+							"Padding": { "Left": 3, "Top": 0, "Right": 0, "Bottom":0 },
+							"BackgroundImage": "White-HalfTransparent.png"
+						},
+						{
+							"Type": "Panel",
+							"Height": 20,
+							"Width": 800			
+						},						
+						{
+							"Type": "Box",
+							"Orientation": "Horizontal",
+							"Children":
+							[
+								
+								{
+									"Type": "Panel",
+									"Height": 150,
+									"Width": 25
+								},
+								{
+									"Type": "Panel",
+									"Height": 150,
+									"Width": 150,
+									"BackgroundImage": "panel_FeaturedSmallTopShadow.png",
+									"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+									"Children":
+									[
+										{
+											"Type": "Panel",							
+											"Height": 150,
+											"Width": 150,							
+											"BackgroundImage": "ut_ui_EpicBannerCut.png",							
+											"Padding": { "Left": 0, "Top": 0, "Right": 3, "Bottom": 5
+											},
+											"Children":
+											[
+												{
+													"Type": "Box",
+													"Orientation": "Vertical",
+													"Children":
+													[										
+														{
+															"Type": "Panel",
+															"Height": 125,
+															"Width": 150,
+															"Visibility": "HitTestInvisible"
+														},
+														{
+															"Type": "Panel",
+															"Height": 25,
+															"Width": 150,
+															"Visibility": "HitTestInvisible",
+															"BackgroundImage": "panel_BlackOverlay.png"
+														}
+													]
+												}
+											],
+											"Text": 
+											[
+												{
+													"HAlign": "Center",
+													"VAlign": "Bottom",
+													"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 3 },
+													"Visibility": "Visible",
+													"Text": "<a id=\"StandardURL\" href=\"http://epic.gm/launcherblog\">Developer Blog</>"
+												},								
+											]
+										}
+									]
+								},
+								{
+									"Type": "Panel",
+									"Height": 150,
+									"Width": 25
+								},
+								{
+									"Type": "Box",
+									"Orientation": "Vertical",
+									"Children":
+									[
+										{
+											"Type": "Panel",
+											"Height": 150,
+											"Width": 150,
+											"BackgroundImage": "panel_FeaturedSmallTopShadow.png",
+											"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+											"Children":
+											[
+												{
+													"Type": "Panel",
+													"Meta" : "Featured-SmallTop",
+													"Height": 150,
+													"Width": 150,									
+													"BackgroundImage": "ut_ui_UT_Forums.png",									
+													"Padding": { "Left": 0, "Top": 0, "Right": 3, "Bottom": 5
+													},
+													"Children":
+													[
+														{
+															"Type": "Box",
+															"Orientation": "Vertical",
+															"Children":
+															[
+																{
+																	"Type": "Panel",
+																	"Height": 125,
+																	"Width": 150,
+																	"Visibility": "HitTestInvisible"
+																},
+																{
+																	"Type": "Panel",
+																	"Height": 25,
+																	"Width": 150,
+																	"Visibility": "HitTestInvisible",
+																	"BackgroundImage": "panel_BlackOverlay.png"
+																}
+															]
+														}
+													],
+													"Text": 
+													[
+														{
+															"HAlign": "Center",
+															"VAlign": "Bottom",
+															"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 3 },
+															"TextStyle": "Strong",
+															"Visibility": "Visible",
+															"Text": "<a id=\"StandardURL\" href=\"http://epic.gm/launcherforum\">Forums</>"
+														},										
+													]
+												}
+											]
+										},
+									]
+								},
+								{
+									"Type": "Panel",
+									"Height": 150,
+									"Width": 25
+								},
+								{
+									"Type": "Box",
+									"Orientation": "Vertical",
+									"Children":
+									[
+										{
+											"Type": "Panel",
+											"Height": 150,
+											"Width": 150,
+											"BackgroundImage": "panel_FeaturedSmallTopShadow.png",
+											"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+											"Children":
+											[
+												{
+													"Type": "Panel",
+													"Meta" : "Featured-SmallTop",
+													"Height": 150,
+													"Width": 150,									
+													"BackgroundImage": "ut_ui_UT_Team.png",									
+													"Padding": { "Left": 0, "Top": 0, "Right": 3, "Bottom": 5 },
+													"Children":
+													[
+														{
+															"Type": "Box",
+															"Orientation": "Vertical",
+															"Children":
+															[
+																{
+																	"Type": "Panel",
+																	"Height": 125,
+																	"Width": 150,
+																	"Visibility": "HitTestInvisible"
+																},
+																{
+																	"Type": "Panel",
+																	"Height": 25,
+																	"Width": 150,
+																	"Visibility": "HitTestInvisible",
+																	"BackgroundImage": "panel_BlackOverlay.png"
+																}
+															]
+														}
+													],
+													"Text": 
+													[
+														{
+															"HAlign": "Center",
+															"VAlign": "Bottom",
+															"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 3 },
+															"Visibility": "Visible",
+															"Text": "<a id=\"StandardURL\" href=\"http://epic.gm/launchertwitch\">Livestream</>"
+														},										
+													]
+												}
+											]
+										},
+									]
+								},
+								{
+									"Type": "Panel",
+									"Height": 150,
+									"Width": 25
+								},
+								{
+									"Type": "Box",
+									"Orientation": "Vertical",
+									"Children":
+									[
+										{
+											"Type": "Panel",
+											"Height": 150,
+											"Width": 150,
+											"BackgroundImage": "panel_FeaturedSmallTopShadow.png",
+											"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+											"Children":
+											[
+												{
+													"Type": "Panel",
+													"Meta" : "Featured-SmallTop",
+													"Height": 150,
+													"Width": 150,									
+													"BackgroundImage": "ut_ui_UT_Editor.png",									
+													"Padding": { "Left": 0, "Top": 0, "Right": 3, "Bottom": 5},
+													"Children":
+													[
+														{
+															"Type": "Box",
+															"Orientation": "Vertical",
+															"Children":
+															[
+																{
+																	"Type": "Panel",
+																	"Height": 125,
+																	"Width": 150,
+																	"Visibility": "HitTestInvisible"
+																},
+																{
+																	"Type": "Panel",
+																	"Height": 25,
+																	"Width": 150,
+																	"Visibility": "HitTestInvisible",
+																	"BackgroundImage": "panel_BlackOverlay.png"
+																}
+															]
+														}
+													],
+													"Text": 
+													[
+														{
+															"HAlign": "Center",
+															"VAlign": "Bottom",
+															"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 3 },
+															"Visibility": "Visible",
+															"Text": "<a id=\"StandardURL\" href=\"http://epic.gm/launcherutwiki\">Get Involved</>"
+														},										
+													]
+												}
+											]
+										},
+									]
+								},				
+							]
+						},
+						{
+							"Type": "Panel",
+							"Height": 25,
+							"Width": 800			
+						},
+						{
+							"Type": "Box",
+							"Orientation": "Horizontal",
+							"Children":
+							[
+								
+								{
+									"Type": "Panel",
+									"Height": 150,
+									"Width": 25
+								},
+								{
+									"Type": "Panel",
+									"Height": 150,
+									"Width": 150,
+									"BackgroundImage": "panel_FeaturedSmallTopShadow.png",
+									"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+									"Children":
+									[
+										{
+											"Type": "Panel",							
+											"Height": 150,
+											"Width": 150,							
+											"BackgroundImage": "ut_ui_UT_Gameplay01.png",							
+											"Padding": { "Left": 0, "Top": 0, "Right": 3, "Bottom": 5 },
+											"Children":
+											[
+												{
+													"Type": "Box",
+													"Orientation": "Vertical",
+													"Children":
+													[										
+														{
+															"Type": "Panel",
+															"Height": 125,
+															"Width": 150,
+															"Visibility": "HitTestInvisible"
+														},
+														{
+															"Type": "Panel",
+															"Height": 25,
+															"Width": 150,
+															"Visibility": "HitTestInvisible",
+															"BackgroundImage": "panel_BlackOverlay.png"
+														}
+													]
+												}
+											],
+											"Text": 
+											[
+												{
+													"HAlign": "Center",
+													"VAlign": "Bottom",
+													"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 3 },
+													"Visibility": "Visible",
+													"Text": "<a id=\"StandardURL\" href=\"http://epic.gm/launcherutstore\">UT Store</>"
+												},								
+											]
+										}
+									]
+								},
+								{
+									"Type": "Panel",
+									"Height": 150,
+									"Width": 25
+								},
+								{
+									"Type": "Box",
+									"Orientation": "Vertical",
+									"Children":
+									[
+										{
+											"Type": "Panel",
+											"Height": 150,
+											"Width": 150,
+											"BackgroundImage": "panel_FeaturedSmallTopShadow.png",
+											"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+											"Children":
+											[
+												{
+													"Type": "Panel",
+													"Meta" : "Featured-SmallTop",
+													"Height": 150,
+													"Width": 150,									
+													"BackgroundImage": "ut_ui_UT_Logo_New.png",									
+													"Padding": { "Left": 0, "Top": 0, "Right": 3, "Bottom": 5
+													},
+													"Children":
+													[
+														{
+															"Type": "Box",
+															"Orientation": "Vertical",
+															"Children":
+															[
+																{
+																	"Type": "Panel",
+																	"Height": 125,
+																	"Width": 150,
+																	"Visibility": "HitTestInvisible"
+																},
+																{
+																	"Type": "Panel",
+																	"Height": 25,
+																	"Width": 150,
+																	"Visibility": "HitTestInvisible",
+																	"BackgroundImage": "panel_BlackOverlay.png"
+																}
+															]
+														}
+													],
+													"Text": 
+													[
+														{
+															"HAlign": "Center",
+															"VAlign": "Bottom",
+															"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 3 },
+															"TextStyle": "Strong",
+															"Visibility": "Visible",
+															"Text": "<a id=\"StandardURL\" href=\"http://epic.gm/uttutorials\">Learn To Play</>"											
+														},										
+													]
+												}
+											]
+										},
+									]
+								},
+								{
+									"Type": "Panel",
+									"Height": 150,
+									"Width": 25
+								},
+								{
+									"Type": "Box",
+									"Orientation": "Vertical",
+									"Children":
+									[
+										{
+											"Type": "Panel",
+											"Height": 150,
+											"Width": 150,
+											"BackgroundImage": "panel_FeaturedSmallTopShadow.png",
+											"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+											"Children":
+											[
+												{
+													"Type": "Panel",
+													"Meta" : "Featured-SmallTop",
+													"Height": 150,
+													"Width": 150,									
+													"BackgroundImage": "ut_ui_UT_Match.png",									
+													"Padding": { "Left": 0, "Top": 0, "Right": 3, "Bottom": 5 },
+													"Children":
+													[
+														{
+															"Type": "Box",
+															"Orientation": "Vertical",
+															"Children":
+															[
+																{
+																	"Type": "Panel",
+																	"Height": 125,
+																	"Width": 150,
+																	"Visibility": "HitTestInvisible"
+																},
+																{
+																	"Type": "Panel",
+																	"Height": 25,
+																	"Width": 150,
+																	"Visibility": "HitTestInvisible",
+																	"BackgroundImage": "panel_BlackOverlay.png"
+																}
+															]
+														}
+													],
+													"Text": 
+													[
+														{
+															"HAlign": "Center",
+															"VAlign": "Bottom",
+															"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 3 },
+															"Visibility": "Visible",
+															"Text": "<a id=\"StandardURL\" href=\"http://epic.gm/utfeatured\">Featured Matches</>"
+														},										
+													]
+												}
+											]
+										},
+									]
+								},
+								{
+									"Type": "Panel",
+									"Height": 150,
+									"Width": 25
+								},
+								{
+									"Type": "Box",
+									"Orientation": "Vertical",
+									"Children":
+									[
+										{
+											"Type": "Panel",
+											"Height": 150,
+											"Width": 150,
+											"BackgroundImage": "panel_FeaturedSmallTopShadow.png",
+											"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+											"Children":
+											[
+												{
+													"Type": "Panel",
+													"Meta" : "Featured-SmallTop",
+													"Height": 150,
+													"Width": 150,									
+													"BackgroundImage": "ut_ui_UT_Community2.png",									
+													"Padding": { "Left": 0, "Top": 0, "Right": 3, "Bottom": 5},
+													"Children":
+													[
+														{
+															"Type": "Box",
+															"Orientation": "Vertical",
+															"Children":
+															[
+																{
+																	"Type": "Panel",
+																	"Height": 125,
+																	"Width": 150,
+																	"Visibility": "HitTestInvisible"
+																},
+																{
+																	"Type": "Panel",
+																	"Height": 25,
+																	"Width": 150,
+																	"Visibility": "HitTestInvisible",
+																	"BackgroundImage": "panel_BlackOverlay.png"
+																}
+															]
+														}
+													],
+													"Text": 
+													[
+														{
+															"HAlign": "Center",
+															"VAlign": "Bottom",
+															"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 3 },
+															"Visibility": "Visible",
+															"Text": "<a id=\"StandardURL\" href=\"http://epic.gm/launchercontribs\">Contributors</>"											
+														},										
+													]
+												}
+											]
+										},
+									]
+								},				
+							]
+						},
+						{
+							"Type": "Panel",
+							"Height": 15,
+							"Width": 800			
+						},
+						{
+							"Type": "Panel",
+							"Height": 45,
+							"Width": 724,
+							"Visibility": "visible",
+							"Text": 
+							[
+								{
+									"HAlign": "Center",
+									"VAlign": "Top",
+									"Padding": { "Left": 5, "Top": 0, "Right": 0, "Bottom": 5 },
+									"TextStyle": "Emphasis",					
+									"Visibility": "visible",
+									"Text": "<a id=\"StandardURL\" href=\"https://wiki.unrealengine.com/Version_Notes\">Latest Build Information</>"									
+								}
+							]
+						},
+						{
+							"Type": "Panel",
+							"Height": 50,
+							"Width": 724,
+							"Visibility": "visible",
+							"Text": 
+							[
+								{
+									"HAlign": "Left",
+									"VAlign": "Bottom",
+									"Padding": { "Left": 5, "Top": 0, "Right": 0, "Bottom": 5 },
+									"TextStyle": "Emphasis",					
+									"Visibility": "visible",
+									"Text": "                                                                                                                                     Follow Unreal Tournament"
+								}
+							]
+						},
+						{
+							"Type": "Panel",
+							"Height": 1,
+							"Width": 800,
+							"Padding": { "Left": 3, "Top": 0, "Right": 0, "Bottom":0 },
+							"BackgroundImage": "White-HalfTransparent.png"
+						},
+						{
+							"Type": "Panel",
+							"Height": 5,
+							"Width": 800			
+						},		
+						{
+							"Type": "Box",
+							"Orientation": "Horizontal",
+							"Children":
+							[
+								{
+									"Type": "Panel",
+									"Height": 25,
+									"Width": 15
+								},
+								{
+									"Type": "Panel",
+									"Height": 25,
+									"Width": 35,
+									"BackgroundImage": "panel_FeaturedSmallTopShadow.png",
+									"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+									"Children":
+									[
+										{
+											"Type": "Panel",							
+											"Height": 25,
+											"Width": 35,							
+											"BackgroundImage": "learn_wiki_icon.png",							
+											"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+											"Children":
+											[
+												{
+													"Type": "Box",
+													"Orientation": "Vertical",
+													"Children":
+													[										
+														{
+															"Type": "Panel",
+															"Height": 25,
+															"Width": 35,
+															"Visibility": "HitTestInvisible"											
+														}
+													]
+												}
+											],
+											"Text": 
+											[
+												{
+													"HAlign": "Center",
+													"VAlign": "Bottom",
+													"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+													"Visibility": "Visible",
+													"Text": "<a id=\"StandardURL\" href=\"http://epic.gm/launcherirc\">      </>"
+												},								
+											]
+										}
+									]
+								},
+								{
+									"Type": "Panel",
+									"Height": 25,
+									"Width": 115,									
+									"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+									"Children":
+									[
+										{
+											"Type": "Panel",							
+											"Height": 25,
+											"Width": 125,													
+											"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+											"Children":
+											[
+												{
+													"Type": "Box",
+													"Orientation": "Vertical",
+													"Children":
+													[										
+														{
+															"Type": "Panel",
+															"Height": 25,
+															"Width": 125,
+															"Visibility": "HitTestInvisible"											
+														}
+													]
+												}
+											],
+											"Text": 
+											[
+												{
+													"HAlign": "Left",
+													"VAlign": "Bottom",
+													"Padding": { "Left": 5, "Top": 0, "Right": 0, "Bottom": 0 },
+													"Visibility": "Visible",
+													"Text": "<a id=\"StandardURL\" href=\"http://epic.gm/launcherirc\">UT Chat Rooms</>"
+												},								
+											]
+										}
+									]
+								},
+								{
+									"Type": "Panel",
+									"Height": 25,
+									"Width": 315
+								},
+								{
+									"Type": "Panel",
+									"Height": 25,
+									"Width": 25,
+									"BackgroundImage": "panel_FeaturedSmallTopShadow.png",
+									"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+									"Children":
+									[
+										{
+											"Type": "Panel",							
+											"Height": 25,
+											"Width": 25,							
+											"BackgroundImage": "ut_ui_rss.png",							
+											"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+											"Children":
+											[
+												{
+													"Type": "Box",
+													"Orientation": "Vertical",
+													"Children":
+													[										
+														{
+															"Type": "Panel",
+															"Height": 25,
+															"Width": 25,
+															"Visibility": "HitTestInvisible"											
+														}
+													]
+												}
+											],
+											"Text": 
+											[
+												{
+													"HAlign": "Center",
+													"VAlign": "Bottom",
+													"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+													"Visibility": "Visible",
+													"Text": "<a id=\"StandardURL\" href=\"http://unrealtournament.com/blog/feed/\">      </>"
+												},								
+											]
+										}
+									]
+								},
+								{
+									"Type": "Panel",
+									"Height": 25,
+									"Width": 5
+								},
+								{
+									"Type": "Box",
+									"Orientation": "Vertical",
+									"Children":
+									[
+										{
+											"Type": "Panel",
+											"Height": 25,
+											"Width": 25,
+											"BackgroundImage": "panel_FeaturedSmallTopShadow.png",
+											"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+											"Children":
+											[
+												{
+													"Type": "Panel",
+													"Meta" : "Featured-SmallTop",
+													"Height": 25,
+													"Width": 25,									
+													"BackgroundImage": "ut_ui_facebook.png",									
+													"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0
+													},
+													"Children":
+													[
+														{
+															"Type": "Box",
+															"Orientation": "Vertical",
+															"Children":
+															[
+																{
+																	"Type": "Panel",
+																	"Height": 25,
+																	"Width": 25,
+																	"Visibility": "HitTestInvisible"
+																}												
+															]
+														}
+													],
+													"Text": 
+													[
+														{
+															"HAlign": "Center",
+															"VAlign": "Bottom",
+															"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+															"TextStyle": "Strong",
+															"Visibility": "Visible",
+															"Text": "<a id=\"StandardURL\" href=\"http://www.facebook.com/unrealtournament/\">      </>"
+														},										
+													]
+												}
+											]
+										},
+									]
+								},
+								{
+									"Type": "Panel",
+									"Height": 25,
+									"Width": 5
+								},
+								{
+									"Type": "Box",
+									"Orientation": "Vertical",
+									"Children":
+									[
+										{
+											"Type": "Panel",
+											"Height": 25,
+											"Width": 25,
+											"BackgroundImage": "panel_FeaturedSmallTopShadow.png",
+											"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+											"Children":
+											[
+												{
+													"Type": "Panel",
+													"Meta" : "Featured-SmallTop",
+													"Height": 25,
+													"Width": 25,									
+													"BackgroundImage": "ut_ui_twitter.png",									
+													"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+													"Children":
+													[
+														{
+															"Type": "Box",
+															"Orientation": "Vertical",
+															"Children":
+															[
+																{
+																	"Type": "Panel",
+																	"Height": 25,
+																	"Width": 25,
+																	"Visibility": "HitTestInvisible"
+																}												
+															]
+														}
+													],
+													"Text": 
+													[
+														{
+															"HAlign": "Center",
+															"VAlign": "Bottom",
+															"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+															"Visibility": "Visible",
+															"Text": "<a id=\"StandardURL\" href=\"http://www.twitter.com/utgame/\">      </>"
+														},										
+													]
+												}
+											]
+										},
+									]
+								},
+								{
+									"Type": "Panel",
+									"Height": 25,
+									"Width": 5
+								},
+								{
+									"Type": "Box",
+									"Orientation": "Vertical",
+									"Children":
+									[
+										{
+											"Type": "Panel",
+											"Height": 25,
+											"Width": 25,
+											"BackgroundImage": "panel_FeaturedSmallTopShadow.png",
+											"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+											"Children":
+											[
+												{
+													"Type": "Panel",
+													"Meta" : "Featured-SmallTop",
+													"Height": 25,
+													"Width": 25,									
+													"BackgroundImage": "ut_ui_Instagram.png",									
+													"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0},
+													"Children":
+													[
+														{
+															"Type": "Box",
+															"Orientation": "Vertical",
+															"Children":
+															[
+																{
+																	"Type": "Panel",
+																	"Height": 25,
+																	"Width": 25,
+																	"Visibility": "HitTestInvisible"
+																}												
+															]
+														}
+													],
+													"Text": 
+													[
+														{
+															"HAlign": "Center",
+															"VAlign": "Bottom",
+															"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+															"Visibility": "Visible",
+															"Text": "<a id=\"StandardURL\" href=\"http://www.instagram.com/unrealtournament/\">      </>"
+														},										
+													]
+												}
+											]
+										},
+									]
+								},
+								{
+									"Type": "Panel",
+									"Height": 25,
+									"Width": 5
+								},
+								{
+									"Type": "Box",
+									"Orientation": "Vertical",
+									"Children":
+									[
+										{
+											"Type": "Panel",
+											"Height": 25,
+											"Width": 25,
+											"BackgroundImage": "panel_FeaturedSmallTopShadow.png",
+											"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+											"Children":
+											[
+												{
+													"Type": "Panel",
+													"Meta" : "Featured-SmallTop",
+													"Height": 25,
+													"Width": 25,									
+													"BackgroundImage": "ut_ui_YouTube.png",									
+													"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0},
+													"Children":
+													[
+														{
+															"Type": "Box",
+															"Orientation": "Vertical",
+															"Children":
+															[
+																{
+																	"Type": "Panel",
+																	"Height": 25,
+																	"Width": 25,
+																	"Visibility": "HitTestInvisible"
+																}												
+															]
+														}
+													],
+													"Text": 
+													[
+														{
+															"HAlign": "Center",
+															"VAlign": "Bottom",
+															"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+															"Visibility": "Visible",
+															"Text": "<a id=\"StandardURL\" href=\"http://www.youtube.com/unrealtournament/\">      </>"
+														},										
+													]
+												}
+											]
+										},
+									]
+								},
+								{
+									"Type": "Panel",
+									"Height": 25,
+									"Width": 5
+								},
+								{
+									"Type": "Box",
+									"Orientation": "Vertical",
+									"Children":
+									[
+										{
+											"Type": "Panel",
+											"Height": 25,
+											"Width": 25,
+											"BackgroundImage": "panel_FeaturedSmallTopShadow.png",
+											"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+											"Children":
+											[
+												{
+													"Type": "Panel",
+													"Meta" : "Featured-SmallTop",
+													"Height": 25,
+													"Width": 25,									
+													"BackgroundImage": "ut_ui_GooglePlus.png",									
+													"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0},
+													"Children":
+													[
+														{
+															"Type": "Box",
+															"Orientation": "Vertical",
+															"Children":
+															[
+																{
+																	"Type": "Panel",
+																	"Height": 25,
+																	"Width": 25,
+																	"Visibility": "HitTestInvisible"
+																}												
+															]
+														}
+													],
+													"Text": 
+													[
+														{
+															"HAlign": "Center",
+															"VAlign": "Bottom",
+															"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+															"Visibility": "Visible",
+															"Text": "<a id=\"StandardURL\" href=\"https://plus.google.com/+EpicUnrealTournament/posts\">      </>"
+														},										
+													]
+												}
+											]
+										},
+									]
+								},
+								{
+									"Type": "Panel",
+									"Height": 25,
+									"Width": 5
+								},
+								{
+									"Type": "Box",
+									"Orientation": "Vertical",
+									"Children":
+									[
+										{
+											"Type": "Panel",
+											"Height": 25,
+											"Width": 25,
+											"BackgroundImage": "panel_FeaturedSmallTopShadow.png",
+											"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+											"Children":
+											[
+												{
+													"Type": "Panel",
+													"Meta" : "Featured-SmallTop",
+													"Height": 25,
+													"Width": 25,									
+													"BackgroundImage": "ut_ui_pinterest.png",									
+													"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0},
+													"Children":
+													[
+														{
+															"Type": "Box",
+															"Orientation": "Vertical",
+															"Children":
+															[
+																{
+																	"Type": "Panel",
+																	"Height": 25,
+																	"Width": 25,
+																	"Visibility": "HitTestInvisible"
+																}												
+															]
+														}
+													],
+													"Text": 
+													[
+														{
+															"HAlign": "Center",
+															"VAlign": "Bottom",
+															"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+															"Visibility": "Visible",
+															"Text": "<a id=\"StandardURL\" href=\"http://www.pinterest.com/UTGame/\">      </>"
+														},										
+													]
+												}
+											]
+										},
+									]
+								},
+								{
+									"Type": "Panel",
+									"Height": 25,
+									"Width": 5
+								},
+								{
+									"Type": "Box",
+									"Orientation": "Vertical",
+									"Children":
+									[
+										{
+											"Type": "Panel",
+											"Height": 25,
+											"Width": 25,
+											"BackgroundImage": "panel_FeaturedSmallTopShadow.png",
+											"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+											"Children":
+											[
+												{
+													"Type": "Panel",
+													"Meta" : "Featured-SmallTop",
+													"Height": 25,
+													"Width": 25,									
+													"BackgroundImage": "ut_ui_TwitchTV.png",									
+													"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0},
+													"Children":
+													[
+														{
+															"Type": "Box",
+															"Orientation": "Vertical",
+															"Children":
+															[
+																{
+																	"Type": "Panel",
+																	"Height": 25,
+																	"Width": 25,
+																	"Visibility": "HitTestInvisible"
+																}												
+															]
+														}
+													],
+													"Text": 
+													[
+														{
+															"HAlign": "Center",
+															"VAlign": "Bottom",
+															"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+															"Visibility": "Visible",
+															"Text": "<a id=\"StandardURL\" href=\"http://www.twitch.tv/directory/game/Unreal%20Tournament\">      </>"
+														},										
+													]
+												}
+											]
+										},
+									]
+								},
+							]
+						},
+								
+					]
+				}
+			]
+		},	
+	]
+}

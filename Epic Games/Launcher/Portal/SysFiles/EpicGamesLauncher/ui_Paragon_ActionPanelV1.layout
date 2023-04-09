@@ -1,0 +1,85 @@
+{
+	"Type": "Overlay",
+	"Children": 
+	[
+		{
+			"Type": "BasicTile",
+			"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+			"HAlign": "Center",
+			"VAlign": "Top",
+			"Binding": "8f243d98a13a4fda9de0e4eea337e483",
+			"Images": 
+			[
+				{ "Image": "Featured", "Stretch": "ScaleToFill"}
+			],
+			"HasShadow": "false",
+			"LoadSilently": "true",
+			"AutoSize": "true",
+			"MaxHeight": 200,	
+			"MinHeight": 200,
+			"MaxWidth": 320
+		},
+		{
+			"Type": "BasicCarousel",
+			"Id": "CharacterCarousel01",
+			"Padding": { "Left": 0, "Top": 175, "Right": 0, "Bottom": 0 },
+			"HAlign": "Center",
+			"VAlign": "Top",
+			"AutoScroll": 8,
+			"AutoScrollDirection": "Right",
+			"ManualScroll": "false",
+			"StretchDirection": "DownOnly",
+			"LoadSilently": "true",
+			"HasShadow": false,
+			"MinHeight": 500,
+			"MaxHeight": 500,
+			"MaxWidth": 400,
+			"Binding": "63426cbff76c4a06bc706117daaa6514",
+			"Items": {
+				"Includes": [
+					"Screenshot"
+				]
+			},
+			"Images": [
+				{ "Image": "Url", "Stretch": "ScaleToFit"}
+			]
+		},
+		{
+			"Type": "Box",
+			"Orientation": "Vertical",
+			"VAlign": "Bottom",
+			"AutoSize": "false",
+			"Children": 
+			[
+				{
+					"Type": "ServerStatus",
+					"HAlign": "Center",
+					"SelectorId": "Game",
+					"GroupId": "Game"
+				},
+				{
+					"Type": "ActionButton",
+					"MinWidth": 442,
+					"MinHeight": 115,
+					"HAlign": "Center",
+					"SelectorId": "Game",
+					"GroupId": "Game"
+				},
+				{
+					"Type": "Box",
+					"Orientation": "Horizontal",
+					"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+					"HAlign": "Center",
+					"Children": 
+					[
+						{
+							"Type": "Layout",
+							"Layout": "ui_Paragon_ShareLinksV1.layout",
+							"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 }
+						}
+					]
+				}
+			]
+		}
+	]
+}

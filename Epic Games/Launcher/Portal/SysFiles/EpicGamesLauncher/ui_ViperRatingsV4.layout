@@ -1,0 +1,25 @@
+{
+	"Type": "Box",
+	"Orientation": "Horizontal",
+	"Children":
+	[
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 15, "Right": 0, "Bottom": 0 },
+            "MinWidth": 100, "MaxWidth": 150, "MinHeight": 50, "MaxHeight": 100,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "ESRBmultiA.png", "Stretch": "ScaleToFit" } ],
+            "OnNavigateUrl": ""
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 15, "Right": 0, "Bottom": 0 },
+            "MinWidth": 100, "MaxWidth": 150, "MinHeight": 50, "MaxHeight": 100,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "PEGImultiA.png", "Stretch": "ScaleToFit" } ],
+            "OnNavigateUrl": ""
+        }
+	]
+}

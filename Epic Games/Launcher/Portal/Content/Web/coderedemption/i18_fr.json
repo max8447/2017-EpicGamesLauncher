@@ -1,0 +1,19 @@
+{
+    "messages.com.epicgames.launcher.codeRedemption.title" : "Entrer un code produit",
+    "messages.com.epicgames.launcher.codeRedemption.titleSignedIn" : "Récupérer votre produit",
+    "messages.com.epicgames.launcher.codeRedemption.content" : "Entrez ici le code produit qui vous a été remis avec un DVD ou tout autre code produit Epic Games.",
+    "messages.com.epicgames.launcher.codeRedemption.contentSignedIn" : "Vous êtes désormais connecté(e) sous le nom <span class=\"displayName\">{0}</span>.",
+    "messages.com.epicgames.launcher.codeRedemption.statusContent" : "Le contenu sera définitivement lié à votre compte Epic Games, alors assurez-vous d'être connecté(e) avec le bon compte lorsque cela vous sera demandé.",
+    "messages.com.epicgames.launcher.codeRedemption.validCode" : "Le code que vous avez entré concerne <span class=\"productName\">{0}</span>. Cliquer sur \"{1}\" liera ce contenu à votre compte Epic Games <span class=\"displayName\">{2}</span>.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.title" : "Parfait, vous avez presque fini !",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content1" : "Avant de pouvoir accéder à votre contenu, vous devez vous connecter ou créer un compte.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content2" : "Votre compte Epic Games vous permet de faire partie de notre communauté de joueurs et de créateurs en plein essor.",
+    "messages.com.epicgames.launcher.codeRedemption.unknownError" : "Une erreur est survenue. Veuillez réessayer ultérieurement ou contacter l'assistance si le problème persiste.",
+    "messages.com.epicgames.launcher.codeRedemption.enterYourCode" : "Entrer votre code",
+    "messages.com.epicgames.launcher.createAccount" : "Créer un compte",
+    "messages.com.epicgames.launcher.signin" : "Connexion",
+    "messages.com.epicgames.launcher.cancel" : "Annuler",
+    "messages.com.epicgames.launcher.redeem" : "Échanger",
+    "messages.com.epicgames.launcher.redeemed" : "Échangé",
+    "messages.com.epicgames.launcher.continue" : "Suivant"
+}

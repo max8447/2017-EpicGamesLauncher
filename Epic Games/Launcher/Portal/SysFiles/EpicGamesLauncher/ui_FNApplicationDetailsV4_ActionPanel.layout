@@ -1,0 +1,88 @@
+{
+    "Type": "Overlay",
+    "Children": 
+    [
+        {
+            "Type": "BasicCarousel",
+            "HAlign": "Center",
+            "VAlign": "Top",
+            "Images": 
+            [
+                { "Image": "Screenshot" }
+            ],
+            "AutoScroll": 8,
+            "AutoScrollDirection": "Right",
+            "ManualScroll": "false",
+            "StretchDirection": "DownOnly",
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Items": 
+            { 
+                "Includes": 
+                [
+                    "96fda8a0d25d47af96883b04235c7bb8", 
+                    "00b204ae03684d7e8774ff270fde6834", 
+                    "a9c2a89e26d2467ba48ad88decf10edd",
+                    "8c09ae6a9a71469192c8e044ab8f8194",
+                    "b95de4c586384f8e89d370734e381cc3",
+                    "fc69ec0a27f2490facf3c1fa662ae5ca",
+					"5d29f952a50949e3ae20fe9604e502d8",
+					"68a0c69d91ac4fe0b194044f1bf6c3e1",
+					"594500f1dbad4de1b842e95a8802a3b0"
+                ],
+                "SortBy": "Title"
+            }
+        },
+        {
+            "Type": "BuildSelector",
+            "HAlign": "Right",
+            "Padding": { "Left": 0, "Top": 0, "Right": 10, "Bottom": 0 },
+            "VAlign": "Top",
+			"SelectorId": "Game",
+			"GroupId": "Game"
+        },
+        {
+            "Type": "Box",
+            "Orientation": "Vertical",
+            "Padding": { "Left": 0, "Top": 480, "Right": 0, "Bottom": 0 },
+            "AutoSize": "false",
+            "Children": 
+            [
+                {
+                    "Type": "ServerStatus",
+					"HAlign": "Center",
+					"SelectorId": "Game",
+					"GroupId": "Game"
+                },
+                {
+                    "Type": "ActionButton",
+					"MinWidth": 442,
+					"MinHeight": 115,
+					"HAlign": "Center",
+					"SelectorId": "Game",
+					"GroupId": "Game"
+                },
+                {
+                    "Type": "Box",
+                    "Orientation": "Horizontal",
+                    "Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+                    "HAlign": "Center",
+                    "Children": 
+                    [
+                        {
+                            "Type": "Layout",
+                            "Layout": "ui_FNShareLinksV4",
+                            "Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 }
+                        },
+                        {
+                            "Type": "RegionSelector",
+                            "Padding": { "Left": 35, "Top": 0, "Right": 0, "Bottom": 0 },
+							"SelectorId": "Game",
+							"GroupId": "Game"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

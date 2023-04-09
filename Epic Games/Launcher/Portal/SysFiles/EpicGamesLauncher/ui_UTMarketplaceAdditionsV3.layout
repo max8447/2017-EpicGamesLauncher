@@ -1,0 +1,17 @@
+{
+    "Type": "BasicTile",
+    "AutoSize": "false",
+    "Images": 
+    [
+        { "Image": "Featured" }
+    ],
+    "HasTextBackground": "false",
+    "OnNavigateUrl": "Marketplace/{Id}",
+    "Text": 
+    [
+        { "Text": "Characters", "TextStyle": "small-body", "Margin": 10, "HAlign": "Center", "VAlign": "Top" },
+        { "Text": "Title", "TextStyle": "h4", "Justification": "Center", "Margin": {"Top": 40}, "HAlign": "Center", "VAlign": "Top" },
+        { "Text": "FREE", "TextStyle": "Price", "Margin": 10, "HAlign": "Center", "VAlign": "Bottom" }
+    ],
+    "Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 }
+}

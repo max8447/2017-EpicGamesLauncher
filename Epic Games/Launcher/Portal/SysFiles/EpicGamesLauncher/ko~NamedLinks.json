@@ -1,0 +1,344 @@
+﻿{
+	"Links": [
+		{
+			"Name": "RQ-0001",
+			"URL": "http://help.epicgames.com/customer/portal/articles/2339296-what-does-it-mean-to-have-directx-11-support-"
+		},
+		{
+			"Name": "RQ-0002",
+			"URL": "http://help.epicgames.com/customer/portal/articles/2345737-how-do-i-install-service-pack-1-for-windows-7-"
+		},
+		{
+			"Name": "RQ-0003",
+			"URL": "http://help.epicgames.com/customer/portal/articles/2354182-updating-mac-os-x-yosemite-to-version-10-10-5"
+		},
+		{
+			"Name": "PurchaseFlow",
+			"URL": "https://launcher-website-prod07.ol.epicgames.com/purchase"
+		},
+		{
+			"Name": "UnrealEngineWebMarketplace",
+			"URL": "https://launcher-website-prod07.ol.epicgames.com/marketplace"
+		},
+		{
+			"Name": "UnrealEngineCommunity",
+			"URL": "https://launcher-website-prod07.ol.epicgames.com/ue/community"
+		},
+		{
+			"Name": "UnrealEngineAnnouncementsAndReleases",
+			"Text": "언리얼 엔진 발표 및 릴리즈",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "https://forums.unrealengine.com/forumdisplay.php?8-Announcements-and-Releases"
+		},
+		{
+			"Name": "payment_methods",
+			"Text": "지불 방법",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/dashboard/payment-methods?lang=ko"
+		},
+		{
+			"Name": "add_payment_method",
+			"Text": "지불 방법을 새 추가하기",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/payment/addPaymentMethod?lang=ko"
+		},
+		{
+			"Name": "marketplace_submission",
+			"Text": "콘텐츠 등록",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "https://publish.unrealengine.com/"
+		},
+		{
+			"Name": "marketplace_help",
+			"Text": "도움이 필요하신가요?",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "https://answers.unrealengine.com/?lang=ko"
+		},
+		{
+			"Name": "account_settings",
+			"Text": "계정",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/dashboard/settings?lang=ko"
+		},
+		{
+			"Name": "support",
+			"Text": "계정 기술지원>>",
+			"Text_translate": "true",
+			"Description": "계정 기술지원 페이지로 이동합니다.",
+			"Description_translate": "true",
+			"URL": "https://answers.unrealengine.com?lang=ko"
+		},
+		{
+			"Name": "landing_support",
+			"URL": "http://help.epicgames.com?lang=ko"
+		},
+		{
+			"Name": "fn_support",
+			"URL": "mailto:help@fortnite.com"
+		},
+		{
+			"Name": "fortnite_support",
+			"URL": "mailto:help@fortnite.com"
+		},
+		{
+			"Name": "ut_support",
+			"URL": "http://help.unrealtournament.com"
+		},
+		{
+			"Name": "ark_support",
+			"URL": "https://forums.unrealengine.com/forumdisplay.php?70-ARK-Survival-Evolved"
+		},
+		{
+			"Name": "orion_support",
+			"URL": "http://paragonhelp.epicgames.com?lang=ko"
+		},
+		{
+			"Name": "viper_support",
+			"URL": "https://help.epicgames.com"
+		},
+		{
+			"Name": "forgot_password",
+			"Text": "암호를 잊었습니다.",
+			"Text_translate": "true",
+			"Description": "암호를 잊으셨나요?",
+			"Description_translate": "true",
+			"URL": "https://accounts.unrealengine.com/requestPasswordReset?lang=ko"
+		},
+		{
+			"Name": "create_account",
+			"Text": "계정 생성",
+			"Text_translate": "true",
+			"Description": "언리얼 개발자로 등록",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/register?lang=ko"
+		},
+		{
+			"Name": "manage_account",
+			"Text": "계정 관리>>",
+			"Text_translate": "true",
+			"Description": "계정을 관리합니다.",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/dashboard?lang=ko"
+		},
+		{
+			"Name": "landing_manage_account",
+			"URL": "https://www.unrealengine.com/dashboard?lang=ko"
+		},
+		{
+			"Name": "fn_manage_account",
+			"URL": "https://www.unrealengine.com/dashboard?lang=ko"
+		},
+		{
+			"Name": "fortnite_manage_account",
+			"URL": "https://www.unrealengine.com/dashboard?lang=ko"
+		},
+		{
+			"Name": "ut_manage_account",
+			"URL": "https://www.unrealengine.com/dashboard?lang=ko"
+		},
+		{
+			"Name": "ark_manage_account",
+			"URL": "https://www.unrealengine.com/dashboard?lang=ko"
+		},
+		{
+			"Name": "subscribe_to_ue",
+			"Text": "멤버쉽 가입>>",
+			"Text_translate": "true",
+			"Description": "언리얼 엔진 멥버쉽에 가입하여 접근합니다.",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/register?lang=ko"
+		},
+		{
+			"Name": "AnswerHub",
+			"Text": "AnswerHub",
+			"Text_translate": "true",
+			"Description": "질문 답변 사이트입니다.",
+			"Description_translate": "true",
+			"URL": "https://answers.unrealengine.com/"
+		},
+		{
+			"Name": "LauncherTroubleshooting",
+			"Text": "지식 베이스 검색을 통해 자세한 정보를 확인할 수 있습니다.",
+			"Text_translate": "true",
+			"Description": "지식 베이스 링크",
+			"Description_translate": "true",
+			"URL": "http://help.epicgames.com"
+		},
+		{
+			"Name": "LauncherSupportSearch",
+			"Text": "지식 베이스 검색을 통해 자세한 정보를 확인할 수 있습니다.",
+			"Text_translate": "true",
+			"Description": "지식 베이스 링크",
+			"Description_translate": "true",
+			"URL": "http://help.epicgames.com/customer/portal/articles/search?q={ErrorCode}"
+		},
+		{
+			"Name": "UE4InstallTroubleshooting",
+			"URL": "https://wiki.unrealengine.com/UE4_Installation_Troubleshooting"
+		},
+		{
+			"Name": "UnrealForums",
+			"Text": "Forums",
+			"Text_translate": "true",
+			"Description": "포럼에 참가합니다.",
+			"Description_translate": "true",
+			"URL": "https://forums.www.unrealengine.com/"
+		},
+		{
+			"Name": "Tutorials",
+			"Text": "튜토리얼",
+			"Text_translate": "true",
+			"Description": "튜토리얼을 시청합니다.",
+			"Description_translate": "true",
+			"URL": "https://www.youtube.com/playlist?list=PLZlv_N0_O1gaCL2XjKluO7N2Pmmw9pvhE"
+		},
+		{
+			"Name": "UnrealWiki",
+			"Text": "Wiki",
+			"Text_translate": "true",
+			"Description": "위키 페이지를 방문합니다.",
+			"Description_translate": "true",
+			"URL": "https://wiki.unrealengine.com/Main_Page"
+		},
+		{
+			"Name": "Documentation",
+			"Text": "문서",
+			"Text_translate": "true",
+			"Description": "문서 열람",
+			"Description_translate": "true",
+			"URL": "https://docs.unrealengine.com/latest/KOR/index.html"
+		},
+		{
+			"Name": "Roadmap",
+			"Text": "Roadmap",
+			"Text_translate": "true",
+			"Description": "미래를 내다봅니다!",
+			"Description_translate": "true",
+			"URL": "https://trello.com/b/gHooNW9I/ue4-roadmap"
+		},
+		{
+			"Name": "Weibo",
+			"Text": "Weibo",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "http://weibo.com/unrealengine"
+		},
+		{
+			"Name": "YouKu",
+			"Text": "YouKu",
+			"Text_translate": "true",
+			"Description": "",
+			"Description_translate": "true",
+			"URL": "http://i.youku.com/unrealengine"
+		},
+		{
+			"Name": "TwitchStream",
+			"Text": "Twitch Stream",
+			"Text_translate": "true",
+			"Description": "생방송 및 과거 방송 내역입니다.",
+			"Description_translate": "true",
+			"URL": "http://www.twitch.tv/unrealengine"
+			},
+			{
+				"Name": "NaverCafe",
+				"Text": "네이버 카페",
+				"Text_translate": "true",
+				"Description": "에픽 게임스 코리아가 공식 운영하는 네이버 카페입니다.",
+				"Description_translate": "true",
+				"URL": "http://cafe.naver.com/unrealenginekr"
+			},
+		{
+			"Name": "Badge",
+			"Text": "라이선싱",
+			"Text_translate": "true",
+			"Description": "언리얼 엔진 기반 제품하고만 사용할 수 있는 라이선스입니다.",
+			"Description_translate": "true",
+			"URL": "http://www.unrealengine.com"
+		},
+		{
+			"Name": "Facebook",
+			"Text": "Facebook",
+			"Text_translate": "true",
+			"Description": "저희 페이스북 페이지입니다.",
+			"Description_translate": "true",
+			"URL": "https://www.facebook.com/UnrealEngine"
+		},
+		{
+			"Name": "Instagram",
+			"Text": "Instagram",
+			"Text_translate": "true",
+			"Description": "저희 인스타그램 입니다.",
+			"Description_translate": "true",
+			"URL": "http://Instagram.com/UnrealEngine"
+		},
+		{
+			"Name": "Twitch",
+			"Text": "Twitch 피드",
+			"Text_translate": "true",
+			"Description": "저희 생방송을 시청합니다.",
+			"Description_translate": "true",
+			"URL": "http://www.twitch.tv/unrealengine"
+		},
+		{
+			"Name": "Twitter",
+			"Text": "Twitter 피드",
+			"Text_translate": "true",
+			"Description": "저희 트위터를 팔로잉하세요.",
+			"Description_translate": "true",
+			"URL": "https://twitter.com/unrealengine"
+		},
+		{
+			"Name": "Trello",
+			"Text": "Trello 보드",
+			"Text_translate": "true",
+			"Description": "앞으로의 계획을 확인합니다.",
+			"Description_translate": "true",
+			"URL": "https://trello.com/b/gHooNW9I/ue4-roadmap"
+		},
+		{
+			"Name": "Youtube",
+			"Text": "Youtube 채널",
+			"Text_translate": "true",
+			"Description": "저희 비디오 자료를 시청합니다.",
+			"Description_translate": "true",
+			"URL": "https://www.youtube.com/unrealengine"
+		},
+		{
+			"Name": "Github",
+			"Text": "GitHub 에서 소스 받기",
+			"Text_translate": "true",
+			"Description": "GitHub 에서 소스 받기",
+			"Description_translate": "true",
+			"URL": "https://www.github.com"
+		},
+		{
+			"Name": "Release_Notes",
+			"Text": "최신 릴리즈 노트",
+			"Text_translate": "true",
+			"Description": "최신 릴리즈 노트",
+			"Description_translate": "true",
+			"URL": "https://www.unrealengine.com/415-release-notes-overview?lang=ko"
+		},
+		{
+			"Name": "TermsOfService",
+			"Text": "서비스 조항",
+			"Text_translate": "true",
+			"Description": "서비스 조항",
+			"Description_translate": "true",
+			"URL": "http://epicgames.com/tos"
+		}
+	]
+}

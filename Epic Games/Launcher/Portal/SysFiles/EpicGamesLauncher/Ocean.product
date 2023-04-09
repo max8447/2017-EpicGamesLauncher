@@ -1,0 +1,56 @@
+﻿{
+	"Id": "ocean",
+	"Priority": 30,
+	"AnalyticsId": "ocn",
+	"DisplayName": "SpyJinx",
+	"CatalogNamespace": "ocn",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "0.08241, 0.08241, 0.08241",
+	"PrimaryColor": "0.01347, 0.10871, 0.26736",
+	"PressedPrimaryColor": "0.01891, 0.10871, 0.23883",
+	"HoveredPrimaryColor": "0.02095, 0.16044, 0.38891",
+	"Homepage": {
+		"Id": "ocean",
+		"PartialUrl": "/ocean",
+		"SourceUrl": "ui_OceanPlayV1.layout",
+		"DisconnectedSourceUrl": "ui_Ocean_Offline.layout"
+	},
+	"Pages": [
+
+	],
+	"Redirects": [
+	
+	],
+	"Apps": [
+		{
+			"Name": "OCNDev",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "d0ddebac67e54009b8d6caea5c0adf6e",
+			"AppId": "OCNDev",
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "OceanDevTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "8a8b02416c064077bafbc30a45ea561e",
+			"AppId": "OceanDevTesting",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "OceanDevPlaytest",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "984e9e7241be471fab21f0b69a5e29c9",
+			"AppId": "OceanDevPlaytest",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+	],
+	"DefaultRegionId": "",
+	"Regions": [
+
+	]
+}

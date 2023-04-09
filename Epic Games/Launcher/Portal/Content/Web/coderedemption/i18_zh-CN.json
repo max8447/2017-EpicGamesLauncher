@@ -1,0 +1,19 @@
+{
+    "messages.com.epicgames.launcher.codeRedemption.title" : "输入产品代码",
+    "messages.com.epicgames.launcher.codeRedemption.titleSignedIn" : "兑换您的产品",
+    "messages.com.epicgames.launcher.codeRedemption.content" : "在此处输入随零售版 DVD 提供的产品代码或其他 Epic Games 产品代码。",
+    "messages.com.epicgames.launcher.codeRedemption.contentSignedIn" : "您已登入为<span class=\"displayName\">{0}</span>。",
+    "messages.com.epicgames.launcher.codeRedemption.statusContent" : "该内容将与您的 Epic Games 账户永久绑定，请务必确保在提示时登入了正确的账户。",
+    "messages.com.epicgames.launcher.codeRedemption.validCode" : "输入的代码适用于 <span class=\"productName\">{0}</span>。点击 \"{1}\" 将会把该内容与您的 <span class=\"displayName\">{2}</span> Epic Games 账户绑定。",
+    "messages.com.epicgames.launcher.codeRedemption.complete.title" : "做得好，我们就要完成了！",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content1" : "在访问内容前，您需要登入或创建账户。",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content2" : "通过 Epic Games 账户，您可以参加到我们不断成长的玩家与创作者社区中去。",
+    "messages.com.epicgames.launcher.codeRedemption.unknownError" : "发生错误。请稍后重试，若问题仍然存在，请联系支持人员。",
+    "messages.com.epicgames.launcher.codeRedemption.enterYourCode" : "输入您的代码",
+    "messages.com.epicgames.launcher.createAccount" : "创建账户",
+    "messages.com.epicgames.launcher.signin" : "登入",
+    "messages.com.epicgames.launcher.cancel" : "取消",
+    "messages.com.epicgames.launcher.redeem" : "兑换",
+    "messages.com.epicgames.launcher.redeemed" : "已兑换",
+    "messages.com.epicgames.launcher.continue" : "下一步"
+}

@@ -1,0 +1,52 @@
+{
+    "Type": "Overlay",
+    "Children": 
+    [
+		{
+			"Type": "BasicTile",
+			"Padding": { "Left": 15, "Top": 50, "Right": 10, "Bottom": 0 },
+			"HAlign": "Center",
+            "VAlign": "Top",
+            "Binding": "cc4033a1f8a949be881a007f35d7069d",
+			"Images": 
+            [
+                { "Image": "Screenshot", "Stretch": "ScaleToFit"}
+            ],
+			"HasShadow": "false",
+			"LoadSilently": "true",
+			"AutoSize": "true",
+			"MaxHeight": 500			
+        },
+        {
+            "Type": "Box",
+            "Orientation": "Vertical",
+            "Padding": { "Left": 15, "Top": 450, "Right": 0, "Bottom": 0 },
+            "AutoSize": "false",
+            "Children": 
+            [
+                {
+                    "Type": "ActionButton",
+					"MinWidth": 442,
+					"MinHeight": 115,
+					"HAlign": "Center",
+					"SelectorId": "Game",
+					"GroupId": "Game"
+                },
+                {
+                    "Type": "Box",
+                    "Orientation": "Horizontal",
+                    "Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+                    "HAlign": "Center",
+                    "Children": 
+                    [
+                        {
+                            "Type": "Layout",
+                            "Layout": "ui_ViperShareLinksV4",
+                            "Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

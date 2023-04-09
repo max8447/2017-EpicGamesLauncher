@@ -1,0 +1,375 @@
+﻿{
+	"Type": "Overlay",
+	"RequiresBindingSource": false,
+	"AutoSize": "false",
+	"Children": [
+		{
+			"Type": "Panel",
+			"Padding": {
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"BackgroundImage": "0.56681, 0.56681, 0.56681"
+		},
+		{
+			"Type": "ScrollBox",
+			"AutoSize": "false",
+			"Padding": {
+				"Left": 250,
+				"Top": 5,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"Children": [
+				{
+					"Type": "Box",
+					"Orientation": "Vertical",
+					"Padding": {
+						"Left": 0,
+						"Top": 40,
+						"Right": 0,
+						"Bottom": 40
+					},
+					"HAlign": "Center",
+					"MaxWidth": 1400,
+					"MinWidth": 1400,
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"VAlign": "Bottom",
+							"MaxHeight": 350,
+							"MinHeight": 350,
+							"HasShadow": "false",
+							"LoadSilently": "true",
+							"Padding": {
+								"Left": 40,
+								"Top": 0,
+								"Right": 40,
+								"Bottom": 0
+							},
+							"AutoSize": "true",
+							"Images": [
+								{
+									"Image": "ut_bluebadge.png",
+									"Stretch": "ScaleToFit"
+								}
+							]
+						},
+						{
+							"Type": "Box",
+							"Orientation": "Vertical",
+							"Padding": {
+								"Left": 0,
+								"Top": 40,
+								"Right": 0,
+								"Bottom": 40
+							},
+							"HAlign": "Center",
+							"MaxWidth": 820,
+							"MinWidth": 820,
+							"Children": [
+								{
+									"Type": "Panel",
+									"Padding": {
+										"Left": 80,
+										"Top": 0,
+										"Right": 80,
+										"Bottom": 10
+									},
+									"Text": [
+										{
+											"TextStyle": "Title",
+											"WrapAt": 660,
+											"Justification": "Center",
+											"Text_translate": "true",
+											"Text": "Uh oh, there is supposed to be something here.\nTry sorting out the connectivity issue and return to this page.",
+											"Text_ko": "이런, 여기 뭔가 있어야 하는데 말이지요.\n회선 문제를 해결하고 다시 이 페이지로 돌아와 보세요.",
+											"Text_ja": "問題が発生したようです。\nインターネットの接続を確認して再度読み込んでください。",
+											"Text_zh-CN": "啊，这里的内容没有显示。\n请尝试解决连接问题，并回到这个页面。",
+											"Text_fr": "Quelque chose devrait apparaître ici.\nEssayez de régler les problèmes de connexion et revenez sur cette page.",
+											"Text_de": "Der eigentliche Text konnte nicht angezeigt werden.\nBeheben Sie das Verbindungsproblem und rufen Sie die Seite erneut auf.",
+											"Text_es": "Vaya, se supone que aquí tenía que haber algo.\nIntenta solucionar los problemas de conectividad y vuelve a esta página.",
+											"Text_it": "Oh no, qui dovrebbe esserci qualcosa.\nRisolvi i problemi di connessione e torna a questa pagina",
+											"Text_ru": "Ой, тут что-то должно быть, но вы этого не видите.\nРазберитесь с проблемами подключения и вернитесь на страницу.",
+											"Text_pl": "W tym miejscu powinna być widoczna zawartość.\nSpróbuj rozwiązać problem z połączeniem i wróć do tej strony.",
+											"Text_pt-BR": "Opa, devia ter algo aqui.\nTente solucionar o problema de conexão e volte a esta página.",
+											"Text_es-MX": "¡Oh, oh! Se supone que debe haber algo aquí.\nIntenta solucionar el problema de conexión y vuelve a esta página.",
+											"Text_ar": "يفترض وجود شيء ما هنا.\nحاول حل مشاكل الاتصال وعُد إلى هذه الصفحة."
+										}
+									]
+								},
+								{
+									"Type": "Panel",
+									"BackgroundImage": "0.0, 0.0, 0.0, 1.0",
+									"Height": 1,
+									"Padding": {
+										"Left": 20,
+										"Top": 0,
+										"Right": 20,
+										"Bottom": 0
+									}
+								},
+								{
+									"Type": "Panel",
+									"Padding": {
+										"Left": 80,
+										"Top": 20,
+										"Right": 80,
+										"Bottom": 0
+									},
+									"Text": [
+										{
+											"TextStyle": "large-h1",
+											"WrapAt": 660,
+											"Justification": "Center",
+											"Text_translate": "true",
+											"Text": "In the meantime this should not prevent you from playing the game or using the editor.",
+											"Text_ko": "그동안 이로 인해 게임 플레이나 에디터 사용이 불가능하지는 않을 것입니다.",
+											"Text_ja": "エディタを使用したり、ゲームをプレイすることは可能です。",
+											"Text_zh-CN": "同时，这应该不会妨碍您进行游戏或使用编辑器。",
+											"Text_fr": "En attendant, cela ne vous empêche pas de jouer au jeu ou d'utiliser l'éditeur.",
+											"Text_de": "Die Verwendung des Editors und das Spiel selbst sind davon nicht beeinträchtigt.",
+											"Text_es": "Mientras tanto, no deberías tener problemas para jugar ni usar el editor.",
+											"Text_it": "Nel frattempo, dovresti comunque riuscire a giocare e a usare l'editor.",
+											"Text_ru": "Однако эта проблема не помешает вам играть в игры или пользоваться редактором.",
+											"Text_pl": "Tymczasem możesz grać w grę lub korzystać z edytora.",
+											"Text_pt-BR": "Enquanto isso, você pode continuar a jogar ou utilizar o editor.",
+											"Text_es-MX": "Mientras tanto, esto no debería impedir que juegues o uses el editor.",
+											"Text_ar": "يفترض في الوقت ذاته ألا يمنعك هذا من لعب اللعبة أو استخدام أداة التعديل."
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "Panel",
+			"Padding": {
+				"Left": 0,
+				"Top": 5,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"Width": 250,
+			"HAlign": "Left",
+			"BackgroundImage": "0.78175, 0.78175, 0.78175"
+		},
+		{
+			"Type": "Box",
+			"Orientation": "Vertical",
+			"Width": 250,
+			"HAlign": "Left",
+			"Padding": {
+				"Left": 0,
+				"Top": 65,
+				"Right": 0,
+				"Bottom": 10
+			},
+			"Children": [
+				{
+					"Type": "Button",
+					"ButtonStyle": "SidebarNavigation.Button",
+					"Padding": {
+						"Left": 0,
+						"Top": 0,
+						"Right": 0,
+						"Bottom": 15
+					},
+					"ContentPadding": {
+						"Left": 10,
+						"Top": 10,
+						"Right": 0,
+						"Bottom": 10
+					},
+					"OnNavigateUrl": "/ut/play",
+					"ForegroundColor": "0, 0, 0",
+					"InvertedForegroundColor": "0, 0, 0",
+					"Child": {
+						"Type": "Link",
+						"Row": 0,
+						"ColumnSpans": [
+							{
+								"LayoutSize": 0,
+								"Span": 4
+							}
+						],
+						"HAlign": "Left",
+						"Text": {
+							"Text_translate": "true",
+							"Text": "Play",
+							"TextStyle": "extralarge-h4",
+							"UseForegroundColor": "true",
+							"Margin": {
+								"Left": 10,
+								"Top": 0,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text_ko": "플레이",
+							"Text_ja": "プレイ",
+							"Text_zh-CN": "运行",
+							"Text_fr": "Jouer",
+							"Text_es": "Jugar",
+							"Text_de": "Spielen",
+							"Text_it": "Gioca",
+							"Text_ru": "Играть",
+							"Text_pl": "Graj",
+							"Text_pt-BR": "Jogar",
+							"Text_es-MX": "Jugar",
+							"Text_ar": "تشغيل"
+						},
+						"OnNavigateUrl": "/ut/play"
+					}
+				},
+				{
+					"Type": "Button",
+					"ButtonStyle": "SidebarNavigation.Button",
+					"Padding": {
+						"Left": 0,
+						"Top": 0,
+						"Right": 0,
+						"Bottom": 15
+					},
+					"ContentPadding": {
+						"Left": 10,
+						"Top": 10,
+						"Right": 0,
+						"Bottom": 10
+					},
+					"OnNavigateUrl": "/ut/create",
+					"ForegroundColor": "0, 0, 0",
+					"InvertedForegroundColor": "0, 0, 0",
+					"Child": {
+						"Type": "Link",
+						"Row": 0,
+						"ColumnSpans": [
+							{
+								"LayoutSize": 0,
+								"Span": 4
+							}
+						],
+						"HAlign": "Left",
+						"Text": {
+							"Text_translate": "true",
+							"Text": "Create",
+							"TextStyle": "extralarge-h4",
+							"UseForegroundColor": "true",
+							"Margin": {
+								"Left": 10,
+								"Top": 0,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text_ko": "제작",
+							"Text_ja": "クリエイト",
+							"Text_zh-CN": "创建",
+							"Text_fr": "Créer",
+							"Text_es": "Crear",
+							"Text_de": "Erstellen",
+							"Text_it": "Crea",
+							"Text_ru": "Создать",
+							"Text_pl": "Twórz",
+							"Text_pt-BR": "Criar",
+							"Text_es-MX": "Crear",
+							"Text_ar": "إنشاء"
+						},
+						"Padding": {
+							"Left": 0,
+							"Top": 0,
+							"Right": 0,
+							"Bottom": 40
+						},
+						"OnNavigateUrl": "/ut/create"
+					}
+				},
+				{
+					"Type": "Button",
+					"ButtonStyle": "SidebarNavigation.ActiveButton",
+					"Padding": {
+						"Left": 0,
+						"Top": 0,
+						"Right": 0,
+						"Bottom": 15
+					},
+					"ContentPadding": {
+						"Left": 10,
+						"Top": 10,
+						"Right": 0,
+						"Bottom": 10
+					},
+					"OnNavigateUrl": "/ut/marketplace",
+					"ForegroundColor": "1, 1, 1",
+					"Child": {
+						"Type": "Link",
+						"Row": 0,
+						"ColumnSpans": [
+							{
+								"LayoutSize": 0,
+								"Span": 4
+							}
+						],
+						"HAlign": "Left",
+						"Text": {
+							"Text_translate": "true",
+							"Text": "Marketplace",
+							"TextStyle": "extralarge-h4",
+							"UseForegroundColor": "true",
+							"Margin": {
+								"Left": 10,
+								"Top": 0,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text_ko": "마켓플레이스",
+							"Text_ja": "マーケットプレイス",
+							"Text_zh-CN": "虚幻商城",
+							"Text_fr": "Marché",
+							"Text_es": "Bazar",
+							"Text_de": "Marktplatz",
+							"Text_it": "Marketplace",
+							"Text_ru": "Магазин",
+							"Text_pl": "Rynek",
+							"Text_pt-BR": "Loja",
+							"Text_es-MX": "Marketplace",
+							"Text_ar": "السوق"
+						},
+						"Padding": {
+							"Left": 0,
+							"Top": 0,
+							"Right": 0,
+							"Bottom": 40
+						},
+						"OnNavigateUrl": "/ut/marketplace"
+					}
+				}
+			]
+		},
+		{
+			"Type": "Layout",
+			"Layout": "ui_UTSidebarLinksV3",
+			"VAlign": "Bottom",
+			"Padding": {
+				"Left": 5,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 10
+			}
+		},
+		{
+			"Type": "Layout",
+			"Layout": "ui_UTShareLinksV3",
+			"VAlign": "Bottom",
+			"Padding": {
+				"Left": 5,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 10
+			}
+		}
+	]
+}

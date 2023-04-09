@@ -1,0 +1,375 @@
+{
+    "Type": "ResponsiveGrid",
+    "HAlign": "Center",
+    "MinWidth": 1400,
+    "MaxWidth": 1400,
+    "AutoSize": false,
+    "Padding": { "Left": 15, "Top": 0, "Right": 2, "Bottom": 15 },
+    "TotalColumns": 16,
+    "ColumnGutter": 5,
+    "Children": 
+    [
+        {
+            "Type": "Box",
+            "Orientation": "Vertical",
+            "Row": 0,
+            "ColumnSpans":
+            [
+                { "LayoutSize": 1000, "Span": 0 },
+                { "LayoutSize": 0, "Span": 16 }
+            ],
+            "Children":
+            [
+                {
+                    "Type": "BasicTile",
+                    "MinWidth": 700, "MaxWidth": 700, "MinHeight": 227, "MaxHeight": 227,
+                    "Padding": { "Left": 0, "Top": 20, "Right": 0, "Bottom": 0 },
+                    "Binding": "340b36a967bc4d028707010cbe260214",
+                    "LoadSilently": "true",
+                    "HasShadow": false,
+                    "Images": 
+                    [
+                        { "Image": "Screenshot", "Stretch": "ScaleToFit", "StretchDirection": "DownOnly", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Layout": "ui_UTActionPanel.layout",
+                    "Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 }
+                }
+            ]
+        },
+        {
+            "Type": "ResponsiveGrid",
+            "Row": 1,
+            "ColumnSpans":
+            [
+                { "LayoutSize": 1200, "Span": 16 },
+                { "LayoutSize": 1000, "Span": 9 }
+            ],
+            "HAlign": "Center",
+            "MinWidth": 1400,
+            "MaxWidth": 1400,
+            "AutoSize": false,
+            "Padding": { "Left": 15, "Top": 0, "Right": 2, "Bottom": 15 },
+            "TotalColumns": 16,
+            "ColumnGutter": 5,
+            "Children": 
+            [
+
+                {
+                    "Type": "BasicTile",
+                    "MinWidth": 700, "MaxWidth": 700, "MinHeight": 200, "MaxHeight": 200,
+                    "Padding": { "Left": 0, "Top": 10, "Right": 0, "Bottom": 0 },
+                    "Row": 0,
+                    "ColumnSpans":
+                    [
+                        { "LayoutSize": 1100, "Span": 4 },
+                        { "LayoutSize": 900, "Span": 8 },
+                        { "LayoutSize": 545, "Span": 8 },
+                        { "LayoutSize": 0, "Span": 16 }
+                    ],
+                    "Binding": "a3a68581290746ceab39f01e6f9e3a27",
+                    "HoverIcon": { "Image": "ExternalLink.png", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } },
+                    "Images": 
+                    [
+                        { "Image": "Screenshot" }
+                    ],
+                    "OnNavigateUrl": "TechnicalDetails",
+                    "Text": 
+                    [
+                        { "Text": "Description", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } }
+                    ]
+                },
+                {
+                    "Type": "BasicTile",
+                    "MinWidth": 700, "MaxWidth": 700, "MinHeight": 200, "MaxHeight": 200,
+                    "Padding": { "Left": 0, "Top": 10, "Right": 0, "Bottom": 0 },
+                    "Row": 0,
+                    "ColumnSpans":
+                    [
+                        { "LayoutSize": 1100, "Span": 4 },
+                        { "LayoutSize": 900, "Span": 8 },
+                        { "LayoutSize": 545, "Span": 8 },
+                        { "LayoutSize": 0, "Span": 16 }
+                    ],
+                    "Binding": "4a7f0910bf9348da8769487f975c74f1",
+                    "HoverIcon": { "Image": "ExternalLink.png", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } },
+                    "Images": 
+                    [
+                        { "Image": "Screenshot" }
+                    ],
+                    "OnNavigateUrl": "TechnicalDetails",
+                    "Text": 
+                    [
+                        { "Text": "Description", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } }
+                    ]
+                },
+                {
+                    "Type": "BasicTile",
+                    "MinWidth": 700, "MaxWidth": 700, "MinHeight": 200, "MaxHeight": 200,
+                    "Padding": { "Left": 0, "Top": 10, "Right": 0, "Bottom": 0 },
+                    "Row": 0,
+                    "ColumnSpans":
+                    [
+                        { "LayoutSize": 1100, "Span": 4 },
+                        { "LayoutSize": 900, "Span": 8 },
+                        { "LayoutSize": 545, "Span": 8 },
+                        { "LayoutSize": 0, "Span": 16 }
+                    ],
+                    "Binding": "6bc0a2dce7a744aea0c97cc7cf3a6ad3",
+                    "HoverIcon": { "Image": "ExternalLink.png", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } },
+                    "Images": 
+                    [
+                        { "Image": "Screenshot" }
+                    ],
+                    "OnNavigateUrl": "TechnicalDetails",
+                    "Text": 
+                    [
+                        { "Text": "Description", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } }
+                    ]
+                },
+                {
+                    "Type": "BasicTile",
+                    "MinWidth": 700, "MaxWidth": 700, "MinHeight": 200, "MaxHeight": 200,
+                    "Padding": { "Left": 0, "Top": 10, "Right": 0, "Bottom": 0 },
+                    "Row": 0,
+                    "ColumnSpans":
+                    [
+                        { "LayoutSize": 1100, "Span": 4 },
+                        { "LayoutSize": 900, "Span": 8 },
+                        { "LayoutSize": 545, "Span": 8 },
+                        { "LayoutSize": 0, "Span": 16 }
+                    ],
+                    "Binding": "aefc97eb9b424af1b9cad2add28b900e",
+                    "HoverIcon": { "Image": "ExternalLink.png", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } },
+                    "Images": 
+                    [
+                        { "Image": "Screenshot" }
+                    ],
+                    "OnNavigateUrl": "TechnicalDetails",
+                    "Text": 
+                    [
+                        { "Text": "Description", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } }
+                    ]
+                },
+                {
+                    "Type": "BasicTile",
+                    "MinWidth": 700, "MaxWidth": 700, "MinHeight": 200, "MaxHeight": 200,
+                    "Padding": { "Left": 0, "Top": 10, "Right": 0, "Bottom": 0 },
+                    "Row": 0,
+                    "ColumnSpans":
+                    [
+                        { "LayoutSize": 1100, "Span": 4 },
+                        { "LayoutSize": 900, "Span": 8 },
+                        { "LayoutSize": 545, "Span": 8 },
+                        { "LayoutSize": 0, "Span": 16 }
+                    ],
+                    "Binding": "76725692f54f42ed91b24a042ab536c2",
+                    "HoverIcon": { "Image": "ExternalLink.png", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } },
+                    "Images": 
+                    [
+                        { "Image": "Screenshot" }
+                    ],
+                    "OnNavigateUrl": "TechnicalDetails",
+                    "Text": 
+                    [
+                        { "Text": "Description", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } }
+                    ]
+                },
+                {
+                    "Type": "BasicTile",
+                    "MinWidth": 700, "MaxWidth": 700, "MinHeight": 200, "MaxHeight": 200,
+                    "Padding": { "Left": 0, "Top": 10, "Right": 0, "Bottom": 0 },
+                    "Row": 0,
+                    "ColumnSpans":
+                    [
+                        { "LayoutSize": 1100, "Span": 4 },
+                        { "LayoutSize": 900, "Span": 8 },
+                        { "LayoutSize": 545, "Span": 8 },
+                        { "LayoutSize": 0, "Span": 16 }
+                    ],
+                    "Binding": "bec1c1e2d36a4a06aaed3353a2e28903",
+                    "HoverIcon": { "Image": "ExternalLink.png", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } },
+                    "Images": 
+                    [
+                        { "Image": "Screenshot" }
+                    ],
+                    "OnNavigateUrl": "TechnicalDetails",
+                    "Text": 
+                    [
+                        { "Text": "Description", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } }
+                    ]
+                },
+                {
+                    "Type": "BasicTile",
+                    "MinWidth": 700, "MaxWidth": 700, "MinHeight": 200, "MaxHeight": 200,
+                    "Padding": { "Left": 0, "Top": 10, "Right": 0, "Bottom": 0 },
+                    "Row": 0,
+                    "ColumnSpans":
+                    [
+                        { "LayoutSize": 1100, "Span": 4 },
+                        { "LayoutSize": 900, "Span": 8 },
+                        { "LayoutSize": 545, "Span": 8 },
+                        { "LayoutSize": 0, "Span": 16 }
+                    ],
+                    "Binding": "389956b831bb4554be506615eabe9328",
+                    "HoverIcon": { "Image": "ExternalLink.png", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } },
+                    "Images": 
+                    [
+                        { "Image": "Screenshot" }
+                    ],
+                    "OnNavigateUrl": "TechnicalDetails",
+                    "Text": 
+                    [
+                        { "Text": "Description", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } }
+                    ]
+                },
+                {
+                    "Type": "BasicTile",
+                    "MinWidth": 700, "MaxWidth": 700, "MinHeight": 200, "MaxHeight": 200,
+                    "Padding": { "Left": 0, "Top": 10, "Right": 0, "Bottom": 0 },
+                    "Row": 0,
+                    "ColumnSpans":
+                    [
+                        { "LayoutSize": 1100, "Span": 4 },
+                        { "LayoutSize": 900, "Span": 8 },
+                        { "LayoutSize": 545, "Span": 8 },
+                        { "LayoutSize": 0, "Span": 16 }
+                    ],
+                    "Binding": "a1d7bdb08c3c4e208e9d3c7712e14f96",
+                    "HoverIcon": { "Image": "ExternalLink.png", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } },
+                    "Images": 
+                    [
+                        { "Image": "Screenshot" }
+                    ],
+                    "OnNavigateUrl": "TechnicalDetails",
+                    "Text": 
+                    [
+                        { "Text": "Description", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } }
+                    ]
+                }
+            ]
+        },
+        {
+            "Type": "Box",
+            "Orientation": "Vertical",
+            "Row": 1,
+            "ColumnSpans":
+            [
+                { "LayoutSize": 1200, "Span": 0 },
+                { "LayoutSize": 1000, "Span": 7 },
+                { "LayoutSize": 0, "Span": 0 }
+            ],
+            "Children":
+            [
+                {
+                    "Type": "BasicTile",
+                    "MinWidth": 400, "MaxWidth": 400, "MinHeight": 130, "MaxHeight": 130,
+                    "Padding": { "Left": 0, "Top": 100, "Right": 0, "Bottom": 80 },
+                    "Binding": "cc7f63d58bc64825bb802edf04f51a4f",
+                    "HasShadow": false,
+                    "Images": 
+                    [
+                        { "Image": "Screenshot", "Stretch": "ScaleToFit", "StretchDirection": "DownOnly" }
+                    ]
+                },
+                {
+                    "Type": "Layout",
+                    "Layout": "ui_UTActionPanel.layout",
+                    "AutoSize": "false",
+                    "VAlign": "Top"
+                }
+            ]
+        },
+        {
+            "Type": "Box",
+            "Orientation": "Horizontal",
+            "Row": 1,
+            "ColumnSpans":
+            [
+                { "LayoutSize": 1200, "Span": 16 },
+                { "LayoutSize": 0, "Span": 0 }
+            ],
+            "Children":
+            [
+                {
+                    "Type": "Box",
+                    "Orientation": "Vertical",
+                    "Children":
+                    [
+                        {
+                            "Type": "BasicTile",
+                            "MinWidth": 700, "MaxWidth": 700, "MinHeight": 227, "MaxHeight": 227,
+                            "Padding": { "Left": 0, "Top": 20, "Right": 0, "Bottom": 0 },
+                            "Binding": "340b36a967bc4d028707010cbe260214",
+                            "HasShadow": false,
+                            "Images": 
+                            [
+                                { "Image": "Screenshot" }
+                            ]
+                        },
+                        {
+                            "Type": "Box",
+                            "Orientation": "Horizontal",
+                            "Children":
+                            [
+                                {
+                                    "Type": "ExternalLink",
+                                    "HAlign": "Left",
+                                    "VAlign": "Bottom",
+                                    "AutoSize": "false",
+                                    "Text": "UT Chat rooms",
+                                    "TextPadding": { "Left": 10, "Top": 0, "Right": 10, "Bottom": 0 },
+                                    "TextStyle": "Body",
+                                    "Image": "",
+                                    "Padding": { "Left": 0, "Top": 20, "Right": 0, "Bottom": 0 },
+                                    "OnNavigateUrl": "https://webchat.globalgamers.net/?channels=UnrealTournament"
+                                },
+                                {
+                                    "Type": "Layout",
+                                    "Layout": "ui_UTShareLinks.layout",
+                                    "HAlign": "Center",
+                                    "VAlign": "Bottom",
+                                    "Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 }
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Box",
+                    "Orientation": "Vertical",
+                    "AutoSize": "false",
+                    "VAlign": "Bottom",
+                    "Children":
+                    [
+                        {
+                            "Type": "ActionButton",
+                            "HAlign": "Center",
+                            "VAlign": "Bottom",
+                            "Padding": { "Left": 0, "Top": 20, "Right": 0, "Bottom": 0 }
+                        },
+                        {
+                            "Type": "ProgressBar",
+                            "HAlign": "Center",
+                            "VAlign": "Bottom",
+                            "Padding": { "Left": 0, "Top": 20, "Right": 0, "Bottom": 0 }
+                        },
+                        {
+                            "Type": "ExternalLink",
+                            "HAlign": "Center",
+                            "VAlign": "Bottom",
+                            "Text": "Latest build information",
+                            "TextPadding": { "Left": 10, "Top": 0, "Right": 10, "Bottom": 0 },
+                            "TextStyle": "Body",
+                            "Image": "",
+                            "Padding": { "Left": 0, "Top": 20, "Right": 0, "Bottom": 0 },
+                            "OnNavigateUrl": "https://wiki.unrealengine.com/Version_Notes"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,5 @@
+{
+	"x64OnlyNamespaces": ["ue","ark","fn","or","conanexiles","odin","vrfunhouse","squad","ut"],
+	"x64OnlyItemIds": ["0cae1a97d47f4ee2ba4e112b9601637f"],
+	"NativeDrivenCheckNamespaces" : ["ue","poodle"]
+}

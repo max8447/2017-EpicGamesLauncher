@@ -1,0 +1,155 @@
+{
+  "Version": "v1.0",
+  "ValidApp": 4.4,
+  "ValidEulaDateList": ["2015-11-03"],
+  "EULAHeader": "<EULA.Header>Paragon End User License Agreement</>",
+  "EULAText": "Please read this Agreement carefully.  It is a legal document that explains your rights and obligations related to your use of the Software.  By downloading or using the Software, or by otherwise indicating your acceptance of this Agreement, you are agreeing to be bound by the terms of this Agreement.  If you do not or cannot agree to the terms of this Agreement, please do not download or use the Software.  
+  
+Certain words or phrases are defined to have certain meanings when used in this Agreement.  Those words and phrases are defined below in Section 17.
+
+If your primary residence is in the United States of America, your agreement is with Epic Games, Inc.  If it is not in the United States of America, your agreement is with Epic Games International S. \u00E1 r.l., acting through its Swiss branch.
+
+<EULA.Header>1.	License Grant</>
+
+Epic grants you a personal, non-exclusive, non-transferable, non-sublicensable limited right and license to install and use one copy of the Software on a device for your personal entertainment use (the \"<EULA.Highlight>License</>\").  The rights that Epic grants you under the License are subject to the terms of this Agreement, and you may only make use of the License if you comply with all applicable terms.
+
+The License becomes effective on the date you accept this Agreement. The Software is licensed, not sold, to you under the License. The License does not grant you any title or ownership in the Software.  
+
+
+<EULA.Header>2.	License Conditions</>
+
+You may not do any of the following with respect to the Software or any of its parts:  
+
+	(a) use it commercially or for a promotional purpose; 
+	(b) use it on more than one device at a time; 
+	(c) copy, reproduce, distribute, display, or use it in a way that is not expressly authorized
+		in this Agreement;
+	(d) sell, rent, lease, license, distribute, or otherwise transfer it; 
+	(e) reverse engineer, derive source code from, modify, adapt, translate, decompile, or
+		disassemble it or make derivative works based on it; 
+	(f) remove, disable, circumvent, or modify any proprietary notice or label or security
+		technology included in it;
+	(g) create, develop, distribute, or use any unauthorized software programs to gain advantage
+		in any online or other game modes; 
+	(h) use it to infringe or violate the rights of any third party, including but not limited
+		to any intellectual property, publicity, or privacy rights; or 
+	(i) use, export, or re-export it in violation of any applicable law or regulation.
+
+<EULA.Header>3.	Updates and Patches</>
+
+Epic may provide patches, updates, or upgrades to the Software that must be installed in order for you to continue to use the Software.  Epic may update the Software remotely without notifying you, and you hereby consent to Epic applying patches, updates, and upgrades.  Epic may modify, suspend, discontinue, or limit your access to any aspect of the Software at any time.  You acknowledge that your use of the Software does not confer on you any interest, monetary or otherwise, in any aspect or feature of the Software, including but not limited to any in-game rewards, achievements, character levels, or Premium Features.  You also acknowledge that any character data, game progress, game customization or other data related to your use of the Software may cease to be available to you at any time without notice from Epic, including without limitation after a patch, update, or upgrade is applied by Epic.  Epic does not have any maintenance or support obligations with respect to the Software.
+
+<EULA.Header>4.	Premium	Features</>
+
+Epic may offer you the ability to purchase a limited license to use Premium Features for a fee. Also, Epic may facilitate the exchange of certain Premium Features through the Software, in some cases for a fee. You may only use such Premium Features if you pay the associated fee. When you pay the fee to obtain such Premium Features, you are purchasing from Epic the right to have your License include such Premium Features for you to use as part of the Software. Regardless of any references Epic may make outside this Agreement to purchasing or selling Premium Features, all Premium Features are licensed, not sold, to you under the License. Use of an Epic Account Balance to purchase Premium Features is subject to Epic's Terms of Service.
+
+Premium Features are not redeemable for money or monetary value from Epic or any other person, except as otherwise required by applicable law. Premium Features do not have an equivalent value in real currency and do not act as a substitute for real currency. Neither Epic nor any other person or entity has any obligation to exchange Premium Features for anything of value, including, but not limited to, real currency. You agree that Epic may engage in actions that may impact the perceived value or purchase price, if applicable, of Premium Features at any time, except as prohibited by applicable law.
+ 
+All purchases of Premium Features are final and are not refundable, transferable, or exchangeable under any circumstances, except as otherwise required by applicable law. Epic, in its sole discretion, may impose limits on the amount of Premium Features that may be purchased, accumulated, redeemed or otherwise used.
+ 
+Except as otherwise prohibited by applicable law, Epic, in its sole discretion, has the absolute right to manage, modify, substitute, replace, suspend, cancel or eliminate Premium Features, including your ability to access or use Premium Features, without notice or liability to you. You may not transfer, sell, gift, exchange, trade, lease, sublicense, or rent Premium Features except within the Software and as expressly permitted by Epic. Except as otherwise prohibited by applicable law, Epic reserves and retains all rights, title, and interest in and to the Premium Features. The license to Premium Features under the License will terminate upon termination of the License and as otherwise provided herein.
+
+When you provide payment information to Epic or its authorized processor, you represent that you are an authorized user of the payment card, PIN, key, account or other payment method specified by you, and you authorize Epic to charge such payment method for the full amount of the transaction.
+
+<EULA.Header>5.	Feedback</> 
+
+If you provide Epic with any Feedback, you hereby grant Epic a non-exclusive, fully-paid, royalty-free, irrevocable, perpetual, transferable, sublicensable license to reproduce, distribute, modify, prepare derivative works based on, publicly perform, publicly display, make, have made, use, sell, offer to sell, import, and otherwise exploit that Feedback for any purposes, for all current and future methods and forms of exploitation in any country.  If any such rights may not be licensed under applicable law (such as moral and other personal rights), you hereby waive and agree not to assert all such rights.  You understand and agree that Epic is not required to make any use of any Feedback that you provide.  You agree that if Epic makes use of your Feedback, Epic is not required to credit or compensate you for your contribution. You represent and warrant that you have sufficient rights in any Feedback that you provide to Epic to grant Epic and other affected parties the rights described above.  This includes but is not limited to intellectual property rights and other proprietary or personal rights.
+
+<EULA.Header>6.	Ownership</> 
+
+Epic and its licensors own all title, ownership rights, and intellectual property rights in the Software.  Epic, Epic Games, Unreal, Unreal Engine, and Paragon, and their respective logos, are trademarks or registered trademarks of Epic and its affiliates in the United States of America and elsewhere.  All rights granted to you under this Agreement are granted by express license only and not by sale.  No license or other rights shall be created hereunder by implication, estoppel, or otherwise.
+
+The Software includes certain components provided by Epic's licensors.  A list of credits and notices for third party components may be found in the game interface.
+
+<EULA.Header>7.	Disclaimers and Limitation of Liability</>  
+
+<EULA.Header>The Software (including any Premium Features) is provided on an \"as is\" and \"as available\" basis, \"with all faults\" and without warranty of any kind.  Epic, its licensors, and its and their affiliates disclaim all warranties, conditions, common law duties, and representations (express, implied, oral, and written) with respect to the Software including without limitation all express, implied, and statutory warranties and conditions of any kind, such as title, non-interference with your enjoyment, authority, non-infringement, merchantability, fitness or suitability for any purpose (whether or not Epic knows or has reason to know of any such purpose), system integration, accuracy or completeness, results, reasonable care, workmanlike effort, lack of negligence, and lack of viruses, whether alleged to arise under law, by reason of custom or usage in the trade, or by course of dealing.  Without limiting the generality of the foregoing, Epic, its licensors, and its and their affiliates make no warranty that (1) the Software will operate properly, (2) that the Software will meet your requirements, (3) that the operation of the Software will be uninterrupted, bug free, or error free in any or all circumstances, or (4) that any defects in the Software can or will be corrected.  Any warranty against infringement that may be provided in Section 2-312 of the Uniform Commercial Code or in any other comparable statute is expressly disclaimed.  Epic, its licensors, and its and their affiliates do not guarantee continuous, error-free, virus-free, or secure operation of or access to the Software.  This paragraph will apply to the maximum extent permitted by applicable law.</>
+ 
+<EULA.Header>To the maximum extent permitted by applicable law, neither Epic, nor its licensors, nor its or their affiliates, nor any of Epic's service providers (collectively, the \"Epic Parties\"), shall be liable in any way for any loss of profits or any indirect, incidental, consequential, special, punitive, or exemplary damages arising out of or in connection with this Agreement or the Software (including any Premium Features), even in the event of an Epic Party's fault, tort (including negligence), strict liability, indemnity, product liability, breach of contract, breach of warranty, or otherwise and even if an Epic Party has been advised of the possibility of such damages. Further, to the maximum extent permitted by applicable law, the aggregate liability of the Epic Parties arising out of or in connection with this Agreement or the Software (including any Premium Features) will not exceed the total amounts you have paid (if any) to Epic for the Software or Premium Content during the twelve (12) months immediately preceding the events giving rise to such liability. These limitations and exclusions regarding damages apply even if any remedy fails to provide adequate compensation.</>
+
+<EULA.Header>Notwithstanding the foregoing, some countries, states, provinces or other jurisdictions do not allow the exclusion of certain warranties or the limitation of liability as stated above, so the above terms may not apply to you. Instead, in such jurisdictions, the foregoing exclusions and limitations shall apply only to the extent permitted by the laws of such jurisdictions. Also, you may have additional legal rights in your jurisdiction, and nothing in this Agreement will prejudice the statutory rights that you may have as a consumer of the Software.</>
+
+
+<EULA.Header>8.	Indemnity</>
+
+You agree to indemnify, pay the defense costs of, and hold Epic, its licensors, its and their affiliates, and its and their employees, officers, directors, agents, contractors, and other representatives harmless from all claims, demands, actions, losses, liabilities, and expenses (including attorneys' fees, costs, and expert witnesses' fees) that arise from or in connection with (a) any claim that, if true, would constitute a breach by you of this Agreement or negligence by you, or (b) any act or omission by you in using the Software (including any Premium Features).  You agree to reimburse Epic on demand for any defense costs incurred by Epic and any payments made or loss suffered by Epic, whether in a court judgment or settlement, based on any matter covered by this Section 8.
+
+If you are prohibited by law from entering into the indemnification obligation above, then you assume, to the extent permitted by law, all liability for all claims, demands, actions, losses, liabilities, and expenses (including attorneys' fees, costs and expert witnesses' fees) that are the stated subject matter of the indemnification obligation above.  
+
+
+<EULA.Header>9.	Privacy </>  
+
+By downloading or using the Software, you consent to the data collection and usage terms in Epic's privacy notice, as it may be updated from time to time.  The privacy notice is available at <a id=\"url\" href=\"http://www.epicgames.com/privacynotice\" style=\"EULA.Hyperlink\">epicgames.com/privacynotice</>.   
+
+<EULA.Header>10.	Confidentiality</> 
+
+You agree not to disclose any Confidential Information related to the Software to any other person.  This includes but is not limited to publicly discussing the Software or Services on social media or elsewhere, as well as capturing or streaming any gameplay, screenshots or other elements of the Software.  This obligation will continue until Paragon becomes available to the general public.
+
+<EULA.Header>11.	Termination</> 
+
+Without limiting any other rights of Epic, this Agreement will terminate automatically without notice if you fail to comply with any of its terms and conditions.  You may also terminate this Agreement by deleting the Software.  Upon any termination, the License will automatically terminate, you may no longer exercise any of the rights granted to you by the License, and you must destroy all copies of the Software in your possession.  
+
+<EULA.Header>Except to the extent required by law, all payments and fees are non-refundable under all circumstances, regardless of whether or not this Agreement has been terminated.</>
+
+Sections 2, 4-12, and 16-18 will survive any termination of this Agreement.
+
+
+<EULA.Header>12.	Governing Law and Jurisdiction</> 
+
+You agree that this Agreement will be deemed to have been made and executed in the State of North Carolina, U.S.A., and any dispute will be resolved in accordance with the laws of North Carolina, excluding that body of law related to choice of laws, and of the United States of America.  Any action or proceeding brought to enforce the terms of this Agreement or to adjudicate any dispute must be brought in the Superior Court of Wake County, State of North Carolina or the United States District Court for the Eastern District of North Carolina.  You agree to the exclusive jurisdiction and venue of these courts.  You waive any claim of inconvenient forum and any right to a jury trial.  The Convention on Contracts for the International Sale of Goods will not apply.  Any law or regulation which provides that the language of a contract shall be construed against the drafter will not apply to this Agreement.
+
+<EULA.Header>13.	Class Action Waiver</>
+
+<EULA.Header>You agree not to bring or participate in a class or representative action, private attorney general action, or collective arbitration related to the Software (including any Premium Features) or this Agreement.  You also agree not to seek to combine any action or arbitration related to the Software or this Agreement with any other action or arbitration without the consent of all parties to this Agreement and all other actions or arbitrations.</>
+
+<EULA.Header>14.	U.S. Government Matters</> 
+
+The Software is a \"Commercial Item\" (as defined at 48 C.F.R. \u00A72.101), consisting of \"Commercial Computer Software\" and \"Commercial Computer Software Documentation\" (as used in 48 C.F.R. \u00A712.212 or 48 C.F.R. \u00A7227.7202, as applicable).  The Licensed Materials, and Mods are being licensed to U.S. Government end users only as Commercial Items and with only those rights as are granted to other licensees under this Agreement.  
+
+You represent and warrant to Epic that you are not located in a country that is subject to a U.S. Government embargo or that has been designated by the U.S. Government as a \"terrorist supporting\" country, and that you are not listed on any U.S. Government list of prohibited or restricted parties.
+
+<EULA.Header>15.	Amendments of this Agreement</>  
+
+<EULA.Header>Epic may issue an amended Agreement at any time in its discretion by posting the amended Agreement on its website or by providing you with digital access to the amended Agreement when you next access the Software.  If any amendment to this Agreement is not acceptable to you, you may terminate this Agreement and must stop using the Software.  Your continued use of the Software will demonstrate your acceptance of the amended Agreement.</> 
+
+<EULA.Header>16.	No Assignment</> 
+
+You may not, without the prior written consent of Epic, assign, transfer, charge, or sub-contract all or any of your rights or obligations under this Agreement, and any attempt without that consent will be null and void.  If restrictions on transfer of the Software in this Agreement are not enforceable under the law of your country, then this Agreement will be binding on any recipient of the Software.  Epic may at any time assign, transfer, charge, or sub-contract all or any of its rights or obligations under this Agreement.
+
+<EULA.Header>17.	Definitions</> 
+
+As used in this Agreement, the following capitalized words have the following meanings:
+
+\"Confidential Information\" means any non-public information related to the Software, including without limitation information related to gameplay or other content, Game Currency, Content, the Services, your own feedback and comments, and the feedback or comments of any other licensee of the Software or any Epic representative.
+
+\"Epic\" means, depending on the location of your primary residence:
+
+		<EULA.Highlight>a.</>  Epic Games, Inc., a Maryland Corporation having its principal business offices at
+		Box 254, 2474 Walnut Street, Cary, North Carolina, 27518, U.S.A.; or 
+
+        <EULA.Highlight>b.</>  Epic Games International S.\u00E0 r.l., a Luxembourg Soci\u00E9t\u00E9 \u00E0 Responsibilit\u00E9 Limit\u00E9e, located at
+		Atrium Business Park, 33 rue du Puits Romain, L8070 Bertrange, Grand-Duchy of Luxenbourg,
+		acting through its Swiss branch, having its principal business offices at Lindenstrasse 16,
+		6341 Baar, Switzerland.  
+
+\"Feedback\" means any feedback or suggestions that you provide to Epic regarding the Software or other Epic products and services.
+
+\"Premium Features\" means any additional virtual items or other content or consumables that Epic makes available for you to access, use or download through or in connection with the Software.
+
+\"Software\" means the proprietary software application known as Paragon, and any patches, updates, upgrades, and documentation for such application, made available to you by Epic under this Agreement. Software specifically includes all Premium Features.
+
+<EULA.Header>18.	Miscellaneous</> 
+
+This Agreement and any document or information referred to in this Agreement constitute the entire agreement between you and Epic relating to the subject matter covered by this Agreement.  All other communications, proposals, and representations with respect to the subject matter covered by this Agreement are excluded.
+  
+The original of this Agreement is in English; any translations are provided for reference purposes only.  You waive any right you may have under the law of your country to have this Agreement written or construed in the language of any other country.
+
+This Agreement describes certain legal rights. You may have other rights under the laws of your jurisdiction. This Agreement does not change your rights under the laws of your jurisdiction if the laws of your jurisdiction do not permit it to do so.  Limitations and exclusions of warranties and remedies in this Agreement may not apply to you because your jurisdiction may not allow them in your particular circumstance.  In the event that certain provisions of this Agreement are held by a court or tribunal of competent jurisdiction to be unenforceable, those provisions shall be enforced only to the furthest extent possible under applicable law and the remaining terms of this Agreement will remain in full force and effect.
+
+Any act by Epic to exercise, or failure or delay in exercise of, any of its rights under this Agreement, at law or in equity will not be deemed a waiver of those or any other rights or remedies available in contract, at law or in equity.
+
+You agree that this Agreement does not confer any rights or remedies on any person other than the parties to this Agreement, except as expressly stated.
+
+Epic's obligations are subject to existing laws and legal process, and Epic may comply with law enforcement or regulatory requests or requirements despite any contrary term in this Agreement."
+
+}

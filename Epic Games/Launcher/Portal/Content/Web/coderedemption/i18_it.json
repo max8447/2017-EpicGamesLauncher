@@ -1,0 +1,19 @@
+{
+    "messages.com.epicgames.launcher.codeRedemption.title" : "Immetti un codice prodotto",
+    "messages.com.epicgames.launcher.codeRedemption.titleSignedIn" : "Riscatta il tuo prodotto",
+    "messages.com.epicgames.launcher.codeRedemption.content" : "Immetti qui il codice prodotto distribuito con un DVD acquistato in negozio o un altro codice prodotto Epic Games.",
+    "messages.com.epicgames.launcher.codeRedemption.contentSignedIn" : "Ora hai eseguito l'accesso come <span class=\"displayName\">{0}</span>.",
+    "messages.com.epicgames.launcher.codeRedemption.statusContent" : "I contenuti saranno collegati per sempre al tuo account Epic Games, perciò assicurati di accedere con l'account corretto quando ti viene chiesto.",
+    "messages.com.epicgames.launcher.codeRedemption.validCode" : "Il codice che hai immesso è per <span class=\"productName\">{0}</span>. Fai clic su \"{1}\" per collegare questo contenuto con il tuo account Epic Games <span class=\"displayName\">{2}</span>.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.title" : "Fantastico, hai quasi terminato!",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content1" : "Prima di poter accedere al contenuto, devi eseguire l'accesso o creare un account.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content2" : "Il tuo account Epic Games ti permette di partecipare alla nostra community sempre più ampia di giocatori e creativi",
+    "messages.com.epicgames.launcher.codeRedemption.unknownError" : "Si è verificato un errore. Riprova più tardi o contatta l'assistenza se il problema persiste.",
+    "messages.com.epicgames.launcher.codeRedemption.enterYourCode" : "Immetti il codice",
+    "messages.com.epicgames.launcher.createAccount" : "Crea un account",
+    "messages.com.epicgames.launcher.signin" : "Accedi",
+    "messages.com.epicgames.launcher.cancel" : "Annulla",
+    "messages.com.epicgames.launcher.redeem" : "Riscatta",
+    "messages.com.epicgames.launcher.redeemed" : "Riscattato",
+    "messages.com.epicgames.launcher.continue" : "Avanti"
+}

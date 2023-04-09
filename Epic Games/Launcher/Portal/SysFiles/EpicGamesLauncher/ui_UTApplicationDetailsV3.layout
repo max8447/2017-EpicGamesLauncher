@@ -1,0 +1,240 @@
+﻿{
+	"Type": "Overlay",
+	"AutoSize": "false",
+	"Children": [
+		{
+			"Type": "Panel",
+			"Padding": {
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"BackgroundImage": "0.56681, 0.56681, 0.56681"
+		},
+		{
+			"Type": "ScrollBox",
+			"AutoSize": "false",
+			"Padding": {
+				"Left": 250,
+				"Top": 5,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"Children": [
+				{
+					"Type": "Overlay",
+					"MaxWidth": 1400,
+					"HAlign": "Center",
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"Binding": "044b4d7ede6b46858b1996bb6aa4ee8b",
+							"HasShadow": "false",
+							"Height": 300,
+							"LoadSilently": "true",
+							"Images": [
+								{
+									"Image": "Screenshot",
+									"HAlign": "Center",
+									"VAlign": "Bottom"
+								}
+							]
+						},
+						{
+							"Type": "BasicTile",
+							"HasShadow": "false",
+							"Height": 150,
+							"HAlign": "Left",
+							"Images": [
+								{
+									"Image": "GradientRight.png",
+									"ColorAndOpacity": "0, 0, 0, 0.75",
+									"Stretch": "Fill"
+								}
+							],
+							"Padding": {
+								"Left": 0,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 0
+							}
+						},
+						{
+							"Type": "Box",
+							"Orientation": "Vertical",
+							"MinWidth": 1400,
+							"HAlign": "Center",
+							"VAlign": "Top",
+							"Padding": {
+								"Left": 30,
+								"Top": 50,
+								"Right": 0,
+								"Bottom": 0
+							},
+							"Children": [
+								{
+									"Type": "Panel",
+									"Padding": {
+										"Left": 20,
+										"Top": 0,
+										"Right": 0,
+										"Bottom": 0
+									},
+									"Text": [
+										{
+											"Binding": "044b4d7ede6b46858b1996bb6aa4ee8b/Description",
+											"TextStyle": "inverted-title",
+											"HAlign": "Left",
+											"VAlign": "Center",
+											"Margin": {
+												"Left": 0,
+												"Top": 0,
+												"Right": 0,
+												"Bottom": 0
+											},
+											"LineHeightScalar": 1.2
+										}
+									]
+								},
+								{
+									"Type": "Panel",
+									"Padding": {
+										"Left": 22,
+										"Top": 0,
+										"Right": 0,
+										"Bottom": 0
+									},
+									"Width": 500,
+									"Text": [
+										{
+											"Binding": "044b4d7ede6b46858b1996bb6aa4ee8b/TechnicalDetails",
+											"TextStyle": "inverted-strong",
+											"HAlign": "Left",
+											"VAlign": "Center",
+											"WrapAt": 500,
+											"LineHeightScalar": 1.2
+										}
+									]
+								},
+								{
+									"Type": "ActionButton",
+									"HAlign": "Left",
+									"MinWidth": 442,
+									"MinHeight": 124,
+									"Padding": {
+										"Left": 0,
+										"Top": 10,
+										"Right": 0,
+										"Bottom": 0
+									},
+									"VAlign": "Top"
+								},
+								{
+									"Type": "Box",
+									"Orientation": "Horizontal",
+									"MinWidth": 442,
+									"HAlign": "Left",
+									"Children": [
+										{
+											"Type": "Link",
+											"HoverIcon": {
+												"Image": "ExternalLink.png"
+											},
+											"HAlign": "Center",
+											"AutoSize": "false",
+											"Text": {
+												"Text_translate": "true",
+												"Text": "Latest build information",
+												"TextStyle": "inverted-strong",
+												"Margin": {
+													"Left": 10,
+													"Top": 0,
+													"Right": 10,
+													"Bottom": 0
+												},
+												"Text_ko": "최신 빌드 정보",
+												"Text_ja": "最新のビルド情報",
+												"Text_zh-CN": "最新版本信息",
+												"Text_fr": "Dernières Informations sur la build",
+												"Text_es": "Información sobre la última versión",
+												"Text_de": "Informationen zum aktuellen Build",
+												"Text_it": "Informazioni sulla build più recente",
+												"Text_ru": "Сведения о последней версии",
+												"Text_pl": "Informacje o najnowszej kompilacji",
+												"Text_pt-BR": "Informações da compilação mais recente",
+												"Text_es-MX": "Información sobre la última versión",
+												"Text_ar": "معلومات آخر إصدار"
+											},
+											"OnNavigateUrl": "https://wiki.unrealengine.com/Version_Notes"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"Orientation": "Vertical",
+					"MaxWidth": 1200,
+					"MinWidth": 1200,
+					"HAlign": "Center",
+					"VAlign": "Center",
+					"Padding": {
+						"Left": 60,
+						"Top": 20,
+						"Right": 60,
+						"Bottom": 0
+					},
+					"Children": [
+						{
+							"Type": "Panel",
+							"AutoSize": "false",
+							"Text": [
+								{
+									"Binding": "044b4d7ede6b46858b1996bb6aa4ee8b/LongDescription",
+									"TextStyle": "body",
+									"AutoWrap": true,
+									"LineHeightScalar": 1.2
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Grid",
+					"MaxWidth": 1000,
+					"MinWidth": 1000,
+					"HAlign": "Center",
+					"Includes": [
+						"learn/features"
+					],
+					"SortBy": "Title",
+					"ElementHeight": 200,
+					"ElementWidth": 200,
+					"ItemAlignment": "Fill",
+					"Layout": "ui_UTApplicationCallToActions.layout",
+					"Padding": {
+						"Left": 20,
+						"Top": 30,
+						"Right": 20,
+						"Bottom": 0
+					}
+				}
+			]
+		},
+		{
+			"Type": "Layout",
+			"Layout": "ui_UTNavV3.layout",
+			"HAlign": "Left",
+			"VAlign": "Fill",
+			"Padding": {
+				"Left": 0,
+				"Top": 5,
+				"Right": 0,
+				"Bottom": 0
+			}
+		}
+	]
+}

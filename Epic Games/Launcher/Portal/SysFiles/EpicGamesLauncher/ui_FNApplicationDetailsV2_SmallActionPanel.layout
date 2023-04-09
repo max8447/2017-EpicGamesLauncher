@@ -1,0 +1,105 @@
+{
+    "Type": "Overlay",
+    "Children": 
+    [
+        {
+           "Type": "Box",
+           "Orientation": "Horizontal", 
+           "Children": 
+           [
+                {
+                    "Type": "BasicTile",
+                    "HAlign": "Right",
+                    "MaxHeight": 400,
+                    "Binding": "00b204ae03684d7e8774ff270fde6834",
+                    "HasShadow": "false",
+                    "LoadSilently": "true",
+                    "AutoSize": "false",
+                    "Images": 
+                    [
+                        { "Image": "Screenshot", "Stretch": "ScaleToFit" }
+                    ]
+                },
+                {
+                    "Type": "BasicTile",
+                    "HAlign": "Left",
+                    "MaxHeight": 400,
+                    "Binding": "a9c2a89e26d2467ba48ad88decf10edd",
+                    "HasShadow": "false",
+                    "LoadSilently": "true",
+                    "AutoSize": "false",
+                    "Images": 
+                    [
+                        { "Image": "Screenshot", "Stretch": "ScaleToFit" }
+                    ]
+                }
+           ]
+        },
+        {
+            "Type": "BasicTile",
+            "VAlign": "Top",
+            "MaxHeight": 250,
+            "HasShadow": "false",
+            "LoadSilently": "true",
+            "AutoSize": "true",
+            "Binding": "919a5cc25eb04733acdbd132a63f14e2",
+            "Images": 
+            [
+                { "Image": "Screenshot", "Stretch": "ScaleToFit" }
+            ]
+        },
+        {
+            "Type": "BuildSelector",
+            "HAlign": "Right",
+            "Padding": { "Left": 0, "Top": 0, "Right": 10, "Bottom": 0 },
+            "VAlign": "Top"
+        },
+        {
+            "Type": "Box",
+            "Orientation": "Vertical",
+            "Padding": { "Left": 0, "Top": 220, "Right": 0, "Bottom": 0 },
+            "Children": 
+            [
+                {
+                    "Type": "ServerStatus"
+                },
+                {
+                    "Type": "ActionButton"
+                },
+                {
+                    "Type": "ProgressBar"
+                },
+                {
+                    "Type": "Box",
+                    "Orientation": "Horizontal",
+                    "HAlign": "Center",
+                    "Padding": { "Left": 10, "Top": 0, "Right": 10, "Bottom": 0 },
+                    "Children": 
+                    [ 
+                        {
+                            "Type": "RegionSelector",
+                            "HAlign": "Left",
+                            "VAlign": "Center",
+							"Padding": { "Left": 0, "Top": 0, "Right": 50, "Bottom": 0 }
+                        },
+                        {
+                            "Type": "Panel",
+                            "HAlign": "Fill", 
+                            "VAlign": "Fill"
+                        },
+                        {
+                            "Type": "ExternalLink",
+                            "HAlign": "Right",
+                            "VAlign": "Center",
+                            "Text": "Send feedback",
+                            "TextPadding": { "Left": 10, "Top": 0, "Right": 10, "Bottom": 0 },
+                            "TextStyle": "Body",
+                            "Image": "",
+                            "OnNavigateUrl": "mailto:feedback@fortnite.com"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

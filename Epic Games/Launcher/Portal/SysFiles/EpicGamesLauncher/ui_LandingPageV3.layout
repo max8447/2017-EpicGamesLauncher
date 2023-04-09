@@ -1,0 +1,688 @@
+﻿{
+	"Type": "ScrollBox",
+	"RequiresBindingSource": false,
+	"AutoSize": "false",
+	"Children": [
+		{
+			"Type": "Box",
+			"MaxWidth": 1400,
+			"MinWidth": 1400,
+			"HAlign": "Center",
+			"Children": [
+				{
+					"Type": "ResponsiveGrid",
+					"Padding": {
+						"Left": 30,
+						"Top": 15,
+						"Right": 45,
+						"Bottom": 30
+					},
+					"TotalColumns": 12,
+					"ColumnGutter": 10,
+					"RowGutter": 10,
+					"AutoSize": false,
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"RowIndex": 0,
+							"ColumnSpans": [
+								{
+									"LayoutSize": 1200,
+									"Span": 12
+								},
+								{
+									"LayoutSize": 0,
+									"Span": 0
+								}
+							],
+							"MaxHeight": 400,
+							"MinHeight": 400,
+							"Images": [
+								{
+									"Image": "Paragon_KeyArt.png"
+								}
+							],
+							"OnNavigateUrl": "/paragon",
+							"Text": [
+								{
+									"Text_translate": "true",
+									"Text": "Play Paragon For Free Now\nStart a fight in Epic's new MOBA",
+									"Text_ko": "에픽의 신작 MOBA, 파라곤 무료 플레이\n진짜 싸움을 시작해 볼까?",
+									"Text_ja": "Paragon を無料でプレイしよう\nEpic の最新 MOBA でバトルに参戦だ！",
+									"Text_zh-CN": "立即开始 Paragon 免费游戏\n在 Epic 的新 MOBA 游戏中展开战斗",
+									"Text_fr": "Jouez à Paragon gratuitement dès maintenant\nCherchez la bagarre dans le nouveau MOBA d'Epic",
+									"Text_es": "Juega ya a Paragon gratis\nEmpieza un combate en el nuevo MOBA de Epic",
+									"Text_de": "Paragon jetzt kostenlos spielen\nBeginne eine Schlacht in Epics neuem MOBA",
+									"Text_it": "Gioca ora a Paragon gratis\nScatena la rissa nel nuovo MOBA di Epic",
+									"Text_ru": "Играйте в Paragon бесплатно\nСражайтесь в новой MOBA от Epic",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									},
+									"Text_pl": "Graj w Paragon za darmo już teraz\nDołącz do walki w nowej grze MOBA studia Epic",
+									"Text_pt-BR": "Jogue Paragon de graça agora\nComece a lutar no novo MOBA da Epic",
+									"Text_es-MX": "Juega gratis a Paragon ahora\nComienza un combate en el nuevo MOBA de Epic",
+									"Text_ar": "العب Paragon مجانًا الآن\nابدء قتالًا في نظام Epic الجديد للمعارك متعددة اللاعبين على الإنترنت MOBA"
+								}
+							]
+						},
+						{
+							"Type": "BasicTile",
+							"RowIndex": 0,
+							"ColumnSpans": [
+								{
+									"LayoutSize": 1200,
+									"Span": 0
+								},
+								{
+									"LayoutSize": 0,
+									"Span": 12
+								}
+							],
+							"MaxHeight": 315,
+							"Images": [
+								{
+									"Image": "Paragon_KeyArt.png",
+									"Stretch": "ScaleToFill"
+								}
+							],
+							"OnNavigateUrl": "/paragon",
+							"Text": [
+								{
+									"Text_translate": "true",
+									"Text": "Play Paragon For Free Now\nStart a fight in Epic's new MOBA",
+									"Text_ko": "에픽의 신작 MOBA, 파라곤 무료 플레이\n진짜 싸움을 시작해 볼까?",
+									"Text_ja": "Paragon を無料でプレイしよう\nEpic の最新 MOBA でバトルに参戦だ！",
+									"Text_zh-CN": "立即开始 Paragon 免费游戏\n在 Epic 的新 MOBA 游戏中展开战斗",
+									"Text_fr": "Jouez à Paragon gratuitement dès maintenant\nCherchez la bagarre dans le nouveau MOBA d'Epic",
+									"Text_es": "Juega ya a Paragon gratis\nEmpieza un combate en el nuevo MOBA de Epic",
+									"Text_de": "Paragon jetzt kostenlos spielen\nBeginne eine Schlacht in Epics neuem MOBA",
+									"Text_it": "Gioca ora a Paragon gratis\nScatena la rissa nel nuovo MOBA di Epic",
+									"Text_ru": "Играйте в Paragon бесплатно\nСражайтесь в новой MOBA от Epic",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									},
+									"Text_pl": "Graj w Paragon za darmo już teraz\nDołącz do walki w nowej grze MOBA studia Epic",
+									"Text_pt-BR": "Jogue Paragon de graça agora\nComece a lutar no novo MOBA da Epic",
+									"Text_es-MX": "Juega gratis a Paragon ahora\nComienza un combate en el nuevo MOBA de Epic",
+									"Text_ar": "العب Paragon مجانًا الآن\nابدء قتالًا في نظام Epic الجديد للمعارك متعددة اللاعبين على الإنترنت MOBA"
+								}
+							]
+						},
+						{
+							"Type": "BasicTile",
+							"RowIndex": 1,
+							"ColumnSpans": [
+								{
+									"LayoutSize": 1200,
+									"Span": 6
+								},
+								{
+									"LayoutSize": 0,
+									"Span": 0
+								}
+							],
+							"MaxWidth": 627,
+							"MaxHeight": 295,
+							"MinHeight": 295,
+							"Images": [
+								{
+									"Image": "LandPage_ShadowComplex_Large.png",
+									"VAlign": "Top"
+								}
+							],
+							"OnNavigateUrl": "/viper",
+							"Text": [
+								{
+									"Text_translate": "true",
+									"Text": "Shadow Complex is back!...Now Remastered for PC, Xbox One, and Playstation 4",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									},
+									"Text_zh-CN": "Shadow Complex 回来了！...重制版现已登陆 PC、Xbox One 和 PlayStation®4",
+									"Text_ja": "Shadow Complex が PC、Xbox One、PlayStation®4 用にリマスターされて登場！",
+									"Text_fr": "Shadow Complex est de retour ! ... Désormais remastérisé pour PC, Xbox One, et PlayStation®4",
+									"Text_de": "Shadow Complex ist wieder da! ... Jetzt als Remaster für PC, Xbox One und PlayStation®4!",
+									"Text_ko": "Shadow Complex 가 이제 PC, Xbox One, Playstation 4 용으로 강화되어 돌아왔습니다!",
+									"Text_it": "Shadow Complex è tornato! Ora rimasterizzato per PC, Xbox One e sistema PlayStation®4",
+									"Text_ru": "Shadow Complex возвращается!.. Обновленная версия доступна на ПК, Xbox One и Playstation®4",
+									"Text_pl": "Shadow Complex powraca! Teraz w wersji Remastered na komputery PC oraz konsole Xbox One i PlayStation®4",
+									"Text_pt-BR": "Shadow Complex está de volta!... Remasterizado para PC, Xbox One e PlayStation®4",
+									"Text_es-MX": "¡Shadow Complex está de regreso!... Ahora remasterizado para PC, Xbox One y PlayStation®4",
+									"Text_es": "¡Shadow Complex ha regresado! Ahora remasterizado para PC, Xbox One y PlayStation®4",
+									"Text_ar": "عادت Shadow Complex!... محدثة لجهاز الكمبيوتر وXbox One وPlayStation®4"
+								}
+							]
+						},
+						{
+							"Type": "BasicTile",
+							"RowIndex": 1,
+							"ColumnSpans": [
+								{
+									"LayoutSize": 1200,
+									"Offset": 0,
+									"Span": 6
+								},
+								{
+									"LayoutSize": 0,
+									"Span": 0
+								}
+							],
+							"MaxHeight": 295,
+							"MinHeight": 295,
+							"Images": [
+								{
+									"Image": "LandPage_Fortnite_Large.png"
+								}
+							],
+							"OnNavigateUrl": "/fortnite",
+							"Text": [
+								{
+									"Text_translate": "true",
+									"Text": "Fortnite, sign-up for Alpha Today!",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									},
+									"Text_zh-CN": "Fortnite，立即注册参加 Alpha 测试！",
+									"Text_ja": "Fortnite アルファ版にサインアップしよう！",
+									"Text_fr": "Fortnite, inscrivez-vous pour l'alpha dès aujourd'hui !",
+									"Text_de": "Fortnite: Melde dich noch heute für die Alpha an!",
+									"Text_ko": "Fortnite, sign-up for Alpha Today!",
+									"Text_it": "Fortnite - iscriviti subito all'alpha!",
+									"Text_ru": "Запишитесь на альфа-тестирование Fortnite уже сегодня!",
+									"Text_pl": "Fortnite – zarejestruj się na testy wersji alfa już dziś!",
+									"Text_pt-BR": "Fortnite, inscreva-se para o alfa agora mesmo!",
+									"Text_es-MX": "¡Fortnite, regístrate hoy para la alfa!",
+									"Text_es": "¡Fortnite, regístrate hoy para la alfa!",
+									"Text_ar": "Fortnite، قم بالتسجيل من أجل إصدار Alpha اليوم!"
+								}
+							]
+						},
+						{
+							"Type": "BasicTile",
+							"RowIndex": 2,
+							"ColumnSpans": [
+								{
+									"LayoutSize": 1200,
+									"Span": 6
+								},
+								{
+									"LayoutSize": 0,
+									"Span": 0
+								}
+							],
+							"MaxHeight": 295,
+							"Images": [
+								{
+									"Image": "LandPage_UnrealTournament_Large.png",
+									"VAlign": "Top"
+								}
+							],
+							"OnNavigateUrl": "/ut/play",
+							"Text": [
+								{
+									"Text_translate": "true",
+									"Text": "Play Unreal Tournament Pre-Alpha",
+									"Text_ko": "언리얼 토너먼트 프리 알파 플레이",
+									"Text_ja": "Unreal Tournament プレアルファをプレイ",
+									"Text_zh-CN": "运行虚幻竞技场初期测试版",
+									"Text_fr": "Jouer à la pré-alpha d'Unreal Tournament",
+									"Text_es": "Juega la pre-alfa de Unreal Tournament",
+									"Text_de": "Pre-Alpha von Unreal Tournament spielen",
+									"Text_it": "Gioca a Unreal Tournament Pre-Alpha",
+									"Text_ru": "Играть в преальфа-версию Unreal Tournament",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									},
+									"Text_pl": "Zagraj we wstępną wersję alfa Unreal Tournament",
+									"Text_pt-BR": "Jogar o Unreal Tournament pré-alfa",
+									"Text_es-MX": "Juega la pre-alfa de Unreal Tournament",
+									"Text_ar": "العب Unreal Tournament Pre-Alpha"
+								}
+							]
+						},
+						{
+							"Type": "BasicTile",
+							"RowIndex": 2,
+							"ColumnSpans": [
+								{
+									"LayoutSize": 1200,
+									"Span": 6
+								},
+								{
+									"LayoutSize": 0,
+									"Span": 0
+								}
+							],
+							"MaxHeight": 295,
+							"Images": [
+								{
+									"Image": "LandPage_UTMod_Large.png"
+								}
+							],
+							"OnNavigateUrl": "/ut/create",
+							"Text": [
+								{
+									"Text_translate": "true",
+									"Text": "Mod Unreal Tournament",
+									"Text_ko": "언리얼 토너먼트 모드",
+									"Text_ja": "MOD Unreal Tournament",
+									"Text_zh-CN": "修改虚幻竞技场",
+									"Text_fr": "Mod Unreal Tournament",
+									"Text_es": "Mod de Unreal Tournament",
+									"Text_de": "Unreal Tournament modden",
+									"Text_it": "Crea mod per Unreal Tournament",
+									"Text_ru": "Модификации Unreal Tournament",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									},
+									"Text_pl": "Twórz modyfikacje do gry Unreal Tournament",
+									"Text_pt-BR": "Mod do Unreal Tournament",
+									"Text_es-MX": "Mod de Unreal Tournament",
+									"Text_ar": "معدِل Unreal Tournament"
+								}
+							]
+						},
+						{
+							"Type": "BasicTile",
+							"RowIndex": 3,
+							"ColumnSpans": [
+								{
+									"LayoutSize": 1200,
+									"Span": 6
+								},
+								{
+									"LayoutSize": 0,
+									"Span": 0
+								}
+							],
+							"MaxHeight": 295,
+							"Images": [
+								{
+									"Image": "LandPage_UnrealEngine_Large.png"
+								}
+							],
+							"OnNavigateUrl": "/ue",
+							"Text": [
+								{
+									"Text_translate": "true",
+									"Text": "Unreal Engine 4",
+									"Text_ko": "언리얼 엔진 4",
+									"Text_ja": "UNREAL ENGINE 4",
+									"Text_zh-CN": "虚幻引擎4",
+									"Text_fr": "Unreal Engine 4",
+									"Text_es": "Unreal Engine 4",
+									"Text_de": "Unreal Engine 4",
+									"Text_it": "Unreal Engine 4",
+									"Text_ru": "Unreal Engine 4",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									},
+									"Text_pl": "Unreal Engine 4",
+									"Text_pt-BR": "Unreal Engine 4",
+									"Text_es-MX": "Unreal Engine 4",
+									"Text_ar": "Unreal Engine 4"
+								}
+							]
+						},
+						{
+							"Type": "BasicTile",
+							"RowIndex": 3,
+							"ColumnSpans": [
+								{
+									"LayoutSize": 1200,
+									"Offset": 0,
+									"Span": 6
+								},
+								{
+									"LayoutSize": 0,
+									"Span": 0
+								}
+							],
+							"MaxHeight": 295,
+							"Images": [
+								{
+									"Image": "LandPage_Ark_Large.png"
+								}
+							],
+							"OnNavigateUrl": "/ark",
+							"Text": [
+								{
+									"Text_translate": "true",
+									"Text": "ARK: Survival Evolved Dev Kit",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									},
+									"Text_zh-CN": "《方舟:生存进化》开发包",
+									"Text_ja": "ARK: Survival Evolved Dev Kit",
+									"Text_fr": "Kit de développement pour ARK: Survival Evolved",
+									"Text_de": "Dev-Kit für ARK: Survival Evolved",
+									"Text_ko": "ARK: Survival Evolved 개발 키트",
+									"Text_it": "ARK: Survival Evolved Dev Kit",
+									"Text_ru": "Комплект для разработчиков ARK: Survival Evolved",
+									"Text_pl": "ARK: Survival Evolved – zestaw dewelopera",
+									"Text_pt-BR": "Kit de desenvolvimento ARK: Survival Evolved",
+									"Text_es-MX": "Conjunto de desarrollo de ARK: Survival Evolved",
+									"Text_es": "Kit de desarrollo de ARK: Survival Evolved",
+									"Text_ar": "ARK: حزمة Survival Evolved Dev"
+								}
+							]
+						},
+						{
+							"Type": "BasicTile",
+							"RowIndex": 1,
+							"ColumnSpans": [
+								{
+									"LayoutSize": 1200,
+									"Span": 0
+								},
+								{
+									"LayoutSize": 0,
+									"Offset": 0,
+									"Span": 6
+								}
+							],
+							"MaxHeight": 295,
+							"MinHeight": 295,
+							"Images": [
+								{
+									"Image": "LandPage_ShadowComplex_Small.png",
+									"VAlign": "Top",
+									"Stretch": "ScaleToFill"
+								}
+							],
+							"OnNavigateUrl": "/viper",
+							"Text": [
+								{
+									"Text_translate": "true",
+									"Text": "Shadow Complex Remastered",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									},
+									"Text_zh-CN": "Shadow Complex 重制版",
+									"Text_ja": "Shadow Complex リマスター版",
+									"Text_fr": "Shadow Complex Remastérisé",
+									"Text_de": "Shadow Complex Remastered",
+									"Text_ko": "Shadow Complex 강화판",
+									"Text_it": "Shadow Complex Remastered",
+									"Text_ru": "Shadow Complex Remastered",
+									"Text_pl": "Shadow Complex Remastered",
+									"Text_pt-BR": "Shadow Complex Remasterizado",
+									"Text_es-MX": "Shadow Complex remasterizado",
+									"Text_es": "Shadow Complex remasterizado",
+									"Text_ar": "Shadow Complex Remastered"
+								}
+							]
+						},
+						{
+							"Type": "BasicTile",
+							"RowIndex": 1,
+							"ColumnSpans": [
+								{
+									"LayoutSize": 1200,
+									"Span": 0
+								},
+								{
+									"LayoutSize": 0,
+									"Span": 6
+								}
+							],
+							"MaxHeight": 295,
+							"MinHeight": 295,
+							"Images": [
+								{
+									"Image": "LandPage_Fortnite_Small.png"
+								}
+							],
+							"OnNavigateUrl": "/fortnite",
+							"Text": [
+								{
+									"Text_translate": "true",
+									"Text": "Fortnite Alpha",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									},
+									"Text_zh-CN": "Fortnite Alpha",
+									"Text_ja": "Fortnite アルファ版",
+									"Text_fr": "Fortnite alpha",
+									"Text_de": "Fortnite Alpha",
+									"Text_ko": "Fortnite Alpha",
+									"Text_it": "Fortnite Alpha",
+									"Text_ru": "Альфа-версия Fortnite",
+									"Text_pl": "Fortnite (alfa)",
+									"Text_pt-BR": "Alfa do Fortnite",
+									"Text_es-MX": "Alfa de Fortnite",
+									"Text_es": "Alfa de Fortnite",
+									"Text_ar": "Fortnite Alpha"
+								}
+							]
+						},
+						{
+							"Type": "BasicTile",
+							"RowIndex": 2,
+							"ColumnSpans": [
+								{
+									"LayoutSize": 1200,
+									"Span": 0
+								},
+								{
+									"LayoutSize": 0,
+									"Span": 6
+								}
+							],
+							"MaxHeight": 204,
+							"Images": [
+								{
+									"Image": "LandPage_UnrealTournament_Small.png"
+								}
+							],
+							"OnNavigateUrl": "/ut/play",
+							"Text": [
+								{
+									"Text_translate": "true",
+									"Text": "Unreal Tournament",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									},
+									"Text_zh-CN": "虚幻竞技场",
+									"Text_ja": "MOD Unreal Tournament",
+									"Text_fr": "Unreal Tournament",
+									"Text_de": "Unreal Tournament",
+									"Text_ko": "Unreal Tournament",
+									"Text_it": "Unreal Tournament",
+									"Text_ru": "Unreal Tournament",
+									"Text_pl": "Unreal Tournament",
+									"Text_pt-BR": "Unreal Tournament",
+									"Text_es-MX": "Unreal Tournament",
+									"Text_es": "Mod de Unreal Tournament",
+									"Text_ar": "Unreal Tournament"
+								}
+							]
+						},
+						{
+							"Type": "BasicTile",
+							"RowIndex": 2,
+							"ColumnSpans": [
+								{
+									"LayoutSize": 1200,
+									"Span": 0
+								},
+								{
+									"LayoutSize": 0,
+									"Span": 6
+								}
+							],
+							"MaxHeight": 204,
+							"Images": [
+								{
+									"Image": "LandPage_UTMod_Small.png"
+								}
+							],
+							"OnNavigateUrl": "/ut/create",
+							"Text": [
+								{
+									"Text_translate": "true",
+									"Text": "Mod Unreal Tournament",
+									"Text_ko": "언리얼 토너먼트 모드",
+									"Text_ja": "MOD Unreal Tournament",
+									"Text_zh-CN": "修改虚幻竞技场",
+									"Text_fr": "Mod Unreal Tournament",
+									"Text_es": "Mod de Unreal Tournament",
+									"Text_de": "Unreal Tournament modden",
+									"Text_it": "Crea mod per Unreal Tournament",
+									"Text_ru": "Модификации Unreal Tournament",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									},
+									"Text_pl": "Twórz modyfikacje do gry Unreal Tournament",
+									"Text_pt-BR": "Mod do Unreal Tournament",
+									"Text_es-MX": "Mod de Unreal Tournament",
+									"Text_ar": "معدِل Unreal Tournament"
+								}
+							]
+						},
+						{
+							"Type": "BasicTile",
+							"RowIndex": 3,
+							"ColumnSpans": [
+								{
+									"LayoutSize": 1200,
+									"Span": 0
+								},
+								{
+									"LayoutSize": 0,
+									"Span": 6
+								}
+							],
+							"MaxHeight": 204,
+							"Images": [
+								{
+									"Image": "LandPage_UnrealEngine_Small.png"
+								}
+							],
+							"OnNavigateUrl": "/ue",
+							"Text": [
+								{
+									"Text_translate": "true",
+									"Text": "Unreal Engine 4",
+									"Text_ko": "언리얼 엔진 4",
+									"Text_ja": "UNREAL ENGINE 4",
+									"Text_zh-CN": "虚幻引擎4",
+									"Text_fr": "Unreal Engine 4",
+									"Text_es": "Unreal Engine 4",
+									"Text_de": "Unreal Engine 4",
+									"Text_it": "Unreal Engine 4",
+									"Text_ru": "Unreal Engine 4",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									},
+									"Text_pl": "Unreal Engine 4",
+									"Text_pt-BR": "Unreal Engine 4",
+									"Text_es-MX": "Unreal Engine 4",
+									"Text_ar": "Unreal Engine 4"
+								}
+							]
+						},
+						{
+							"Type": "BasicTile",
+							"RowIndex": 3,
+							"ColumnSpans": [
+								{
+									"LayoutSize": 1200,
+									"Span": 0
+								},
+								{
+									"LayoutSize": 0,
+									"Span": 6
+								}
+							],
+							"MaxHeight": 204,
+							"Images": [
+								{
+									"Image": "LandPage_Ark_Small.png"
+								}
+							],
+							"OnNavigateUrl": "/ark",
+							"Text": [
+								{
+									"Text": "ARK: Survival Evolved Dev Kit",
+									"Text_translate": "true",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									},
+									"Text_zh-CN": "《方舟:生存进化》开发包",
+									"Text_ja": "ARK: Survival Evolved Dev Kit",
+									"Text_fr": "Kit de développement pour ARK: Survival Evolved",
+									"Text_de": "Dev-Kit für ARK: Survival Evolved",
+									"Text_ko": "ARK: Survival Evolved 개발 키트",
+									"Text_it": "ARK: Survival Evolved Dev Kit",
+									"Text_ru": "Комплект для разработчиков ARK: Survival Evolved",
+									"Text_pl": "ARK: Survival Evolved – zestaw dewelopera",
+									"Text_pt-BR": "Kit de desenvolvimento ARK: Survival Evolved",
+									"Text_es-MX": "Conjunto de desarrollo de ARK: Survival Evolved",
+									"Text_es": "Kit de desarrollo de ARK: Survival Evolved",
+									"Text_ar": "ARK: حزمة Survival Evolved Dev"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

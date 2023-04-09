@@ -1,0 +1,67 @@
+﻿{
+	"Id": "viper",
+	"Priority": 31,
+	"AnalyticsId": "vpr",
+	"DisplayName": "Shadow Complex",
+	"DisplayName_ko": "섀도우 컴플렉스",
+	"CatalogNamespace": "vpr",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "#212121",
+	"PrimaryColor": "#95c990ff",
+	"PressedPrimaryColor": "#95c990ff",
+	"HoveredPrimaryColor": "#aae0a4ff",
+	"Requirements": {
+		"DirectX": {
+			"FeatureLevels": "D3D_FEATURE_LEVEL_9_0"
+		}
+	},
+	"Homepage": "/viper",
+	"Pages": [
+		{
+			"Id": "viper",
+			"PartialUrl": "/viper",
+			"SourceUrls": [ 
+				{
+					"SourceUrl": "ui_Viper_MustUpdate.layout",
+					"Conditions": [ 
+						"[PORTAL_VERSION]<3.0.3, ![PORTAL_VERSION]0.0.0"						
+					] 
+				},
+				{
+					"SourceUrl": "ui_MustUpdate.layout",
+					"Conditions": [ 
+						"[PORTAL_VERSION]>=3.0.3, [PORTAL_VERSION]<6.8.0"
+					] 
+				},
+				{
+					"SourceUrl": "ui_viperHome_OfflineV2.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ] 
+				},
+				{
+					"SourceUrl": "ui_viperPlayV3.layout"
+				}
+			]
+		},
+		{
+			"Id": "viper-load-error",
+			"PartialUrl": "viper/load-error",
+			"SourceUrl": "ui_viperHome_OfflineV2.layout"
+		}
+	],
+	"Redirects": [
+	
+	],
+	"Apps": [
+		{
+			"Name": "Viper",
+			"GroupId": "Game",
+			"OfferId": "497cdc35842e458ca10a1edae95ae181",
+			"ItemId": "afa04be9e4e5416c8641cc0398889220",
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": [
+
+	]
+}

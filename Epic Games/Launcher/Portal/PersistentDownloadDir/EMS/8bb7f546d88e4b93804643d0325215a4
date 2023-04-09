@@ -1,0 +1,459 @@
+{
+	"AvailableApps":
+	[
+		{
+			"AppName" : "UE_4.27",
+			"Version" : "4.27.0"
+		},{
+			"AppName" : "UE_4.26",
+			"Version" : "4.26.0"
+		},{
+			"AppName" : "UE_4.25",
+			"Version" : "4.25.0"
+		},{
+			"AppName" : "UE_4.24",
+			"Version" : "4.24.0"
+		},
+		{
+			"AppName" : "UE_4.23",
+			"Version" : "4.23.0"
+		},
+		{
+			"AppName" : "UE_4.22",
+			"Version" : "4.22.0"
+		},
+		{
+			"AppName" : "UE_4.21",
+			"Version" : "4.21.0"
+		},
+		{
+			"AppName" : "UE_4.20",
+			"Version" : "4.20.0"
+		},
+		{
+			"AppName" : "UE_4.19",
+			"Version" : "4.19.0"
+		},
+		{
+			"AppName" : "UE_4.18",
+			"Version" : "4.18.0"
+		},
+		{
+			"AppName" : "UE_4.17",
+			"Version" : "4.17.0"
+		},
+		{
+			"AppName" : "UE_4.16",
+			"Version" : "4.16.0"
+		},
+		{
+			"AppName" : "UE_4.15",
+			"Version" : "4.15.0"
+		},
+		{
+			"AppName" : "UE_4.14",
+			"Version" : "4.14.0"
+		},
+		{
+			"AppName" : "UE_4.13",
+			"Version" : "4.13.0"
+		},
+		{
+			"AppName" : "UE_4.12",
+			"Version" : "4.12.0"
+		},
+		{
+			"AppName" : "UE_4.11",
+			"Version" : "4.11.0"
+		},
+		{
+			"AppName" : "UE_4.10",
+			"Version" : "4.10.0"
+		},
+		{
+			"AppName" : "UE_4.9",
+			"Version" : "4.9.0"
+		},
+		{
+			"AppName" : "UE_4.8",
+			"Version" : "4.8.0"
+		},
+		{
+			"AppName" : "UE_4.7",
+			"Version" : "4.7.0"
+		},
+		{
+			"AppName" : "UE_4.6",
+			"Version" : "4.6.0"
+		},
+		{
+			"AppName" : "UE_4.5",
+			"Version" : "4.5.0"
+		},
+		{
+			"AppName" : "UE_4.4",
+			"Version" : "4.4.0"
+		},
+		{
+			"AppName" : "UE_4.3",
+			"Version" : "4.3.0"
+		},
+		{
+			"AppName" : "UE_4.2",
+			"Version" : "4.2.0"
+		},
+		{
+			"AppName" : "UE_4.1",
+			"Version" : "4.1.0"
+		},
+		{
+			"AppName" : "UE_4.0",
+			"Version" : "4.0.1"
+		},
+		{
+			"AppName" : "EGMAnimStarterPack_4.4",
+			"Version" : "4.4.0",
+			"CompatibleApps": ["UE_4.4"]
+		},
+		{
+			"AppName" : "BlackJack_4.2",
+			"Version" : "4.2.0",
+			"CompatibleApps": ["UE_4.2"]
+		},
+		{
+			"AppName" : "BlackJack_4.4",
+			"Version" : "4.4.0",
+			"CompatibleApps": ["UE_4.4"]
+		},
+		{
+			"AppName" : "BlueprintExamples_4.0",
+			"Version" : "4.0.0",
+			"CompatibleApps": ["UE_4.0"]
+		},
+		{
+			"AppName" : "BlueprintExamples_4.1",
+			"Version" : "4.1.0",
+			"CompatibleApps": ["UE_4.1","UE_4.2"]
+		},
+		{
+			"AppName" : "BlueprintExamples_4.3",
+			"Version" : "4.3.0",
+			"CompatibleApps": ["UE_4.3"]
+		},
+		{
+			"AppName" : "BlueprintExamples_4.4",
+			"Version" : "4.4.0",
+			"CompatibleApps": ["UE_4.4"]
+		},
+		{
+			"AppName" : "Card_4.0",
+			"Version" : "4.0.0",
+			"CompatibleApps": ["UE_4.0","UE_4.1"]
+		},
+		{
+			"AppName" : "Card_4.2",
+			"Version" : "4.2.0",
+			"CompatibleApps": ["UE_4.2"]
+		},
+		{
+			"AppName" : "Card_4.3",
+			"Version" : "4.3.0",
+			"CompatibleApps": ["UE_4.3"]
+		},
+		{
+			"AppName" : "Card_4.4",
+			"Version" : "4.4.0",
+			"CompatibleApps": ["UE_4.4"]
+		},
+		{
+			"AppName" : "ContentExamples_4.0",
+			"Version" : "4.0.0",
+			"CompatibleApps": ["UE_4.0"]
+		},
+		{
+			"AppName" : "ContentExamples_4.1",
+			"Version" : "4.1.0",
+			"CompatibleApps": ["UE_4.1"]
+		},
+		{
+			"AppName" : "ContentExamples_4.2",
+			"Version" : "4.2.0",
+			"CompatibleApps": ["UE_4.2"]
+		},
+		{
+			"AppName" : "ContentExamples_4.3",
+			"Version" : "4.3.0",
+			"CompatibleApps": ["UE_4.3"]
+		},
+		{
+			"AppName" : "ContentExamples_4.4",
+			"Version" : "4.4.0",
+			"CompatibleApps": ["UE_4.4"]
+		},
+		{
+			"AppName" : "CouchKnights_4.3",
+			"Version" : "4.3.0",
+			"CompatibleApps": ["UE_4.3"]
+		},
+		{
+			"AppName" : "CouchKnights_4.4",
+			"Version" : "4.4.0",
+			"CompatibleApps": ["UE_4.4"]
+		},
+		{
+			"AppName" : "Effects_4.0",
+			"Version" : "4.0.0",
+			"CompatibleApps": ["UE_4.0","UE_4.1"]
+		},
+		{
+			"AppName" : "Effects_4.2",
+			"Version" : "4.2.0",
+			"CompatibleApps": ["UE_4.2"]
+		},
+		{
+			"AppName" : "Elemental_4.1",
+			"Version" : "4.1.0",
+			"CompatibleApps": ["UE_4.1"]
+		},
+		{
+			"AppName" : "Elemental_4.2",
+			"Version" : "4.2.0",
+			"CompatibleApps": ["UE_4.2"]
+		},
+		{
+			"AppName" : "Elemental_4.3",
+			"Version" : "4.3.0",
+			"CompatibleApps": ["UE_4.3"]
+		},
+		{
+			"AppName" : "Elemental_4.4",
+			"Version" : "4.4.0",
+			"CompatibleApps": ["UE_4.4"]
+		},
+		{
+			"AppName" : "GDC2014_4.4",
+			"Version" : "4.4.0",
+			"CompatibleApps": ["UE_4.4"]
+		},
+		{
+			"AppName" : "LandscapeMountains_4.4",
+			"Version" : "4.4.0",
+			"CompatibleApps": ["UE_4.4"]
+		},
+		{
+			"AppName" : "Matinee_4.3",
+			"Version" : "4.3.0",
+			"CompatibleApps": ["UE_4.3"]
+		},
+		{
+			"AppName" : "Matinee_4.4",
+			"Version" : "4.4.0",
+			"CompatibleApps": ["UE_4.4"]
+		},
+		{
+			"AppName" : "MixamoAnimPack_4.3",
+			"Version" : "4.3.0",
+			"CompatibleApps": ["UE_4.3", "UE_4.4"]
+		},
+		{
+			"AppName" : "Mobile_4.0",
+			"Version" : "4.0.0",
+			"CompatibleApps": ["UE_4.0"]
+		},
+		{
+			"AppName" : "Mobile_4.1",
+			"Version" : "4.1.0",
+			"CompatibleApps": ["UE_4.1", "UE_4.2"]
+		},
+		{
+			"AppName" : "Mobile_4.3",
+			"Version" : "4.3.0",
+			"CompatibleApps": ["UE_4.3"]
+		},
+		{
+			"AppName" : "Mobile_4.4",
+			"Version" : "4.4.0",
+			"CompatibleApps": ["UE_4.4"]
+		},
+		{
+			"AppName" : "KVLFreeSpritePack_4.4",
+			"Version" : "4.4.0",
+			"CompatibleApps": ["UE_4.4"]
+		},
+		{
+			"AppName" : "RealisticRendering_4.0",
+			"Version" : "4.0.0",
+			"CompatibleApps": ["UE_4.0"]
+		},
+		{
+			"AppName" : "RealisticRendering_4.1",
+			"Version" : "4.1.0",
+			"CompatibleApps": ["UE_4.1"]
+		},
+		{
+			"AppName" : "RealisticRendering_4.2",
+			"Version" : "4.2.0",
+			"CompatibleApps": ["UE_4.2"]
+		},
+		{
+			"AppName" : "RealisticRendering_4.3",
+			"Version" : "4.3.0",
+			"CompatibleApps": ["UE_4.3"]
+		},
+		{
+			"AppName" : "Reflections_4.0",
+			"Version" : "4.0.0",
+			"CompatibleApps": ["UE_4.0"]
+		},
+		{
+			"AppName" : "Reflections_4.1",
+			"Version" : "4.1.0",
+			"CompatibleApps": ["UE_4.1", "UE_4.2"]
+		},
+		{
+			"AppName" : "Reflections_4.3",
+			"Version" : "4.3.0",
+			"CompatibleApps": ["UE_4.3"]
+		},
+		{
+			"AppName" : "SciFiHallway_4.1",
+			"Version" : "4.1.0",
+			"CompatibleApps": ["UE_4.1","UE_4.2"]
+		},
+		{
+			"AppName" : "SciFiHallway_4.3",
+			"Version" : "4.3.0",
+			"CompatibleApps": ["UE_4.3"]
+		},
+		{
+			"AppName" : "SciFiHallway_4.4",
+			"Version" : "4.4.0",
+			"CompatibleApps": ["UE_4.4"]
+		},
+		{
+			"AppName" : "ShooterGame_4.0",
+			"Version" : "4.0.0",
+			"CompatibleApps": ["UE_4.0"]
+		},
+		{
+			"AppName" : "ShooterGame_4.1",
+			"Version" : "4.1.0",
+			"CompatibleApps": ["UE_4.1"]
+		},
+		{
+			"AppName" : "ShooterGame_4.2",
+			"Version" : "4.2.0",
+			"CompatibleApps": ["UE_4.2"]
+		},
+		{
+			"AppName" : "ShooterGame_4.3",
+			"Version" : "4.3.0",
+			"CompatibleApps": ["UE_4.3"]
+		},
+		{
+			"AppName" : "ShooterGame_4.4",
+			"Version" : "4.4.0",
+			"CompatibleApps": ["UE_4.4"]
+		},
+		{
+			"AppName" : "StrategyGame_4.0",
+			"Version" : "4.0.0",
+			"CompatibleApps": ["UE_4.0"]
+		},
+		{
+			"AppName" : "StrategyGame_4.1",
+			"Version" : "4.1.0",
+			"CompatibleApps": ["UE_4.1"]
+		},
+		{
+			"AppName" : "StrategyGame_4.2",
+			"Version" : "4.2.0",
+			"CompatibleApps": ["UE_4.2"]
+		},
+		{
+			"AppName" : "StrategyGame_4.3",
+			"Version" : "4.3.0",
+			"CompatibleApps": ["UE_4.3"]
+		},
+		{
+			"AppName" : "StrategyGame_4.4",
+			"Version" : "4.4.0",
+			"CompatibleApps": ["UE_4.4"]
+		},
+		{
+			"AppName" : "Stylized_4.1",
+			"Version" : "4.1.0",
+			"CompatibleApps": ["UE_4.1","UE_4.2"]
+		},
+		{
+			"AppName" : "Stylized_4.3",
+			"Version" : "4.3.0",
+			"CompatibleApps": ["UE_4.3"]
+		},
+		{
+			"AppName" : "SubstanceAtlantis_4.4",
+			"Version" : "4.4.0",
+			"CompatibleApps": ["UE_4.4"]
+		},
+		{
+			"AppName" : "SwingNinja_4.0",
+			"Version" : "4.0.0",
+			"CompatibleApps": ["UE_4.0"]
+		},
+		{
+			"AppName" : "SwingNinja_4.1",
+			"Version" : "4.1.0",
+			"CompatibleApps": ["UE_4.1","UE_4.2"]
+		},
+		{
+			"AppName" : "SwingNinja_4.3",
+			"Version" : "4.3.0",
+			"CompatibleApps": ["UE_4.3"]
+		},
+		{
+			"AppName" : "SwingNinja_4.4",
+			"Version" : "4.4.0",
+			"CompatibleApps": ["UE_4.4"]
+		},
+		{
+			"AppName" : "TappyChicken_4.0",
+			"Version" : "4.0.0",
+			"CompatibleApps": ["UE_4.0"]
+		},
+		{
+			"AppName" : "TappyChicken_4.1",
+			"Version" : "4.1.0",
+			"CompatibleApps": ["UE_4.1"]
+		},
+		{
+			"AppName" : "TappyChicken_4.2",
+			"Version" : "4.2.0",
+			"CompatibleApps": ["UE_4.2"]
+		},
+		{
+			"AppName" : "TappyChicken_4.3",
+			"Version" : "4.3.0",
+			"CompatibleApps": ["UE_4.3"]
+		},
+		{
+			"AppName" : "TappyChicken_4.4",
+			"Version" : "4.4.0",
+			"CompatibleApps": ["UE_4.4"]
+		},
+		{
+			"AppName" : "VehicleGame_4.2",
+			"Version" : "4.2.0",
+			"CompatibleApps": ["UE_4.2"]
+		},
+		{
+			"AppName" : "VehicleGame_4.3",
+			"Version" : "4.3.0",
+			"CompatibleApps": ["UE_4.3"]
+		},
+		{
+			"AppName" : "VehicleGame_4.4",
+			"Version" : "4.4.0",
+			"CompatibleApps": ["UE_4.4"]
+		}
+	]
+}

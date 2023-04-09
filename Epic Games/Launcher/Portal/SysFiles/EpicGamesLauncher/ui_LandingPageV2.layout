@@ -1,0 +1,580 @@
+﻿{
+	"Type": "ScrollBox",
+	"AutoSize": "false",
+	"Children": [
+		{
+			"Type": "ResponsiveGrid",
+			"HAlign": "Center",
+			"MaxWidth": 1400,
+			"MinWidth": 1400,
+			"Padding": {
+				"Left": 30,
+				"Top": 20,
+				"Right": 30,
+				"Bottom": 30
+			},
+			"TotalColumns": 6,
+			"ColumnGutter": 10,
+			"Children": [
+				{
+					"Type": "Box",
+					"Row": 0,
+					"ColumnSpans": [
+						{
+							"LayoutSize": 1200,
+							"Span": 2
+						},
+						{
+							"LayoutSize": 0,
+							"Span": 0
+						}
+					],
+					"MaxHeight": 650,
+					"Children": [
+						{
+							"Type": "DetailsTile",
+							"AutoHeightText": "true",
+							"HoveredBackgroundImage": {
+								"Image": "0.02188, 0.02188, 0.02188"
+							},
+							"BackgroundImage": {
+								"Image": "0.0, 0.0, 0.0, 0.0"
+							},
+							"ImageFillSize": 1,
+							"MaxHeight": 475,
+							"Images": [
+								{
+									"Image": "LandPage_UT_Background.png"
+								}
+							],
+							"OnNavigateUrl": "Tab/UT/Play"
+						},
+						{
+							"Type": "Panel",
+							"Padding": {
+								"Left": 20,
+								"Top": 10,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text": [
+								{
+									"TextStyle": "h1",
+									"AutoWrap": "true",
+									"Text_translate": "true",
+									"Text": "Play Unreal Tournament Pre-Alpha",
+									"Text_ko": "언리얼 토너먼트 프리 알파 플레이",
+									"Text_ja": "Unreal Tournament プレアルファをプレイ",
+									"Text_zh-CN": "运行虚幻竞技场初期测试版",
+									"Text_fr": "Jouer à la pré-alpha d'Unreal Tournament",
+									"Text_es-MX": "Juega la pre-alfa de Unreal Tournament",
+									"Text_de": "Pre-Alpha von Unreal Tournament spielen",
+									"Text_it": "Gioca a Unreal Tournament Pre-Alpha",
+									"Text_ru": "Играть в преальфа-версию Unreal Tournament",
+									"Text_es": "Juega la pre-alfa de Unreal Tournament",
+									"Text_pl": "Zagraj we wstępną wersję alfa Unreal Tournament",
+									"Text_pt-BR": "Jogar o Unreal Tournament pré-alfa",
+									"Text_ar": "العب Unreal Tournament Pre-Alpha"
+								}
+							]
+						},
+						{
+							"Type": "Panel",
+							"Padding": {
+								"Left": 20,
+								"Top": 10,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text": [
+								{
+									"TextStyle": "Body",
+									"AutoWrap": "true",
+									"Text_translate": "true",
+									"Text": "Developed in collaboration with the community, UT is a competitive fast-faced arena shooter. Check out the stunning community-built Lea and Epic's Outpost 23.",
+									"Text_ko": "커뮤니티와 공동 개발한 UT 는 빠른 호흡의 경쟁형 아레나 슈팅 게임입니다. 놀라운 커뮤니티 제작 Lea, 에픽 제작 Outpost 23 을 확인해 보세요.",
+									"Text_ja": "コミュニティとコラボ開発されたUTは対戦型高速エリアシューターゲームです。コミュニティメンバーが開発した素晴らしいマップをお楽しみください。",
+									"Text_zh-CN": "通过与社区的合作开发，我们将虚幻竞技场打造为激烈的快节奏竞技场射击游戏。请查看令人惊讶的由社区构建的Lea（草地）和Epic制作的Outpost 23（前哨 23）。",
+									"Text_fr": "Développé en collaboration avec la communauté, UT est un jeu de tir compétitif et effréné en arène. Découvrez les fabuleux contenus conçus par la communauté, comme Lea, et l'Outpost 23 d'Epic.",
+									"Text_es-MX": "Desarrollado en colaboración con la comunidad, UT es un juego de acción competitivo y rápido. Echa un vistazo al increíble puesto avanzado 23 de Lea y Epic creado por la comunidad.",
+									"Text_de": "Der rasante Arena-Shooter UT wurde in Zusammenarbeit mit der Community entwickelt. Staunen Sie über die, von Community-Mitgliedern entworfene und gebaute Karte „Lea“ und Epics hauseigenen „Outpost 23“.",
+									"Text_it": "Sviluppato in collaborazione con la community, UT è un arena shooter competitivo dal ritmo forsennato. Dai un'occhiata a Lea, costruito dalla community, e all'Outpost 23 di Epic.",
+									"Text_ru": "Игра UT разработана совместно с сообществом игроков и представляет собой динамичный соревновательный шутер, действие которого разворачивается на аренах. Сыграйте на шикарной карте Lea, сделанной сообществом, и Outpost 23 за авторством Epic.",
+									"Text_es": "UT, desarrollado en colaboración con la comunidad, es un juego de juego de acción de arena competitivo y de ritmo frenético. Descubre el asombroso puesto avanzado 23 Lea y Epic creado por la comunidad.",
+									"Text_pl": "UT to dynamiczna strzelanka arenowa opracowana we współpracy ze społecznością graczy. Sprawdź wspaniałe mapy Lea (stworzona przez społeczność) oraz Outpost 23 (autorstwa studia Epic).",
+									"Text_pt-BR": "Desenvolvido em colaboração com a comunidade, o UT é uma arena de tiro competitiva com ritmo acelerado. Conheça a impressionante arma Lea criada pela comunidade e o mapa Outpost 23 da Epic.",
+									"Text_ar": "تم تطويرها بالتعاون مع المجتمع، UT هي لعبة إطلاق نار تنافسية بمواجهات سريعة في الساحة. تفقد الألعاب المصممة من المجتمع كـ Lea و Outpost 23 الخاصة بـ Epic."
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"Row": 0,
+					"ColumnSpans": [
+						{
+							"LayoutSize": 1200,
+							"Span": 2
+						},
+						{
+							"LayoutSize": 0,
+							"Span": 0
+						}
+					],
+					"MaxHeight": 650,
+					"Children": [
+						{
+							"Type": "DetailsTile",
+							"AutoHeightText": "true",
+							"HoveredBackgroundImage": {
+								"Image": "0.02188, 0.02188, 0.02188"
+							},
+							"BackgroundImage": {
+								"Image": "0.0, 0.0, 0.0, 0.0"
+							},
+							"ImageFillSize": 1,
+							"MaxHeight": 475,
+							"Images": [
+								{
+									"Image": "LandPage_ModUT_Background.png"
+								}
+							],
+							"OnNavigateUrl": "Tab/UT/Create"
+						},
+						{
+							"Type": "Panel",
+							"Padding": {
+								"Left": 20,
+								"Top": 10,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text": [
+								{
+									"TextStyle": "h1",
+									"AutoWrap": "true",
+									"Text_translate": "true",
+									"Text": "Mod Unreal Tournament",
+									"Text_ko": "언리얼 토너먼트 모드",
+									"Text_ja": "MOD Unreal Tournament",
+									"Text_zh-CN": "修改虚幻竞技场",
+									"Text_fr": "Mod Unreal Tournament",
+									"Text_es-MX": "Mod de Unreal Tournament",
+									"Text_de": "Unreal Tournament modden",
+									"Text_it": "Crea mod per Unreal Tournament",
+									"Text_ru": "Модификации Unreal Tournament",
+									"Text_es": "Mod de Unreal Tournament",
+									"Text_pl": "Twórz modyfikacje do gry Unreal Tournament",
+									"Text_pt-BR": "Mod do Unreal Tournament",
+									"Text_ar": "معدِل Unreal Tournament"
+								}
+							]
+						},
+						{
+							"Type": "Panel",
+							"Padding": {
+								"Left": 20,
+								"Top": 10,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text": [
+								{
+									"TextStyle": "Body",
+									"AutoWrap": "true",
+									"Text_translate": "true",
+									"Text": "Join the UT mod community and make the game your own. It’s also a great way to get started in game development. Create your own weapon, customize cosmetic items, and build your own map to share with your friends!",
+									"Text_ko": "UT 모드 커뮤니티에 참가하여 자신만의 게임을 만들어 보세요. 게임 개발 입문에도 뛰어난 방법입니다. 자신만의 무기를 만들고, 장식성 아이템을 입맛대로 맞추고, 독특한 맵을 만들어 친구들과 공유하세요!",
+									"Text_ja": "UT MOD コミュニティに参加して自分だけのゲームを作りましょう。また、MODはゲーム開発をこれから始めるという方にとっての良いスタートポイントにもなります。オリジナルの武器を作成して、装備品をカスタマイズして、新しいマップを作成して他のプレイヤーに自慢しよう！",
+									"Text_zh-CN": "加入虚幻竞技场的改进程序社区并制作您自己的游戏。这也是帮助您开始游戏开发的绝佳方法。创建您自己的武器、自定义装饰物品并制作您自己的地图来与好友共享！",
+									"Text_fr": "Rejoignez la communauté de modeurs d'UT et faites de ce jeu le vôtre. C'est également un bon point de départ pour se lancer dans le développement de jeu. Créez vos propres armes, personnalisez des items cosmétiques et bâtissez votre propre carte avec vos amis !",
+									"Text_es-MX": "Únete a la comunidad de mod y crea tu propio juego. También es una gran oportunidad para introducirte en el desarrollo de videojuegos. ¡Crea tu propia arma, personaliza objetos estéticos y crea tu propio mapa para compartirlo con amigos!",
+									"Text_de": "Treten Sie noch heute der UT-Mod-Community bei, um das Spiel mitgestalten zu können. Der perfekte Start für eine Karriere in der Entwicklerbranche! Erstellen Sie eigene Waffen, Skins und bauen Sie eigene Karten, um sie mit Ihren Freunden teilen zu können.",
+									"Text_it": "Entra nella community dei modder di UT e trasforma il gioco a tua immagine. È anche un buon modo per iniziare a sviluppare giochi. Inventa le tue armi, personalizza gli oggetti estetici e crea le tue mappe da condividere con gli amici!",
+									"Text_ru": "Присоединитесь к сообществу авторов модификаций UT и измените игру под себя. Кроме того, это отличный способ познакомиться с процессом разработки игр. Создавайте собственное оружие, изменяйте внешний вид предметов или придумайте собственную карту и поделитесь ей с друзьями!",
+									"Text_es": "Únete a la comunidad de mods y crea tu propio juego. Es también una forma magnífica de introducirte en el desarrollo de videojuegos. Crea tu propia arma, personaliza objetos estéticos y crea tu propio mapa para compartirlo con amigos.",
+									"Text_pl": "Dołącz do społeczności moderskiej UT i zmieniaj grę według własnego uznania. To również świetny sposób na rozpoczęcie przygody z projektowaniem gier. Twórz własne bronie, personalizuj dodatki i zbuduj własną mapę, którą możesz udostępnić znajomym!",
+									"Text_pt-BR": "Junte-se à comunidade de mods do UT e crie o seu próprio jogo. Esse também é um ótimo jeito de iniciar no desenvolvimento de jogos. Crie sua própria arma, personalize itens cosméticos e construa seus próprios mapas para compartilhar com seus amigos!",
+									"Text_ar": "انضم إلى مجتمع معدِل UT واجعل اللعبة مخصصة بما تفضله. إنها أيضًا طريقة رائعة للبدء في تطوير الألعاب. أنشئ سلاحك الخاص وقم بتخصيص عناصر التجهيز وابنِ خريطتك الخاصة لمشاركتها مع الأصدقاء!"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"Row": 0,
+					"ColumnSpans": [
+						{
+							"LayoutSize": 1200,
+							"Span": 2
+						},
+						{
+							"LayoutSize": 0,
+							"Span": 0
+						}
+					],
+					"MaxHeight": 650,
+					"Children": [
+						{
+							"Type": "DetailsTile",
+							"AutoHeightText": "true",
+							"HoveredBackgroundImage": {
+								"Image": "0.02188, 0.02188, 0.02188"
+							},
+							"BackgroundImage": {
+								"Image": "0.0, 0.0, 0.0, 0.0"
+							},
+							"ImageFillSize": 1,
+							"MaxHeight": 475,
+							"Images": [
+								{
+									"Image": "LandPage_UE_Background.png"
+								}
+							],
+							"OnNavigateUrl": "Tab/UnrealEngineLauncher"
+						},
+						{
+							"Type": "Panel",
+							"Padding": {
+								"Left": 20,
+								"Top": 10,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text": [
+								{
+									"TextStyle": "h1",
+									"AutoWrap": "true",
+									"Text_translate": "true",
+									"Text": "Unreal Engine 4",
+									"Text_ko": "언리얼 엔진 4",
+									"Text_ja": "UNREAL ENGINE 4",
+									"Text_zh-CN": "虚幻引擎4",
+									"Text_fr": "Unreal Engine 4",
+									"Text_es-MX": "Unreal Engine 4",
+									"Text_de": "Unreal Engine 4",
+									"Text_it": "Unreal Engine 4",
+									"Text_ru": "Unreal Engine 4",
+									"Text_es": "Unreal Engine 4",
+									"Text_pl": "Unreal Engine 4",
+									"Text_pt-BR": "Unreal Engine 4",
+									"Text_ar": "Unreal Engine 4"
+								}
+							]
+						},
+						{
+							"Type": "Panel",
+							"Padding": {
+								"Left": 20,
+								"Top": 10,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text": [
+								{
+									"TextStyle": "Body",
+									"AutoWrap": "true",
+									"Text_translate": "true",
+									"Text": "Unreal Engine 4 is a complete set of game development tools that allows you to realize your vision and stand out from the crowd. Join the development community today.",
+									"Text_ko": "언리얼 엔진 4 는 여러분의 비전을 대중과 차별화시켜 돋보이도록 만들 수 있는 완전판 게임 개발 도구입니다. 오늘 개발 커뮤니티에 참여해 보세요.",
+									"Text_ja": "UNREAL ENGINE 4 はゲーム開発に必要なツールが揃った統合開発環境です。思い描くゲームを最速で実現させます。描画の美しさからノンゲームにもお使いいただいています。",
+									"Text_zh-CN": "虚幻引擎 4 是完整的游戏开发工具套件，让您可以实现您的目标并脱颖而出。今天就加入开发社区吧。",
+									"Text_fr": "Unreal Engine 4 est un set complet d'outils de développement vous permettant de réaliser votre vision et de sortir du lot. Rejoignez la communauté de développement dès aujourd'hui.",
+									"Text_es-MX": "Unreal Engine 4 es un conjunto completo de herramientas de desarrollo de videojuegos que te permite convertir tus ideas en realidad y sobresalir entre la multitud. Únete hoy mismo a la comunidad de desarrollo.",
+									"Text_de": "Mit Unreal Engine 4 können Sie Ihre Vision eines selbst entwickelten Spiels Wirklichkeit werden lassen und sich dank der umfassenden Funktionen von der Masse abheben. Werden Sie noch heute Teil der Entwickler-Community.",
+									"Text_it": "Unreal Engine 4 è un set completo di strumenti per lo sviluppo dei videogiochi che ti consente di plasmare la tua visione e valorizzarla nel modo migliore. Entra oggi stesso nella community degli sviluppatori.",
+									"Text_ru": "Unreal Engine 4 представляет собой полный набор инструментов для разработки игр, который позволяет воплотить в жизнь собственные идеи и выделиться из толпы. Присоединитесь к сообществу разработчиков уже сегодня.",
+									"Text_es": "Unreal Engine 4 es un conjunto completo de herramientas de desarrollo de videojuegos que te permite convertir tu idea en realidad y destacar sobre tus competidores. Únete hoy mismo a la comunidad de desarrollo.",
+									"Text_pl": "Unreal Engine 4 to kompletny zestaw narzędzi do tworzenia gier, który pozwoli Ci zrealizować marzenia i wyróżnić się z tłumu. Dołącz do społeczności deweloperów już dziś.",
+									"Text_pt-BR": "A Unreal Engine 4 e um conjunto completo de ferramentas para o desenvolvimento de jogos onde você pode dar vida a sua imaginação e se destacar. Junte-se à comunidade de desenvolvimento agora mesmo.",
+									"Text_ar": "Unreal Engine 4 هو مجموعة كاملة من أدوات تطوير الألعاب تتيح لك إظهار رؤيتك والتقدم من بين الحشود. انضم إلى مجتمع التطوير اليوم."
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"Row": 0,
+					"ColumnSpans": [
+						{
+							"LayoutSize": 1200,
+							"Span": 0
+						},
+						{
+							"LayoutSize": 0,
+							"Span": 2
+						}
+					],
+					"MaxHeight": 650,
+					"Children": [
+						{
+							"Type": "DetailsTile",
+							"AutoHeightText": "true",
+							"HoveredBackgroundImage": {
+								"Image": "0.02188, 0.02188, 0.02188"
+							},
+							"BackgroundImage": {
+								"Image": "0.0, 0.0, 0.0, 0.0"
+							},
+							"ImageFillSize": 1,
+							"MaxHeight": 290,
+							"Images": [
+								{
+									"Image": "LandPage_UT_Background.png"
+								}
+							],
+							"OnNavigateUrl": "Tab/UT/Play"
+						},
+						{
+							"Type": "Panel",
+							"Padding": {
+								"Left": 20,
+								"Top": 5,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text": [
+								{
+									"TextStyle": "h1",
+									"AutoWrap": "true",
+									"Text_translate": "true",
+									"Text": "Play Unreal Tournament Pre-Alpha",
+									"Text_ko": "언리얼 토너먼트 프리 알파 플레이",
+									"Text_ja": "Unreal Tournament プレアルファをプレイ",
+									"Text_zh-CN": "运行虚幻竞技场初期测试版",
+									"Text_fr": "Jouer à la pré-alpha d'Unreal Tournament",
+									"Text_es-MX": "Juega la pre-alfa de Unreal Tournament",
+									"Text_de": "Pre-Alpha von Unreal Tournament spielen",
+									"Text_it": "Gioca a Unreal Tournament Pre-Alpha",
+									"Text_ru": "Играть в преальфа-версию Unreal Tournament",
+									"Text_es": "Juega la pre-alfa de Unreal Tournament",
+									"Text_pl": "Zagraj we wstępną wersję alfa Unreal Tournament",
+									"Text_pt-BR": "Jogar o Unreal Tournament pré-alfa",
+									"Text_ar": "العب Unreal Tournament Pre-Alpha"
+								}
+							]
+						},
+						{
+							"Type": "Panel",
+							"Padding": {
+								"Left": 20,
+								"Top": 5,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text": [
+								{
+									"TextStyle": "Body",
+									"AutoWrap": "true",
+									"Text_translate": "true",
+									"Text": "Developed in collaboration with the community, UT is a competitive fast-faced arena shooter. Check out the stunning community-built Lea and Epic's Outpost 23.",
+									"Text_ko": "커뮤니티와 공동 개발한 UT 는 빠른 호흡의 경쟁형 아레나 슈팅 게임입니다. 놀라운 커뮤니티 제작 Lea, 에픽 제작 Outpost 23 을 확인해 보세요.",
+									"Text_ja": "コミュニティとコラボ開発されたUTは対戦型高速エリアシューターゲームです。コミュニティメンバーが開発した素晴らしいマップをお楽しみください。",
+									"Text_zh-CN": "通过与社区的合作开发，我们将虚幻竞技场打造为激烈的快节奏竞技场射击游戏。请查看令人惊讶的由社区构建的Lea（草地）和Epic制作的Outpost 23（前哨 23）。",
+									"Text_fr": "Développé en collaboration avec la communauté, UT est un jeu de tir compétitif et effréné en arène. Découvrez les fabuleux contenus conçus par la communauté, comme Lea, et l'Outpost 23 d'Epic.",
+									"Text_es-MX": "Desarrollado en colaboración con la comunidad, UT es un juego de acción competitivo y rápido. Echa un vistazo al increíble puesto avanzado 23 de Lea y Epic creado por la comunidad.",
+									"Text_de": "Der rasante Arena-Shooter UT wurde in Zusammenarbeit mit der Community entwickelt. Staunen Sie über die, von Community-Mitgliedern entworfene und gebaute Karte „Lea“ und Epics hauseigenen „Outpost 23“.",
+									"Text_it": "Sviluppato in collaborazione con la community, UT è un arena shooter competitivo dal ritmo forsennato. Dai un'occhiata a Lea, costruito dalla community, e all'Outpost 23 di Epic.",
+									"Text_ru": "Игра UT разработана совместно с сообществом игроков и представляет собой динамичный соревновательный шутер, действие которого разворачивается на аренах. Сыграйте на шикарной карте Lea, сделанной сообществом, и Outpost 23 за авторством Epic.",
+									"Text_es": "UT, desarrollado en colaboración con la comunidad, es un juego de juego de acción de arena competitivo y de ritmo frenético. Descubre el asombroso puesto avanzado 23 Lea y Epic creado por la comunidad.",
+									"Text_pl": "UT to dynamiczna strzelanka arenowa opracowana we współpracy ze społecznością graczy. Sprawdź wspaniałe mapy Lea (stworzona przez społeczność) oraz Outpost 23 (autorstwa studia Epic).",
+									"Text_pt-BR": "Desenvolvido em colaboração com a comunidade, o UT é uma arena de tiro competitiva com ritmo acelerado. Conheça a impressionante arma Lea criada pela comunidade e o mapa Outpost 23 da Epic.",
+									"Text_ar": "تم تطويرها بالتعاون مع المجتمع، UT هي لعبة إطلاق نار تنافسية بمواجهات سريعة في الساحة. تفقد الألعاب المصممة من المجتمع كـ Lea و Outpost 23 الخاصة بـ Epic."
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"Row": 0,
+					"ColumnSpans": [
+						{
+							"LayoutSize": 1200,
+							"Span": 0
+						},
+						{
+							"LayoutSize": 0,
+							"Span": 2
+						}
+					],
+					"MaxHeight": 650,
+					"Children": [
+						{
+							"Type": "DetailsTile",
+							"AutoHeightText": "true",
+							"HoveredBackgroundImage": {
+								"Image": "0.02188, 0.02188, 0.02188"
+							},
+							"BackgroundImage": {
+								"Image": "0.0, 0.0, 0.0, 0.0"
+							},
+							"ImageFillSize": 1,
+							"MaxHeight": 290,
+							"Images": [
+								{
+									"Image": "LandPage_ModUT_Background.png"
+								}
+							],
+							"OnNavigateUrl": "Tab/UT/Create"
+						},
+						{
+							"Type": "Panel",
+							"Padding": {
+								"Left": 20,
+								"Top": 5,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text": [
+								{
+									"TextStyle": "h1",
+									"AutoWrap": "true",
+									"Text_translate": "true",
+									"Text": "Mod Unreal Tournament",
+									"Text_ko": "언리얼 토너먼트 모드",
+									"Text_ja": "MOD Unreal Tournament",
+									"Text_zh-CN": "修改虚幻竞技场",
+									"Text_fr": "Mod Unreal Tournament",
+									"Text_es-MX": "Mod de Unreal Tournament",
+									"Text_de": "Unreal Tournament modden",
+									"Text_it": "Crea mod per Unreal Tournament",
+									"Text_ru": "Модификации Unreal Tournament",
+									"Text_es": "Mod de Unreal Tournament",
+									"Text_pl": "Twórz modyfikacje do gry Unreal Tournament",
+									"Text_pt-BR": "Mod do Unreal Tournament",
+									"Text_ar": "معدِل Unreal Tournament"
+								}
+							]
+						},
+						{
+							"Type": "Panel",
+							"Padding": {
+								"Left": 20,
+								"Top": 5,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text": [
+								{
+									"TextStyle": "Body",
+									"AutoWrap": "true",
+									"Text_translate": "true",
+									"Text": "Join the UT mod community and make the game your own. It’s also a great way to get started in game development. Create your own weapon, customize cosmetic items, and build your own map to share with your friends!",
+									"Text_ko": "UT 모드 커뮤니티에 참가하여 자신만의 게임을 만들어 보세요. 게임 개발 입문에도 뛰어난 방법입니다. 자신만의 무기를 만들고, 장식성 아이템을 입맛대로 맞추고, 독특한 맵을 만들어 친구들과 공유하세요!",
+									"Text_ja": "UT MOD コミュニティに参加して自分だけのゲームを作りましょう。また、MODはゲーム開発をこれから始めるという方にとっての良いスタートポイントにもなります。オリジナルの武器を作成して、装備品をカスタマイズして、新しいマップを作成して他のプレイヤーに自慢しよう！",
+									"Text_zh-CN": "加入虚幻竞技场的改进程序社区并制作您自己的游戏。这也是帮助您开始游戏开发的绝佳方法。创建您自己的武器、自定义装饰物品并制作您自己的地图来与好友共享！",
+									"Text_fr": "Rejoignez la communauté de modeurs d'UT et faites de ce jeu le vôtre. C'est également un bon point de départ pour se lancer dans le développement de jeu. Créez vos propres armes, personnalisez des items cosmétiques et bâtissez votre propre carte avec vos amis !",
+									"Text_es-MX": "Únete a la comunidad de mod y crea tu propio juego. También es una gran oportunidad para introducirte en el desarrollo de videojuegos. ¡Crea tu propia arma, personaliza objetos estéticos y crea tu propio mapa para compartirlo con amigos!",
+									"Text_de": "Treten Sie noch heute der UT-Mod-Community bei, um das Spiel mitgestalten zu können. Der perfekte Start für eine Karriere in der Entwicklerbranche! Erstellen Sie eigene Waffen, Skins und bauen Sie eigene Karten, um sie mit Ihren Freunden teilen zu können.",
+									"Text_it": "Entra nella community dei modder di UT e trasforma il gioco a tua immagine. È anche un buon modo per iniziare a sviluppare giochi. Inventa le tue armi, personalizza gli oggetti estetici e crea le tue mappe da condividere con gli amici!",
+									"Text_ru": "Присоединитесь к сообществу авторов модификаций UT и измените игру под себя. Кроме того, это отличный способ познакомиться с процессом разработки игр. Создавайте собственное оружие, изменяйте внешний вид предметов или придумайте собственную карту и поделитесь ей с друзьями!",
+									"Text_es": "Únete a la comunidad de mods y crea tu propio juego. Es también una forma magnífica de introducirte en el desarrollo de videojuegos. Crea tu propia arma, personaliza objetos estéticos y crea tu propio mapa para compartirlo con amigos.",
+									"Text_pl": "Dołącz do społeczności moderskiej UT i zmieniaj grę według własnego uznania. To również świetny sposób na rozpoczęcie przygody z projektowaniem gier. Twórz własne bronie, personalizuj dodatki i zbuduj własną mapę, którą możesz udostępnić znajomym!",
+									"Text_pt-BR": "Junte-se à comunidade de mods do UT e crie o seu próprio jogo. Esse também é um ótimo jeito de iniciar no desenvolvimento de jogos. Crie sua própria arma, personalize itens cosméticos e construa seus próprios mapas para compartilhar com seus amigos!",
+									"Text_ar": "انضم إلى مجتمع معدِل UT واجعل اللعبة مخصصة بما تفضله. إنها أيضًا طريقة رائعة للبدء في تطوير الألعاب. أنشئ سلاحك الخاص وقم بتخصيص عناصر التجهيز وابنِ خريطتك الخاصة لمشاركتها مع الأصدقاء!"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"Row": 0,
+					"ColumnSpans": [
+						{
+							"LayoutSize": 1200,
+							"Span": 0
+						},
+						{
+							"LayoutSize": 0,
+							"Span": 2
+						}
+					],
+					"MaxHeight": 650,
+					"Children": [
+						{
+							"Type": "DetailsTile",
+							"AutoHeightText": "true",
+							"HoveredBackgroundImage": {
+								"Image": "0.02188, 0.02188, 0.02188"
+							},
+							"BackgroundImage": {
+								"Image": "0.0, 0.0, 0.0, 0.0"
+							},
+							"ImageFillSize": 1,
+							"MaxHeight": 290,
+							"Images": [
+								{
+									"Image": "LandPage_UE_Background.png"
+								}
+							],
+							"OnNavigateUrl": "Tab/UnrealEngineLauncher"
+						},
+						{
+							"Type": "Panel",
+							"Padding": {
+								"Left": 20,
+								"Top": 5,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text": [
+								{
+									"TextStyle": "h1",
+									"AutoWrap": "true",
+									"Text_translate": "true",
+									"Text": "Unreal Engine 4",
+									"Text_ko": "언리얼 엔진 4",
+									"Text_ja": "UNREAL ENGINE 4",
+									"Text_zh-CN": "虚幻引擎4",
+									"Text_fr": "Unreal Engine 4",
+									"Text_es-MX": "Unreal Engine 4",
+									"Text_de": "Unreal Engine 4",
+									"Text_it": "Unreal Engine 4",
+									"Text_ru": "Unreal Engine 4",
+									"Text_es": "Unreal Engine 4",
+									"Text_pl": "Unreal Engine 4",
+									"Text_pt-BR": "Unreal Engine 4",
+									"Text_ar": "Unreal Engine 4"
+								}
+							]
+						},
+						{
+							"Type": "Panel",
+							"Padding": {
+								"Left": 20,
+								"Top": 5,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text": [
+								{
+									"TextStyle": "Body",
+									"AutoWrap": "true",
+									"Text_translate": "true",
+									"Text": "Unreal Engine 4 is a complete set of game development tools that allows you to realize your vision and stand out from the crowd. Join the development community today.",
+									"Text_ko": "언리얼 엔진 4 는 여러분의 비전을 대중과 차별화시켜 돋보이도록 만들 수 있는 완전판 게임 개발 도구입니다. 오늘 개발 커뮤니티에 참여해 보세요.",
+									"Text_ja": "UNREAL ENGINE 4 はゲーム開発に必要なツールが揃った統合開発環境です。思い描くゲームを最速で実現させます。描画の美しさからノンゲームにもお使いいただいています。",
+									"Text_zh-CN": "虚幻引擎 4 是完整的游戏开发工具套件，让您可以实现您的目标并脱颖而出。今天就加入开发社区吧。",
+									"Text_fr": "Unreal Engine 4 est un set complet d'outils de développement vous permettant de réaliser votre vision et de sortir du lot. Rejoignez la communauté de développement dès aujourd'hui.",
+									"Text_es-MX": "Unreal Engine 4 es un conjunto completo de herramientas de desarrollo de videojuegos que te permite convertir tus ideas en realidad y sobresalir entre la multitud. Únete hoy mismo a la comunidad de desarrollo.",
+									"Text_de": "Mit Unreal Engine 4 können Sie Ihre Vision eines selbst entwickelten Spiels Wirklichkeit werden lassen und sich dank der umfassenden Funktionen von der Masse abheben. Werden Sie noch heute Teil der Entwickler-Community.",
+									"Text_it": "Unreal Engine 4 è un set completo di strumenti per lo sviluppo dei videogiochi che ti consente di plasmare la tua visione e valorizzarla nel modo migliore. Entra oggi stesso nella community degli sviluppatori.",
+									"Text_ru": "Unreal Engine 4 представляет собой полный набор инструментов для разработки игр, который позволяет воплотить в жизнь собственные идеи и выделиться из толпы. Присоединитесь к сообществу разработчиков уже сегодня.",
+									"Text_es": "Unreal Engine 4 es un conjunto completo de herramientas de desarrollo de videojuegos que te permite convertir tu idea en realidad y destacar sobre tus competidores. Únete hoy mismo a la comunidad de desarrollo.",
+									"Text_pl": "Unreal Engine 4 to kompletny zestaw narzędzi do tworzenia gier, który pozwoli Ci zrealizować marzenia i wyróżnić się z tłumu. Dołącz do społeczności deweloperów już dziś.",
+									"Text_pt-BR": "A Unreal Engine 4 e um conjunto completo de ferramentas para o desenvolvimento de jogos onde você pode dar vida a sua imaginação e se destacar. Junte-se à comunidade de desenvolvimento agora mesmo.",
+									"Text_ar": "Unreal Engine 4 هو مجموعة كاملة من أدوات تطوير الألعاب تتيح لك إظهار رؤيتك والتقدم من بين الحشود. انضم إلى مجتمع التطوير اليوم."
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,171 @@
+{
+	"Id": "ue",
+	"Priority": 1,
+	"AnalyticsId": "ue",
+	"DisplayName": "Unreal Engine",
+	"CatalogNamespace": "ue", 
+	"Apps": [
+		{
+			"Name": "UE_4.17",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.17",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.16",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.16",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.15",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.15",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.14",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.14",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.13",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.13",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.12",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.12",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.11",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.11",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.10",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.10",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.9",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.9",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.8",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.8",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.7",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.7",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.6",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.6",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.5",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.5",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.4",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.4",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.3",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.3",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.2",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.2",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.1",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.1",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		},
+		{
+			"Name": "UE_4.0",
+			"GroupId": "Game",
+			"OfferId": "30982fd770434b0abc78785ab94fc52d",
+			"ItemId": "3ddb1bad6e004b99a7192c1a29f2318a",
+			"AppId": "UE_4.0",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,MultiLaunch"
+		}
+	]
+}

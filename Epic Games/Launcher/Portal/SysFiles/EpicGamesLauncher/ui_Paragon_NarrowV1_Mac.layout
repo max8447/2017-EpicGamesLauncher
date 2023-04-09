@@ -1,0 +1,183 @@
+{
+	"Type": "Box",
+	"Orientation": "Horizontal",
+	"AutoSize": "false",
+	"HAlign": "Center",
+	"Padding": { "Left": -30, "Top": 10, "Right": 15, "Bottom": 10 },
+	"Children": [
+		{
+			"Type": "Overlay",
+			"AutoSize": "false",
+			"HAlign": "Center",
+			"MaxWidth": 1000,
+			"MinWidth": 1000,
+			"Children": [
+				{
+					"Type": "BasicTile",
+					"Padding": {
+						"Left": 70,
+						"Top": 0,
+						"Right": 0,
+						"Bottom": 0
+					},
+					"Images": 
+					[
+						{ "Image": "0, 0, 0, 0.8"}
+					],
+					"LoadSilently": "true",
+					"AutoSize": "false"	
+				},
+				{
+					"Type": "ResponsiveGrid",
+					"AutoSize": "false",
+					"Padding": {
+						"Left": 75,
+						"Top": 5,
+						"Right": 5,
+						"Bottom": 5
+					},
+					"TotalColumns": 16,
+					"Children": [
+						{
+							"Type": "Layout",
+							"RowIndex": 0,
+							"ColumnSpans": [
+								{
+									"LayoutSize": 0,
+									"Span": 16
+								}
+							],
+							"AutoSize": "true",
+							"Layout": "ui_Paragon_CarouselV1_TierZero.layout"
+						},
+						{
+							"Type": "Box",
+							"Orientation": "Vertical",
+							"RowIndex": 1,
+							"ColumnSpans": [
+								{
+									"LayoutSize": 800,
+									"Span": 8
+								},
+								{
+									"LayoutSize": 0,
+									"Span": 8
+								}
+							],
+							"Padding": { "Left": 60, "Top": 0, "Right": 0, "Bottom": 20 },
+							"Children": [
+								{
+									"Type": "Layout",
+									"AutoSize": "true",
+									"Binding": "63f4a5dfbafb4ab690aa4adba894a545",
+									"Layout": "ui_Paragon_CallToActionV1.layout"
+								},
+								{
+									"Type": "Layout",
+									"AutoSize": "true",
+									"Padding": { "Left": 0, "Top": 40, "Right": 0, "Bottom": 0 },
+									"Binding": "4af85d8375cd482c91bd54010c5198f9",
+									"Layout": "ui_Paragon_CallToActionV1.layout"
+								}
+							]
+						},
+						{
+							"Type": "Box",
+							"Orientation": "Vertical",
+							"RowIndex": 1,
+							"ColumnSpans": [
+								{
+									"LayoutSize": 0,
+									"Span": 8
+								}
+							],
+							"Children": [
+								{
+									"Type": "Layout",
+									"AutoSize": "true",
+									"Padding": { "Left": -5, "Top": 15, "Right": 0, "Bottom": 0 },
+									"Layout": "ui_Paragon_ActionButtonV1_Mac.layout" 
+								},
+								{
+									"Type": "Layout",
+									"AutoSize": "true",
+									"Padding": { "Left": 0, "Top": 115, "Right": 0, "Bottom": 20 },
+									"Layout": "ui_Paragon_WhatsNewV1.layout"
+								}
+							]
+						},
+						{
+							"Type": "Panel",
+							"BackgroundImage": "0, 0, 0",
+							"RowIndex": 2,
+							"ColumnSpans": [
+								{
+									"LayoutSize": 0,
+									"Span": 16
+								}
+							],
+							"Children": [
+								{
+									"Type": "Panel",
+									"Padding": { "Left": 25, "Top": 20, "Right": 30, "Bottom": 15 },
+									"AutoSize": "false",
+									"Text": [
+										{
+											"Binding": "6e208f7ca50d466990228b53e2a9f9ef/LongDescription",
+											"Visibility": "Visible",
+											"TextStyle": "inverted-small-body",
+											"HAlign": "Fill",
+											"VAlign": "Top",
+											"AutoWrap": "True",
+											"Margin": {
+												"Left": 0,
+												"Top": 0,
+												"Right": 0,
+												"Bottom": 0
+											},
+											"LineHeightScalar": 1.2
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "BasicTile",
+					"Padding": { "Left": 0, "Top": 280, "Right": 0, "Bottom": 10 },
+					"HAlign": "Left",
+					"VAlign": "Top",
+					"Binding": "63426cbff76c4a06bc706117daaa6514",
+					"Images": 
+					[
+						{ "Image": "Featured", "Stretch": "ScaleToFit"}
+					],
+					"MaxWidth": 175,
+					"MinWidth": 175,
+					"Visibility": "HitTestInvisible",
+					"HasShadow": "false",
+					"LoadSilently": "true",
+					"AutoSize": "true"
+				},
+				{
+					"Type": "BasicTile",
+					"Padding": { "Left": 0, "Top": -45, "Right": 20, "Bottom": 0 },
+					"HAlign": "Right",
+					"VAlign": "Top",
+					"Images": 
+					[
+						{ "Image": "Paragon_LogoWhite_horizontal.png", "Stretch": "ScaleToFit"}
+					],
+					"HasShadow": "false",
+					"LoadSilently": "true",
+					"AutoSize": "true",
+					"Visibility": "HitTestInvisible",
+					"MaxHeight": 200,	
+					"MinHeight": 200,
+					"MaxWidth": 250
+				}
+			]
+		}
+	]
+}

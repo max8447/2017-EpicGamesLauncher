@@ -1,0 +1,498 @@
+﻿{
+	"Type": "ScrollBox",
+	"RequiresBindingSource": false,
+	"AutoSize": "false",
+	"Children": [
+		{
+			"Type": "ResponsiveGrid",
+			"HAlign": "Center",
+			"MaxWidth": 1400,
+			"MinWidth": 1400,
+			"Padding": {
+				"Left": 50,
+				"Top": 15,
+				"Right": 0,
+				"Bottom": 30
+			},
+			"TotalColumns": 11,
+			"ColumnGutter": 10,
+			"RowGutter": 10,
+			"Children": [
+				{
+					"Type": "Box",
+					"HAlign": "Center",
+					"RowIndex": 0,
+					"ColumnSpans": [
+						{
+							"LayoutSize": 1200,
+							"Span": 10
+						},
+						{
+							"LayoutSize": 0,
+							"Span": 0
+						}
+					],
+					"MaxHeight": 365,
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"MaxHeight": 365,
+							"Images": [
+								{
+									"Image": "Paragon_KeyArt.png"
+								}
+							],
+							"OnNavigateUrl": "/paragon",
+							"Text": [
+								{
+									"Text": "Play Paragon For Free Now\nStart a fight in Epic's new MOBA",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"RowIndex": 0,
+					"ColumnSpans": [
+						{
+							"LayoutSize": 1200,
+							"Span": 0
+						},
+						{
+							"LayoutSize": 0,
+							"Span": 10
+						}
+					],
+					"MaxHeight": 315,
+					"Children": [
+						{
+							"Type": "BasicTile",
+		
+							"MaxHeight": 315,
+							"Images": [
+								{
+									"Image": "Paragon_KeyArt.png",
+									"Stretch": "ScaleToFill"
+								}
+							],
+							"OnNavigateUrl": "/paragon",
+							"Text": [
+								{
+									"Text": "Play Paragon For Free Now\nStart a fight in Epic's new MOBA",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"RowIndex": 1,
+					"ColumnSpans": [
+						{
+							"LayoutSize": 1200,
+							"Offset": 0,
+							"Span": 5
+						},
+						{
+							"LayoutSize": 0,
+							"Span": 0
+						}
+					],
+					"MaxHeight": 295,
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"MaxHeight": 295,
+							"Images": [
+								{
+									"Image": "LandPage_Fortnite_Large.png"
+								}
+							],
+							"OnNavigateUrl": "/fortnite",
+							"Text": [
+								{
+									"Text": "Fortnite, sign-up for Alpha Today!",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"RowIndex": 1,
+					"ColumnSpans": [
+						{
+							"LayoutSize": 1200,
+							"Span": 5
+						},
+						{
+							"LayoutSize": 0,
+							"Span": 0
+						}
+					],
+					"MaxHeight": 295,
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"MaxHeight": 295,
+							"Images": [
+								{
+									"Image": "LandPage_UnrealEngine_Large.png"
+								}
+							],
+							"OnNavigateUrl": "/ue",
+							"Text": [
+								{
+									"Text": "Unreal Engine 4",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"RowIndex": 2,
+					"ColumnSpans": [
+						{
+							"LayoutSize": 1200,
+							"Span": 5
+						},
+						{
+							"LayoutSize": 0,
+							"Span": 0
+						}
+					],
+					"MaxHeight": 295,
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"MaxHeight": 295,
+							"Images": [
+								{
+									"Image": "LandPage_UnrealTournament_Large.png",
+									"VAlign": "Top"
+								}
+							],
+							"OnNavigateUrl": "/ut/play",
+							"Text": [
+								{
+									"Text": "Play Unreal Tournament Pre-Alpha",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"RowIndex": 2,
+					"ColumnSpans": [
+						{
+							"LayoutSize": 1200,
+							"Span": 5
+						},
+						{
+							"LayoutSize": 0,
+							"Span": 0
+						}
+					],
+					"MaxHeight": 295,
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"MaxHeight": 295,
+							"Images": [
+								{
+									"Image": "LandPage_UTMod_Large.png"
+								}
+							],
+							"OnNavigateUrl": "/ut/create",
+							"Text": [
+								{
+									"Text": "Mod Unreal Tournament",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"RowIndex": 3,
+					"ColumnSpans": [
+						{
+							"LayoutSize": 1200,
+							"Offset" : 0,
+							"Span": 5
+						},
+						{
+							"LayoutSize": 0,
+							"Span": 0
+						}
+					],
+					"MaxHeight": 295,
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"MaxHeight": 295,
+							"Images": [
+								{
+									"Image": "LandPage_Ark_Large.png"
+								}
+							],
+							"OnNavigateUrl": "/ark",
+							"Text": [
+								{
+									"Text": "ARK: Survival Evolved Dev Kit",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"RowIndex": 1,
+					"ColumnSpans": [
+						{
+							"LayoutSize": 1200,
+							"Span": 0
+						},
+						{
+							"LayoutSize": 0,
+							"Span": 5
+						}
+					],
+					"MaxHeight": 204,
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"MaxHeight": 204,
+							"Images": [
+								{
+									"Image": "LandPage_Fortnite_Small.png"
+								}
+							],
+							"OnNavigateUrl": "/fortnite",
+							"Text": [
+								{
+									"Text": "Fortnite Alpha",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"RowIndex": 1,
+					"ColumnSpans": [
+						{
+							"LayoutSize": 1200,
+							"Span": 0
+						},
+						{
+							"LayoutSize": 0,
+							"Span": 5
+						}
+					],
+					"MaxHeight": 204,
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"MaxHeight": 204,
+							"Images": [
+								{
+									"Image": "LandPage_UnrealEngine_Small.png"
+								}
+							],
+							"OnNavigateUrl": "/ue",
+							"Text": [
+								{
+									"Text": "Unreal Engine 4",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"RowIndex": 2,
+					"ColumnSpans": [
+						{
+							"LayoutSize": 1200,
+							"Span": 0
+						},
+						{
+							"LayoutSize": 0,
+							"Span": 5
+						}
+					],
+					"MaxHeight": 204,
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"MaxHeight": 204,
+							"Images": [
+								{
+									"Image": "LandPage_UnrealTournament_Small.png"
+								}
+							],
+							"OnNavigateUrl": "/ut/play",
+							"Text": [
+								{
+									"Text": "Unreal Tournament",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"RowIndex": 2,
+					"ColumnSpans": [
+						{
+							"LayoutSize": 1200,
+							"Span": 0
+						},
+						{
+							"LayoutSize": 0,
+							"Span": 5
+						}
+					],
+					"MaxHeight": 204,
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"MaxHeight": 204,
+							"Images": [
+								{
+									"Image": "LandPage_UTMod_Small.png"
+								}
+							],
+							"OnNavigateUrl": "/ut/create",
+							"Text": [
+								{
+									"Text": "Mod Unreal Tournament",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									}
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"RowIndex": 3,
+					"ColumnSpans": [
+						{
+							"LayoutSize": 1200,
+							"Span": 0
+						},
+						{
+							"LayoutSize": 0,
+							"Span": 5
+						}
+					],
+					"MaxHeight": 204,
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"MaxHeight": 204,
+							"Images": [
+								{
+									"Image": "LandPage_Ark_Small.png"
+								}
+							],
+							"OnNavigateUrl": "/ark",
+							"Text": [
+								{
+									"Text": "ARK: Survival Evolved Dev Kit",
+									"TextStyle": "h4",
+									"Margin": {
+										"Left": 15,
+										"Top": 15,
+										"Right": 15,
+										"Bottom": 5
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

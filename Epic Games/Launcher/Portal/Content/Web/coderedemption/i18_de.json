@@ -1,0 +1,19 @@
+{
+    "messages.com.epicgames.launcher.codeRedemption.title" : "Gib einen Produktcode ein",
+    "messages.com.epicgames.launcher.codeRedemption.titleSignedIn" : "Löse dein Produkt ein",
+    "messages.com.epicgames.launcher.codeRedemption.content" : "Gib hier den Produktcode einer Kauf-DVD oder einen anderen Epic Games Produkt-Code ein.",
+    "messages.com.epicgames.launcher.codeRedemption.contentSignedIn" : "Du bist als <span class=\"displayName\">{0}</span> angemeldet.",
+    "messages.com.epicgames.launcher.codeRedemption.statusContent" : "Diese Inhalte sind dauerhaft an dein Epic Games-Konto gebunden. Bitte stell sicher, dass du dich mit dem richtigen Konto anmeldest, wenn du dazu aufgefordert wirst.",
+    "messages.com.epicgames.launcher.codeRedemption.validCode" : "Der eingegebene Code gilt für <span class=\"productName\">{0}</span>. Wenn du auf „{1}“ klickst, wird dieser Inhalt an das Epic Games-Konto mit Namen <span class=\"displayName\">{2}</span> gebunden.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.title" : "Klasse! Du bist fast fertig!",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content1" : "Bevor du auf deine Inhalte zugreifen kannst, musst du dich anmelden oder ein Konto erstellen.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content2" : "Mit deinem Epic Games-Konto kannst du Teil unserer wachsenden Community aus Gamern und kreativen Köpfen werden.",
+    "messages.com.epicgames.launcher.codeRedemption.unknownError" : "Es ist ein Fehler aufgetreten. Bitte versuche es später noch einmal oder kontaktiere den Support, falls das Problem weiterhin besteht.",
+    "messages.com.epicgames.launcher.codeRedemption.enterYourCode" : "Gib deinen Code ein",
+    "messages.com.epicgames.launcher.createAccount" : "Konto erstellen",
+    "messages.com.epicgames.launcher.signin" : "Anmelden",
+    "messages.com.epicgames.launcher.cancel" : "Abbrechen",
+    "messages.com.epicgames.launcher.redeem" : "Einlösen",
+    "messages.com.epicgames.launcher.redeemed" : "Eingelöst",
+    "messages.com.epicgames.launcher.continue" : "Weiter"
+}

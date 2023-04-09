@@ -1,0 +1,108 @@
+﻿{
+	"Type": "Overlay",
+	"AutoSize": "false",
+	"Children": [
+		{
+			"Type": "ScrollBox",
+			"AutoSize": "false",
+			"Padding": {
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"Children": [
+				{
+					"Type": "Overlay",
+					"HAlign": "Center",
+					"VAlign": "Center",
+					"Padding": {
+						"Left": 0,
+						"Top": 40,
+						"Right": 0,
+						"Bottom": 0
+					},
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"Padding": {
+								"Left": 0,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 0
+							},
+							"Images": [
+								{
+									"Image": "0, 0, 0, 0.7"
+								}
+							],
+							"LoadSilently": "true",
+							"AutoSize": "false"
+						},
+						{
+							"Type": "Box",
+							"Orientation": "Vertical",
+							"Children": [
+								{
+									"Type": "BasicTile",
+									"Padding": {
+										"Left": 0,
+										"Top": 40,
+										"Right": 0,
+										"Bottom": 40
+									},
+									"HAlign": "Center",
+									"VAlign": "Top",
+									"Images": [
+										{
+											"Image": "Paragon_LogoWhite_vertical.png",
+											"Stretch": "ScaleToFill"
+										}
+									],
+									"HasShadow": "false",
+									"LoadSilently": "true",
+									"AutoSize": "true",
+									"MaxHeight": 200,
+									"MinHeight": 200,
+									"MaxWidth": 320
+								},
+								{
+									"Type": "Panel",
+									"Padding": {
+										"Left": 45,
+										"Top": 0,
+										"Right": 45,
+										"Bottom": 30
+									},
+									"Text": [
+										{
+											"TextStyle": "inverted-h5",
+											"Justification": "Center",
+											"WrapAt": 420,
+											"LineHeightScalar": 1.5,
+											"Visibility": "Visible",
+											"Text_translate": "true",
+											"Text": "Looks like your launcher is out of date.  You'll need to update for the launcher's full Paragon experience.\nJust restart the launcher after being prompted to update.\n\nIf you are having troubles updating try these <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"inverted-h5\" style=\"inverted-Hyperlink\">steps here</>.",
+											"Text_fr": "On dirait que votre lanceur n'est plus à jour. Vous allez devoir le mettre à jour pour profiter d'une expérience complète de Paragon.\nRedémarrez juste le lanceur après avoir reçu l'instruction de le mettre à jour.\n\nSi vous avez des problèmes pour le mettre à jour, essayez de suivre les étapes détaillées ici <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"inverted-h5\" style=\"inverted-Hyperlink\"></>.",
+											"Text_de": "Scheinbar ist Ihr Launcher nicht mehr aktuell. Sie müssen den Launcher aktualisieren, um Paragon vollständig erleben zu können.\nStarten Sie den Launcher einfach neu, nachdem Sie zum Aktualisieren aufgefordert wurden.\n\nSollten bei der Aktualisierung Probleme auftreten, probieren Sie bitte <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"inverted-h5\" style=\"inverted-Hyperlink\">diese Schritte hier aus</>.",
+											"Text_it": "La versione del tuo launcher è obsoleta. Dovrai aggiornarlo per poter vivere l'esperienza completa di Paragon.\nNon devi fare altro che riavviare il launcher quando ti viene chiesto di aggiornare.\n\nSe hai problemi con l'aggiornamento, segui <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"inverted-h5\" style=\"inverted-Hyperlink\">queste istruzioni</>.",
+											"Text_ru": "Похоже, что вы используете старую версию программы запуска. Чтобы полноценно играть в Paragon, вам необходимо обновить приложение.\nПросто перезапустите программу запуска после получения сообщения об обновлении.\n\nЕсли у вас возникнут какие-то проблемы с обновлением, попробуйте воспользоваться <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"inverted-h5\" style=\"inverted-Hyperlink\">данной инструкцией</>.",
+											"Text_es-MX": "Parece que tu iniciador está obsoleto. Necesitas actualizarlo para disfrutar de la experiencia completa de Paragon.\nSolo reinicia el iniciador cuando se indique que lo actualices.\n\nSi tienes problemas para actualizar, prueba estos pasos <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"inverted-h5\" style=\"inverted-Hyperlink\">aquí</> (en inglés).",
+											"Text_es": "Parece que tu pantalla inicial está desactualizada. Tendrás que actualizarla para disfrutar de la experiencia completa de Paragon.\nReinicia la pantalla inicial después de que se haya actualizado.\n\nSi estás teniendo problemas con la actualización, prueba a seguir estos pasos <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"inverted-h5\" style=\"inverted-Hyperlink\">aquí</> (en inglés).",
+											"Text_zh-CN": "您的启动程序已过期。要获得 Paragon 的完整体验，必须先更新启动程序。\n只需在显示更新提示后将启动程序重新启动即可完成更新。\n\n如果更新时遇到问题，请尝试<a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"inverted-h5\" style=\"inverted-Hyperlink\">这些步骤</>。",
+											"Text_ko": "런처가 구버전인 것 같습니다. 업데이트를 해야 파라곤 정상 플레이가 가능합니다.\n업데이트 확인 창이 뜨면 런처를 재시작하면 됩니다.\n\n업데이트에 문제가 있는 경우 <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"inverted-h5\" style=\"inverted-Hyperlink\">이 방법</>을 참고하세요.",
+											"Text_ja": "ランチャーが最新バージョンではありません。Paragon のプレイを最大限楽しむためにはランチャーを更新する必要があります。\n更新の確認が表示された後で、ランチャーを再起動してください。\n\n上手く更新できない場合は、<a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"inverted-h5\" style=\"inverted-Hyperlink\">こちらの手順</>をお試しください。",
+											"Text_pt-BR": "Parece que seu inicializador está desatualizado. Atualize para poder curtir a experiência completa de Paragon.\nReinicie o inicializador depois da caixa de diálogo da atualização.\n\nSe tiver problemas para atualizar, siga <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"inverted-h5\" style=\"inverted-Hyperlink\">estes passos</>.",
+											"Text_pl": "Korzystasz ze starej wersji programu uruchamiającego. Zaktualizuj go, aby prawidłowo uruchomić grę Paragon.\nW tym celu po wyświetleniu monitu o aktualizację uruchom ponownie program uruchamiający.\n\nJeśli masz problemy z aktualizacją, spróbuj wykonać <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"inverted-h5\" style=\"inverted-Hyperlink\">wskazane kroki</>.",
+											"Text_ar": "يبدو أن برنامج الإطلاق لديك غير محدث.سيكون عليك تحديثه لتتمكن من تجربة برنامج إطلاق Paragon الكاملة.\nقم بإعادة تشغيل برنامج الإطلاق بعد نقلك إلى التحديث.\n\nإن كنت تواجه مشاكل في التحديث فعليك تجربة هذه <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"inverted-h5\" style=\"inverted-Hyperlink\">الخطوات هنا</>."
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

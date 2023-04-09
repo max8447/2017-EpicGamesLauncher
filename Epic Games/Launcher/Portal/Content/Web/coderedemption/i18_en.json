@@ -1,0 +1,19 @@
+{
+    "messages.com.epicgames.launcher.codeRedemption.title" : "Enter a Product Code",
+    "messages.com.epicgames.launcher.codeRedemption.titleSignedIn" : "Redeem Your Product",
+    "messages.com.epicgames.launcher.codeRedemption.content" : "Enter the product code distributed with a retail DVD or other Epic Games product code here.",
+    "messages.com.epicgames.launcher.codeRedemption.contentSignedIn" : "You are now signed in as <span class=\"displayName\">{0}</span>.",
+    "messages.com.epicgames.launcher.codeRedemption.statusContent" : "The content will be bound to your Epic Games account forever, so make sure you sign in to the correct account when prompted.",
+    "messages.com.epicgames.launcher.codeRedemption.validCode" : "The code you have entered is for <span class=\"productName\">{0}</span>. Clicking \"{1}\" will bind this content to your <span class=\"displayName\">{2}</span> Epic Games account.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.title" : "Awesome, you're almost done!",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content1" : "Before you can access your content, you'll need to sign in or create an account.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content2" : "Your Epic Games account allows you to participate in our growing community of gamers and creators.",
+    "messages.com.epicgames.launcher.codeRedemption.unknownError" : "An error has occurred. Please try again later or contact support if the problem persists.",
+    "messages.com.epicgames.launcher.codeRedemption.enterYourCode" : "Enter your code",
+    "messages.com.epicgames.launcher.createAccount" : "Create an account",
+    "messages.com.epicgames.launcher.signin" : "Sign in",
+    "messages.com.epicgames.launcher.cancel" : "Cancel",
+    "messages.com.epicgames.launcher.redeem" : "Redeem",
+    "messages.com.epicgames.launcher.redeemed" : "Redeemed",
+    "messages.com.epicgames.launcher.continue" : "Next"
+}

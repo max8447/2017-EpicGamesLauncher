@@ -1,0 +1,96 @@
+{
+    "Type": "Overlay",
+    "Children": 
+    [
+        {
+           "Type": "Box",
+           "Orientation": "Horizontal", 
+           "Children": 
+           [
+                {
+                    "Type": "BasicTile",
+                    "HAlign": "Right",
+                    "MaxHeight": 400,
+                    "Binding": "00b204ae03684d7e8774ff270fde6834",
+                    "HasShadow": "false",
+                    "LoadSilently": "true",
+                    "AutoSize": "false",
+                    "Images": 
+                    [
+                        { "Image": "Screenshot", "Stretch": "ScaleToFit" }
+                    ]
+                },
+                {
+                    "Type": "BasicTile",
+                    "HAlign": "Left",
+                    "MaxHeight": 400,
+                    "Binding": "a9c2a89e26d2467ba48ad88decf10edd",
+                    "HasShadow": "false",
+                    "LoadSilently": "true",
+                    "AutoSize": "false",
+                    "Images": 
+                    [
+                        { "Image": "Screenshot", "Stretch": "ScaleToFit" }
+                    ]
+                }
+           ]
+        },
+        {
+            "Type": "BasicTile",
+            "VAlign": "Top",
+            "MaxHeight": 250,
+            "HasShadow": "false",
+            "LoadSilently": "true",
+            "AutoSize": "true",
+            "Padding": { "Left": 0, "Top": 90, "Right": 0, "Bottom": 0 },
+            "Binding": "0d4dc3722b76482c8de02c8355ff7827",
+            "Images": 
+            [
+                { "Image": "Screenshot", "Stretch": "ScaleToFit" }
+            ]
+        },
+        {
+            "Type": "BuildSelector",
+            "HAlign": "Right",
+            "Padding": { "Left": 0, "Top": 0, "Right": 10, "Bottom": 0 },
+            "VAlign": "Top"
+        },
+        {
+            "Type": "Box",
+            "Orientation": "Vertical",
+            "Padding": { "Left": 0, "Top": 220, "Right": 0, "Bottom": 0 },
+            "AutoSize": "false",
+            "HAlign": "Center",
+            "Children": 
+            [
+                {
+                    "Type": "ServerStatus"
+                },
+                {
+                    "Type": "ActionButton"
+                },
+                {
+                    "Type": "ProgressBar"
+                },
+                {
+                    "Type": "Box",
+                    "Orientation": "Horizontal",
+                    "Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 5 },
+                    "HAlign": "Center",
+                    "Children": 
+                    [
+                        {
+                            "Type": "Layout",
+                            "Layout": "ui_FNShareLinksV3",
+                            "Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 }
+                        },
+                        {
+                            "Type": "RegionSelector",
+                            "Padding": { "Left": 35, "Top": 0, "Right": 0, "Bottom": 0 }
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

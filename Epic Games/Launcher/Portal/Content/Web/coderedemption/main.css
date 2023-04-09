@@ -1,0 +1,211 @@
+@font-face {
+  font-family: 'BrutalType-Bold';
+  src: url("fonts/BrutalType-Bold/BrutalType-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/BrutalType-Bold/BrutalType-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/BrutalType-Bold/BrutalType-Bold.woff2") format("woff2"), url("fonts/BrutalType-Bold/BrutalType-Bold.woff") format("woff"), url("fonts/BrutalType-Bold/BrutalType-Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'BrutalType';
+  src: url("fonts/BrutalType-Regular/BrutalType-Regular.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/BrutalType-Regular/BrutalType-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/BrutalType-Regular/BrutalType-Regular.woff2") format("woff2"), url("fonts/BrutalType-Regular/BrutalType-Regular.woff") format("woff"), url("fonts/BrutalType-Regular/BrutalType-Regular.ttf") format("truetype"); }
+
+@font-face {
+  font-family: 'BrutalLight';
+  src: url("fonts/BrutalType-ExtraLight/BrutalType-ExtraLight.eot");
+  /* IE9 Compat Modes */
+  src: url("fonts/BrutalType-ExtraLight/BrutalType-ExtraLight.eot?#iefix") format("embedded-opentype"), url("fonts/BrutalType-ExtraLight/BrutalType-ExtraLight.woff2") format("woff2"), url("fonts/BrutalType-ExtraLight/BrutalType-ExtraLight.woff") format("woff"), url("fonts/BrutalType-ExtraLight/BrutalType-ExtraLight.ttf") format("truetype"); }
+
+* {
+  box-sizing: border-box; }
+
+html, body {
+  min-height: 100%;
+  height: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: rgba(50, 50, 50, 0.3);
+  color: #999999;
+  font-family: BrutalType;
+  font-size: 14px;
+  line-height: 20px; }
+
+.redeem-code, .redeem-code-label {
+  text-transform: uppercase; }
+
+#redeem-modal {
+  width: 100%;
+  max-width: 900px;
+  height: 450px;
+  background: #1F2022;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  margin: 0 auto;
+  box-shadow: 0px 0px 3px 0px #000; }
+  #redeem-modal:before, #redeem-modal:after {
+    content: " ";
+    display: table; }
+  #redeem-modal:after {
+    clear: both; }
+  #redeem-modal aside {
+    float: left;
+    width: 350px;
+    height: 100%;
+    border-right: 1px solid #333233; }
+    #redeem-modal aside .epic-logo {
+      display: block;
+      width: 100%;
+      height: 100%; }
+    #redeem-modal aside .product-image {
+      display: block;
+      width: 100%;
+      height: 100%;}
+  #redeem-modal .redeem-section {
+    float: right;
+    width: 550px;
+    padding: 50px 50px;
+    position: relative;
+    height: 100%; }
+  #redeem-modal h1 {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 24px;
+    margin: 0;
+    font-weight: normal; }
+
+.close-btn {
+  width: 12px;
+  height: 12px;
+  background: url("./images/closeBtn.png") no-repeat;
+  background-size: cover;
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px; }
+  .close-btn:hover {
+    background: url("./images/closeBtn-hover.png") no-repeat;
+    background-size: cover; }
+
+.textField {
+  position: relative; }
+  .textField input {
+    width: 100%;
+    border-radius: 3px;
+    padding: 14px 20px 0px 20px;
+    background: #111213;
+    border: 1px solid #333233;
+    height: 50px;
+    outline: none;
+    color: #f8f8f8;
+    font-size: 14px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease all; }
+    .textField input:focus + label, .textField input.filled + label {
+      top: 5px;
+      font-size: 10px; }
+  .textField label {
+    font-size: 14px;
+    position: absolute;
+    pointer-events: none;
+    left: 20px;
+    top: 15px;
+    transition: 0.3s ease all;
+    color: #999; }
+  .textField.loading .validation:before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    background: url("./images/ajax-loader.gif") no-repeat 50%;
+    background-size: cover;
+    position: absolute;
+    top: 13px;
+    right: 20px; }
+   .textField.success input {
+    border: 1px solid #95C990; }
+  .textField.success .validation:before {
+    content: '';
+    width: 24px;
+    height: 24px;
+    background: url("./images/successful_icon.png") no-repeat 50%;
+    background-size: cover;
+    position: absolute;
+    top: 13px;
+    right: 20px; }
+  .textField.error input {
+    border: 1px solid #C70018; }
+  .textField.error .validation {
+    color: #C70018; }
+  .textField.nonredemptionError .redeem-status {
+    color: #C70018; }
+  .textField.error .validation:before {
+    content: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjQgMjQ7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLnN0MHtmaWxsOiNFRDFDMjQ7fQ0KPC9zdHlsZT4NCjxwYXRoIGNsYXNzPSJzdDAiIGQ9Ik0xMywxN2gtMnYtMmgyVjE3eiBNMTMsMTNoLTJWN2gyVjEzeiIvPg0KPGc+DQoJPHBhdGggY2xhc3M9InN0MCIgZD0iTTEyLDRjNC40LDAsOCwzLjYsOCw4cy0zLjYsOC04LDhzLTgtMy42LTgtOFM3LjYsNCwxMiw0IE0xMiwyQzYuNSwyLDIsNi41LDIsMTJzNC41LDEwLDEwLDEwczEwLTQuNSwxMC0xMA0KCQlTMTcuNSwyLDEyLDJMMTIsMnoiLz4NCjwvZz4NCjwvc3ZnPg0K");
+    width: 24px;
+    height: 24px;
+    color: #ed1c24;
+    fill: currentColor;
+    position: absolute;
+    top: 13px;
+    right: 20px;
+    transition: all 0.2s ease; }
+
+.modal-action {
+  position: absolute;
+  right: 50px;
+  bottom: 30px; }
+
+.btn {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 50px;
+  min-width: 150px;
+  padding: 0 30px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-family: BrutalType-Bold;
+  border-radius: 5px;
+  margin-left: 10px;
+  border: 1px solid #95C990;
+  color: #95C990;
+  background: none;
+  outline: none;
+  transition: all 0.3s; 
+  position: relative;}
+  .btn:disabled {
+    border: 1px solid #9b9b9b;
+    background: #9b9b9b;
+    color: #afafaf; }
+  .btn.active {
+    background: #95C990;
+    color: #fff;
+  }
+  .btn:not(:disabled):hover {      
+      background: #AAE0A4;
+      color: #fff;
+  }
+  .btn.loading {
+      background: url("./images/load-button-spinner.gif") no-repeat 50% !important;
+      transition: none;
+  }
+
+.productName, .displayName {
+  color: #95C990;
+}
+
+.online .loggedIn {
+    display: initial;
+}
+.online .notLoggedIn {
+    display: none;
+}
+
+.offline .loggedIn {
+    display: none;
+}
+.offline .notLoggedIn  {
+    display: initial;
+}

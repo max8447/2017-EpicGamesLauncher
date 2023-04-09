@@ -1,0 +1,51 @@
+{
+	"Type": "Box",
+	"Orientation": "Vertical",
+	"VAlign": "Bottom",
+	"AutoSize": "false",
+	"Children": 
+	[
+		{
+			"Type": "Panel",
+			"Padding": {
+				"Left": 20,
+				"Top": 0,
+				"Right": 20,
+				"Bottom": 0
+			},
+			"Text": [
+				{
+					"TextStyle": "colored-title",
+					"Justification": "Center",
+					"Padding": { "Left": 30, "Top": 0, "Right": 30, "Bottom": 0 },
+					"WrapAt": 400,
+					"Text_translate": "true",
+					"Binding": "f4c9d1a6bb6944f6999d27e2b208cde5/Description" 
+				}
+			]
+		},
+		{
+			"Type": "ActionButton",
+			"MinWidth": 442,
+			"MinHeight": 115,
+			"HAlign": "Center",
+			"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+			"SelectorId": "Game",
+			"GroupId": "Game"
+		},
+		{
+			"Type": "Box",
+			"Orientation": "Horizontal",
+			"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+			"HAlign": "Center",
+			"Children": 
+			[
+				{
+					"Type": "Layout",
+					"Layout": "ui_Paragon_ShareLinksV1.layout",
+					"Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 }
+				}
+			]
+		}
+	]
+}

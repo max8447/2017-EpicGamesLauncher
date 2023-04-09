@@ -1,0 +1,69 @@
+﻿{
+   "Type" : "BasicTile",
+   "Padding" : {
+      "Left" : 0,
+      "Top" : 20,
+      "Right" : 20,
+      "Bottom" : 0
+   },
+   "MinHeight" : 272,
+   "MaxHeight" : 272,
+   "HasShadow" : false,
+   "Images" : [
+      {
+         "Image" : "Thumbnail"
+      }
+   ],
+   "OnNavigateUrl" : "/ut/marketplace/{Id}",
+   "Text" : [
+      {
+         "Text" : "Title",
+         "TextStyle" : "inverted-h3",
+         "Margin" : {
+            "Left" : 20,
+            "Top" : 10,
+            "Right" : 0,
+            "Bottom" : 20
+         }
+      },
+      {
+         "Text_translate" : "true",
+         "Text" : "By {Author}",
+         "TextStyle" : "inverted-extrasmall-body",
+         "Margin" : {
+            "Left" : 20,
+            "Top" : 40,
+            "Right" : 0,
+            "Bottom" : 30
+         },
+         "Text_ko" : "제작: {Author}",
+         "Text_ja" : "製作：{Author}",
+         "Text_zh-CN" : "作者{Author}",
+         "Text_fr" : "Par {Author}",
+         "Text_es-MX" : "Por {Author}",
+         "Text_de" : "Von {Author}",
+         "Text_it" : "Di {Author}",
+         "Text_ru" : "Производство: {Author}",
+         "Text_es" : "Por {Author}",
+         "Text_pl" : "Autor: {Author}",
+         "Text_pt-BR" : "Por {Author}",
+         "Text_ar" : "بواسطة {Author}",
+         "Text_tr" : "Yapan: {Author}",
+         "Text_zh-Hans" : "作者{Author}",
+         "Text_zh-Hant" : "由 {Author} 製作",
+         "Text_th" : "โดย {Author}"
+      },
+      {
+         "Text" : "Cost",
+         "TextStyle" : "inverted-extrasmall-strong",
+         "HAlign" : "Right",
+         "VAlign" : "Center",
+         "Margin" : {
+            "Left" : 20,
+            "Top" : 40,
+            "Right" : 20,
+            "Bottom" : 30
+         }
+      }
+   ]
+}

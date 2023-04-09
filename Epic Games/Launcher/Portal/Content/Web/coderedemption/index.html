@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title></title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <div id="redeem-modal" style="display: none;">
+    <aside>
+      <img class="epic-logo" src="images/epic_logo.png" />
+      <img class="product-image" style="display: none;"/>
+    </aside>
+    <div class="redeem-section">
+      <span class="close-btn"></span>
+
+      <div class="before-redeem">
+        <h1 class="notLoggedIn" data-loc-code="messages.com.epicgames.launcher.codeRedemption.title"></h1>
+        <h1 class="loggedIn" data-loc-code="messages.com.epicgames.launcher.codeRedemption.titleSignedIn"></h1>
+        
+        <p id="welcomeMessage" data-loc-code="messages.com.epicgames.launcher.codeRedemption.content"></p>
+        <div id="redeemDiv" class="textField redeem-code-box">
+          <input id="redeemCodeInputId" type="text" class="redeem-code" name="code" value="" maxlength="24" onkeydown="checkCodeLength(event)" onfocus="this.select()" spellcheck="false" />
+          <label class="redeem-code-label" for="code" data-loc-code="messages.com.epicgames.launcher.codeRedemption.enterYourCode"></label>
+          <p id="redeemStatus" class="redeem-status validation" data-loc-code="messages.com.epicgames.launcher.codeRedemption.statusContent"></p>
+        </div>
+        <div class="modal-action">
+          <button id="cancelButton" class="action-cancel btn" data-loc-code="messages.com.epicgames.launcher.cancel"></button>
+          <button id="redeemButton" class="action-redeem btn loggedIn" data-loc-code="messages.com.epicgames.launcher.redeem" disabled></button>
+          <button id="continueButton" class="action-redeem btn notLoggedIn" data-loc-code="messages.com.epicgames.launcher.continue" disabled></button>
+        </div>
+      </div>
+
+      <div class="after-redeem" style="display:none;">
+        <h1 data-loc-code="messages.com.epicgames.launcher.codeRedemption.complete.title"></h1>
+        <p data-loc-code="messages.com.epicgames.launcher.codeRedemption.complete.content1"></p>
+        <p data-loc-code="messages.com.epicgames.launcher.codeRedemption.complete.content2"></p>
+        <div class="modal-action">
+          <button class="action-create btn" data-loc-code="messages.com.epicgames.launcher.createAccount"></button>
+          <button class="action-signin btn active" data-loc-code="messages.com.epicgames.launcher.signin"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="jquery-3.2.1.min.js" type="text/javascript" charset="utf-8"></script>
+  <script src="language.js" type="text/javascript" charset="utf-8"></script>
+  <script src="main.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
+
+
+
+
+
+

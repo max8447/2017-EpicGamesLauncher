@@ -1,0 +1,19 @@
+{
+	"Type": "UIView",
+	"AutoSize": false,
+	"RequiresBindingSource": false,
+	"Child":
+	{
+		"Type": "Box",
+		"Orientation": "Vertical",
+		"AutoSize": false,
+		"Children": [
+			{
+				"Type": "WebBrowser",
+				"AutoSize": false,
+				"IsMainFrame": true,
+				"Url": "https://launcher-website-prod07.ol.epicgames.com/ue/learn"
+			}
+		]
+	}
+}

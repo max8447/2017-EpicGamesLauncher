@@ -1,0 +1,17 @@
+﻿{
+	"Type": "ScrollBox",
+	"AutoSize": "false",
+	"Padding": {
+		"Left": 0,
+		"Top": 0,
+		"Right": 0,
+		"Bottom": 0
+	},
+	"Children": [
+		{
+			"Type": "Layout",
+			"AutoSize": "false",
+			"Layout": "ui_Paragon_NarrowV1_Mac.layout"
+		}
+	]
+}

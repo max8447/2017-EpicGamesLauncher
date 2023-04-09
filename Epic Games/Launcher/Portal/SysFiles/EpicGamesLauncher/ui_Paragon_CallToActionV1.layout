@@ -1,0 +1,113 @@
+{
+	"Type": "Box",
+	"Orientation": "Vertical",
+	"Children": [
+		{
+			"Type": "Box",
+			"Orientation": "Horizontal",
+			"Padding": { "Left": 25, "Top": 20, "Right": 5, "Bottom": 20 },
+			"Children": [
+				{
+					"Type": "Panel",
+					"BackgroundImage": "or_bullet_point.png",
+					"Padding": { "Left": 0, "Top": 2, "Right": 0, "Bottom": 5 },
+					"AutoSize": "true"
+				},
+				{
+					"Type": "Panel",
+					"Padding": { "Left": 15, "Top": 0, "Right": 0, "Bottom": 0 },
+					"Text": [
+						{
+							"Binding": "BulletCategory",
+							"TextStyle": "inverted-h5"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "Box",
+			"Orientation": "Horizontal",
+			"Children": [
+				{
+					"Type": "Panel",
+					"Padding": { "Left": 25, "Top": 0, "Right": 0, "Bottom": 0 },
+					"MaxWidth": 125,
+					"MinWidth": 125,
+					"MaxHeight": 125,
+					"MinHeight": 125,
+					"VAlign": "Top",
+					"HAlign": "Left",
+					"BackgroundImage": "#bfa65e",
+					"AutoSize": "true",
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"Padding": { "Left": 2, "Top": 2, "Right": 2, "Bottom": 2 },
+							"OnNavigateUrl": "TechnicalDetails",
+							"Images": 
+							[
+								{ "Image": "Screenshot", "Stretch": "ScaleToFill", "VAlign": "Bottom"}
+							],
+							"HasShadow": "false",
+							"AutoSize": "false"
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"Orientation": "Vertical",
+					"AutoSize": "false",
+					"Padding": { "Left": 25, "Top": 0, "Right": 30, "Bottom": 20 },
+					"Children": [
+						{
+							"Type": "Panel",
+							"AutoSize": "true", 
+							"OnNavigateUrl": "{TechnicalDetails}",
+							"Visibility": "Visible",
+							"Text": [
+								{
+									"Binding": "Description",
+									"TextStyle": "colored-body",
+									"HAlign": "Fill",
+									"VAlign": "Top",
+									"AutoWrap": "True",
+									"Margin": {
+										"Left": 0,
+										"Top": 0,
+										"Right": 0,
+										"Bottom": 0
+									},
+									"LineHeightScalar": 1.2
+								}
+							]
+						},
+						{
+							"Type": "Panel",
+							"AutoSize": "false",
+							"Padding": { "Left": 0, "Top": 15, "Right": 0, "Bottom": 0 },
+							"Text": [
+								{
+									"Binding": "LongDescription",
+									"Visibility": "Visible",
+									"TextStyle": "inverted-body",
+									"HAlign": "Fill",
+									"VAlign": "Top",
+									"AutoWrap": "True",
+									"Margin": {
+										"Left": 0,
+										"Top": 0,
+										"Right": 0,
+										"Bottom": 0
+									},
+									"LineHeightScalar": 1.2
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
+

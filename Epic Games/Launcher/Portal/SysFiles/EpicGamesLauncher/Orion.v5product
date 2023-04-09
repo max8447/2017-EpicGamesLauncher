@@ -1,0 +1,187 @@
+{
+	"Id": "orion",
+	"Priority": 25,
+	"AnalyticsId": "or",
+	"DisplayName": "Paragon",
+	"DisplayName_ko": "파라곤",
+	"CatalogNamespace": "or", 
+	"BackgroundImage": "",
+	"BackgroundFillImage": "#212121",
+	"PrimaryColor": "#95c990ff",
+	"PressedPrimaryColor": "#95c990ff",
+	"HoveredPrimaryColor": "#aae0a4ff",
+	"Requirements": {
+		"DirectX": {
+			"FeatureLevels": "D3D_FEATURE_LEVEL_10_0"
+		}
+	},
+	"Homepage": "/paragon",
+	"Pages": [
+		{
+			"Id": "orion",
+			"PartialUrl": "/paragon",
+			"SourceUrls": [ 
+				{
+					"SourceUrl": "ui_ParagonV3_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ]  
+				},
+				{
+					"SourceUrl": "ui_ParagonV3_Mac.layout", 
+					"Conditions": [ 
+						"[MAC]"
+					]
+				},
+				{
+					"SourceUrl": "ui_ParagonV3.layout"
+				}
+			]
+		},	
+		
+	],
+	"Redirects": [
+		
+	],
+	"Apps": [
+		{
+			"Name": "OrionLive",
+			"GroupId": "Game",
+			"OfferId": "ebf7c111b1a049efb537e4912e115ae3",
+			"ItemId": "a04d4db6fb2d4e6d863ef84ad068a862",
+			"AppId": "orionLive",
+			"RecentPlayersNamespace": "orion",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher",
+			"WaitingRoomDomain": "orionwaitingroom-public-service-prod06.ol.epicgames.com"
+		},
+		{
+			"Name": "OrionPublicTest",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "adec3d27f64f4f0586f59c8730d6a1d6",
+			"AppId": "orionPublicTest",
+			"RecentPlayersNamespace": "orion",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "OrionEvent",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "78ce2662fb384346ad84541fad2635ce",
+			"AppId": "orionEvent",
+			"RecentPlayersNamespace": "orion",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "OrionReleasePlaytest",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "4186730b9f4e4795af85f2d6e353d165",
+			"AppId": "orionReleasePlaytest",
+			"RecentPlayersNamespace": "orion",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "OrionPartners",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "9ecd19ba88ec4d2098119bce70195fff",
+			"AppId": "orionPartners",
+			"RecentPlayersNamespace": "orion",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "OrionLocTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "9406d4ea357a4071be53fd896abd9ff5",
+			"AppId": "orionLocTesting",
+			"RecentPlayersNamespace": "orion",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "OrionDevPlaytest",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "43d8d1e27098434dae767c900b294a40",
+			"AppId": "orionDevPlaytest",
+			"RecentPlayersNamespace": "orion",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "OrionLiveCert",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "",
+			"AppId": "orionLiveCert",
+			"RecentPlayersNamespace": "orion",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "OrionLiveStage",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "",
+			"AppId": "orionLiveStage",
+			"RecentPlayersNamespace": "orion",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "OrionLiveTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "472b0d0ee0f84844a139e09c31c9fa66",
+			"AppId": "orionLiveTesting",
+			"RecentPlayersNamespace": "orion",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "OrionReleaseTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "431eb0c2309a44d7877b2f18505ec7b1",
+			"AppId": "orionReleaseTesting",
+			"RecentPlayersNamespace": "orion",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "OrionDevTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "ccdc5635b31049e0955b157689d12e8b",
+			"AppId": "orionDevTesting",
+			"RecentPlayersNamespace": "orion",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "OrionAgora",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "d1bd6cbcbdc94a7994f4190c6bf6944b",
+			"AppId": "orionAgora",
+			"RecentPlayersNamespace": "orion",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "OrionTwinblast",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "ea87e71b2dfc44aa9b7bcbc00ace85ce",
+			"AppId": "orionTwinblast",
+			"RecentPlayersNamespace": "orion",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		}
+	]
+}

@@ -1,0 +1,19 @@
+{
+    "messages.com.epicgames.launcher.codeRedemption.title" : "Wprowadź kod produktu",
+    "messages.com.epicgames.launcher.codeRedemption.titleSignedIn" : "Zrealizuj produkt",
+    "messages.com.epicgames.launcher.codeRedemption.content" : "Wpisz kod produktu dołączony do płyty DVD kupionej w sklepie lub inny kod produktu Epic Games.",
+    "messages.com.epicgames.launcher.codeRedemption.contentSignedIn" : "Użytkownik jest wpisany jako <span class=\"displayName\">{0}</span>.",
+    "messages.com.epicgames.launcher.codeRedemption.statusContent" : "Ten produkt zostanie nieodwracalnie przypisany do twojego konta Epic Games, więc po komunikacie upewnij się, że wpisujesz się na właściwego konto.",
+    "messages.com.epicgames.launcher.codeRedemption.validCode" : "Wprowadzony kod dotyczy produktu <span class=\"productName\">{0}</span>. Klikając \"{1}\" przypiszesz ten produkt do następującego konta Epic Games: <span class=\"displayName\">{2}</span>.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.title" : "Doskonale, to już prawie koniec!",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content1" : "Zanim uzyskasz dostęp do produktu, musisz się wpisać lub założyć konto.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content2" : "Twoje konto Epic Games pozwala ci stać się częścią rosnącej społeczności graczy i twórców.",
+    "messages.com.epicgames.launcher.codeRedemption.unknownError" : "Wystąpił błąd. Spróbuj ponownie później, a jeśli problem nie zniknie, skontaktuj się z obsługą klienta.",
+    "messages.com.epicgames.launcher.codeRedemption.enterYourCode" : "Wprowadź swój kod",
+    "messages.com.epicgames.launcher.createAccount" : "Utwórz konto",
+    "messages.com.epicgames.launcher.signin" : "Wpisz się",
+    "messages.com.epicgames.launcher.cancel" : "Anuluj",
+    "messages.com.epicgames.launcher.redeem" : "Wykorzystaj kod",
+    "messages.com.epicgames.launcher.redeemed" : "Kod wykorzystany",
+    "messages.com.epicgames.launcher.continue" : "Dalej"
+}

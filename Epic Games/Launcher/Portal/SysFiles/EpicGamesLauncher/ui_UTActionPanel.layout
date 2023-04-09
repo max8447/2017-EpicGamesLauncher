@@ -1,0 +1,54 @@
+{
+    "Type": "Box",
+    "Orientation": "Vertical",
+    "AutoSize": "false",
+    "VAlign": "Bottom",
+    "Children":
+    [
+        {
+            "Type": "ActionButton",
+            "HAlign": "Center",
+            "VAlign": "Bottom",
+            "Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 }
+        },
+        {
+            "Type": "ProgressBar",
+            "HAlign": "Center",
+            "VAlign": "Bottom",
+            "Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 }
+        },
+        {
+            "Type": "Box",
+            "Orientation": "Horizontal",
+            "HAlign": "Center",
+            "Children":
+            [
+                {
+                    "Type": "ExternalLink",
+                    "HAlign": "Left",
+                    "Text": "UT Chat rooms",
+                    "TextPadding": { "Left": 10, "Top": 0, "Right": 10, "Bottom": 0 },
+                    "TextStyle": "Body",
+                    "Image": "",
+                    "OnNavigateUrl": "https://webchat.globalgamers.net/?channels=UnrealTournament"
+                },
+                {
+                    "Type": "ExternalLink",
+                    "HAlign": "Right",
+                    "Text": "Latest build information",
+                    "TextPadding": { "Left": 10, "Top": 0, "Right": 10, "Bottom": 0 },
+                    "TextStyle": "Body",
+                    "Image": "",
+                    "OnNavigateUrl": "https://wiki.unrealengine.com/Version_Notes"
+                }
+            ]
+        },
+        {
+            "Type": "Layout",
+            "Layout": "ui_UTShareLinks.layout",
+            "HAlign": "Center",
+            "VAlign": "Bottom",
+            "Padding": { "Left": 0, "Top": 20, "Right": 0, "Bottom": 0 }
+        }
+    ]
+}

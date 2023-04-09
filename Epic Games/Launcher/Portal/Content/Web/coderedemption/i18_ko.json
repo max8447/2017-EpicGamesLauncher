@@ -1,0 +1,19 @@
+{
+    "messages.com.epicgames.launcher.codeRedemption.title" : "제품 코드를 입력하세요",
+    "messages.com.epicgames.launcher.codeRedemption.titleSignedIn" : "제품 코드 등록",
+    "messages.com.epicgames.launcher.codeRedemption.content" : "DVD 와 같이 배포된 제품 코드 또는 기타 에픽게임즈 제품 코드를 입력해 주세요.",
+    "messages.com.epicgames.launcher.codeRedemption.contentSignedIn" : "로그인 되었습니다, <span class=\"displayName\">{0}</span> 님.",
+    "messages.com.epicgames.launcher.codeRedemption.statusContent" : "콘텐츠가 귀하의 에픽게임즈 계정에 영원히 귀속됩니다. 올바른 계정으로 로그인했는지 확인해 주세요.",
+    "messages.com.epicgames.launcher.codeRedemption.validCode" : "<span class=\"productName\">{0}</span> 용 코드를 입력하셨습니다. \"{1}\" 클릭을 하시면 이 콘텐츠가 귀하의 <span class=\"displayName\">{2}</span> 에픽게임즈 계정에 귀속됩니다.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.title" : "좋아요, 이제 끝나갑니다!",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content1" : "콘텐츠에 접근하려면, 먼저 로그인 또는 계정을 생성해야 합니다.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content2" : "에픽게임즈 계정을 통해 늘어가는 게이머 및 제작자 커뮤니티에 참여하실 수 있습니다.",
+    "messages.com.epicgames.launcher.codeRedemption.unknownError" : "오류가 발생했습니다. 나중에 다시 해 보시거나 문제가 지속되면 기술지원 요청을 해주세요.",
+    "messages.com.epicgames.launcher.codeRedemption.enterYourCode" : "코드 입력",
+    "messages.com.epicgames.launcher.createAccount" : "계정 생성",
+    "messages.com.epicgames.launcher.signin" : "로그인",
+    "messages.com.epicgames.launcher.cancel" : "취소",
+    "messages.com.epicgames.launcher.redeem" : "등록",
+    "messages.com.epicgames.launcher.redeemed" : "등록됨",
+    "messages.com.epicgames.launcher.continue" : "다음"
+}

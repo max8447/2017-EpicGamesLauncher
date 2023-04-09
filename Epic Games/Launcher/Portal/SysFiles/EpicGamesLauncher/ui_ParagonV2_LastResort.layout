@@ -1,0 +1,142 @@
+﻿{
+	"Type": "Overlay",
+	"AutoSize": "false",
+	"RequiresBindingSource": false,
+	"Children": [
+		{
+			"Type": "ScrollBox",
+			"AutoSize": "false",
+			"Padding": {
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"Children": [
+				{
+					"Type": "Overlay",
+					"HAlign": "Center",
+					"VAlign": "Center",
+					"Padding": {
+						"Left": 0,
+						"Top": 66,
+						"Right": 0,
+						"Bottom": 0
+					},
+					"Children": [
+						{
+							"Type": "Box",
+							"Orientation": "Vertical",
+							"Children": [
+								{
+									"Type": "BasicTile",
+									"Padding": {
+										"Left": 0,
+										"Top": 0,
+										"Right": 0,
+										"Bottom": 35
+									},
+									"HAlign": "Center",
+									"VAlign": "Top",
+									"Images": [
+										{
+											"Image": "Paragon_LogoBlack_vertical.png",
+											"Stretch": "ScaleToFill"
+										}
+									],
+									"HasShadow": "false",
+									"LoadSilently": "true",
+									"AutoSize": "true"
+								},
+								{
+									"Type": "BasicTile",
+									"Padding": {
+										"Left": 3,
+										"Top": 0,
+										"Right": 0,
+										"Bottom": 32
+									},
+									"Images": [
+										{
+											"Image": "0, 0, 0, 1"
+										}
+									],
+									"LoadSilently": "true",
+									"AutoSize": "false",
+									"HAlign": "Center",
+									"MaxHeight": 1,
+									"MinHeight": 1,
+									"MinWidth": 362,
+									"MaxWidth": 362,
+									"HasShadow": "false"
+								},
+								{
+									"Type": "Panel",
+									"Padding": {
+										"Left": 50,
+										"Top": 0,
+										"Right": 50,
+										"Bottom": 5
+									},
+									"Text": [
+										{
+											"TextStyle": "ExtraSmall-Title",
+											"Justification": "Center",
+											"WrapAt": 400,
+											"LineHeightScalar": 1,
+											"Text_translate": "true",
+											"Text": "Uh-oh!",
+											"Text_zh-CN": "啊！",
+											"Text_fr": "Oh oh !",
+											"Text_de": "Oh, oh!",
+											"Text_ko": "오 이런!",
+											"Text_it": "Oh oh!",
+											"Text_ru": "Ой!",
+											"Text_pl": "O nie!",
+											"Text_ar": "آه أوه!",
+											"Text_pt-BR": "Opa!",
+											"Text_es-MX": "¡Oh, oh!",
+											"Text_es": "¡Oh, oh!",
+											"Text_ja": "おっと！"
+										}
+									]
+								},
+								{
+									"Type": "Panel",
+									"Padding": {
+										"Left": 50,
+										"Top": 0,
+										"Right": 50,
+										"Bottom": 40
+									},
+									"Text": [
+										{
+											"TextStyle": "h5",
+											"Justification": "Center",
+											"WrapAt": 480,
+											"LineHeightScalar": 1.5,
+											"Text_translate": "true",
+											"Text": "There is supposed to be something here.  Try again later...\nIf the problem persists try these <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"h5\" style=\"Hyperlink\">steps here</>.",
+											"Text_zh-CN": "这里应该会显示一些内容。请稍后再试...\n如果问题依旧存在，请尝试<a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"h5\" style=\"Hyperlink\">这里的步骤</>。",
+											"Text_fr": "Quelque chose devrait apparaître ici. Veuillez réessayer ultérieurement...\nSi le problème persiste, essayez les étapes ici : <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"h5\" style=\"Hyperlink\"></>.",
+											"Text_de": "Hier sollte irgendetwas sein. Bitte versuchen Sie es später erneut ...\nSollte das Problem weiterhin bestehen, dann probieren Sie bitte <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"h5\" style=\"Hyperlink\">diese Schritte hier aus</>.",
+											"Text_ko": "여기에 무언가 있었어야 합니다. 나중에 다시 해 보세요..\n문제가 계속되면 <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"h5\" style=\"Hyperlink\">이 방법</>을 시도해 보세요.",
+											"Text_it": "Qui dovrebbe esserci qualcosa. Riprova più tardi...\nSe il problema persiste, segui <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"h5\" style=\"Hyperlink\">queste istruzioni</>.",
+											"Text_ru": "Здесь должно что-то быть. Повторите попытку позднее...\nЕсли проблема не исчезает, попробуйте предпринять <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"h5\" style=\"Hyperlink\">эти действия</>.",
+											"Text_pl": "W tym miejscu powinna być widoczna zawartość. Spróbuj ponownie później.\nJeśli problem będzie występował nadal, spróbuj wykonać <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"h5\" style=\"Hyperlink\">wskazane kroki</>.",
+											"Text_ar": "يفترض وجود شيء ما هنا. حاول ثانية لاحقًا...\nإن استمرت المشكلة جرّب هذه <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"h5\" style=\"Hyperlink\"> الخطوات هنا</>.",
+											"Text_pt-BR": "Deveria ter alguma cosia aqui. Tente mais tarde...\nSe o problema persistir, tente realizar os <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"h5\" style=\"Hyperlink\">passos listados aqui</>.",
+											"Text_es-MX": "Se supone que debe haber algo aquí. Intenta de nuevo más tarde.\nSi el problema persiste, prueba estos pasos <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"h5\" style=\"Hyperlink\">aquí</> (en inglés).",
+											"Text_es": "Se supone que aquí debería haber algo. Inténtalo de nuevo más tarde...\nSi el problema persiste, prueba a seguir estos pasos <a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"h5\" style=\"Hyperlink\">aquí</> (en inglés).",
+											"Text_ja": "何かあったようです。後ほどお試しください...\n問題が解決しない場合は<a href=\"http://help.epicgames.com/customer/portal/articles/2350603-how-do-i-restart-the-epic-games-launcher\" textstyle=\"h5\" style=\"Hyperlink\">こちらのステップ</>をお試しください。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

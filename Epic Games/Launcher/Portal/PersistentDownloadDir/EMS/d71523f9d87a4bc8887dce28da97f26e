@@ -1,0 +1,153 @@
+﻿{
+   "Type" : "Overlay",
+   "RequiresBindingSource" : false,
+   "AutoSize" : "false",
+   "Children" : [
+      {
+         "Type" : "Panel",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 0,
+            "Right" : 0,
+            "Bottom" : 0
+         },
+         "BackgroundImage" : "0.08241, 0.08241, 0.08241"
+      },
+      {
+         "Type" : "Box",
+         "Orientation" : "Vertical",
+         "AutoSize" : "false",
+         "Padding" : {
+            "Left" : -5,
+            "Top" : 0,
+            "Right" : -5,
+            "Bottom" : 0
+         },
+         "Children" : [
+            {
+               "Type" : "Overlay",
+               "MaxWidth" : 1400,
+               "HAlign" : "Center",
+               "Children" : [
+                  {
+                     "Type" : "BasicTile",
+                     "HasShadow" : "true",
+                     "Height" : 300,
+                     "LoadSilently" : "true",
+                     "Images" : [
+                        {
+                           "Image" : "squad_CreateHeader.png",
+                           "HAlign" : "Center",
+                           "VAlign" : "Center"
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "BasicTile",
+                     "HasShadow" : "false",
+                     "Height" : 150,
+                     "Width" : 450,
+                     "HAlign" : "Left",
+                     "Images" : [
+                        {
+                           "Image" : "GradientRight.png",
+                           "ColorAndOpacity" : "0, 0, 0, 0.75",
+                           "Stretch" : "Fill"
+                        }
+                     ],
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 5,
+                        "Right" : 5,
+                        "Bottom" : 5
+                     }
+                  },
+                  {
+                     "Type" : "Box",
+                     "Orientation" : "Vertical",
+                     "MinWidth" : 1400,
+                     "HAlign" : "Center",
+                     "VAlign" : "Top",
+                     "Padding" : {
+                        "Left" : 30,
+                        "Top" : 50,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "Children" : [
+                        {
+                           "Type" : "Panel",
+                           "Padding" : {
+                              "Left" : 20,
+                              "Top" : 0,
+                              "Right" : 0,
+                              "Bottom" : 0
+                           },
+                           "Text" : [
+                              {
+                                 "Text_translate" : "true",
+                                 "Text" : "Modify Squad",
+                                 "TextStyle" : "inverted-title",
+                                 "HAlign" : "Left",
+                                 "VAlign" : "Center",
+                                 "Margin" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 0
+                                 },
+                                 "LineHeightScalar" : 1.2,
+                                 "Text_zh-CN" : "修改小队",
+                                 "Text_ja" : "Squad を修正",
+                                 "Text_fr" : "Modifier l'escouade",
+                                 "Text_de" : "Squad verändern",
+                                 "Text_ko" : "스쿼드 변경",
+                                 "Text_it" : "Modifica Squad",
+                                 "Text_ru" : "Изменить Squad",
+                                 "Text_pl" : "Modyfikuj grę Squad",
+                                 "Text_ar" : "تعديل الفريق",
+                                 "Text_pt-BR" : "Modificar esquadrão",
+                                 "Text_es-MX" : "Modificar Squad",
+                                 "Text_es" : "Modificar Squad",
+                                 "Text_tr" : "Squad’da Değişiklik Yap",
+                                 "Text_zh-Hans" : "修改小队",
+                                 "Text_zh-Hant" : "改造小隊",
+                                 "Text_th" : "ปรับเปลี่ยน Squad"
+                              }
+                           ]
+                        },
+                        {
+                           "Type" : "ActionButton",
+                           "HAlign" : "Left",
+                           "MinWidth" : 442,
+                           "MinHeight" : 124,
+                           "Padding" : {
+                              "Left" : 0,
+                              "Top" : 10,
+                              "Right" : 0,
+                              "Bottom" : 0
+                           },
+                           "VAlign" : "Top",
+                           "SelectorId" : "Editor",
+                           "GroupId" : "Editor"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "Type" : "Layout",
+               "Layout" : "ui_GenericCreateOffline",
+               "HAlign" : "Center",
+               "AutoSize" : "false",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               }
+            }
+         ]
+      }
+   ]
+}

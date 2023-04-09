@@ -1,0 +1,100 @@
+﻿{
+	"Type": "Overlay",
+	"AutoSize": "false",
+	"RequiresBindingSource": false,
+	"Children": [
+		{
+			"Type": "ScrollBox",
+			"AutoSize": "false",
+			"Padding": {
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"Children": [
+				{
+					"Type": "Overlay",
+					"HAlign": "Center",
+					"VAlign": "Center",
+					"Padding": {
+						"Left": 0,
+						"Top": 30,
+						"Right": 0,
+						"Bottom": 0
+					},
+					"Children": [
+						{
+							"Type": "Box",
+							"Orientation": "Vertical",
+							"Children": [
+								{
+									"Type": "Panel",
+									"Padding": {
+										"Left": 50,
+										"Top": 60,
+										"Right": 50,
+										"Bottom": 5
+									},
+									"Text": [
+										{
+											"TextStyle": "inverted-ExtraSmall-Title",
+											"Justification": "Center",
+											"WrapAt": 400,
+											"LineHeightScalar": 1,
+											"Text_translate": "true",
+											"Text": "Uh-oh!",
+											"Text_zh-CN": "啊！",
+											"Text_fr": "Oh oh !",
+											"Text_de": "Oh, oh!",
+											"Text_ko": "오 이런!",
+											"Text_it": "Oh oh!",
+											"Text_ru": "Ой!",
+											"Text_pl": "O nie!",
+											"Text_ar": "آه أوه!",
+											"Text_pt-BR": "Opa!",
+											"Text_es-MX": "¡Oh, oh!",
+											"Text_es": "¡Oh, oh!",
+											"Text_ja": "おっと！"
+										}
+									]
+								},
+								{
+									"Type": "Panel",
+									"Padding": {
+										"Left": 50,
+										"Top": 0,
+										"Right": 50,
+										"Bottom": 40
+									},
+									"Text": [
+										{
+											"TextStyle": "inverted-h5",
+											"Justification": "Center",
+											"WrapAt": 480,
+											"LineHeightScalar": 1.5,
+											"Text_translate": "true",
+											"Text": "There is supposed to be something here.\nTry sorting out the connectivity issue and return to this page.",
+											"Text_zh-CN": "这里应该会显示一些内容。\n请尝试解决连接问题，并回到这个页面。",
+											"Text_fr": "Quelque chose devrait apparaître ici.\nEssayez de régler les problèmes de connexion et revenez sur cette page.",
+											"Text_de": "Hier sollte eigentlich etwas sein.\nBeheben Sie das Verbindungsproblem und rufen Sie die Seite erneut auf.",
+											"Text_ko": "여기 뭔가 있어야 하는데 말이지요. \n회선 문제를 해결하고 다시 이 페이지로 돌아와 보세요.",
+											"Text_it": "Qui dovrebbe esserci qualcosa.\nRisolvi i problemi di connessione e torna a questa pagina.",
+											"Text_ru": "Тут что-то должно быть, но вы этого не видите.\nРазберитесь с проблемами подключения и вернитесь на страницу.",
+											"Text_pl": "W tym miejscu powinna być widoczna zawartość.\nSpróbuj rozwiązać problem z połączeniem i wróć do tej strony.",
+											"Text_ar": "يفترض وجود شيء ما هنا.\nحاول حل مشاكل الاتصال وعُد إلى هذه الصفحة.",
+											"Text_pt-BR": "Opa, devia ter algo aqui.\nTente solucionar o problema de conexão e volte a esta página.",
+											"Text_es-MX": "Se supone que debe haber algo aquí.\nIntenta solucionar el problema de conexión y vuelve a esta página.",
+											"Text_es": "Se supone que aquí tenía que haber algo.\nIntenta solucionar los problemas de conectividad y vuelve a esta página.",
+											"Text_ja": "何かあったようです。後ほどお試しください...\n接続の問題点を突き止め、再度このページを読み込んでください。"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

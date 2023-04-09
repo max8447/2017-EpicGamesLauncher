@@ -1,0 +1,87 @@
+{
+    "Type": "Overlay",
+    "Children": 
+    [
+        {
+            "Type": "BasicCarousel",
+            "HAlign": "Center",
+            "VAlign": "Top",
+            "Images": 
+            [
+                { "Image": "Screenshot" }
+            ],
+            "AutoScroll": 8,
+            "AutoScrollDirection": "Right",
+            "ManualScroll": "false",
+            "StretchDirection": "DownOnly",
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Items": 
+            { 
+                "Includes": 
+                [
+                    "96fda8a0d25d47af96883b04235c7bb8", 
+                    "00b204ae03684d7e8774ff270fde6834", 
+                    "a9c2a89e26d2467ba48ad88decf10edd",
+                    "8c09ae6a9a71469192c8e044ab8f8194",
+                    "b95de4c586384f8e89d370734e381cc3",
+                    "fc69ec0a27f2490facf3c1fa662ae5ca"					
+                ],
+                "SortBy": "Title"
+            }
+        },
+        {
+            "Type": "BuildSelector",
+            "HAlign": "Right",
+            "Padding": { "Left": 0, "Top": 0, "Right": 10, "Bottom": 0 },
+            "VAlign": "Top"
+        },
+        {
+            "Type": "Box",
+            "Orientation": "Vertical",
+            "Padding": { "Left": 0, "Top": 540, "Right": 0, "Bottom": 0 },
+            "Children": 
+            [
+                {
+                    "Type": "ServerStatus"
+                },
+                {
+                    "Type": "ActionButton"
+                },
+                {
+                    "Type": "ProgressBar"
+                },
+                {
+                    "Type": "Box",
+                    "Orientation": "Horizontal",
+                    "HAlign": "Center",
+                    "Padding": { "Left": 10, "Top": 0, "Right": 10, "Bottom": 0 },
+                    "Children": 
+                    [ 
+                        {
+                            "Type": "RegionSelector",
+                            "HAlign": "Left",
+                            "VAlign": "Center",
+							"Padding": { "Left": 0, "Top": 0, "Right": 50, "Bottom": 0 }
+                        },
+                        {
+                            "Type": "Panel",
+                            "HAlign": "Fill", 
+                            "VAlign": "Fill"
+                        },
+                        {
+                            "Type": "ExternalLink",
+                            "HAlign": "Right",
+                            "VAlign": "Center",
+                            "Text": "Send feedback",
+                            "TextPadding": { "Left": 10, "Top": 0, "Right": 10, "Bottom": 0 },
+                            "TextStyle": "Body",
+                            "Image": "",
+                            "OnNavigateUrl": "mailto:feedback@fortnite.com"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

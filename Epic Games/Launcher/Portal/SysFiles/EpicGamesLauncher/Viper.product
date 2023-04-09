@@ -1,0 +1,46 @@
+﻿{
+	"Id": "viper",
+	"Priority": 30,
+	"AnalyticsId": "vpr",
+	"DisplayName": "Shadow Complex",
+	"CatalogNamespace": "vpr",
+	"BackgroundImage": "viper_background2.png",
+	"BackgroundFillImage": "0.04145, 0.0, 0.0",
+	"PrimaryColor": "0.47618, 0.00006, 0.00006",
+	"PressedPrimaryColor": "0.42051, 0.00006, 0.00006",
+	"HoveredPrimaryColor": "0.53564, 0.00006, 0.00006",
+	"Requirements": {
+		"DirectX": {
+			"FeatureLevels": "D3D_FEATURE_LEVEL_9_0"
+		}
+	},
+	"Homepage": {
+		"Id": "viper",
+		"PartialUrl": "/viper",
+		"SourceUrl": "ui_viperPlayV2.layout",
+		"DisconnectedSourceUrl": "ui_viperHome_Offline.layout"
+	},
+	"Pages": [
+		{
+			"Id": "viper-load-error",
+			"PartialUrl": "viper/load-error",
+			"SourceUrl": "ui_viperHome_Offline.layout"
+		}
+	],
+	"Redirects": [
+	
+	],
+	"Apps": [
+		{
+			"Name": "Viper",
+			"GroupId": "Game",
+			"OfferId": "497cdc35842e458ca10a1edae95ae181",
+			"ItemId": "afa04be9e4e5416c8641cc0398889220",
+			"LaunchPermissions": "WithoutLauncher"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": [
+
+	]
+}

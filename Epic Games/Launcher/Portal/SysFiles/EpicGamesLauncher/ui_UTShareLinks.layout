@@ -1,0 +1,79 @@
+{
+	"Type": "Box",
+	"Orientation": "Horizontal",
+	"Children":
+	[
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 32, "MaxWidth": 32, "MinHeight": 32, "MaxHeight": 32,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "rssfeed.png" } ],
+            "OnNavigateUrl": "http://unrealtournament.com/blog/feed/"
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 32, "MaxWidth": 32, "MinHeight": 32, "MaxHeight": 32,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "googleplus.png" } ],
+            "OnNavigateUrl": "https://plus.google.com/+EpicUnrealTournament/posts"
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 32, "MaxWidth": 32, "MinHeight": 32, "MaxHeight": 32,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "facebook.png" } ],
+            "OnNavigateUrl": "http://www.facebook.com/unrealtournament/"
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 32, "MaxWidth": 32, "MinHeight": 32, "MaxHeight": 32,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "twitter.png" } ],
+            "OnNavigateUrl": "http://www.twitter.com/utgame/"
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 32, "MaxWidth": 32, "MinHeight": 32, "MaxHeight": 32,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "pinterest.png" } ],
+            "OnNavigateUrl": "http://www.pinterest.com/UTGame/"
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 32, "MaxWidth": 32, "MinHeight": 32, "MaxHeight": 32,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "instagram.png" } ],
+            "OnNavigateUrl": "http://www.instagram.com/unrealtournament/"
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 32, "MaxWidth": 32, "MinHeight": 32, "MaxHeight": 32,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "youtube.png" } ],
+            "OnNavigateUrl": "http://www.youtube.com/unrealtournament/"
+        },
+        {
+            "Type": "BasicTile",
+            "Padding": { "Left": 5, "Top": 0, "Right": 5, "Bottom": 0 },
+            "MinWidth": 32, "MaxWidth": 32, "MinHeight": 32, "MaxHeight": 32,
+            "LoadSilently": "true",
+            "HasShadow": false,
+            "Images": [ { "Image": "twitch.png" } ],
+            "OnNavigateUrl": "http://www.twitch.tv/directory/game/Unreal%20Tournament"
+        }
+	]
+}

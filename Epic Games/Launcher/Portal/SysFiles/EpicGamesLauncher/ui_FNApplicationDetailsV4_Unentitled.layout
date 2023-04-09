@@ -1,0 +1,156 @@
+{
+    "Type": "Overlay",
+    "AutoSize": "false",
+    "Children":
+    [
+        {
+            "Type": "ScrollBox",
+            "AutoSize": "false",
+            "Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+            "Children": 
+            [
+                {
+                    "Type": "Overlay",
+                    "Padding": { "Left": 0, "Top": 0, "Right": 30, "Bottom": 0 },
+                    "Children": 
+                    [
+                        {
+                            "Type": "ResponsiveGrid",
+                            "HAlign": "Center",
+                            "MaxWidth": 1400,
+                            "MinWidth": 1400,
+                            "Padding": { "Left": 15, "Top": 15, "Right": 2, "Bottom": 15 },
+                            "TotalColumns": 16,
+                            "Children": 
+                            [
+                                {
+                                    "Type": "Layout",
+                                    "Layout": "ui_FNApplicationDetailsV4_SmallActionPanel_unentitled.layout",
+                                    "Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+                                    "Row": 0,
+                                    "ColumnSpans":
+                                    [
+                                        { "LayoutSize": 1150, "Span": 0 },
+                                        { "LayoutSize": 0, "Span": 16 }
+                                    ]
+                                },
+                                {
+                                    "Type": "Box",
+                                    "Orientation": "Vertical",
+                                    "Row": 0,
+                                    "ColumnSpans":
+                                    [
+                                        { "LayoutSize": 1150, "Span": 10 },
+                                        { "LayoutSize": 900, "Span": 16 }
+                                    ],
+                                    "Children": 
+                                    [
+                                         {
+                                            "Type": "BasicCarousel",
+                                            "Id": "Carousel01",
+                                            "MaxWidth": 1000,
+                                            "MinWidth": 1000,
+                                            "MinHeight": 250,
+                                            "MaxHeight": 250,
+                                            "HAlign": "Center",
+                                            "AutoScroll": 13,
+                                            "AutoScrollDirection": "Left",
+                                            "Items": { "Includes": ["fe955639c08545f3a3f21a9564c8e5ff", "35a433276f514f278beec5f37e9d0ffd", "46494742a50a4a04804c76a61f8937f1"], "SortBy": "Title" },
+                                            "HoverIcon": { "Image": "ExternalLink.png", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } },
+                                            "Images": 
+                                            [
+                                                { "Image": "Screenshot" }
+                                            ],
+                                            "OnNavigateUrl": "TechnicalDetails",
+                                            "Text": 
+                                            [
+                                                { "Text": "Description", "Margin": { "Left": 15, "Top": 20, "Right": 15, "Bottom": 10 } }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "ResponsiveGrid",
+                                            "MaxWidth": 1000,
+                                            "HAlign": "Center",
+                                            "TotalColumns": 12,
+                                            "ColumnGutter": 8.5,
+                                            "Children": 
+                                            [
+                                                {
+                                                    "Type": "BasicTile",
+                                                    "Row": 0,
+                                                    "ColumnSpans":
+                                                    [
+                                                        { "LayoutSize": 700, "Span": 5 },
+                                                        { "LayoutSize": 0, "Span": 0 }
+                                                    ],
+                                                    "MaxWidth": 700,
+                                                    "MinWidth": 700,
+                                                    "MinHeight": 200,
+                                                    "Binding": "9827919db72a4a10934470872d504163",
+                                                    "Images": 
+                                                    [
+                                                        { "Image": "Screenshot" }
+                                                    ],
+                                                    "OnNavigateUrl": "TechnicalDetails",
+                                                    "HoverIcon": { "Image": "ExternalLink.png", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } },
+                                                    "Text": 
+                                                    [
+                                                        { "Text": "Description", "Margin": { "Left": 15, "Top": 20, "Right": 15, "Bottom": 10 } }
+                                                    ],
+                                                    "Padding": { "Left": 0, "Top": 15, "Right": 0, "Bottom": 0 }
+                                                },
+                                                {
+                                                    "Type": "DetailsTile",
+                                                    "Row": 0,
+                                                    "ColumnSpans":
+                                                    [
+                                                        { "LayoutSize": 700, "Span": 7 },
+                                                        { "LayoutSize": 0, "Span": 0 }
+                                                    ],
+                                                    "MinHeight": 400,
+                                                    "HoveredBackgroundImage": { "Image": "0.0, 0.0, 0.0, 0.7" },
+                                                    "BackgroundImage": { "Image": "0.0, 0.0, 0.0, 0.7" },
+                                                    "ImageFillSize": 0.36,
+                                                    "Binding": "b166ddc43a14417ba8c30605e5f39da7",
+                                                    "Images": 
+                                                    [
+                                                        { "Image": "Screenshot", "Stretch": "ScaleToFit", "StretchDirection": "DownOnly" }
+                                                    ],
+                                                    "OnNavigateUrl": "https://www.epicgames.com/fortnite/register",
+                                                    "HoverIcon": { "Image": "ExternalLink.png", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 5 } },
+                                                    "Text": 
+                                                    [
+                                                        { "Text": "LongDescription", "TextStyle": "Body", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 }, "LineHeightScalar": 1.5 }
+                                                    ],
+                                                    "Padding": { "Left": 0, "Top": 15, "Right": 0, "Bottom": 0 }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "Box",
+                                    "Orientation": "Vertical",
+                                    "Row": 0,
+                                    "ColumnSpans":
+                                    [
+                                        { "LayoutSize": 1150, "Span": 6 },
+                                        { "LayoutSize": 900, "Span": 0 },
+                                        { "LayoutSize": 0, "Span": 0 }
+                                    ],
+                                    "Children": 
+                                    [ 
+                                        {
+                                            "Type": "Layout",
+                                            "Layout": "ui_FNApplicationDetailsV4_ActionPanel_unentitled.layout"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

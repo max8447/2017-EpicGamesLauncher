@@ -1,0 +1,59 @@
+{
+    "Type": "Overlay",
+    "Children": 
+    [
+        {
+           "Type": "Box",
+           "Orientation": "Horizontal", 
+           "Children": 
+           [
+                {
+                    "Type": "BasicTile",
+                    "HAlign": "Right",
+                    "MaxHeight": 300,
+                    "Binding": "00b204ae03684d7e8774ff270fde6834",
+                    "HasShadow": "false",
+                    "LoadSilently": "true",
+                    "AutoSize": "false",
+                    "Images": 
+                    [
+                        { "Image": "Screenshot", "VAlign": "Top" }
+                    ]
+                },
+                {
+                    "Type": "BasicTile",
+                    "HAlign": "Left",
+                    "MaxHeight": 300,
+                    "Binding": "a9c2a89e26d2467ba48ad88decf10edd",
+                    "HasShadow": "false",
+                    "LoadSilently": "true",
+                    "AutoSize": "false",
+                    "Images": 
+                    [
+                        { "Image": "Screenshot", "VAlign": "Top" }
+                    ]
+                }
+           ]
+        },
+        {
+            "Type": "BasicTile",
+            "VAlign": "Bottom",
+            "MaxHeight": 250,
+            "HasShadow": "false",
+            "LoadSilently": "true",
+            "Padding": { "Left": 0, "Top": 70, "Right": 0, "Bottom": 40 },
+            "Binding": "0d4dc3722b76482c8de02c8355ff7827",
+            "Images": 
+            [
+                { "Image": "Screenshot", "Stretch": "ScaleToFit" }
+            ]
+        },
+        {
+            "Type": "Layout",
+            "Layout": "ui_FNShareLinksV3",
+            "HAlign": "Center",
+            "VAlign": "Bottom",
+            "Padding": { "Left": 0, "Top": 70, "Right": 0, "Bottom": 10 }
+        }
+    ]
+}

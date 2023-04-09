@@ -1,0 +1,19 @@
+{
+    "messages.com.epicgames.launcher.codeRedemption.title" : "Introduce un código de producto",
+    "messages.com.epicgames.launcher.codeRedemption.titleSignedIn" : "Canjea tu producto",
+    "messages.com.epicgames.launcher.codeRedemption.content" : "Introduce aquí el código de producto que se distribuye con el DVD u otro código de producto de Epic Games.",
+    "messages.com.epicgames.launcher.codeRedemption.contentSignedIn" : "Has iniciado sesión como <span class=\"displayName\">{0}</span>.",
+    "messages.com.epicgames.launcher.codeRedemption.statusContent" : "El contenido quedará vinculado a tu cuenta de Epic Games para siempre, así que asegúrate de iniciar sesión con la cuenta correspondiente.",
+    "messages.com.epicgames.launcher.codeRedemption.validCode" : "El código que has introducido es para <span class=\"productName\">{0}</span>. Al hacer clic en \"{1}\", este contenido quedará vinculado a tu cuenta de Epic Games <span class=\"displayName\">{2}</span>.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.title" : "Estupendo, ¡ya casi está!",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content1" : "Necesitas iniciar sesión o crear una cuenta para poder acceder a tu contenido.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content2" : "Con tu cuenta de Epic Games podrás participar en nuestra creciente comunidad de jugadores y creadores.",
+    "messages.com.epicgames.launcher.codeRedemption.unknownError" : "Se ha producido un error. Vuelve a intentarlo más tarde o ponte en contacto con asistencia al jugador si el problema persiste.",
+    "messages.com.epicgames.launcher.codeRedemption.enterYourCode" : "Introducir código",
+    "messages.com.epicgames.launcher.createAccount" : "Crear cuenta",
+    "messages.com.epicgames.launcher.signin" : "Iniciar sesión",
+    "messages.com.epicgames.launcher.cancel" : "Cancelar",
+    "messages.com.epicgames.launcher.redeem" : "Canjear",
+    "messages.com.epicgames.launcher.redeemed" : "Canjeado",
+    "messages.com.epicgames.launcher.continue" : "Siguiente"
+}

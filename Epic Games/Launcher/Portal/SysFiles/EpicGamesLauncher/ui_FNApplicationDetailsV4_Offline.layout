@@ -1,0 +1,65 @@
+﻿{
+	"Type": "Box",
+	"RequiresBindingSource": false,
+	"Orientation": "Vertical",
+	"Padding": {
+		"Left": 0,
+		"Top": 0,
+		"Right": 0,
+		"Bottom": 0
+	},
+	"HAlign": "Center",
+	"AutoSize": "false",
+	"Children": [
+		{
+			"Type": "BasicTile",
+			"MaxHeight": 250,
+			"MinHeight": 250,
+			"HasShadow": "false",
+			"LoadSilently": "true",
+			"Padding": {
+				"Left": 0,
+				"Top": 40,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"Images": [
+				{
+					"Image": "fn_Logo.png",
+					"Stretch": "ScaleToFit"
+				}
+			]
+		},
+		{
+			"Type": "Panel",
+			"Padding": {
+				"Left": 80,
+				"Top": 40,
+				"Right": 80,
+				"Bottom": 40
+			},
+			"HAlign": "Center",
+			"Text": [
+				{
+					"TextStyle": "Title",
+					"WrapAt": 900,
+					"Justification": "Center",
+					"Text_translate": "true",
+					"Text": "Uh oh, there is supposed to be something here.\nTry sorting out the connectivity issue and return to this page.",
+					"Text_ko": "이런, 여기 뭔가 있어야 하는데 말이지요.\n회선 문제를 해결하고 다시 이 페이지로 돌아와 보세요.",
+					"Text_ja": "問題が発生したようです。\nインターネットの接続を確認して再度読み込んでください。",
+					"Text_zh-CN": "啊，这里的内容没有显示。\n请尝试解决连接问题，并回到这个页面。",
+					"Text_fr": "Quelque chose devrait apparaître ici.\nEssayez de régler les problèmes de connexion et revenez sur cette page.",
+					"Text_es-MX": "¡Oh, oh! Se supone que debe haber algo aquí.\nIntenta solucionar el problema de conexión y vuelve a esta página.",
+					"Text_de": "Der eigentliche Text konnte nicht angezeigt werden.\nBeheben Sie das Verbindungsproblem und rufen Sie die Seite erneut auf.",
+					"Text_it": "Oh no, qui dovrebbe esserci qualcosa.\nRisolvi i problemi di connessione e torna a questa pagina",
+					"Text_ru": "Ой, тут что-то должно быть, но вы этого не видите.\nРазберитесь с проблемами подключения и вернитесь на страницу.",
+					"Text_es": "Vaya, se supone que aquí tenía que haber algo.\nIntenta solucionar los problemas de conectividad y vuelve a esta página.",
+					"Text_pl": "W tym miejscu powinna być widoczna zawartość.\nSpróbuj rozwiązać problem z połączeniem i wróć do tej strony.",
+					"Text_pt-BR": "Opa, devia ter algo aqui.\nTente solucionar o problema de conexão e volte a esta página.",
+					"Text_ar": "يفترض وجود شيء ما هنا.\nحاول حل مشاكل الاتصال وعُد إلى هذه الصفحة."
+				}
+			]
+		}
+	]
+}

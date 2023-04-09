@@ -1,0 +1,174 @@
+{
+    "Type": "Overlay",
+    "Children": 
+    [
+        {
+            "Type": "ResponsiveGrid",
+            "HAlign": "Center",
+            "MaxWidth": 1400,
+            "MinWidth": 1400,
+            "Padding": { "Left": 15, "Top": 15, "Right": 2, "Bottom": 15 },
+            "TotalColumns": 16,
+            "Children": 
+            [
+                {
+                    "Type": "Layout",
+                    "Layout": "ui_FNApplicationDetailsV2_SmallActionPanel.layout",
+                    "Padding": { "Left": 0, "Top": 0, "Right": 0, "Bottom": 0 },
+                    "Row": 0,
+                    "ColumnSpans":
+                    [
+                        { "LayoutSize": 1150, "Span": 0 },
+                        { "LayoutSize": 0, "Span": 16 }
+                    ]
+                },
+                {
+                    "Type": "Box",
+                    "Orientation": "Vertical",
+                    "Row": 0,
+                    "ColumnSpans":
+                    [
+                        { "LayoutSize": 1150, "Span": 10 },
+                        { "LayoutSize": 900, "Span": 16 }
+                    ],
+                    "Children": 
+                    [
+                         {
+                            "Type": "BasicCarousel",
+                            "Id": "Carousel01",
+                            "MaxWidth": 1000,
+                            "MinWidth": 1000,
+                            "MinHeight": 250,
+                            "MaxHeight": 250,
+                            "HAlign": "Center",
+                            "AutoScroll": 13,
+                            "AutoScrollDirection": "Left",
+                            "Items": { "Includes": ["0630444fceb648a9b96d507c7a18c608", "a504af375c0744ae826229d8404bc9d6", "bf027d409b8943a79dff1559df3b3bcd"], "SortBy": "Title" },
+                            "HoverIcon": { "Image": "ExternalLink.png", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } },
+                            "Images": 
+                            [
+                                { "Image": "Screenshot" }
+                            ],
+                            "OnNavigateUrl": "TechnicalDetails",
+                            "Text": 
+                            [
+                                { "Text": "Description", "Margin": { "Left": 15, "Top": 20, "Right": 15, "Bottom": 10 } }
+                            ]
+                        },
+                        {
+                            "Type": "ResponsiveGrid",
+                            "MaxWidth": 1000,
+                            "HAlign": "Center",
+                            "TotalColumns": 12,
+                            "ColumnGutter": 8.5,
+                            "Children": 
+                            [
+                                {
+                                    "Type": "Box",
+                                    "Padding": { "Left": 0, "Top": 15, "Right": 0, "Bottom": 0 },
+                                    "Row": 0,
+                                    "ColumnSpans":
+                                    [
+                                        { "LayoutSize": 700, "Span": 5 }
+                                    ],
+                                    "Orientation": "Vertical",
+                                    "Children": 
+                                    [
+                                        {
+                                            "Type": "BasicTile",
+                                            "MaxWidth": 700,
+                                            "MinWidth": 700,
+                                            "MinHeight": 200,
+                                            "Binding": "e00fa65a312d4bd189fce76a2230af77",
+                                            "Images": 
+                                            [
+                                                { "Image": "Screenshot" }
+                                            ],
+                                            "OnNavigateUrl": "TechnicalDetails",
+                                            "HoverIcon": { "Image": "ExternalLink.png", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } },
+                                            "Text": 
+                                            [
+                                                { "Text": "Description", "Margin": { "Left": 15, "Top": 20, "Right": 15, "Bottom": 10 } }
+                                            ]
+                                        },
+                                        {
+                                            "Type": "BasicTile",
+                                            "MaxWidth": 700,
+                                            "MinWidth": 700,
+                                            "MinHeight": 200,
+                                            "Binding": "9827919db72a4a10934470872d504163",
+                                            "Images": 
+                                            [
+                                                { "Image": "Screenshot" }
+                                            ],
+                                            "OnNavigateUrl": "TechnicalDetails",
+                                            "HoverIcon": { "Image": "ExternalLink.png", "Margin": { "Left": 15, "Top": 10, "Right": 15, "Bottom": 10 } },
+                                            "Text": 
+                                            [
+                                                { "Text": "Description", "Margin": { "Left": 15, "Top": 20, "Right": 15, "Bottom": 10 } }
+                                            ],
+                                            "Padding": { "Left": 0, "Top": 15, "Right": 0, "Bottom": 0 }
+                                        }
+                                    ]
+                                },
+                                {
+                                    "Type": "BasicTextBlock",
+                                    "Padding": { "Left": 0, "Top": 15, "Right": 0, "Bottom": 0 },
+                                    "MaxHeight": 390,
+                                    "Row": 0,
+                                    "ColumnSpans":
+                                    [
+                                        { "LayoutSize": 700, "Span": 7 },
+                                        { "LayoutSize": 0, "Span": 0 }
+                                    ],
+                                    "Binding": "3cb3678b1c4445f2a20d48ecaee70059",
+                                    "BackgroundImage": "0.0, 0.0, 0.0, 0.7",
+                                    "HeaderImage": "Screenshot",
+                                    "Text": "LongDescription",
+                                    "ContentPadding": { "Left": 30, "Top": 30, "Right": 20, "Bottom": 30 },
+                                    "ScrollBarAlwaysVisible": "true",
+                                    "LineHeightScalar": 1.8
+                                },
+                                {
+                                    "Type": "BasicTextBlock",
+                                    "Padding": { "Left": 0, "Top": 15, "Right": 0, "Bottom": 0 },
+                                    "Row": 0,
+                                    "ColumnSpans":
+                                    [
+                                        { "LayoutSize": 700, "Span": 0 },
+                                        { "LayoutSize": 0, "Span": 12 }
+                                    ],
+                                    "Binding": "3cb3678b1c4445f2a20d48ecaee70059",
+                                    "BackgroundImage": "0.0, 0.0, 0.0, 0.7",
+                                    "HeaderImage": "Screenshot",
+                                    "Text": "LongDescription",
+                                    "ContentPadding": { "Left": 30, "Top": 30, "Right": 20, "Bottom": 30 },
+                                    "ScrollBarAlwaysVisible": "true",
+                                    "LineHeightScalar": 1.8
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "Type": "Box",
+                    "Orientation": "Vertical",
+                    "Row": 0,
+                    "ColumnSpans":
+                    [
+                        { "LayoutSize": 1150, "Span": 6 },
+                        { "LayoutSize": 900, "Span": 0 },
+                        { "LayoutSize": 0, "Span": 0 }
+                    ],
+                    "Children": 
+                    [ 
+                        {
+                            "Type": "Layout",
+                            "Layout": "ui_FNApplicationDetailsV2_ActionPanel.layout"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

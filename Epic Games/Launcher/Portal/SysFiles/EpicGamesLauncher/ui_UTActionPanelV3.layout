@@ -1,0 +1,100 @@
+﻿{
+	"Type": "Box",
+	"Orientation": "Vertical",
+	"AutoSize": "false",
+	"VAlign": "Bottom",
+	"Children": [
+		{
+			"Type": "ActionButton",
+			"HAlign": "Center",
+			"VAlign": "Bottom",
+			"Padding": {
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			}
+		},
+		{
+			"Type": "Box",
+			"Orientation": "Horizontal",
+			"HAlign": "Center",
+			"Children": [
+				{
+					"Type": "Link",
+					"HAlign": "Left",
+					"HoverIcon": {
+						"Image": "ExternalLink.png"
+					},
+					"Text": {
+						"Text_translate": "true",
+						"Text": "UT Chat rooms",
+						"TextStyle": "Body",
+						"Margin": {
+							"Left": 10,
+							"Top": 0,
+							"Right": 10,
+							"Bottom": 0
+						},
+						"Text_ko": "UT 채팅방",
+						"Text_ja": "UTチャットルーム",
+						"Text_zh-CN": "虚幻竞技场聊天室",
+						"Text_fr": "Salles de discussion UT",
+						"Text_es": "Salas de chat de UT",
+						"Text_de": "UT-Chatrooms",
+						"Text_it": "Chat room UT",
+						"Text_ru": "Чаты UT",
+						"Text_pl": "Pokoje czatu UT",
+						"Text_pt-BR": "Salas de bate-papo do UT",
+						"Text_es-MX": "Salas de chat de UT",
+						"Text_ar": "غرف محادثات UT"
+					},
+					"OnNavigateUrl": "https://webchat.globalgamers.net/?channels=UnrealTournament"
+				},
+				{
+					"Type": "Link",
+					"HAlign": "Right",
+					"HoverIcon": {
+						"Image": "ExternalLink.png"
+					},
+					"Text": {
+						"Text_translate": "true",
+						"Text": "Latest build information",
+						"TextStyle": "Body",
+						"Margin": {
+							"Left": 10,
+							"Top": 0,
+							"Right": 10,
+							"Bottom": 0
+						},
+						"Text_ko": "최신 빌드 정보",
+						"Text_ja": "最新のビルド情報",
+						"Text_zh-CN": "最新版本信息",
+						"Text_fr": "Dernières Informations sur la build",
+						"Text_es": "Información sobre la última versión",
+						"Text_de": "Informationen zum aktuellen Build",
+						"Text_it": "Informazioni sulla build più recente",
+						"Text_ru": "Сведения о последней версии",
+						"Text_pl": "Informacje o najnowszej kompilacji",
+						"Text_pt-BR": "Informações da compilação mais recente",
+						"Text_es-MX": "Información sobre la última versión",
+						"Text_ar": "معلومات آخر إصدار"
+					},
+					"OnNavigateUrl": "https://wiki.unrealengine.com/Version_Notes"
+				}
+			]
+		},
+		{
+			"Type": "Layout",
+			"Layout": "ui_UTShareLinksV3.layout",
+			"HAlign": "Center",
+			"VAlign": "Bottom",
+			"Padding": {
+				"Left": 0,
+				"Top": 20,
+				"Right": 0,
+				"Bottom": 0
+			}
+		}
+	]
+}

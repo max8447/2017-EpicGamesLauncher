@@ -1,0 +1,19 @@
+{
+    "messages.com.epicgames.launcher.codeRedemption.title" : "Digite o código do produto",
+    "messages.com.epicgames.launcher.codeRedemption.titleSignedIn" : "Resgate seu produto",
+    "messages.com.epicgames.launcher.codeRedemption.content" : "Digite o código do produto, distribuído com o DVD do jogo, ou outro código de produto da Epic Games aqui.",
+    "messages.com.epicgames.launcher.codeRedemption.contentSignedIn" : "Você está conectado como <span class=\"displayName\">{0}</span>",
+    "messages.com.epicgames.launcher.codeRedemption.statusContent" : "O conteúdo será vinculado à sua conta Epic Games para sempre. Portanto, certifique-se de iniciar a sessão com a conta correta ao ser solicitado.",
+    "messages.com.epicgames.launcher.codeRedemption.validCode" : "O código que você digitou é para <span class=\"productName\">{0}</span>. Clicar em \"{1}\" vinculará este conteúdo à sua conta Epic Games <span class=\"displayName\">{2}</span>.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.title" : "Ótimo, estamos quase terminando!",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content1" : "Antes de acessar seu conteúdo, você precisará iniciar uma sessão ou criar uma conta.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content2" : "Sua conta Epic Games lhe permite participar da nossa crescente comunidade de jogadores e criadores",
+    "messages.com.epicgames.launcher.codeRedemption.unknownError" : "Ocorreu um erro. Tente novamente mais tarde ou entre em contato com o suporte se o problema persistir.",
+    "messages.com.epicgames.launcher.codeRedemption.enterYourCode" : "Digite seu código",
+    "messages.com.epicgames.launcher.createAccount" : "Criar uma conta",
+    "messages.com.epicgames.launcher.signin" : "Iniciar sessão",
+    "messages.com.epicgames.launcher.cancel" : "Cancelar",
+    "messages.com.epicgames.launcher.redeem" : "Resgatar",
+    "messages.com.epicgames.launcher.redeemed" : "Resgatado",
+    "messages.com.epicgames.launcher.continue" : "Próximo"
+}

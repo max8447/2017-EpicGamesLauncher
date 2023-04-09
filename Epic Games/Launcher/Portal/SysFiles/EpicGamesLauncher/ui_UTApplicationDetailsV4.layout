@@ -1,0 +1,239 @@
+﻿{
+	"Type": "Overlay",
+	"AutoSize": "false",
+	"Children": [
+		{
+			"Type": "Panel",
+			"Padding": {
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"BackgroundImage": "0.56681, 0.56681, 0.56681"
+		},
+		{
+			"Type": "ScrollBox",
+			"AutoSize": "false",
+			"Padding": {
+				"Left": 250,
+				"Top": 5,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"Children": [
+				{
+					"Type": "Overlay",
+					"MaxWidth": 1400,
+					"HAlign": "Center",
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"Binding": "044b4d7ede6b46858b1996bb6aa4ee8b",
+							"HasShadow": "false",
+							"Height": 300,
+							"LoadSilently": "true",
+							"Images": [
+								{
+									"Image": "Screenshot",
+									"HAlign": "Center",
+									"VAlign": "Bottom"
+								}
+							]
+						},
+						{
+							"Type": "BasicTile",
+							"HasShadow": "false",
+							"Height": 150,
+							"HAlign": "Left",
+							"Images": [
+								{
+									"Image": "GradientRight.png",
+									"ColorAndOpacity": "0, 0, 0, 0.75",
+									"Stretch": "Fill"
+								}
+							],
+							"Padding": {
+								"Left": 0,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 0
+							}
+						},
+						{
+							"Type": "BuildSelector",
+							"HAlign": "Right",
+							"Padding": { "Left": 0, "Top": 10, "Right": 45, "Bottom": 0 },
+							"VAlign": "Top",
+							"SelectorId": "Game",
+							"GroupId": "Game"
+						},
+						{
+							"Type": "Box",
+							"Orientation": "Vertical",
+							"MinWidth": 1400,
+							"HAlign": "Center",
+							"VAlign": "Top",
+							"Padding": {
+								"Left": 30,
+								"Top": 50,
+								"Right": 0,
+								"Bottom": 0
+							},
+							"Children": [
+								{
+									"Type": "Panel",
+									"Padding": {
+										"Left": 20,
+										"Top": 0,
+										"Right": 0,
+										"Bottom": 0
+									},
+									"Text": [
+										{
+											"Binding": "044b4d7ede6b46858b1996bb6aa4ee8b/Description",
+											"TextStyle": "inverted-title",
+											"HAlign": "Left",
+											"VAlign": "Center",
+											"Margin": {
+												"Left": 0,
+												"Top": 0,
+												"Right": 0,
+												"Bottom": 0
+											},
+											"LineHeightScalar": 1.2
+										}
+									]
+								},
+								{
+									"Type": "Panel",
+									"Padding": {
+										"Left": 22,
+										"Top": 0,
+										"Right": 0,
+										"Bottom": 0
+									},
+									"Width": 500,
+									"Text": [
+										{
+											"Binding": "044b4d7ede6b46858b1996bb6aa4ee8b/TechnicalDetails",
+											"TextStyle": "inverted-strong",
+											"HAlign": "Left",
+											"VAlign": "Center",
+											"WrapAt": 500,
+											"LineHeightScalar": 1.2
+										}
+									]
+								},
+								{
+									"Type": "ActionButton",
+									"HAlign": "Left",
+									"MinWidth": 442,
+									"MinHeight": 124,
+									"Padding": {
+										"Left": 0,
+										"Top": 10,
+										"Right": 0,
+										"Bottom": 0
+									},
+									"VAlign": "Top",
+									"SelectorId": "Game",
+									"GroupId": "Game"
+								},
+								{
+									"Type": "Box",
+									"Orientation": "Vertical",
+									"MinWidth": 442,
+									"HAlign": "Left",
+									"Children": [
+										{
+											"Type": "Link",
+											"HoverIcon": {
+												"Image": "ExternalLink.png"
+											},
+											"HAlign": "Center",
+											"AutoSize": "false",
+											"Binding": "f79eeea68fc14a9da72909df4c8607ee",
+											"Text": {
+												"Text": "Description",
+												"TextStyle": "inverted-strong",
+												"Margin": {
+													"Left": 10,
+													"Top": 0,
+													"Right": 10,
+													"Bottom": 0
+												}
+												},
+											"OnNavigateUrl": "TechnicalDetails"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"Orientation": "Vertical",
+					"MaxWidth": 1200,
+					"MinWidth": 1200,
+					"HAlign": "Center",
+					"VAlign": "Center",
+					"Padding": {
+						"Left": 60,
+						"Top": 20,
+						"Right": 60,
+						"Bottom": 0
+					},
+					"Children": [
+						{
+							"Type": "Panel",
+							"AutoSize": "false",
+							"Text": [
+								{
+									"Binding": "044b4d7ede6b46858b1996bb6aa4ee8b/LongDescription",
+									"TextStyle": "body",
+									"Visibility": "Visible",
+									"AutoWrap": true,
+									"LineHeightScalar": 1.2
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Grid",
+					"MaxWidth": 1000,
+					"MinWidth": 1000,
+					"HAlign": "Center",
+					"Includes": [
+						"learn/features"
+					],
+					"SortBy": "Title",
+					"ElementHeight": 225,
+					"ElementWidth": 200,
+					"ItemAlignment": "Fill",
+					"Layout": "ui_UTApplicationCallToActions.layout",
+					"Padding": {
+						"Left": 20,
+						"Top": 30,
+						"Right": 20,
+						"Bottom": 0
+					}
+				}
+			]
+		},
+		{
+			"Type": "Layout",
+			"Layout": "ui_UTNavV4.layout",
+			"HAlign": "Left",
+			"VAlign": "Fill",
+			"Padding": {
+				"Left": 0,
+				"Top": 5,
+				"Right": 0,
+				"Bottom": 0
+			}
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+   "ServiceOptions": [
+	{
+		"MarketplaceOpen": "true",
+		"MarketplaceEulaVersion" : "v2.1"
+	}
+    ]
+
+}

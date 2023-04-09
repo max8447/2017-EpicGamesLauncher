@@ -1,0 +1,882 @@
+﻿{
+	"Type": "Overlay",
+	"AutoSize": "false",
+	"Children": [
+		{
+			"Type": "Panel",
+			"Padding": {
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"BackgroundImage": "0.56681, 0.56681, 0.56681"
+		},
+		{
+			"Type": "ScrollBox",
+			"AutoSize": "false",
+			"Padding": {
+				"Left": 250,
+				"Top": 5,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"Children": [
+				{
+					"Type": "Box",
+					"Orientation": "Vertical",
+					"Padding": {
+						"Left": 20,
+						"Top": 10,
+						"Right": 30,
+						"Bottom": 20
+					},
+					"HAlign": "Center",
+					"MaxWidth": 1400,
+					"MinWidth": 1400,
+					"Children": [
+						{
+							"Type": "ResponsiveGrid",
+							"HAlign": "Center",
+							"TotalColumns": 12,
+							"ColumnGutter": 0,
+							"MaxWidth": 1400,
+							"MinWidth": 1400,
+							"Children": [
+								{
+									"Type": "BasicTile",
+									"Row": 0,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 950,
+											"Span": 5
+										},
+										{
+											"LayoutSize": 0,
+											"Span": 4
+										}
+									],
+									"MaxHeight": 400,
+									"MinHeight": 400,
+									"Binding": "8dc2fea9fedc4d89b121b417b3a48b25",
+									"HasShadow": "false",
+									"Images": [
+										{
+											"Image": "Featured"
+										}
+									],
+									"OnNavigateUrl": "Tab/NewUT/Marketplace/{Id}",
+									"Text": [
+										{
+											"Text": "{Title}\n<inverted-small-body>{Description}</>",
+											"TextStyle": "inverted-h4",
+											"Margin": 10
+										}
+									],
+									"Padding": {
+										"Left": 0,
+										"Top": 0,
+										"Right": 0,
+										"Bottom": 0
+									}
+								},
+								{
+									"Type": "BasicTile",
+									"Row": 0,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 950,
+											"Span": 4
+										},
+										{
+											"LayoutSize": 0,
+											"Span": 4
+										}
+									],
+									"MaxHeight": 400,
+									"MinHeight": 400,
+									"Binding": "ac5a1130727546f082a63ac7321dbde7",
+									"HasShadow": "false",
+									"Images": [
+										{
+											"Image": "Featured"
+										}
+									],
+									"OnNavigateUrl": "",
+									"Text": [
+										{
+											"Text": "{Title}\n<inverted-small-body>{Description}</>",
+											"TextStyle": "inverted-h4",
+											"Margin": 10
+										}
+									],
+									"Padding": {
+										"Left": 0,
+										"Top": 0,
+										"Right": 0,
+										"Bottom": 0
+									}
+								},
+								{
+									"Type": "BasicTile",
+									"Row": 0,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 950,
+											"Span": 3
+										},
+										{
+											"LayoutSize": 0,
+											"Span": 4
+										}
+									],
+									"MaxHeight": 400,
+									"MinHeight": 400,
+									"Binding": "6cf72e00719344bf8f7aae98d5f67702",
+									"HasShadow": "false",
+									"Images": [
+										{
+											"Image": "Featured"
+										}
+									],
+									"OnNavigateUrl": "",
+									"Text": [
+										{
+											"Text": "{Title}\n<inverted-small-body>{Description}</>",
+											"TextStyle": "inverted-h4",
+											"Margin": 10
+										}
+									],
+									"Padding": {
+										"Left": 0,
+										"Top": 0,
+										"Right": 0,
+										"Bottom": 0
+									}
+								},
+								{
+									"Type": "Panel",
+									"Row": 1,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 0,
+											"Span": 12
+										}
+									],
+									"Padding": {
+										"Left": 0,
+										"Top": 0,
+										"Right": 0,
+										"Bottom": 0
+									},
+									"BackgroundImage": "0.03, 0.03, 0.03",
+									"Children": [
+										{
+											"Type": "Link",
+											"HAlign": "Center",
+											"Padding": {
+												"Left": 0,
+												"Top": 5,
+												"Right": 0,
+												"Bottom": 5
+											},
+											"Image": {
+												"Image": "small_download_icon.png"
+											},
+											"HoverIcon": {
+												"Image": "ExternalLink.png"
+											},
+											"Text": {
+												"Text_translate": "true",
+												"Text": "Learn more about submitting content",
+												"TextStyle": "inverted-body",
+												"Margin": {
+													"Left": 10,
+													"Top": 0,
+													"Right": 10,
+													"Bottom": 0
+												},
+												"Text_ko": "콘텐츠 제출에 대해 자세히 알아보세요.",
+												"Text_ja": "コンテンツの提出について",
+												"Text_zh-CN": "了解更多关于提交内容的信息",
+												"Text_fr": "Découvrez-en plus sur l'envoi de contenus.",
+												"Text_es": "Más información sobre el envío de contenido",
+												"Text_de": "Mehr über das Übermitteln eigener Inhalte erfahren",
+												"Text_it": "Più informazioni sull'invio di contenuti",
+												"Text_ru": "Узнайте больше о загрузке контента",
+												"Text_pl": "Dowiedz się więcej na temat przesyłania zawartości",
+												"Text_ar": "تعلم المزيد عن تقديم المحتوى",
+												"Text_pt-BR": "Aprenda mais sobre o envio de conteúdo",
+												"Text_es-MX": "Obtén más información sobre el envío de contenido"
+											},
+											"OnNavigateUrl": "http://epic.gm/utmarketplacefaq"
+										}
+									]
+								}
+							]
+						},
+						{
+							"Type": "ResponsiveGrid",
+							"HAlign": "Center",
+							"AutoSize": "true",
+							"MaxWidth": 900,
+							"MinWidth": 900,
+							"TotalColumns": 12,
+							"ColumnGutter": 5,
+							"Padding": {
+								"Left": 0,
+								"Top": 10,
+								"Right": 0,
+								"Bottom": 0
+							},
+							"Children": [
+								{
+									"Type": "Button",
+									"Row": 0,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 0,
+											"Span": 4,
+											"Offset": 2
+										}
+									],
+									"ButtonStyle": "NoButtonStyle",
+									"ContentPadding": 5,
+									"HAlign": "Left",
+									"ForegroundColor": "0.10983, 0.10983, 0.10983",
+									"InvertedForegroundColor": "0, 0, 0",
+									"Padding": {
+										"Left": 0,
+										"Top": 10,
+										"Right": 0,
+										"Bottom": 0
+									},
+									"Child": {
+										"Type": "Link",
+										"HAlign": "Left",
+										"Text": {
+											"Text_translate": "true",
+											"Text": "Accessories",
+											"TextStyle": "small-body",
+											"UseForegroundColor": "true",
+											"Margin": {
+												"Left": 10,
+												"Top": 0,
+												"Right": 10,
+												"Bottom": 0
+											},
+											"Text_ko": "액세서리",
+											"Text_ja": "装備品",
+											"Text_zh-CN": "配件",
+											"Text_fr": "Accessoires",
+											"Text_es": "Accesorios",
+											"Text_de": "Zubehör",
+											"Text_it": "Accessori",
+											"Text_ru": "Аксессуары",
+											"Text_pl": "Akcesoria",
+											"Text_ar": "الملحقات",
+											"Text_pt-BR": "Acessórios",
+											"Text_es-MX": "Accesorios"
+										},
+										"OnNavigateUrl": "#marketplace_Accessories"
+									}
+								},
+								{
+									"Type": "Button",
+									"Row": 0,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 0,
+											"Span": 4,
+											"Offset": 2
+										}
+									],
+									"ButtonStyle": "NoButtonStyle",
+									"ContentPadding": 5,
+									"HAlign": "Left",
+									"ForegroundColor": "0.10983, 0.10983, 0.10983",
+									"InvertedForegroundColor": "0, 0, 0",
+									"Padding": {
+										"Left": 0,
+										"Top": 10,
+										"Right": 0,
+										"Bottom": 0
+									},
+									"Child": {
+										"Type": "Link",
+										"HAlign": "Left",
+										"Text": {
+											"Text_translate": "true",
+											"Text": "Maps",
+											"TextStyle": "small-body",
+											"UseForegroundColor": "true",
+											"Margin": {
+												"Left": 10,
+												"Top": 0,
+												"Right": 10,
+												"Bottom": 0
+											},
+											"Text_ko": "맵",
+											"Text_ja": "マップ",
+											"Text_zh-CN": "地图",
+											"Text_fr": "Cartes",
+											"Text_es": "Mapas",
+											"Text_de": "Karten",
+											"Text_it": "Mappe",
+											"Text_ru": "Карты",
+											"Text_pl": "Mapy",
+											"Text_ar": "الخرائط",
+											"Text_pt-BR": "Mapas",
+											"Text_es-MX": "Mapas"
+										},
+										"OnNavigateUrl": "#marketplace_Maps"
+									}
+								}
+							]
+						},
+						{
+							"Type": "ResponsiveGrid",
+							"TotalColumns": 12,
+							"ColumnGutter": 5,
+							"Padding": {
+								"Left": 0,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 0
+							},
+							"Children": [
+								{
+									"Type": "Box",
+									"Orientation": "Horizontal",
+									"Row": 0,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 1230,
+											"Span": 12
+										},
+										{
+											"LayoutSize": 0,
+											"Span": 0
+										}
+									],
+									"Children": [
+										{
+											"Type": "Box",
+											"Orientation": "Vertical",
+											"Padding": {
+												"Left": 0,
+												"Top": 0,
+												"Right": 40,
+												"Bottom": 0
+											},
+											"Children": [
+												{
+													"Type": "Panel",
+													"Padding": {
+														"Left": 0,
+														"Top": 10,
+														"Right": 0,
+														"Bottom": 0
+													},
+													"Text": [
+														{
+															"VAlign": "Bottom",
+															"Padding": {
+																"Left": 5,
+																"Top": 0,
+																"Right": 0,
+																"Bottom": 0
+															},
+															"TextStyle": "h2",
+															"Text_translate": "true",
+															"Text": "Accessories",
+															"Text_ko": "액세서리",
+															"Text_ja": "装備品",
+															"Text_zh-CN": "配件",
+															"Text_fr": "Accessoires",
+															"Text_es": "Accesorios",
+															"Text_de": "Zubehör",
+															"Text_it": "Accessori",
+															"Text_ru": "Аксессуары",
+															"Text_pl": "Akcesoria",
+															"Text_ar": "الملحقات",
+															"Text_pt-BR": "Acessórios",
+															"Text_es-MX": "Accesorios"
+														}
+													]
+												},
+												{
+													"Type": "Grid",
+													"Includes": [
+														"assets/props"
+													],
+													"SortBy": "ViewableDate",
+													"SortDirection": "Descending",
+													"ElementHeight": 350,
+													"ElementWidth": 200,
+													"HAlign": "Left",
+													"Width": 900,
+													"ItemAlignment": "Fill",
+													"Layout": "ui_UTMarketplaceLevelsV3",
+													"Padding": {
+														"Left": 0,
+														"Top": 10,
+														"Right": 0,
+														"Bottom": 0
+													}
+												}
+											]
+										},
+										{
+											"Type": "Box",
+											"Orientation": "Vertical",
+											"Children": [
+												{
+													"Type": "Panel",
+													"Padding": {
+														"Left": 0,
+														"Top": 10,
+														"Right": 0,
+														"Bottom": 0
+													},
+													"Text": [
+														{
+															"VAlign": "Bottom",
+															"Padding": {
+																"Left": 5,
+																"Top": 0,
+																"Right": 0,
+																"Bottom": 0
+															},
+															"TextStyle": "h2",
+															"Text_translate": "true",
+															"Text": "Maps",
+															"Text_ko": "맵",
+															"Text_ja": "マップ",
+															"Text_zh-CN": "地图",
+															"Text_fr": "Cartes",
+															"Text_es": "Mapas",
+															"Text_de": "Karten",
+															"Text_it": "Mappe",
+															"Text_ru": "Карты",
+															"Text_pl": "Mapy",
+															"Text_ar": "الخرائط",
+															"Text_pt-BR": "Mapas",
+															"Text_es-MX": "Mapas"
+														}
+													]
+												},
+												{
+													"Type": "Grid",
+													"Includes": [
+														"assets/environments"
+													],
+													"SortBy": "ViewableDate",
+													"SortDirection": "Descending",
+													"Width": 300,
+													"HAlign": "Left",
+													"ElementHeight": 350,
+													"ElementWidth": 200,
+													"ItemAlignment": "Fill",
+													"Layout": "ui_UTMarketplaceLevelsV3",
+													"Padding": {
+														"Left": 0,
+														"Top": 10,
+														"Right": 0,
+														"Bottom": 0
+													}
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "Panel",
+									"Row": 0,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 1230,
+											"Span": 0
+										},
+										{
+											"LayoutSize": 0,
+											"Span": 12
+										}
+									],
+									"Width": 724,
+									"Padding": {
+										"Left": 0,
+										"Top": 10,
+										"Right": 0,
+										"Bottom": 0
+									},
+									"AnchorID": "marketplace_Accessories",
+									"Text": [
+										{
+											"VAlign": "Bottom",
+											"Padding": {
+												"Left": 5,
+												"Top": 0,
+												"Right": 0,
+												"Bottom": 0
+											},
+											"TextStyle": "h2",
+											"Text_translate": "true",
+											"Text": "Accessories",
+											"Text_ko": "액세서리",
+											"Text_ja": "装備品",
+											"Text_zh-CN": "配件",
+											"Text_fr": "Accessoires",
+											"Text_es": "Accesorios",
+											"Text_de": "Zubehör",
+											"Text_it": "Accessori",
+											"Text_ru": "Аксессуары",
+											"Text_pl": "Akcesoria",
+											"Text_ar": "الملحقات",
+											"Text_pt-BR": "Acessórios",
+											"Text_es-MX": "Accesorios"
+										}
+									]
+								},
+								{
+									"Type": "Grid",
+									"Row": 0,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 1230,
+											"Span": 0
+										},
+										{
+											"LayoutSize": 0,
+											"Span": 12
+										}
+									],
+									"Includes": [
+										"assets/props"
+									],
+									"SortBy": "ViewableDate",
+									"SortDirection": "Descending",
+									"ElementHeight": 350,
+									"ElementWidth": 200,
+									"HAlign": "Left",
+									"Width": 900,
+									"ItemAlignment": "Fill",
+									"Layout": "ui_UTMarketplaceLevelsV3",
+									"Padding": {
+										"Left": 0,
+										"Top": 10,
+										"Right": 0,
+										"Bottom": 0
+									}
+								},
+								{
+									"Type": "Panel",
+									"Row": 0,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 1230,
+											"Span": 0
+										},
+										{
+											"LayoutSize": 0,
+											"Span": 12
+										}
+									],
+									"Width": 250,
+									"Padding": {
+										"Left": 0,
+										"Top": 40,
+										"Right": 0,
+										"Bottom": 0
+									},
+									"AnchorID": "marketplace_Maps",
+									"Text": [
+										{
+											"VAlign": "Bottom",
+											"Padding": {
+												"Left": 5,
+												"Top": 0,
+												"Right": 0,
+												"Bottom": 0
+											},
+											"TextStyle": "h2",
+											"Text_translate": "true",
+											"Text": "Maps",
+											"Text_ko": "맵",
+											"Text_ja": "マップ",
+											"Text_zh-CN": "地图",
+											"Text_fr": "Cartes",
+											"Text_es": "Mapas",
+											"Text_de": "Karten",
+											"Text_it": "Mappe",
+											"Text_ru": "Карты",
+											"Text_pl": "Mapy",
+											"Text_ar": "الخرائط",
+											"Text_pt-BR": "Mapas",
+											"Text_es-MX": "Mapas"
+										}
+									]
+								},
+								{
+									"Type": "Grid",
+									"Row": 0,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 1230,
+											"Span": 0
+										},
+										{
+											"LayoutSize": 0,
+											"Span": 12
+										}
+									],
+									"Includes": [
+										"assets/environments"
+									],
+									"SortBy": "ViewableDate",
+									"SortDirection": "Descending",
+									"Width": 300,
+									"HAlign": "Left",
+									"ElementHeight": 350,
+									"ElementWidth": 200,
+									"ItemAlignment": "Fill",
+									"Layout": "ui_UTMarketplaceLevelsV3",
+									"Padding": {
+										"Left": 0,
+										"Top": 10,
+										"Right": 0,
+										"Bottom": 0
+									}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "Panel",
+			"Padding": {
+				"Left": 0,
+				"Top": 5,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"Width": 250,
+			"HAlign": "Left",
+			"BackgroundImage": "0.78175, 0.78175, 0.78175"
+		},
+		{
+			"Type": "Box",
+			"Orientation": "Vertical",
+			"Width": 250,
+			"HAlign": "Left",
+			"Padding": {
+				"Left": 0,
+				"Top": 65,
+				"Right": 0,
+				"Bottom": 10
+			},
+			"Children": [
+				{
+					"Type": "Button",
+					"ButtonStyle": "SidebarNavigation.Button",
+					"Padding": {
+						"Left": 0,
+						"Top": 0,
+						"Right": 0,
+						"Bottom": 15
+					},
+					"ContentPadding": {
+						"Left": 10,
+						"Top": 10,
+						"Right": 0,
+						"Bottom": 10
+					},
+					"OnNavigateUrl": "Tab/UT/Play",
+					"ForegroundColor": "0, 0, 0",
+					"InvertedForegroundColor": "0, 0, 0",
+					"Child": {
+						"Type": "Link",
+						"Row": 0,
+						"ColumnSpans": [
+							{
+								"LayoutSize": 0,
+								"Span": 4
+							}
+						],
+						"HAlign": "Left",
+						"Text": {
+							"Text_translate": "true",
+							"Text": "Play",
+							"TextStyle": "extralarge-h4",
+							"UseForegroundColor": "true",
+							"Margin": {
+								"Left": 10,
+								"Top": 0,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text_ko": "플레이",
+							"Text_ja": "プレイ",
+							"Text_zh-CN": "运行",
+							"Text_fr": "Jouer",
+							"Text_es": "Jugar",
+							"Text_de": "Spielen",
+							"Text_it": "Gioca",
+							"Text_ru": "Играть",
+							"Text_pl": "Graj",
+							"Text_ar": "تشغيل",
+							"Text_pt-BR": "Jogar",
+							"Text_es-MX": "Jugar"
+						},
+						"OnNavigateUrl": "Tab/UT/Play"
+					}
+				},
+				{
+					"Type": "Button",
+					"ButtonStyle": "SidebarNavigation.Button",
+					"Padding": {
+						"Left": 0,
+						"Top": 0,
+						"Right": 0,
+						"Bottom": 15
+					},
+					"ContentPadding": {
+						"Left": 10,
+						"Top": 10,
+						"Right": 0,
+						"Bottom": 10
+					},
+					"OnNavigateUrl": "Tab/UT/Create",
+					"ForegroundColor": "0, 0, 0",
+					"InvertedForegroundColor": "0, 0, 0",
+					"Child": {
+						"Type": "Link",
+						"Row": 0,
+						"ColumnSpans": [
+							{
+								"LayoutSize": 0,
+								"Span": 4
+							}
+						],
+						"HAlign": "Left",
+						"Text": {
+							"Text_translate": "true",
+							"Text": "Create",
+							"TextStyle": "extralarge-h4",
+							"UseForegroundColor": "true",
+							"Margin": {
+								"Left": 10,
+								"Top": 0,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text_ko": "제작",
+							"Text_ja": "クリエイト",
+							"Text_zh-CN": "创建",
+							"Text_fr": "Créer",
+							"Text_es": "Crear",
+							"Text_de": "Erstellen",
+							"Text_it": "Crea",
+							"Text_ru": "Создать",
+							"Text_pl": "Twórz",
+							"Text_ar": "إنشاء",
+							"Text_pt-BR": "Criar",
+							"Text_es-MX": "Crear"
+						},
+						"Padding": {
+							"Left": 0,
+							"Top": 0,
+							"Right": 0,
+							"Bottom": 40
+						},
+						"OnNavigateUrl": "Tab/UT/Create"
+					}
+				},
+				{
+					"Type": "Button",
+					"ButtonStyle": "SidebarNavigation.ActiveButton",
+					"Padding": {
+						"Left": 0,
+						"Top": 0,
+						"Right": 0,
+						"Bottom": 15
+					},
+					"ContentPadding": {
+						"Left": 10,
+						"Top": 10,
+						"Right": 0,
+						"Bottom": 10
+					},
+					"OnNavigateUrl": "Tab/UT/Create",
+					"ForegroundColor": "1, 1, 1",
+					"Child": {
+						"Type": "Link",
+						"Row": 0,
+						"ColumnSpans": [
+							{
+								"LayoutSize": 0,
+								"Span": 4
+							}
+						],
+						"HAlign": "Left",
+						"Text": {
+							"Text_translate": "true",
+							"Text": "Marketplace",
+							"TextStyle": "extralarge-h4",
+							"UseForegroundColor": "true",
+							"Margin": {
+								"Left": 10,
+								"Top": 0,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text_ko": "마켓플레이스",
+							"Text_ja": "マーケットプレイス",
+							"Text_zh-CN": "虚幻商城",
+							"Text_fr": "Marché",
+							"Text_es": "Bazar",
+							"Text_de": "Marktplatz",
+							"Text_it": "Marketplace",
+							"Text_ru": "Магазин",
+							"Text_pl": "Rynek",
+							"Text_ar": "السوق",
+							"Text_pt-BR": "Loja",
+							"Text_es-MX": "Marketplace"
+						},
+						"Padding": {
+							"Left": 0,
+							"Top": 0,
+							"Right": 0,
+							"Bottom": 40
+						},
+						"OnNavigateUrl": "Tab/UT/Marketplace"
+					}
+				}
+			]
+		},
+		{
+			"Type": "Layout",
+			"Layout": "ui_UTSidebarLinksV3",
+			"VAlign": "Bottom",
+			"Padding": {
+				"Left": 5,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 10
+			}
+		},
+		{
+			"Type": "Layout",
+			"Layout": "ui_UTShareLinksV3",
+			"VAlign": "Bottom",
+			"Padding": {
+				"Left": 30,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 10
+			}
+		}
+	]
+}

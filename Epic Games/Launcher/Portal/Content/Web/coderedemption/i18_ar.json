@@ -1,0 +1,19 @@
+{
+    "messages.com.epicgames.launcher.codeRedemption.title" : "إدخال رمز المنتج",
+    "messages.com.epicgames.launcher.codeRedemption.titleSignedIn" : "استرداد المنتج",
+    "messages.com.epicgames.launcher.codeRedemption.content" : "أدخل رمز المنتج الموزع مع نسخة DVD المخصصة للبيع بالتجزئة أو أي رمز منتج Epic Games آخر هنا.",
+    "messages.com.epicgames.launcher.codeRedemption.contentSignedIn" : "لقد سجلت الدخول باسم <span class=\"displayName\">{0}</span>.",
+    "messages.com.epicgames.launcher.codeRedemption.statusContent" : "يكون المحتوى مرتبطًا بحسابك لدى Epic Games للأبد. لذا، احرص على تسجيل الدخول إلى الحساب الصحيح عند مطالبتك بذلك.",
+    "messages.com.epicgames.launcher.codeRedemption.validCode" : "الرمز الذي أدخلته مخصص للمنتج <span class=\"productName\">{0}</span>. سيؤدي النقر على \"{1}\" إلى ربط هذا المحتوى بحسابك <span class=\"displayName\">{2}</span> لدى Epic Games.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.title" : "رائع، لقد أوشكت على الانتهاء!",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content1" : "قبل أن تتمكن من الوصول إلى محتواك، ستحتاج إلى تسجيل الدخول أو إنشاء حساب.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content2" : "يتيح لك حسابك لدى Epic Games المشاركة في مجتمعنا المتنامي من اللاعبين والمبدعين.",
+    "messages.com.epicgames.launcher.codeRedemption.unknownError" : "حدث خطأ. يُرجى إعادة المحاولة لاحقًا أو التواصل مع الدعم إن استمرت المشكلة.",
+    "messages.com.epicgames.launcher.codeRedemption.enterYourCode" : "إدخال رمز المنتج",
+    "messages.com.epicgames.launcher.createAccount" : "إنشاء حساب",
+    "messages.com.epicgames.launcher.signin" : "تسجيل الدخول",
+    "messages.com.epicgames.launcher.cancel" : "إلغاء",
+    "messages.com.epicgames.launcher.redeem" : "استرداد",
+    "messages.com.epicgames.launcher.redeemed" : "تم الاسترداد",
+    "messages.com.epicgames.launcher.continue" : "التالي"
+}

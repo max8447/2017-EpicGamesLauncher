@@ -1,0 +1,26 @@
+{
+    "Type": "Box",
+    "Orientation": "Vertical",
+    "Children":
+    [
+        {
+            "Type": "Panel",
+            "BackgroundImage": "0, 0, 0, 0.25",
+            "Height": 1
+        },
+        {
+            "Type": "Panel",
+            "Padding": { "Left": 0, "Top": 0, "Right": 10, "Bottom": 0 },
+            "Text": 
+            [
+                { 
+                    "Binding": "Cost",
+                    "TextStyle": "body",
+                    "HAlign": "Right",
+                    "VAlign": "Center",
+                    "LineHeightScalar": 1.2
+                }
+            ]
+        }
+    ]
+}

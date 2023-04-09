@@ -1,0 +1,19 @@
+{
+    "messages.com.epicgames.launcher.codeRedemption.title" : "プロダクトコードを入力してください",
+    "messages.com.epicgames.launcher.codeRedemption.titleSignedIn" : "製品の引き換え",
+    "messages.com.epicgames.launcher.codeRedemption.content" : "ご購入いただいたDVDに付属のプロダクトコード、またはその他のEpic Gamesのプロダクトコードを入力してください。",
+    "messages.com.epicgames.launcher.codeRedemption.contentSignedIn" : "<span class=\"displayName\">{0}</span>でサインインしています。",
+    "messages.com.epicgames.launcher.codeRedemption.statusContent" : "コンテンツは、Epic Gamesのアカウントに永久に紐付けされます。サインインが必要な場合には、アカウントが間違っていないことを確認の上サインインを行ってください。",
+    "messages.com.epicgames.launcher.codeRedemption.validCode" : "入力したコードは<span class=\"productName\">{0}</span>のものです。「{1}」をクリックすると、このコンテンツがあなたの<span class=\"displayName\">{2}</span> Epic Games アカウントに紐付けされます。",
+    "messages.com.epicgames.launcher.codeRedemption.complete.title" : "もう少しで完了です！",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content1" : "コンテンツにアクセスするには、アカウントへのサインイン、またはアカウント作成を行う必要があります。",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content2" : "Epic Gamesアカウントにサインインすることで、プレイヤーや開発者のコミュニティに参加することができます。",
+    "messages.com.epicgames.launcher.codeRedemption.unknownError" : "エラーが発生しました。後でもう一度試してください。問題が解決しない場合、サポートまでお問い合わせください。",
+    "messages.com.epicgames.launcher.codeRedemption.enterYourCode" : "コードを入力してください",
+    "messages.com.epicgames.launcher.createAccount" : "アカウントの作成",
+    "messages.com.epicgames.launcher.signin" : "サインイン",
+    "messages.com.epicgames.launcher.cancel" : "キャンセル",
+    "messages.com.epicgames.launcher.redeem" : "引き換え",
+    "messages.com.epicgames.launcher.redeemed" : "引き換え完了",
+    "messages.com.epicgames.launcher.continue" : "次へ"
+}

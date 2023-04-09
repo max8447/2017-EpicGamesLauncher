@@ -1,0 +1,74 @@
+﻿{
+	"Id": "ocean",
+	"Priority": 30,
+	"AnalyticsId": "ocn",
+	"DisplayName": "SpyJinx",
+	"CatalogNamespace": "ocn",
+	"DisplayName_ko": "스파이징크스",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "#212121",
+	"PrimaryColor": "#95c990ff",
+	"PressedPrimaryColor": "#95c990ff",
+	"HoveredPrimaryColor": "#aae0a4ff",
+	"Homepage": "/ocean",
+	"Pages": [
+		{
+			"Id": "ocean",
+			"PartialUrl": "/ocean",
+			"SourceUrls": [ 
+				{
+					"SourceUrl": "ui_OceanV2_Offline.layout",
+					"Conditions": [ "![BINDING_SOURCE]" ]  
+				},
+				{
+					"SourceUrl": "ui_OceanPlayV2.layout"
+				}
+			]
+		}
+	],
+	"Redirects": [
+	
+	],
+	"Apps": [
+		{
+			"Name": "OceanDevTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "8a8b02416c064077bafbc30a45ea561e",
+			"AppId": "OceanDevTesting",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "OceanDevPlaytest",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "984e9e7241be471fab21f0b69a5e29c9",
+			"AppId": "OceanDevPlaytest",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "OceanReleasePlaytest",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "a7f9ee3abf2449c0a026e345dd00f549",
+			"AppId": "OceanReleasePlaytest",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "OceanLive",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "bf15a4b50bb64aa4bee6f6f8e606d3ea",
+			"AppId": "OceanLive",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		}
+	],
+	"DefaultRegionId": "",
+	"Regions": [
+
+	]
+}

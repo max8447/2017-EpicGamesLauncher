@@ -1,0 +1,62 @@
+﻿{
+	"Type": "Box",
+	"Orientation": "Vertical",
+	"VAlign": "Bottom",
+	"AutoSize": "false",
+	"Children": [
+		{
+			"Type": "Panel",
+			"Padding": {
+				"Left": 20,
+				"Top": 42,
+				"Right": 20,
+				"Bottom": 0
+			},
+			"Text": [
+				{
+					"TextStyle": "colored-h4",
+					"Justification": "Center",
+					"WrapAt": 400,
+					"LineHeightScalar": 1.5,
+					"Text_translate": "true",
+					"Text": "AVAILABLE ONLY ON WINDOWS AND PS4",
+					"Text_zh-CN": "仅在 WINDOWS 和 PS4™ 上可用",
+					"Text_ja": "Windows および PS4™ 専用",
+					"Text_fr": "DISPONIBLE UNIQUEMENT SUR WINDOWS ET PS4™",
+					"Text_de": "NUR FÜR WINDOWS UND PS4™ VERFÜGBAR",
+					"Text_ko": "윈도우 & PS4 에서만 플레이 가능합니다.",
+					"Text_it": "DISPONIBILE SOLO PER WINDOWS E SISTEMA PS4™",
+					"Text_ru": "ДОСТУПНО ТОЛЬКО ДЛЯ WINDOWS И PS4™",
+					"Text_pl": "TYLKO DLA SYSTEMU WINDOWS I KONSOLI PS4™",
+					"Text_pt-BR": "DISPONÍVEL APENAS NO WINDOWS E NO PS4™",
+					"Text_es-MX": "DISPONIBLE SOLO PARA WINDOWS Y PS4™",
+					"Text_es": "DISPONIBLE SOLO PARA WINDOWS Y PS4™",
+					"Text_ar": "متاح على WINDOWS و™PS4 فقط"
+				}
+			]
+		},
+		{
+			"Type": "Box",
+			"Orientation": "Horizontal",
+			"Padding": {
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"HAlign": "Center",
+			"Children": [
+				{
+					"Type": "Layout",
+					"Layout": "ui_Paragon_ShareLinksV1.layout",
+					"Padding": {
+						"Left": 0,
+						"Top": 0,
+						"Right": 0,
+						"Bottom": 0
+					}
+				}
+			]
+		}
+	]
+}

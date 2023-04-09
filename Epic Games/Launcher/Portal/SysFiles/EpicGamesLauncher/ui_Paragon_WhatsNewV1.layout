@@ -1,0 +1,104 @@
+{
+	"Type": "ScrollBox",
+	"AutoSize": "false",
+	"Padding": {
+		"Left": 0,
+		"Top": 0,
+		"Right": 0,
+		"Bottom": 0
+	},
+	"Children": [
+		{
+			"Type": "Box",
+			"Orientation": "Horizontal",
+			"Padding": { "Left": 25, "Top": 20, "Right": 5, "Bottom": 20 },
+			"Children": [
+				{
+					"Type": "Panel",
+					"BackgroundImage": "or_bullet_point.png",
+					"Padding": { "Left": 0, "Top": 2, "Right": 0, "Bottom": 5 },
+					"AutoSize": "true"
+				},
+				{
+					"Type": "Panel",
+					"Padding": { "Left": 15, "Top": 0, "Right": 0, "Bottom": 0 },
+					"Binding": "8f243d98a13a4fda9de0e4eea337e483",
+					"Text": [
+						{
+							"Binding": "BulletCategory",
+							"TextStyle": "inverted-h5"
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "Panel",
+			"Padding": { "Left": 25, "Top": 0, "Right": 30, "Bottom": 0 },
+			"BackgroundImage": "#bfa65e",
+			"MinWidth": 150,
+			"MaxHeight": 150,
+			"MinHeight": 150,
+			"AutoSize": "false",
+			"Children": [
+				{
+					"Type": "BasicTile",
+					"Padding": { "Left": 2, "Top": 2, "Right": 2, "Bottom": 2 },
+					"Binding": "8f243d98a13a4fda9de0e4eea337e483",
+					"OnNavigateUrl": "TechnicalDetails",
+					"Images": 
+					[
+						{ "Image": "Thumbnail", "Stretch": "ScaleToFill" }
+					],
+					"HasShadow": "false",
+					"AutoSize": "false"
+				}
+			]
+		},
+		{
+			"Type": "Panel",
+			"AutoSize": "true", 
+			"Binding": "8f243d98a13a4fda9de0e4eea337e483",
+			"OnNavigateUrl": "{TechnicalDetails}",
+			"Visibility": "Visible",
+			"Padding": { "Left": 25, "Top": 30, "Right": 30, "Bottom": 0 },
+			"Text": [
+				{
+					"Binding": "8f243d98a13a4fda9de0e4eea337e483/Description",
+					"TextStyle": "colored-body",
+					"HAlign": "Fill",
+					"VAlign": "Top",
+					"AutoWrap": "True",
+					"Margin": {
+						"Left": 0,
+						"Top": 0,
+						"Right": 0,
+						"Bottom": 0
+					},
+					"LineHeightScalar": 1.2
+				}
+			]
+		},
+		{
+			"Type": "Panel",
+			"Padding": { "Left": 25, "Top": 15, "Right": 30, "Bottom": 0 },
+			"Text": [
+				{
+					"Binding": "8f243d98a13a4fda9de0e4eea337e483/LongDescription",
+					"Visibility": "Visible",
+					"TextStyle": "inverted-body",
+					"HAlign": "Fill",
+					"VAlign": "Center",
+					"AutoWrap": "True",
+					"Margin": {
+						"Left": 0,
+						"Top": 0,
+						"Right": 0,
+						"Bottom": 0
+					},
+					"LineHeightScalar": 1.2
+				}
+			]
+		}
+	]
+}

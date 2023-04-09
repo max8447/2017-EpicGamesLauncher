@@ -1,0 +1,152 @@
+﻿{
+   "Type" : "Overlay",
+   "RequiresBindingSource" : false,
+   "AutoSize" : "false",
+   "Children" : [
+      {
+         "Type" : "Panel",
+         "Padding" : {
+            "Left" : 0,
+            "Top" : 0,
+            "Right" : 0,
+            "Bottom" : 0
+         },
+         "BackgroundImage" : "0.08241, 0.08241, 0.08241"
+      },
+      {
+         "Type" : "Box",
+         "Orientation" : "Vertical",
+         "AutoSize" : "false",
+         "Padding" : {
+            "Left" : -5,
+            "Top" : 0,
+            "Right" : -5,
+            "Bottom" : 0
+         },
+         "Children" : [
+            {
+               "Type" : "Overlay",
+               "MaxWidth" : 1400,
+               "HAlign" : "Center",
+               "Children" : [
+                  {
+                     "Type" : "BasicTile",
+                     "HasShadow" : "true",
+                     "Height" : 300,
+                     "LoadSilently" : "true",
+                     "Images" : [
+                        {
+                           "Image" : "RR_Banner.png",
+                           "HAlign" : "Center",
+                           "VAlign" : "Center"
+                        }
+                     ]
+                  },
+                  {
+                     "Type" : "BasicTile",
+                     "HasShadow" : "false",
+                     "Height" : 150,
+                     "Width" : 450,
+                     "HAlign" : "Left",
+                     "Images" : [
+                        {
+                           "Image" : "GradientRight.png",
+                           "ColorAndOpacity" : "0, 0, 0, 0.75",
+                           "Stretch" : "Fill"
+                        }
+                     ],
+                     "Padding" : {
+                        "Left" : 5,
+                        "Top" : 5,
+                        "Right" : 5,
+                        "Bottom" : 5
+                     }
+                  },
+                  {
+                     "Type" : "Box",
+                     "Orientation" : "Vertical",
+                     "MinWidth" : 1400,
+                     "HAlign" : "Center",
+                     "VAlign" : "Top",
+                     "Padding" : {
+                        "Left" : 30,
+                        "Top" : 50,
+                        "Right" : 0,
+                        "Bottom" : 0
+                     },
+                     "Children" : [
+                        {
+                           "Type" : "Panel",
+                           "Padding" : {
+                              "Left" : 20,
+                              "Top" : 0,
+                              "Right" : 0,
+                              "Bottom" : 0
+                           },
+                           "Text" : [
+                              {
+                                 "Text_translate" : "true",
+                                 "Text" : "Robo Recall Mod Kit",
+                                 "TextStyle" : "inverted-title",
+                                 "HAlign" : "Left",
+                                 "VAlign" : "Center",
+                                 "Margin" : {
+                                    "Left" : 0,
+                                    "Top" : 0,
+                                    "Right" : 0,
+                                    "Bottom" : 0
+                                 },
+                                 "Text_zh-CN" : "Robo Recall模组工具包",
+                                 "Text_fr" : "Kit de mods Robo Recall",
+                                 "Text_de" : "Robo Recall Mod Kit",
+                                 "Text_ko" : "로보 리콜 모드 키트",
+                                 "Text_it" : "Kit di mod Robo Recall",
+                                 "Text_ru" : "Набор модификаций для Robo Recall",
+                                 "Text_pl" : "Zestaw modyfikacji do gry Robo Recall",
+                                 "Text_ar" : "حزمة معدِل Robo Recall",
+                                 "Text_pt-BR" : "Kit de Mod de Robo Recall",
+                                 "Text_es-MX" : "Kit de modificación de Robo Recall",
+                                 "Text_es" : "Kit de mods de Robo Recall",
+                                 "Text_ja" : "Robo Recall Mod キット",
+                                 "Text_tr" : "Robo Recall Mod Seti",
+                                 "Text_zh-Hans" : "Robo Recall模组工具包",
+                                 "Text_zh-Hant" : "《Robo Recall》模組工具",
+                                 "Text_th" : "Robo Recall Mod Kit"
+                              }
+                           ]
+                        },
+                        {
+                           "Type" : "ActionButton",
+                           "HAlign" : "Left",
+                           "MinWidth" : 442,
+                           "MinHeight" : 124,
+                           "Padding" : {
+                              "Left" : 0,
+                              "Top" : 10,
+                              "Right" : 0,
+                              "Bottom" : 0
+                           },
+                           "VAlign" : "Top",
+                           "SelectorId" : "Editor",
+                           "GroupId" : "Editor"
+                        }
+                     ]
+                  }
+               ]
+            },
+            {
+               "Type" : "Layout",
+               "Layout" : "ui_GenericCreateOffline",
+               "HAlign" : "Center",
+               "AutoSize" : "false",
+               "Padding" : {
+                  "Left" : 0,
+                  "Top" : 0,
+                  "Right" : 0,
+                  "Bottom" : 0
+               }
+            }
+         ]
+      }
+   ]
+}

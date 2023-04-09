@@ -1,0 +1,223 @@
+﻿{
+	"Type": "Overlay",
+	"RequiresBindingSource": false,
+	"AutoSize": "false",
+	"Children": [
+		{
+			"Type": "Panel",
+			"Padding": {
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"BackgroundImage": "0.56681, 0.56681, 0.56681"
+		},
+		{
+			"Type": "ScrollBox",
+			"AutoSize": "false",
+			"Padding": {
+				"Left": 250,
+				"Top": 5,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"Children": [
+				{
+					"Type": "Overlay",
+					"MaxWidth": 1400,
+					"HAlign": "Center",
+					"Children": [
+						{
+							"Type": "BasicTile",
+							"HasShadow": "false",
+							"Height": 300,
+							"LoadSilently": "true",
+							"Images": [
+								{
+									"Image": "ut_PlayHeader.png",
+									"HAlign": "Center",
+									"VAlign": "Bottom"
+								}
+							]
+						},
+						{
+							"Type": "BasicTile",
+							"HasShadow": "false",
+							"Height": 150,
+							"HAlign": "Left",
+							"Images": [
+								{
+									"Image": "GradientRight.png",
+									"ColorAndOpacity": "0, 0, 0, 0.75",
+									"Stretch": "Fill"
+								}
+							],
+							"Padding": {
+								"Left": 0,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 0
+							}
+						},
+						{
+							"Type": "Box",
+							"Orientation": "Vertical",
+							"MinWidth": 1400,
+							"HAlign": "Center",
+							"VAlign": "Center",
+							"Padding": {
+								"Left": 30,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 0
+							},
+							"Children": [
+								{
+									"Type": "Panel",
+									"Padding": {
+										"Left": 20,
+										"Top": 0,
+										"Right": 0,
+										"Bottom": 0
+									},
+									"Text": [
+										{
+											"TextStyle": "inverted-title",
+											"HAlign": "Left",
+											"VAlign": "Center",
+											"Margin": {
+												"Left": 0,
+												"Top": 0,
+												"Right": 0,
+												"Bottom": 0
+											},
+											"LineHeightScalar": 1.2,
+											"Text_translate": "true",
+											"Text": "Play Unreal Tournament",
+											"Text_ko": "언리얼 토너먼트 플레이",
+											"Text_ja": "Unreal Tournament をプレイ",
+											"Text_zh-CN": "运行虚幻竞技场",
+											"Text_fr": "Jouer à Unreal Tournament",
+											"Text_es": "Jugar a Unreal Tournament",
+											"Text_de": "Unreal Tournament spielen",
+											"Text_it": "Gioca a Unreal Tournament",
+											"Text_ru": "Играть в Unreal Tournament",
+											"Text_pl": "Zagraj w Unreal Tournament",
+											"Text_pt-BR": "Jogue o Unreal Tournament",
+											"Text_es-MX": "Jugar Unreal Tournament",
+											"Text_ar": "العب Unreal Tournament"
+										}
+									]
+								},
+								{
+									"Type": "Panel",
+									"Padding": {
+										"Left": 22,
+										"Top": 0,
+										"Right": 0,
+										"Bottom": 0
+									},
+									"Width": 500,
+									"Text": [
+										{
+											"TextStyle": "inverted-strong",
+											"HAlign": "Left",
+											"VAlign": "Center",
+											"WrapAt": 500,
+											"LineHeightScalar": 1.2,
+											"Text_translate": "true",
+											"Text": "Grab the latest version and jump into a game with your friends.",
+											"Text_ko": "최신 버전을 받아 친구와 함께 게임에 뛰어들어 보세요.",
+											"Text_ja": "最新のバージョンをゲットしてみんなでゲームに参加しよう！",
+											"Text_zh-CN": "获取最新版本并和您的好友一起进入游戏",
+											"Text_fr": "Récupérez la dernière version et lancez-vous dans une partie avec vos amis.",
+											"Text_es": "Obtén la última versión y entra en una partida con tus amigos.",
+											"Text_de": "Mit der aktuellen Version gemeinsam mit Freunden direkt ins Getümmel stürzen!",
+											"Text_it": "Procurati l'ultima versione e gioca subito con gli amici.",
+											"Text_ru": "Обновитесь до последней версии и играйте вместе с друзьями.",
+											"Text_pl": "Pobierz najnowszą wersję i graj ze znajomymi.",
+											"Text_pt-BR": "Baixe a última versão e entre em uma partida com seus amigos.",
+											"Text_es-MX": "Consigue la última versión y juega con amigos.",
+											"Text_ar": "احصل على أحدث إصدار وابدأ اللعب مع الأصدقاء."
+										}
+									]
+								},
+								{
+									"Type": "ActionButton",
+									"HAlign": "Left",
+									"MinWidth": 442,
+									"MinHeight": 124,
+									"Padding": {
+										"Left": 0,
+										"Top": 10,
+										"Right": 0,
+										"Bottom": 0
+									},
+									"VAlign": "Top"
+								}
+							]
+						}
+					]
+				},
+				{
+					"Type": "Box",
+					"Orientation": "Vertical",
+					"Padding": {
+						"Left": 0,
+						"Top": 40,
+						"Right": 0,
+						"Bottom": 40
+					},
+					"HAlign": "Center",
+					"MaxWidth": 1400,
+					"MinWidth": 1400,
+					"Children": [
+						{
+							"Type": "Panel",
+							"AutoSize": "false",
+							"Padding": {
+								"Left": 80,
+								"Top": 0,
+								"Right": 80,
+								"Bottom": 0
+							},
+							"Text": [
+								{
+									"TextStyle": "Title",
+									"AutoWrap": true,
+									"Text_translate": "true",
+									"Text": "Uh oh, there is supposed to be something here but you can't see it.  Try sorting out the connectivity issue and return to this page.\n\nIn the meantime this should not prevent you from playing the game or using the editor.",
+									"Text_ko": "저런, 여기 무언가 있어야 하는데 보이지 않는 모양이군요. 접속 문제를 해결하고 다시 돌아와 보세요.\n\n그 와중에 이로 인해 게임 플레이나 에디터 사용이 제한되지는 않을 것입니다.",
+									"Text_ja": "表示されるはずのものが表示されていない状態です。ネットワークの接続を確認してください。\n\nゲームの開発・プレイには基本的に影響はありません。",
+									"Text_zh-CN": "哎呀，此处应该有一些内容，但您无法看到。请您尝试解决网络连接问题，然后返回本页面。\n\n此问题不会影响您玩游戏或使用编辑器。",
+									"Text_fr": "Quelque chose devrait apparaître ici. Essayez de régler les problèmes de connexion et revenez sur cette page.\n\nEn attendant, cela ne vous empêche pas de jouer au jeu ou d'utiliser l'éditeur.",
+									"Text_es": "Vaya, se supone que aquí tenía que haber algo, pero no puedes verlo. Intenta solucionar los problemas de conectividad y vuelve a esta página.\n\nMientras tanto, no deberías tener problemas para jugar ni usar el editor.",
+									"Text_de": "Der eigentliche Text konnte nicht angezeigt werden. Beheben Sie das Verbindungsproblem und rufen Sie die Seite erneut auf.\n\nDie Verwendung des Editors und das Spiel selbst sind davon nicht beeinträchtigt.",
+									"Text_it": "Oh no, qui c'era qualcosa che non è stato possibile visualizzare. Risolvi i problemi di connessione e torna a questa pagina.\n\nNel frattempo, dovresti comunque riuscire a giocare e usare l'editor.",
+									"Text_ru": "Ой, тут что-то должно быть, но вы этого не видите. Разберитесь с проблемами подключения и вернитесь на страницу.\n\nОднако эта проблема не помешает вам играть в игры или пользоваться редактором.",
+									"Text_pl": "W tym miejscu powinna być widoczna zawartość, ale nic tu nie ma. Spróbuj rozwiązać problem z połączeniem i wróć do tej strony.\n\nTymczasem możesz grać w grę lub korzystać z edytora.",
+									"Text_pt-BR": "Opa, devia ter algo aqui só que você não consegue ver. Tente solucionar o problema de conexão e volte a esta página.\n\nEnquanto isso, você ainda pode iniciar o jogo ou utilizar o editor.",
+									"Text_es-MX": "¡Oh-oh! Se supone que debe haber algo aquí, pero no puedes verlo. Intenta solucionar el problema de conexión y vuelve a esta página.\n\nMientras tanto, esto no debería impedir que juegues ni uses el editor.",
+									"Text_ar": "يفترض وجود شيء ما هنا لكنك لا تراه. حاول حل مشاكل الاتصال وعُد إلى هذه الصفحة.\n\nيفترض في الوقت ذاته ألا يمنعك هذا من لعب اللعبة أو استخدام أداة التعديل."
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "Layout",
+			"Layout": "ui_UTNavV3.layout",
+			"HAlign": "Left",
+			"VAlign": "Fill",
+			"Padding": {
+				"Left": 0,
+				"Top": 5,
+				"Right": 0,
+				"Bottom": 0
+			}
+		}
+	]
+}

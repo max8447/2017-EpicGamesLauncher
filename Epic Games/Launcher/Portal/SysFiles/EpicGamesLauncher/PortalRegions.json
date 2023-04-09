@@ -1,0 +1,30 @@
+{
+	"Regions": 
+	[
+		{
+			"Id": "Prod",
+			"DisplayName": "Prod",
+			"DisplayName_translate": "false"
+		},
+		{
+			"Id": "Stage",
+			"DisplayName": "Stage",
+			"DisplayName_translate": "false"
+		},
+		{
+			"Id": "GameDev",
+			"DisplayName": "GameDev",
+			"DisplayName_translate": "false"
+		},
+		{
+			"Id": "LocalHost",
+			"DisplayName": "LocalHost",
+			"DisplayName_translate": "false"
+		},
+		{
+			"Id": "CI",
+			"DisplayName": "CI",
+			"DisplayName_translate": "false"
+		}
+	]
+}

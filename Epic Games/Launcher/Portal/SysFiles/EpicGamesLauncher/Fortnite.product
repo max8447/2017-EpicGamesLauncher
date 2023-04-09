@@ -1,0 +1,149 @@
+﻿{
+	"Id": "fortnite",
+	"Priority": 20,
+	"AnalyticsId": "fn",
+	"DisplayName": "Fortnite",
+	"CatalogNamespace": "fn",
+	"BackgroundImage": "https://d31wv1uuljiv5e.cloudfront.net/fn/item/FortniteBackground-1920x1102-fd3881826c54212b1414f823a4e0b91a.png",
+	"BackgroundFillImage": "0.06191, 0.04299, 0.23883",
+	"PrimaryColor": "0.7519f, 0.33446f, 0.03026f",
+	"PressedPrimaryColor": "1.0f, 0.47618f, 0.23883f",
+	"HoveredPrimaryColor": "0.81224, 0.3636, 0.03026",
+	"Homepage": {
+		"Id": "fortnite",
+		"PartialUrl": "/fortnite",
+		"SourceUrl": "ui_FN_MustUpdate.layout"
+	},
+	"Pages": [
+
+	],
+	"Apps": [
+		{
+			"Name": "Fortnite",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "4fe75bbc5a674f4f9b356b5c90567da5",
+			"ClientId": "300d79839c914445948e3c1100f211db",
+			"AppId": "fortnite",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "FortnitePublicTest",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "0f3f913cb0bf4444a5cf63f1770401a7",
+			"ClientId": "7cf6977d137640759a51ec8fc88ebf9e",
+			"AppId": "fortnitePublicTest",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "FortniteDevPlaytest",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "aca952d51fb74bb38c518a1a36eee402",
+			"ClientId": "e02dd6fea2bb4f029bf529992cff8351",
+			"AppId": "fortniteDevPlaytest",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "FortniteLocTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "1347491024fb42dc8b9b75214db2af87",
+			"AppId": "fortniteLocTesting",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "FortniteLiveStage",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "0fdb56ac6a774694ab4cc31a954a8c51",
+			"ClientId": "ec684b8c687f479fadea3cb2ad83f5c6",
+			"AppId": "fortniteLiveStage",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "FortniteReleaseStage",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "d49a2003d9fc43348ee3c51764a6ffe4",
+			"ClientId": "7cf6977d137640759a51ec8fc88ebf9e",
+			"AppId": "fortniteReleaseStage",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "FortniteDevStage",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "c98888069ca7434a8cf26781092468a6",
+			"ClientId": "e02dd6fea2bb4f029bf529992cff8351",
+			"AppId": "fortniteDevStage",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "FortniteLiveTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "07dd3cfbd98b4d69bb2b974f58bd3c74",
+			"ClientId": "5a1fb298e1824563ad28296cb3a4008e",
+			"AppId": "fortniteLiveTesting",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "FortniteReleaseTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "694757b01e834ccbb24aadabfb56f7da",
+			"ClientId": "df94a22141b24b02acfffc811d4d6159",
+			"AppId": "fortniteReleaseTesting",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "FortniteDevTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "83fa6058b7414103a32ca16a4046da75",
+			"ClientId": "81545b947bda44a6bacd844af10e0716",
+			"AppId": "FortniteDevTesting",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"LaunchPermissions": "WithoutLauncher"
+		}
+	],
+	"DefaultRegionId": "America",
+	"Regions": [
+		{
+			"Id": "America",
+			"DisplayName": "Americas",
+			"CommandLineArg": "-MCPRegion=USA"
+		},
+		{
+			"Id": "Europe",
+			"DisplayName": "Europe",
+			"CommandLineArg": "-MCPRegion=Poland"
+		},
+		{
+			"Id": "Asia",
+			"DisplayName": "Asia",
+			"CommandLineArg": "-MCPRegion=Asia -culture=zh-CN"
+		}
+	]
+}

@@ -1,0 +1,399 @@
+﻿{
+	"Id": "fortnite",
+	"Priority": 20,
+	"AnalyticsId": "fn",
+	"DisplayName": "Fortnite",
+	"DisplayName_ko": "포트나이트",
+	"CatalogNamespace": "fn",
+	"BackgroundImage": "",
+	"BackgroundFillImage": "#1e1e1e",
+	"PrimaryColor": "#95c990ff",
+	"PressedPrimaryColor": "#95c990ff",
+	"HoveredPrimaryColor": "#aae0a4ff",
+	"DisablePresenceWhileRunning": false,
+	"Requirements": {
+		"MacOS": { "MinMajorVersion": 10, "MinMinorVersion": 13, "MinRevision": 6 }
+	},
+	"Homepage": "/fortnite",
+	"Pages": [
+		{
+			"Id": "fortnite",
+			"PartialUrl": "/fortnite",
+			"SourceUrls": [ 
+				{
+					"SourceUrl": "ui_FN_MustUpdate.layout",
+					"Conditions": [ 
+						"[PORTAL_VERSION]<3.0.3, ![PORTAL_VERSION]0.0.0"
+					] 
+				},
+				{
+					"SourceUrl": "ui_MustUpdate.layout",
+					"Conditions": [ 
+						"[PORTAL_VERSION]>=3.0.3, [PORTAL_VERSION]<6.8.0"
+					] 
+				},
+				{
+					"SourceUrl": "ui_FNApplicationDetailsV6_Offline.layout", 
+					"Conditions": [ "![BINDING_SOURCE]" ] 
+				},				
+				{
+					"SourceUrl": "ui_FNApplicationDetailsV6.layout",
+					"Conditions": [ 
+						"[PORTAL_VERSION]>=6.8.0, [API_VERSION]>=Layout:1.0.0, [API_VERSION]<Layout:2.0.0"
+					]
+				},				
+				{
+					"SourceUrl": "ui_FNApplicationDetailsV7.layout"
+				}
+			]
+		}
+	],
+	"Apps": [
+		{
+			"Name": "Fortnite",
+			"GroupId": "Game",
+			"OfferId": "09176f4ff7564bbbb499bbe20bd6348f",
+			"ItemId": "4fe75bbc5a674f4f9b356b5c90567da5",
+			"ClientId": "300d79839c914445948e3c1100f211db",
+			"AppId": "fortnite",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher",
+			"WaitingRoomDomain": "fortnitewaitingroom-public-service-prod.ol.epicgames.com",
+			"WaitingRoomConfig": "OnlineSubsystemMcp.OnlineWaitingRoomMcp.Fortnite",
+			"LaunchSocialOnFirstInstall": true
+		},
+		{
+			"Name": "FortnitePublicTest",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "0f3f913cb0bf4444a5cf63f1770401a7",
+			"ClientId": "7cf6977d137640759a51ec8fc88ebf9e",
+			"AppId": "fortnitePublicTest",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteDevPlaytest",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "aca952d51fb74bb38c518a1a36eee402",
+			"ClientId": "e02dd6fea2bb4f029bf529992cff8351",
+			"AppId": "fortniteDevPlaytest",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteDevPlaytestB",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "fe99d5e2ccc348558c54a6428e24bbea",
+			"AppId": "FortniteDevPlaytestB",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteDevPlaytestC",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "205f78e5e7c6422d947821a5376bbd72",
+			"AppId": "FortniteDevPlaytestC",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteLocTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "1347491024fb42dc8b9b75214db2af87",
+			"AppId": "fortniteLocTesting",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher"
+		},
+		{
+			"Name": "FortniteLiveStage",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "0fdb56ac6a774694ab4cc31a954a8c51",
+			"ClientId": "ec684b8c687f479fadea3cb2ad83f5c6",
+			"AppId": "fortniteLiveStage",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteReleaseStage",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "d49a2003d9fc43348ee3c51764a6ffe4",
+			"ClientId": "7cf6977d137640759a51ec8fc88ebf9e",
+			"AppId": "fortniteReleaseStage",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteDevStage",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "c98888069ca7434a8cf26781092468a6",
+			"ClientId": "e02dd6fea2bb4f029bf529992cff8351",
+			"AppId": "fortniteDevStage",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteLiveTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "07dd3cfbd98b4d69bb2b974f58bd3c74",
+			"ClientId": "5a1fb298e1824563ad28296cb3a4008e",
+			"AppId": "fortniteLiveTesting",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteReleaseTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "694757b01e834ccbb24aadabfb56f7da",
+			"ClientId": "df94a22141b24b02acfffc811d4d6159",
+			"AppId": "fortniteReleaseTesting",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteDevTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "83fa6058b7414103a32ca16a4046da75",
+			"ClientId": "81545b947bda44a6bacd844af10e0716",
+			"AppId": "FortniteDevTesting",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortnitePartners",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "1f4d0716056448a19fa1c7af5b2de6cb",
+			"ClientId": "ec684b8c687f479fadea3cb2ad83f5c6",
+			"AppId": "FortnitePartners",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteMailappStage ",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "1cbcc9da2d244c6d858afc0c247b1931",
+			"ClientId": "",
+			"AppId": "FortniteMailappStage ",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteReleasePlaytest",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "3e366ef96a3a4c4799453c79424a154a",
+			"ClientId": "ec684b8c687f479fadea3cb2ad83f5c6",
+			"AppId": "FortniteReleasePlaytest",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortnitePreview",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "ec63c37c9d714261838351a979017771",
+			"ClientId": "ec684b8c687f479fadea3cb2ad83f5c6",
+			"AppId": "FortnitePreview",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteLoadTest",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "6fd57d2281c848548c1b7bad37c4eec9",
+			"ClientId": "ec684b8c687f479fadea3cb2ad83f5c6",
+			"AppId": "FortniteLoadTest",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": false,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteAthena",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "25ce090e8a0849118cf6484f78206982",
+			"AppId": "FortniteAthena",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteLiveHK",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "868e5a09d6c141a7a14a2705d8fd7df0",
+			"AppId": "FortniteLiveHK",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteLiveTestingHK",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "7afe28f3146b406f8833e13f9f16e5b8",
+			"AppId": "FortniteLiveTestingHK",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteBacchusPlaytest",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "0ca322156e864130a7ef4ce2d528f361",
+			"AppId": "FortniteBacchusPlaytest",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteExtQADevTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "439deffd636f4e229ffbf6b9deecee8e",
+			"AppId": "FortniteExtQADevTesting",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteExtQAReleaseTesting",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "83802f6bd9a74f1e88af9a667a12602a",
+			"AppId": "FortniteExtQAReleaseTesting",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteExtQAReleaseTestingB",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "1c050f17aed04ca5a7db4a39fcfd8dfb",
+			"AppId": "FortniteExtQAReleaseTestingB",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteIOSCert",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "e4b2c02b8be541f0ad9972c9c8a38356",
+			"AppId": "FortniteIOSCert",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteReviewCN",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "73ee9348520b4dfaa36cb211801f6ae0",
+			"AppId": "FortniteReviewCN",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortniteEvents",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "deaedfb62fae4170b39c98aaf088bfca",
+			"AppId": "FortniteEvents",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortnitePartnersStable",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "50e6123307454993973a11fc78c28322",
+			"AppId": "FortnitePartnersStable",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortnitePreDeployA",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "b94cb13d85154b2480d7825c2283e916",
+			"AppId": "FortnitePreDeployA",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		},
+		{
+			"Name": "FortnitePreDeployB",
+			"GroupId": "Game",
+			"OfferId": "",
+			"ItemId": "fdb8e4fe4ddd40b7b2378bc584acec6a",
+			"AppId": "FortnitePreDeployB",
+			"RecentPlayersNamespace": "fortnite",
+			"HasGateKeeper": true,
+			"UseAccessControl": true,
+			"LaunchPermissions": "WithoutLauncher,NoKoreanIdVerification"
+		}
+	]
+}

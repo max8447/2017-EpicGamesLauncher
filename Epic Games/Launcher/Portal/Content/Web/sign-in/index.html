@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html class=""><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="titleId">Log in to your Epic Games account</title>
+    <link rel="stylesheet" href="./index_files/account-eaf0515d4ba2167bff44241e7c3e95e3.css">
+        
+    <meta name="layout" content="flat_page">
+    
+    <link rel="stylesheet" href="./index_files/accountPortalLauncher-49b0ced4f5a4a614353ec552e34a359e.css">
+
+<link rel="stylesheet" type="text/css" href="./index_files/accountportalwidgets-29af5daadeaccad5fb47f64b04c8fab8.css"></head>
+<body class="">
+    
+        
+	<span id="accountPortalModalProductStyle"></span>
+
+    <script src="./index_files/jqueryBundle-c483ab54c3056166b546cf44e7b70062.js" type="text/javascript"></script>
+    
+<script src="./index_files/widgetJS.js"></script>
+<script type="text/javascript">
+    var supportedLocales = ["en-US", "fr", "de", "es-MX", "es-ES", "ko", "ja", "zh-CN", "it", "ru", "ar", "pt-BR", "pl"];
+
+    function getQueryParameter(paramName)
+    {
+        paramName = paramName.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+        var regex = new RegExp("[\\?&]" + paramName + "=([^&#]*)"),
+                results = regex.exec(window.location.search);
+        return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+    };
+
+    // Load localized resource from a local file if we are in launcher
+    if (com.epicgames.account.web.runLocal) {
+        var lang = getQueryParameter("lang");
+        if (!supportedLocales.includes(lang)) {
+            lang = "en-US";
+        }
+        // TODO: add locale support
+        com.epicgames.account.web.URLS.i18nMessagesJSON = "./index_files/i18_" + lang + ".json";
+    }
+
+    if (window.ue && window.ue.signinprompt) {
+        // Also update the account portal base URLs
+        window.ue.environment.getbaseurl("{accounts.epicgames}").then(function (baseUrl) {
+            com.epicgames.account.web.URLS.facebookLogin = baseUrl + "/login/facebook";
+            com.epicgames.account.web.URLS.googleLogin = baseUrl + "/login/google";
+            com.epicgames.account.web.URLS.checkExternalLoginStatus = baseUrl + "/login/externalLoginStatus";
+        });
+
+        window.ue.environment.getbaseurl("{accounts.launcher.epicgames}").then(function (baseUrl) {
+            com.epicgames.account.web.URLS.externalLogin = baseUrl + "/login/external";
+        });
+    }
+</script>
+<script>
+    com.epicgames.account.web.load(function() {
+        
+            com.epicgames.account.web.widgets.setRemoveCloseBtn(true);
+        
+        com.epicgames.account.web.doNotValidateRealtime = true;
+        com.epicgames.account.web.widgets.__setAuthorizeRedirParams(
+{}
+);
+        com.epicgames.account.web.widgets.__login();
+    });
+</script><script src="./index_files/accountportalwidgets-680d18b19d55b4f632fee9334039a5a7.js"></script>
+
+<div id="accountPortalModalOverlay" class="accountPortalModalOverlay customProductClass" style=""><div id="accountPortalModalDialog" class="accountPortalModalDialog" style="display: inline-block;"><span class="logo"></span><div id="accountPortalModalDialogContents" class="modalContent">
+
+<div class="accountPortalFormContainer">
+    <form id="loginForm" onsubmit="return false;" autocomplete="off" class="form filled">
+        
+
+<input type="hidden" name="SYNCHRONIZER_TOKEN" value="d8d085be-ee6d-45ec-ab65-9dfacad6048b" id="SYNCHRONIZER_TOKEN">
+<input type="hidden" name="SYNCHRONIZER_URI" value="/login/doLauncherLogin" id="SYNCHRONIZER_URI">
+        <input type="hidden" name="fromForm" value="yes" id="fromForm">
+        <input type="hidden" id="authType" name="authType" value="">
+        <input type="hidden" id="linkExtAuth" name="linkExtAuth" value="">
+
+        
+
+
+
+
+
+
+
+        
+
+
+
+        <div id="thirdPartyLogin" class="hidden">
+            <div class="thirdPartyLoginContainer">
+                <div class="thirdPartyLoginEntry" onclick="return com.epicgames.account.web.widgets.externalLogin(&#39;facebook&#39;, false)">
+                    <div id="fbSignInBtnContainer" class="btnContainer filled">
+                        <div id="fbSignInBtnIconContainer">
+                            <div id="fbSignInBtnIconContainerBackground"></div>
+                        </div>
+                        <input id="fbSignIn" type="button" value="Sign In With Facebook" class="facebookLogin thirdPartyLoginButton">
+                    </div>
+                </div>
+                <div class="thirdPartyLoginEntry" onclick="return com.epicgames.account.web.widgets.externalLogin(&#39;google&#39;, false)">
+                    <div id="googleSignInBtnContainer" class="btnContainer filled">
+                        <div id="googleSignInBtnIconContainer">
+                            <div id="googleSignInBtnIconContainerBackground"></div>
+                        </div>
+                        <input id="googleSignIn" type="button" value="Sign In With Google" class="googleLogin thirdPartyLoginButton">
+                    </div>
+                </div>
+            </div>
+            <div class="registerTypeDivider">
+                <div class="registerDividerRule">
+                    <hr class="dividerClass">
+                </div>
+                <div id="thirdPartySignInOr" class="registerDividerText">
+                    or
+                </div>
+                <div class="registerDividerRule">
+                    <hr class="dividerClass">
+                </div>
+            </div>
+        </div>
+        <div class="textField form-group">
+            <input id="epic_username" type="email" name="epic_username" autocomplete="new-password" required="" value="" oninput="com.epicgames.account.web.widgets.validateLoginForm();" class=" form-control" onfocus="this.select();">
+            <label for="epic_username" class="control-label" id="epic_username_label">
+                Email
+            </label>
+            
+        </div>
+
+        <div class="textField form-group">
+            <input id="password" type="password" name="password" autocomplete="new-password" required="" oninput="com.epicgames.account.web.widgets.validateLoginForm();" class=" form-control" onfocus="this.select();">
+            <label for="password" class="control-label" id="password_label">
+                Password
+            </label>
+            <div id="capsLocked" class="capsLocked">
+            </div>
+            
+        </div>
+
+        <div id="rememberMeCheckContainer" class="checkContainer left filled">
+            <input id="rememberMe" type="checkbox" name="rememberMe" onclick="com.epicgames.account.web.widgets.updateRememberMe()" value="YES" checked="checked" class="check">
+            <label for="rememberMe"><span></span></label>
+            <label id="rememberMeLabel" for="rememberMe" class="checkLabel">Remember Me</label>
+        </div>
+
+        <div class="resetPass">
+            <a id="forgotPasswordLink" href="https://accounts.epicgames-ci.ol.epicgames.net/login/launcher" onclick="com.epicgames.account.web.widgets.requestReset(); return false;">Forgot Your Password?</a>
+        </div>
+
+        <div class="clearfix"></div>
+
+        
+        
+
+        <div id="signInBtnContainer" class="btnContainer filled">
+            <input id="signIn" type="submit" value="Sign In" class="disabled" onclick="com.epicgames.account.web.widgets.validateLoginForm()">
+        </div>
+    </form>
+
+
+<div class="switchMode">
+    <span id="noAccountId" class="switchPageMessage">Don't have an Epic Games account?</span>
+    <a id="switchPageAction" href="https://accounts.epicgames-ci.ol.epicgames.net/login/launcher" onclick="com.epicgames.account.web.widgets.switchToRegister(); return false;"><span id="switchToRegisterId">Sign Up</span></a>
+    <span id="offlineMode">
+        <span id="skipSigninOr">or</span>
+        <a id="enterOfflinePageAction" href="https://accounts.epicgames-ci.ol.epicgames.net/login/launcher" onclick="com.epicgames.account.web.widgets.enterOffline(); return false;"><span id="skipSignInId">Sign In Later</span></a>
+    </span>
+</div></div></div></div></div></body></html>

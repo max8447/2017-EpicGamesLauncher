@@ -1,0 +1,712 @@
+﻿{
+	"Type": "Overlay",
+	"AutoSize": "false",
+	"Children": [
+		{
+			"Type": "Panel",
+			"Padding": {
+				"Left": 0,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"BackgroundImage": "0.56681, 0.56681, 0.56681"
+		},
+		{
+			"Type": "ScrollBox",
+			"AutoSize": "false",
+			"Padding": {
+				"Left": 250,
+				"Top": 5,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"Children": [
+				{
+					"Type": "Box",
+					"Orientation": "Vertical",
+					"HAlign": "Center",
+					"MaxWidth": 1400,
+					"Children": [
+						{
+							"Type": "Overlay",
+							"Children": [
+								{
+									"Type": "BasicTile",
+									"HasShadow": "false",
+									"Height": 300,
+									"Images": [
+										{
+											"Image": "NewFeatured"
+										}
+									],
+									"Padding": {
+										"Left": 0,
+										"Top": 0,
+										"Right": 0,
+										"Bottom": 0
+									}
+								},
+								{
+									"Type": "BasicTile",
+									"HasShadow": "false",
+									"Height": 150,
+									"VAlign": "Bottom",
+									"Images": [
+										{
+											"Image": "GradientUp.png",
+											"ColorAndOpacity": "0, 0, 0, 0.75",
+											"Stretch": "Fill"
+										}
+									],
+									"Padding": {
+										"Left": 0,
+										"Top": 0,
+										"Right": 0,
+										"Bottom": 0
+									}
+								},
+								{
+									"Type": "Box",
+									"Orientation": "Vertical",
+									"HAlign": "Left",
+									"VAlign": "Bottom",
+									"Padding": {
+										"Left": 60,
+										"Top": 20,
+										"Right": 10,
+										"Bottom": 20
+									},
+									"Children": [
+										{
+											"Type": "Panel",
+											"Text": [
+												{
+													"Binding": "Title",
+													"TextStyle": "inverted-extralarge-title",
+													"LineHeightScalar": 1.2
+												}
+											]
+										},
+										{
+											"Type": "Panel",
+											"Padding": {
+												"Left": 0,
+												"Top": 0,
+												"Right": 0,
+												"Bottom": 0
+											},
+											"Text": [
+												{
+													"Binding_translate": "true",
+													"Binding": "By {Author} | {ModifiedDate}",
+													"TextStyle": "inverted-extralarge-strong",
+													"WrapAt": 500,
+													"LineHeightScalar": 1.2,
+													"Binding_ko": "저자: {Author} | {ModifiedDate}",
+													"Binding_ja": "製作：{Author} | {ModifiedDate}",
+													"Binding_zh-CN": "作者{Author} | {ModifiedDate}",
+													"Binding_fr": "Par {Author} | {ModifiedDate}",
+													"Binding_es": "Por {Author} | {ModifiedDate}",
+													"Binding_de": "Von {Author} | {ModifiedDate}",
+													"Binding_it": "Di {Author} | {ModifiedDate}",
+													"Binding_ru": "Производство: {Author} | {ModifiedDate}",
+													"Binding_pl": "Autor: {Author} | {ModifiedDate}",
+													"Binding_pt-BR": "Por {Author} | {ModifiedDate}",
+													"Binding_es-MX": "Por {Author} | {ModifiedDate}",
+													"Binding_ar": "بواسطة {Author} | {ModifiedDate}"
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "ActionButton",
+									"MinWidth": 342,
+									"MinHeight": 102,
+									"HAlign": "Right",
+									"VAlign": "Bottom",
+									"Padding": {
+										"Left": 0,
+										"Top": 0,
+										"Right": 10,
+										"Bottom": 0
+									}
+								},
+								{
+									"Type": "Link",
+									"HAlign": "Left",
+									"VAlign": "Top",
+									"Padding": {
+										"Left": 35,
+										"Top": 20,
+										"Right": 0,
+										"Bottom": 0
+									},
+									"Image": {
+										"Image": "arrow_left.png",
+										"ColorAndOpacity": "UseForeground"
+									},
+									"Text": {
+										"Text_translate": "true",
+										"Text": "Back",
+										"TextStyle": "h4",
+										"UseForegroundColor": "true",
+										"Margin": {
+											"Left": 10,
+											"Top": 0,
+											"Right": 10,
+											"Bottom": 0
+										},
+										"Text_ko": "뒤로",
+										"Text_ja": "戻る",
+										"Text_zh-CN": "返回",
+										"Text_fr": "Retour",
+										"Text_es": "Volver",
+										"Text_de": "Zurück",
+										"Text_it": "Indietro",
+										"Text_ru": "Назад",
+										"Text_pl": "Wróć",
+										"Text_pt-BR": "Voltar",
+										"Text_es-MX": "Atrás",
+										"Text_ar": "العودة"
+									},
+									"OnNavigateUrl": "Tab/UT/Marketplace"
+								}
+							]
+						},
+						{
+							"Type": "ResponsiveGrid",
+							"TotalColumns": 12,
+							"ColumnGutter": 5,
+							"MinWidth": 1400,
+							"Padding": {
+								"Left": 60,
+								"Top": 20,
+								"Right": 60,
+								"Bottom": 40
+							},
+							"Children": [
+								{
+									"Type": "Box",
+									"Row": 0,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 0,
+											"Span": 12
+										}
+									],
+									"Orientation": "Vertical",
+									"Children": [
+										{
+											"Type": "Panel",
+											"Padding": {
+												"Left": 0,
+												"Top": 20,
+												"Right": 0,
+												"Bottom": 0
+											},
+											"Text": [
+												{
+													"Text": "Description",
+													"TextStyle": "h4",
+													"AutoWrap": "true",
+													"LineHeightScalar": 1.2
+												}
+											]
+										},
+										{
+											"Type": "Panel",
+											"Padding": {
+												"Left": 0,
+												"Top": 20,
+												"Right": 0,
+												"Bottom": 30
+											},
+											"Text": [
+												{
+													"Binding": "LongDescription",
+													"TextStyle": "body",
+													"AutoWrap": "true",
+													"LineHeightScalar": 1.2
+												}
+											]
+										}
+									]
+								},
+								{
+									"Type": "BasicCarousel",
+									"Row": 0,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 800,
+											"Span": 0
+										},
+										{
+											"LayoutSize": 0,
+											"Span": 12
+										}
+									],
+									"HAlign": "Center",
+									"MinHeight": 400,
+									"MaxHeight": 400,
+									"MinWidth": 708,
+									"MaxWidth": 708,
+									"AutoScroll": 13,
+									"AutoScrollDirection": "Left",
+									"Items": {
+										"Includes": [
+											"Screenshot"
+										]
+									},
+									"HasShadow": "false",
+									"Images": [
+										{
+											"Image": "Url"
+										}
+									]
+								},
+								{
+									"Type": "BasicCarousel",
+									"Row": 0,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 900,
+											"Span": 0
+										},
+										{
+											"LayoutSize": 800,
+											"Span": 12
+										},
+										{
+											"LayoutSize": 0,
+											"Span": 0
+										}
+									],
+									"HAlign": "Center",
+									"MinHeight": 450,
+									"MaxHeight": 450,
+									"MinWidth": 800,
+									"MaxWidth": 800,
+									"AutoScroll": 13,
+									"AutoScrollDirection": "Left",
+									"Items": {
+										"Includes": [
+											"Screenshot"
+										]
+									},
+									"HasShadow": "false",
+									"Images": [
+										{
+											"Image": "Url"
+										}
+									]
+								},
+								{
+									"Type": "BasicCarousel",
+									"Row": 0,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 950,
+											"Span": 0
+										},
+										{
+											"LayoutSize": 900,
+											"Span": 12
+										},
+										{
+											"LayoutSize": 0,
+											"Span": 0
+										}
+									],
+									"HAlign": "Center",
+									"MinHeight": 500,
+									"MaxHeight": 500,
+									"MinWidth": 889,
+									"MaxWidth": 889,
+									"AutoScroll": 13,
+									"AutoScrollDirection": "Left",
+									"Items": {
+										"Includes": [
+											"Screenshot"
+										]
+									},
+									"HasShadow": "false",
+									"Images": [
+										{
+											"Image": "Url"
+										}
+									]
+								},
+								{
+									"Type": "BasicCarousel",
+									"Row": 0,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 1000,
+											"Span": 0
+										},
+										{
+											"LayoutSize": 950,
+											"Span": 12
+										},
+										{
+											"LayoutSize": 0,
+											"Span": 0
+										}
+									],
+									"HAlign": "Center",
+									"MinHeight": 550,
+									"MaxHeight": 550,
+									"MinWidth": 978,
+									"MaxWidth": 978,
+									"AutoScroll": 13,
+									"AutoScrollDirection": "Left",
+									"Items": {
+										"Includes": [
+											"Screenshot"
+										]
+									},
+									"HasShadow": "false",
+									"Images": [
+										{
+											"Image": "Url"
+										}
+									]
+								},
+								{
+									"Type": "BasicCarousel",
+									"Row": 0,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 1200,
+											"Span": 0
+										},
+										{
+											"LayoutSize": 1000,
+											"Span": 12
+										},
+										{
+											"LayoutSize": 0,
+											"Span": 0
+										}
+									],
+									"HAlign": "Center",
+									"MinHeight": 600,
+									"MaxHeight": 600,
+									"MinWidth": 1167,
+									"MaxWidth": 1167,
+									"AutoScroll": 13,
+									"AutoScrollDirection": "Left",
+									"Items": {
+										"Includes": [
+											"Screenshot"
+										]
+									},
+									"HasShadow": "false",
+									"Images": [
+										{
+											"Image": "Url"
+										}
+									]
+								},
+								{
+									"Type": "BasicCarousel",
+									"Row": 0,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 1200,
+											"Span": 12
+										},
+										{
+											"LayoutSize": 0,
+											"Span": 0
+										}
+									],
+									"HAlign": "Center",
+									"MinHeight": 650,
+									"MaxHeight": 650,
+									"MinWidth": 1367,
+									"MaxWidth": 1367,
+									"AutoScroll": 13,
+									"AutoScrollDirection": "Left",
+									"Items": {
+										"Includes": [
+											"Screenshot"
+										]
+									},
+									"HasShadow": "false",
+									"Images": [
+										{
+											"Image": "Url"
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"Type": "Panel",
+			"Padding": {
+				"Left": 0,
+				"Top": 5,
+				"Right": 0,
+				"Bottom": 0
+			},
+			"Width": 250,
+			"HAlign": "Left",
+			"BackgroundImage": "0.78175, 0.78175, 0.78175"
+		},
+		{
+			"Type": "Box",
+			"Orientation": "Vertical",
+			"Width": 250,
+			"HAlign": "Left",
+			"Padding": {
+				"Left": 0,
+				"Top": 65,
+				"Right": 0,
+				"Bottom": 10
+			},
+			"Children": [
+				{
+					"Type": "Overlay",
+					"Children": [
+						{
+							"Type": "Button",
+							"ButtonStyle": "SidebarNavigation.Button",
+							"Padding": {
+								"Left": 0,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 15
+							},
+							"ContentPadding": {
+								"Left": 10,
+								"Top": 10,
+								"Right": 0,
+								"Bottom": 10
+							},
+							"OnNavigateUrl": "Tab/UT/Play",
+							"ForegroundColor": "0, 0, 0",
+							"InvertedForegroundColor": "0, 0, 0",
+							"Child": {
+								"Type": "Link",
+								"Row": 0,
+								"ColumnSpans": [
+									{
+										"LayoutSize": 0,
+										"Span": 4
+									}
+								],
+								"HAlign": "Left",
+								"Text": {
+									"Text_translate": "true",
+									"Text": "Play",
+									"TextStyle": "extralarge-h4",
+									"UseForegroundColor": "true",
+									"Margin": {
+										"Left": 10,
+										"Top": 0,
+										"Right": 10,
+										"Bottom": 0
+									},
+									"Text_ko": "플레이",
+									"Text_ja": "プレイ",
+									"Text_zh-CN": "运行",
+									"Text_fr": "Jouer",
+									"Text_es": "Jugar",
+									"Text_de": "Spielen",
+									"Text_it": "Gioca",
+									"Text_ru": "Играть",
+									"Text_pl": "Graj",
+									"Text_pt-BR": "Jogar",
+									"Text_es-MX": "Jugar",
+									"Text_ar": "تشغيل"
+								},
+								"OnNavigateUrl": "Tab/UT/Play"
+							}
+						},
+						{
+							"Type": "NotificationBadge",
+							"Style": "Aggregate",
+							"AppDiscoveryMapKeys": [
+								"Play"
+							],
+							"Padding": {
+								"Left": 160,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 16
+							}
+						}
+					]
+				},
+				{
+					"Type": "Overlay",
+					"Children": [
+						{
+							"Type": "Button",
+							"ButtonStyle": "SidebarNavigation.Button",
+							"Padding": {
+								"Left": 0,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 15
+							},
+							"ContentPadding": {
+								"Left": 10,
+								"Top": 10,
+								"Right": 0,
+								"Bottom": 10
+							},
+							"OnNavigateUrl": "Tab/UT/Create",
+							"ForegroundColor": "0, 0, 0",
+							"InvertedForegroundColor": "0, 0, 0",
+							"Child": {
+								"Type": "Link",
+								"Row": 0,
+								"ColumnSpans": [
+									{
+										"LayoutSize": 0,
+										"Span": 4
+									}
+								],
+								"HAlign": "Left",
+								"Text": {
+									"Text_translate": "true",
+									"Text": "Create",
+									"TextStyle": "extralarge-h4",
+									"UseForegroundColor": "true",
+									"Margin": {
+										"Left": 10,
+										"Top": 0,
+										"Right": 10,
+										"Bottom": 0
+									},
+									"Text_ko": "제작",
+									"Text_ja": "クリエイト",
+									"Text_zh-CN": "创建",
+									"Text_fr": "Créer",
+									"Text_es": "Crear",
+									"Text_de": "Erstellen",
+									"Text_it": "Crea",
+									"Text_ru": "Создать",
+									"Text_pl": "Twórz",
+									"Text_pt-BR": "Criar",
+									"Text_es-MX": "Crear",
+									"Text_ar": "إنشاء"
+								},
+								"Padding": {
+									"Left": 0,
+									"Top": 0,
+									"Right": 0,
+									"Bottom": 40
+								},
+								"OnNavigateUrl": "Tab/UT/Create"
+							}
+						},
+						{
+							"Type": "NotificationBadge",
+							"Style": "Aggregate",
+							"AppDiscoveryMapKeys": [
+								"Create"
+							],
+							"Padding": {
+								"Left": 160,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 16
+							}
+						}
+					]
+				},
+				{
+					"Type": "Button",
+					"ButtonStyle": "SidebarNavigation.ActiveButton",
+					"Padding": {
+						"Left": 0,
+						"Top": 0,
+						"Right": 0,
+						"Bottom": 15
+					},
+					"ContentPadding": {
+						"Left": 10,
+						"Top": 10,
+						"Right": 0,
+						"Bottom": 10
+					},
+					"OnNavigateUrl": "Tab/UT/Marketplace",
+					"ForegroundColor": "1, 1, 1",
+					"Child": {
+						"Type": "Link",
+						"Row": 0,
+						"ColumnSpans": [
+							{
+								"LayoutSize": 0,
+								"Span": 4
+							}
+						],
+						"HAlign": "Left",
+						"Text": {
+							"Text_translate": "true",
+							"Text": "Marketplace",
+							"TextStyle": "extralarge-h4",
+							"UseForegroundColor": "true",
+							"Margin": {
+								"Left": 10,
+								"Top": 0,
+								"Right": 10,
+								"Bottom": 0
+							},
+							"Text_ko": "마켓플레이스",
+							"Text_ja": "マーケットプレイス",
+							"Text_zh-CN": "虚幻商城",
+							"Text_fr": "Marché",
+							"Text_es": "Bazar",
+							"Text_de": "Marktplatz",
+							"Text_it": "Marketplace",
+							"Text_ru": "Магазин",
+							"Text_pl": "Rynek",
+							"Text_pt-BR": "Loja",
+							"Text_es-MX": "Marketplace",
+							"Text_ar": "السوق"
+						},
+						"Padding": {
+							"Left": 0,
+							"Top": 0,
+							"Right": 0,
+							"Bottom": 40
+						},
+						"OnNavigateUrl": "Tab/UT/Marketplace"
+					}
+				}
+			]
+		},
+		{
+			"Type": "Layout",
+			"Layout": "ui_UTSidebarLinksV3",
+			"VAlign": "Bottom",
+			"Padding": {
+				"Left": 5,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 10
+			}
+		},
+		{
+			"Type": "Layout",
+			"Layout": "ui_UTShareLinksV3",
+			"VAlign": "Bottom",
+			"Padding": {
+				"Left": 5,
+				"Top": 0,
+				"Right": 0,
+				"Bottom": 10
+			}
+		}
+	]
+}

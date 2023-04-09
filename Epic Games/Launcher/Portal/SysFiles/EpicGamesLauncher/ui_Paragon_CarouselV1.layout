@@ -1,0 +1,59 @@
+{
+	"Type": "BasicCarousel",
+	"Id": "CarouselOR01",
+	"MaxHeight": 290,
+	"MinHeight": 290, 
+	"HasShadow": false,
+	"AutoScroll": 13,
+	"AutoScrollDirection": "Right",
+	"LeftArrowImage": { "Image": "0,0,0,0" },
+	"RightArrowImage": { "Image": "0,0,0,0" },
+	"LeftButton":{
+		"NormalImage": { "Image": "paragon_carousel_left_arrow_grey.png", "Stretch": "None" },
+		"PressedImage": { "Image": "paragon_carousel_left_arrow_colored.png", "Stretch": "None" },
+		"HoveredImage": { "Image": "paragon_carousel_left_arrow_colored.png", "Stretch": "None" },
+		"ContentPadding": { "Left": 15, "Top": 30, "Right": 15, "Bottom": 30 }
+	},
+	"RightButton": {
+		"NormalImage": { "Image": "paragon_carousel_right_arrow_grey.png", "Stretch": "None" },
+		"PressedImage": { "Image": "paragon_carousel_right_arrow_colored.png", "Stretch": "None" },
+		"HoveredImage": { "Image": "paragon_carousel_right_arrow_colored.png", "Stretch": "None" },
+		"ContentPadding": { "Left": 15, "Top": 30, "Right": 15, "Bottom": 30 }
+	},
+	"Items": {
+		"Includes": [
+			"21e87e40b9ee4e1bafe886e8bfe97ef6",
+			"267e37868cb44c8d805509841787b8f5", 
+			"fa698227a3104ab88a81651be136cdaf",
+			"f700c242ae464271b1e8a2611f865c52"
+		],
+		"SortBy": "Title"
+	},
+	"HoverIcon": {
+		"Image": "ExternalLink.png",
+		"Margin": {
+			"Left": 15,
+			"Top": 10,
+			"Right": 15,
+			"Bottom": 10
+		}
+	},
+	"Images": [
+		{
+			"Image": "Screenshot"
+		}
+	],
+	"OnNavigateUrl": "TechnicalDetails",
+	"Text": [
+		{
+			"Text": "Description",
+			"TextStyle": "inverted-body",
+			"Margin": {
+				"Left": 25,
+				"Top": 20,
+				"Right": 15,
+				"Bottom": 20
+			}
+		}
+	]
+}

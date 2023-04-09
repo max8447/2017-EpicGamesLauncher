@@ -1,0 +1,19 @@
+{
+    "messages.com.epicgames.launcher.codeRedemption.title" : "Введите код",
+    "messages.com.epicgames.launcher.codeRedemption.titleSignedIn" : "Активировать код",
+    "messages.com.epicgames.launcher.codeRedemption.content" : "Введите код, приложенный к DVD-диску, либо иной код Epic Games.",
+    "messages.com.epicgames.launcher.codeRedemption.contentSignedIn" : "Вы вошли как <span class=\"displayName\">{0}</span>.",
+    "messages.com.epicgames.launcher.codeRedemption.statusContent" : "Эти материалы будут навсегда прикреплены к вашей учётной записи Epic Games. Пожалуйста, убедитесь, что вошли в нужную учётную запись перед тем как подтвердить действие.",
+    "messages.com.epicgames.launcher.codeRedemption.validCode" : "Вы ввели ключ продукта для <span class=\"productName\">{0}</span>. Нажмите «{1}», чтобы привязать эти материалы к учётной записи <span class=\"displayName\">{2}</span>.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.title" : "Отлично! Осталось совсем чуть-чуть.",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content1" : "Чтобы получить доступ к материалам, войдите в учётную запись (или создайте новую, если у вас её нет).",
+    "messages.com.epicgames.launcher.codeRedemption.complete.content2" : "Учётная запись Epic Games позволит вам присоединиться к растущему сообществу игроков и разработчиков.",
+    "messages.com.epicgames.launcher.codeRedemption.unknownError" : "Произошла ошибка. Пожалуйста, повторите попытку. Если это не решит проблему, обратитесь в техподдержку.",
+    "messages.com.epicgames.launcher.codeRedemption.enterYourCode" : "Введите код",
+    "messages.com.epicgames.launcher.createAccount" : "Создать учётную запись",
+    "messages.com.epicgames.launcher.signin" : "Войти",
+    "messages.com.epicgames.launcher.cancel" : "Отменить",
+    "messages.com.epicgames.launcher.redeem" : "Активировать",
+    "messages.com.epicgames.launcher.redeemed" : "Активирован",
+    "messages.com.epicgames.launcher.continue" : "Далее"
+}

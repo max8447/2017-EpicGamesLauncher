@@ -1,0 +1,334 @@
+﻿{
+	"Type": "Box",
+	"Orientation": "Vertical",
+	"Padding": {
+		"Left": 0,
+		"Top": 0,
+		"Right": 30,
+		"Bottom": 20
+	},
+	"AutoSize": "false",
+	"Children": [
+		{
+			"Type": "Panel",
+			"MinHeight": 30,
+			"Text": [
+				{
+					"Binding": "Description",
+					"TextStyle": "h5",
+					"HAlign": "Fill",
+					"VAlign": "Center",
+					"AutoSize": "false",
+					"AutoWrap": "true",
+					"Margin": {
+						"Left": 0,
+						"Top": 0,
+						"Right": 0,
+						"Bottom": 0
+					},
+					"LineHeightScalar": 1.2
+				}
+			]
+		},
+		{
+			"Type": "Overlay",
+			"AutoSize": "false",
+			"Children": [
+				{
+					"Type": "BasicTile",
+					"VAlign": "Fill",
+					"HAlign": "Fill",
+					"HasShadow": false,
+					"Images": [
+						{
+							"Image": "Screenshot"
+						}
+					],
+					"OnNavigateUrl": "TechnicalDetails"
+				},
+				{
+					"Type": "BasicTile",
+					"HasShadow": "false",
+					"Height": 60,
+					"VAlign": "Bottom",
+					"Images": [
+						{
+							"Image": "GradientUp.png",
+							"ColorAndOpacity": "0, 0, 0, 0.75",
+							"Stretch": "Fill"
+						}
+					],
+					"Padding": {
+						"Left": 0,
+						"Top": 0,
+						"Right": 0,
+						"Bottom": 0
+					}
+				},
+				{
+					"Type": "Box",
+					"Orientation": "Horizontal",
+					"HAlign": "Center",
+					"VAlign": "Bottom",
+					"Padding": {
+						"Left": 5,
+						"Top": 0,
+						"Right": 5,
+						"Bottom": 5
+					},
+					"Children": [
+						{
+							"Type": "Link",
+							"Image": {
+								"Image": "Clock_extrasmall.png"
+							},
+							"Text": {
+								"Text": "TutorialLength",
+								"TextStyle": "inverted-extrasmall-body",
+								"Margin": {
+									"Left": 5,
+									"Top": 0,
+									"Right": 5,
+									"Bottom": 0
+								}
+							}
+						},
+						{
+							"Type": "Link",
+							"Image": {
+								"Image": "DifficultlyGauge.png"
+							},
+							"Text": {
+								"Text": "TutorialDifficultly",
+								"TextStyle": "inverted-extrasmall-body",
+								"Margin": {
+									"Left": 5,
+									"Top": 0,
+									"Right": 5,
+									"Bottom": 0
+								}
+							}
+						}
+					]
+				},
+				{
+					"Type": "Button",
+					"AutoSize": "false",
+					"ButtonStyle": "SidebarNavigation.Button",
+					"OnNavigateUrl": "TechnicalDetails",
+					"ForegroundColor": "0, 0, 0, 0",
+					"Child": {
+						"Type": "Overlay",
+						"Children": [
+							{
+								"Type": "BasicTile",
+								"Padding": {
+									"Left": 0,
+									"Top": 0,
+									"Right": 0,
+									"Bottom": 40
+								},
+								"HAlign": "Center",
+								"VAlign": "Center",
+								"HasShadow": false,
+								"Images": [
+									{
+										"Image": "Globe.png",
+										"Stretch": "None",
+										"ColorAndOpacity": "UseForeground"
+									}
+								]
+							},
+							{
+								"Type": "Link",
+								"Row": 0,
+								"ColumnSpans": [
+									{
+										"LayoutSize": 0,
+										"Span": 4
+									}
+								],
+								"HAlign": "Center",
+								"Text": {
+									"Text_translate": "true",
+									"Text": "Open tutorial",
+									"TextStyle": "extralarge-h4",
+									"UseForegroundColor": "true",
+									"Margin": {
+										"Left": 10,
+										"Top": 0,
+										"Right": 10,
+										"Bottom": 0
+									},
+									"Text_ko": "튜토리얼 열람",
+									"Text_ja": "チュートリアルを開く",
+									"Text_zh-CN": "打开教程",
+									"Text_fr": "Ouvrir le tutoriel",
+									"Text_es": "Abrir tutorial",
+									"Text_de": "Einführung öffnen",
+									"Text_it": "Apri tutorial",
+									"Text_ru": "Открыть обучение",
+									"Text_pl": "Otwórz samouczek",
+									"Text_pt-BR": "Abrir tutorial",
+									"Text_es-MX": "Abrir tutorial",
+									"Text_ar": "فتح العرض التعليمي"
+								},
+								"HoverIcon": {
+									"Image": "ExternalLink.png"
+								},
+								"Padding": {
+									"Left": 0,
+									"Top": 60,
+									"Right": 0,
+									"Bottom": 40
+								},
+								"OnNavigateUrl": "TechnicalDetails"
+							}
+						]
+					}
+				}
+			]
+		},
+		{
+			"Type": "Panel",
+			"BackgroundImage": "0.0, 0.0, 0.0, 0.25",
+			"Height": 1
+		},
+		{
+			"Type": "Panel",
+			"BackgroundImage": "1, 1, 1",
+			"Children": [
+				{
+					"Type": "Box",
+					"Orientation": "Vertical",
+					"Padding": {
+						"Left": 0,
+						"Top": 0,
+						"Right": 0,
+						"Bottom": 0
+					},
+					"AutoSize": "false",
+					"Children": [
+						{
+							"Type": "Panel",
+							"Padding": {
+								"Left": 20,
+								"Top": 20,
+								"Right": 10,
+								"Bottom": 5
+							},
+							"MinHeight": 40,
+							"Text": [
+								{
+									"Binding": "LongDescription",
+									"TextStyle": "body",
+									"HAlign": "Fill",
+									"VAlign": "Center",
+									"AutoSize": "false",
+									"AutoWrap": "true",
+									"Margin": {
+										"Left": 0,
+										"Top": 0,
+										"Right": 0,
+										"Bottom": 0
+									},
+									"LineHeightScalar": 1.2
+								}
+							]
+						},
+						{
+							"Type": "Panel",
+							"Padding": {
+								"Left": 0,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 0
+							},
+							"BackgroundImage": "1, 1, 1",
+							"Text": [
+								{
+									"VAlign": "Top",
+									"Padding": {
+										"Left": 20,
+										"Top": 10,
+										"Right": 0,
+										"Bottom": 10
+									},
+									"TextStyle": "Strong",
+									"Text_translate": "true",
+									"Text": "Ready for more?",
+									"Text_ko": "준비 되셨나요?",
+									"Text_ja": "次に進みますか？",
+									"Text_zh-CN": "准备好进行更多？",
+									"Text_fr": "Prêt à en savoir plus ?",
+									"Text_es": "¿Te apuntas a más?",
+									"Text_de": "Bereit für mehr?",
+									"Text_it": "Ne vuoi ancora?",
+									"Text_ru": "Готовы к большему?",
+									"Text_pl": "Chcesz więcej?",
+									"Text_pt-BR": "Preparado para mais?",
+									"Text_es-MX": "¿Listo para más?",
+									"Text_ar": "جاهز للمزيد؟"
+								}
+							]
+						},
+						{
+							"Type": "Link",
+							"Height": 30,
+							"Padding": {
+								"Left": 16,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 10
+							},
+							"Image": {
+								"Image": "Featured"
+							},
+							"HoverIcon": {
+								"Image": "ExternalLink_Dark.png"
+							},
+							"Text": {
+								"Text": "FollowUpTutorial01",
+								"TextStyle": "Body",
+								"Margin": {
+									"Left": 10,
+									"Top": 0,
+									"Right": 10,
+									"Bottom": 0
+								}
+							},
+							"OnNavigateUrl": "FollowUpTutorial01Link"
+						},
+						{
+							"Type": "Link",
+							"Height": 30,
+							"Padding": {
+								"Left": 16,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 10
+							},
+							"Image": {
+								"Image": "NewFeatured"
+							},
+							"HoverIcon": {
+								"Image": "ExternalLink_Dark.png"
+							},
+							"Text": {
+								"Text": "FollowUpTutorial02",
+								"TextStyle": "Body",
+								"Margin": {
+									"Left": 10,
+									"Top": 0,
+									"Right": 10,
+									"Bottom": 0
+								}
+							},
+							"OnNavigateUrl": "FollowUpTutorial02Link"
+						}
+					]
+				}
+			]
+		}
+	]
+}

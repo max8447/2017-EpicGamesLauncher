@@ -1,0 +1,190 @@
+﻿{
+	"Type": "Overlay",
+	"AutoSize": "false",
+	"Children": [
+		{
+			"Type": "BasicTile",
+			"HAlign": "Stretch",
+			"VAlign": "Stretch",
+			"HasShadow": "false",
+			"Binding": "22605fe02e2a4f86997762b83a36d757",
+			"Images": [
+					{
+						"Image": "Featured",
+						"VAlign": "Top"
+					}
+				]
+			},
+			{
+				"Type": "BuildInformation",
+				"Padding": {
+					"Left": 5,
+					"Top": 5,
+					"Right": 5,
+					"Bottom": 5
+				},
+				"HAlign": "Right",
+				"VAlign": "Bottom",
+				"SelectorId": "Game",
+				"GroupId": "Game"
+			},
+			{
+				"Type": "ScrollBox",
+				"AutoSize": "false",
+				"Padding": {
+					"Left": 0,
+					"Top": 0,
+					"Right": 0,
+					"Bottom": 0
+			},
+			"Children": [
+				{
+					"Type": "Overlay",
+					"Padding": {
+						"Left": 0,
+						"Top": 0,
+						"Right": 0,
+						"Bottom": 0
+					},
+					"Children": [
+						{
+							"Type": "ResponsiveGrid",
+							"HAlign": "Center",
+							"MaxWidth": 1400,
+							"MinWidth": 1400,
+							"Padding": {
+								"Left": 0,
+								"Top": 0,
+								"Right": 0,
+								"Bottom": 0
+							},
+							"TotalColumns": 16,
+							"ColumnGutter": 10,
+							"RowGutter": 10,
+							"Children": [
+								{
+									"Type": "Layout",
+									"Layout": "ui_OrionHomeV2_SmallActionPanel.layout",
+									"RowIndex": 1,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 1150,
+											"Span": 0
+										},
+										{
+											"LayoutSize": 0,
+											"Span": 8
+										}
+									]
+								},
+								{
+									"Type": "Layout",
+									"Layout": "ui_OrionHomeV2_ActionPanel.layout",
+									"RowIndex": 1,
+									"ColumnSpans": [
+										{
+											"LayoutSize": 1150,
+											"Span": 8
+										},
+										{
+											"LayoutSize": 0,
+											"Span": 0
+										}
+									]
+								},
+								{
+									"Type": "Panel",
+									"Padding": { "Left": 0, "Top": 150, "Right": 75, "Bottom": 0 },
+									"AutoSize": "false",
+									"VAlign": "Center",
+									"ColumnSpans": [
+										{
+											"LayoutSize": 1150,
+											"Span": 8
+										},
+										{
+											"LayoutSize": 0,
+											"Span": 0
+										}
+									],
+									"RowIndex": 1,
+									"Children": 
+									[
+										{
+											"Type": "ServerStatus",
+											"Padding": { "Left": 0, "Top": 5, "Right": 0, "Bottom": 0 },
+											"HAlign": "Center",
+											"SelectorId": "Game",
+											"GroupId": "Game"
+										},
+										{
+											"Type": "ActionButton",
+											"Padding": { "Left": 0, "Top": 25, "Right": 0, "Bottom": 30 },
+											"MinWidth": 442,
+											"MinHeight": 115,
+											"HAlign": "Center",
+											"SelectorId": "Game",
+											"GroupId": "Game"
+										},
+										{
+											"Type": "BuildSelector",
+											"Padding": { "Left": 0, "Top": 15, "Right": 0, "Bottom": 5 },
+											"HAlign": "Center",
+											"VAlign": "Bottom",
+											"SelectorId": "Game",
+											"GroupId": "Game"
+										}		
+									]
+								},
+								{
+									"Type": "Panel",
+									"Padding": { "Left": 0, "Top": 125, "Right": 50, "Bottom": 0 },
+									"AutoSize": "false",
+									"VAlign": "Center",
+									"ColumnSpans": [
+										{
+											"LayoutSize": 1150,
+											"Span": 0
+										},
+										{
+											"LayoutSize": 0,
+											"Span": 8
+										}
+									],
+									"RowIndex": 1,
+									"Children": 
+									[
+										{
+											"Type": "ServerStatus",
+											"Padding": { "Left": 0, "Top": 5, "Right": 0, "Bottom": 0 },
+											"HAlign": "Center",
+											"SelectorId": "Game",
+											"GroupId": "Game"
+										},
+										{
+											"Type": "ActionButton",
+											"Padding": { "Left": 0, "Top": 25, "Right": 0, "Bottom": 20 },
+											"MinWidth": 442,
+											"MinHeight": 115,
+											"HAlign": "Center",
+											"SelectorId": "Game",
+											"GroupId": "Game"
+										},
+										{
+											"Type": "BuildSelector",
+											"Padding": { "Left": 0, "Top": 15, "Right": 0, "Bottom": 5 },
+											"HAlign": "Center",
+											"VAlign": "Bottom",
+											"SelectorId": "Game",
+											"GroupId": "Game"
+										}		
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
