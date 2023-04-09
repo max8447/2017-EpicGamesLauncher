@@ -22,4 +22,6 @@ The possible versions, to which this launcher can upgrade, are:
                                                                 
 To upgrade to a newer version, turn on your internet before launching EpicGamesLauncher.exe.
 
-The latest official version is 14.8.0-24819746+++Portal+Release-Live. If there's a newer version available, open an issue and I will update the README.md.
+The latest official version is 14.8.0-24819746+++Portal+Release-Live.
+
+If there's a newer version available, open an issue and I will update the README.md.
