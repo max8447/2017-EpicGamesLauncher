@@ -1,4 +1,4 @@
-# EpicGamesLauncher from 2017 with Auto-updating
+## EpicGamesLauncher from 2017 with Auto-updating
 
 Use for whatever you need it, just credit me.
 
