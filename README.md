@@ -20,6 +20,7 @@ The possible versions, to which this launcher can upgrade, are:
 - 14.6.2-24350103+++Portal+Release-Live
 - 14.8.0-24819746+++Portal+Release-Live
 - 15.0.0-25093886+++Portal+Release-Live
+- 15.0.1-25179543+++Portal+Release-Live
                                                                 
 To upgrade to a newer version, turn on your internet before launching EpicGamesLauncher.exe.
 
