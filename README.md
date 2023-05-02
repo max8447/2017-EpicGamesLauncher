@@ -4,7 +4,7 @@ Use for whatever you need it, just credit me.
 
 ## How to use?
 
-Go into the path "Epic Games\Launcher\Engine\Binaries\win64\EpicGamesLauncher.exe to launch the Epicgames Launcher.
+Go into the path "Epic Games\Launcher\Engine\Binaries\win64\EpicGamesLauncher.exe to launch the EpicGames Launcher.
 
 The release version of this launcher is 6.6.0-3695402+++Portal+Release-Live.
 
