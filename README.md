@@ -1,3 +1,5 @@
+# This isn't being maintained anymore.
+
 ## EpicGamesLauncher from 2017 with Auto-updating
 
 Use for whatever you need it, just credit me.
@@ -8,7 +10,7 @@ Go into the path "Epic Games\Launcher\Engine\Binaries\win64\EpicGamesLauncher.ex
 
 The release version of this launcher is 6.6.0-3695402+++Portal+Release-Live.
 
-### Make sure to turn your internet off before launching EpicGamesLauncher.exe, or else it will try to update.
+### Make sure to turn your internet off before launching EpicGamesLauncher.exe, or else it will try to update. (you can also just use some programs to block access to the internet for just the launcher.)
 
 The possible versions, to which this launcher can upgrade, are:
 
@@ -22,6 +24,7 @@ The possible versions, to which this launcher can upgrade, are:
 - 15.0.0-25093886+++Portal+Release-Live
 - 15.0.1-25179543+++Portal+Release-Live
 - 15.1.0-25307426+++Portal+Release-Live
+- Latest
                                                                 
 To upgrade to a newer version, turn on your internet before launching EpicGamesLauncher.exe.
 
